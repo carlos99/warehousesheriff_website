@@ -10,6 +10,18 @@ header {
   padding: 15px 0;
   background-color: #fff;
   z-index: 1; }
+  header .fa-bars {
+    font-size: 30px;
+    padding: 10px;
+    color: #f68b1f !important;
+    cursor: pointer;
+    display: none; }
+    @media (max-width: 900px) {
+      header .fa-bars {
+        display: block; } }
+  @media (max-width: 900px) {
+    header .wrapper {
+      padding: 0; } }
 
 .logo {
   max-width: 50px;
@@ -28,8 +40,20 @@ header {
   float: left;
   padding: 0; }
 
+@media (max-width: 900px) {
+  .Jnav {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    left: 0;
+    top: 80px; } }
+
 nav {
   float: left; }
+  @media (max-width: 900px) {
+    nav {
+      float: none; } }
   nav ul {
     list-style: none;
     margin: 0;
@@ -43,6 +67,19 @@ nav {
       letter-spacing: -1.5px;
       line-height: 50px;
       text-transform: uppercase; }
+      nav ul li:hover {
+        background: rgba(0, 0, 0, 0.03); }
+      @media (max-width: 900px) {
+        nav ul li {
+          width: 100%;
+          text-align: center;
+          border-bottom: 1px solid #ccc; } }
+
+@media (max-width: 900px) {
+  .btns {
+    float: none !important;
+    text-align: center;
+    padding: 20px 0 10px; } }
 
 .banner {
   background-image: url("../images/bigbanner.jpg");
@@ -60,6 +97,18 @@ nav {
     letter-spacing: -2px;
     text-transform: uppercase;
     margin-bottom: 0; }
+    @media (max-width: 1024px) {
+      .banner h1 {
+        font-size: 60px; } }
+    @media (max-width: 768px) {
+      .banner h1 {
+        font-size: 50px; } }
+    @media (max-width: 480px) {
+      .banner h1 {
+        font-size: 40px; } }
+    @media (max-width: 320px) {
+      .banner h1 {
+        font-size: 30px; } }
   .banner h3 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif; }
@@ -181,3 +230,5 @@ footer {
 
 .add-bottomM-50 {
   margin-bottom: 50px !important; }
+
+/*# sourceMappingURL=main.css.map */
