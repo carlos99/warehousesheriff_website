@@ -383,8 +383,10 @@ h5 {
   margin-left: 0;
   padding-bottom: 50px; }
   @media (max-width: 600px) {
-    .row-img-containerh .col-xs-12 {
-      margin-bottom: 15px; } }
+    .row-img-containerh {
+      padding-bottom: 0px; }
+      .row-img-containerh .col-xs-12 {
+        margin-bottom: 15px; } }
 
 .white-bgu {
   text-align: center; }
