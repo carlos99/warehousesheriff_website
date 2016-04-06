@@ -52,18 +52,18 @@
 		</section>
 		<section class="logos-section grayBG">
 			<div class="wrapper">
-				<h5 class="add-bottomM-25">
+				<h5 class="add-bottomM-25 text-logos">
 					Tommy plays well with software you love, and has a developer centre to connect to your own.
 				</h5>
 				<div class="col-md-6">
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/dropbox.jpg"></a></div>
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/xero.jpg"></a></div>
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/myob.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/dropbox.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/xero.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/myob.jpg"></a></div>
 		        </div>
 		        <div class="col-md-6">
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/drive2.jpg"></a></div>
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/box2.jpg"></a></div>
-		          <div class="col-md-4 col-sm-4 col-xs-4 logo-holder"><a href="#"><img src="images/intuit.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/drive2.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/box2.jpg"></a></div>
+		          <div class="col-md-4 col-sm-4 col-xs-6 logo-holder"><a href="#"><img src="images/intuit.jpg"></a></div>
 		        </div>
 		        <div class="clearfix"></div>
 			</div>
@@ -97,10 +97,31 @@
 		</section>
 	</main>
 	<footer>
-		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</footer>
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    $("#sticky").sticky({topSpacing:55});
+	    $('#sticky').on('sticky-start', function() { $(".h1-second").addClass("activate"); });
+	    $('#sticky').on('sticky-end', function() { $(".h1-second").removeClass("activate"); });
+	    });
+	</script>
 </body>
 </html>

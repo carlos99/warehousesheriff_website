@@ -111,7 +111,15 @@ nav {
         font-size: 30px; } }
   .banner h3 {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.4s linear; }
+    @media (max-width: 768px) {
+      .banner h3 {
+        margin-top: 20px; } }
+    @media (max-width: 480px) {
+      .banner h3 {
+        font-size: 1.4rem;
+        margin-top: 20px; } }
   .banner p {
     font-size: 22px;
     margin-top: 25px;
@@ -126,6 +134,9 @@ nav {
   .banner .play {
     color: #ccc;
     font-size: 26px; }
+    @media (max-width: 480px) {
+      .banner .play {
+        font-size: 19px; } }
     .banner .play:hover {
       text-decoration: none;
       color: #fff; }
@@ -139,6 +150,13 @@ nav {
     .banner .fa-play:hover {
       text-decoration: none;
       color: #fff; }
+
+.text-logos {
+  transition: all 0.4s linear; }
+  @media (max-width: 480px) {
+    .text-logos {
+      font-size: 17px;
+      line-height: 30px; } }
 
 .pull-right {
   float: right; }
@@ -164,6 +182,9 @@ h5 {
   width: 85% !important;
   max-width: 100px !important;
   margin: 0 auto !important; }
+  @media (max-width: 543px) {
+    .logo-holder img {
+      padding-top: 15px; } }
 
 .vertical-center {
   display: flex;
@@ -177,12 +198,40 @@ h5 {
   margin-bottom: 100px;
   margin-top: 100px;
   text-align: center; }
+  @media (max-width: 991px) {
+    .bannerbox {
+      font-size: 45px; } }
+  @media (max-width: 880px) {
+    .bannerbox {
+      font-size: 40px; } }
+  @media (max-width: 768px) {
+    .bannerbox {
+      font-size: 30px; } }
+  @media (max-width: 590px) {
+    .bannerbox {
+      font-size: 25px; } }
 
 .h1-second {
   font-family: "Montserrat",sans-serif;
   font-size: 50px;
   letter-spacing: -2px;
-  color: #ccc; }
+  color: #ccc;
+  transition: all 0.4s linear; }
+  @media (max-width: 480px) {
+    .h1-second {
+      font-size: 35px; } }
+  .h1-second.activate {
+    float: left;
+    padding-top: 8px;
+    font-size: 20px; }
+    @media (max-width: 768px) {
+      .h1-second.activate {
+        font-size: 30px;
+        float: none; } }
+    @media (max-width: 480px) {
+      .h1-second.activate {
+        font-size: 25px;
+        float: none; } }
 
 .center {
   text-align: center;
@@ -208,7 +257,8 @@ h5 {
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-top: 35px solid #292929;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: -5px; }
 
 #sticky.stick {
   margin-top: 0 !important;
