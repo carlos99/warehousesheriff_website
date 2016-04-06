@@ -306,13 +306,10 @@ h5{
     z-index: 10000;
     border-radius: 0 0 0.5em 0.5em;
 }
-footer{
-	background-color: #333;
-    color: #eee;
-    text-align: center;
-    height: 300px;
-}
 
+.add-bottomM-10{
+	margin-bottom: 10px;
+}
 .add-bottomM-25{
 	margin-bottom: 25px;
 }
@@ -407,4 +404,95 @@ footer{
 		background-color: #E6731F;
 	}
 }
+.btn-gray{
+	background-color: #7c7c7c;
+	color: #fff;
+	&:hover{
+		background-color: #6D6868;
+	}
+}
 @import 'cstyles.scss';
+
+
+footer{
+	background-color: #333;
+    color: #eee;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    @media (max-width: 991px){
+    	.logo-text{
+			float: none;
+    		display: inline-block;
+    	}
+    	.logo{
+    		float: none;
+    		display: inline-block;
+    	}
+    }
+    h5{
+    	text-align: left;
+	    padding-bottom: 10px;
+	    padding-left: 15px;
+	    color: #ccc;
+	    @media (max-width: 991px){
+			text-align: center;
+		}
+    }
+    .cols{
+    	section{
+    		width: 19.5%;
+    		float: left;
+    		@media (max-width: 991px){
+    			width: 33%;
+    			text-align: center;
+    			&:nth-child(4){
+	    			width: 50%;
+	    		}
+	    		&:nth-child(5){
+	    			width: 50%;
+	    		}
+    		}
+    		@media (max-width: 600px){
+    			width: 50%;
+    			text-align: center;
+    			&:last-child{
+    				width: 100%;
+    			}
+    			&:nth-child(4){
+	    			width: 50%;
+	    		}
+    		}
+    		@media (max-width: 480px){
+    			width: 100%;
+    			text-align: center;
+    			&:nth-child(4){
+	    			width: 100%;
+	    		}
+    		}
+    	}
+    }
+    ul {
+	    text-align: left;
+	    list-style: none;
+	    padding-left: 15px;
+	    padding-bottom: 15px;
+	    @media (max-width: 991px){
+			text-align: center;
+		}
+	    li{
+	    	a{
+	    		color: #eee;
+	    		&:hover{
+	    			color: #eee;
+	    		}
+	    	}
+	    	.btn{
+	    		min-width: 150px;
+	    		text-align: center;
+	    	}
+	    }
+	    &.color-text2{
+	    	color: #5bc0de;
+	    }
+	}
+}
