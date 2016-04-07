@@ -28,7 +28,10 @@
 .row-img-containerh{
 	margin-right: 0;
     margin-left: 0;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    .col-xs-12{
+    	margin-bottom: 30px;
+    }
     @media (max-width: 600px){
     	.col-xs-12{
     		margin-bottom: 15px;

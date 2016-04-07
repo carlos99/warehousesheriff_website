@@ -18,14 +18,90 @@
 			<div class="Jnav">
 				<nav>
 					<ul>
-						<a href="#"><li>Features</li></a>
-						<a href="#"><li>Princing</li></a>
-						<a href="#"><li>Partners</li></a>
-						<a href="#"><li>Company</li></a>
+						<li>
+							<a href="#">Features <i class="fa fa-caret-down"></i></a>
+							<div class="mega-menu-content">
+				                  <div class="row">
+				                    <div class="col-md-6">
+				                      <h1>Tommy Platform</h1>
+				                      <div class="separator-menu"></div>
+				                      <ul class="">
+				                        <li>
+				                          <a href="#"> Personal </a>
+				                        </li> 
+				                        <li>
+				                          <a href="#"> Messaging </a>
+				                        </li> 
+				                        <li>
+				                          <a href="#"> Teach Tommy </a>
+				                        </li>      
+				                        <li>
+				                          <a href="#"> Apps &amp; Integration </a>
+				                        </li>
+				                        <li>
+				                          <a href="#"> Enterprise </a>
+				                        </li>                            
+				                      </ul> 
+				                    </div>
+				                    <div class="col-md-6">
+				                      <h1>Pre-bundled Apps</h1>
+				                      <div class="separator-menu" style="border-bottom:1px solid #ccc; width:160px; margin:0 auto;"></div>
+				                      <ul class="">
+				                        <li>
+				                          <a href="#"> Rostering </a>
+				                        </li> 
+				                        <li>
+				                          <a href="#"> Time-clocking </a>
+				                        </li> 
+				                        <li>
+				                          <a href="#"> Time Sheets </a>
+				                        </li> 
+				                        <li>
+				                          <a href="#"> Bonuses </a>
+				                        </li> 
+				                      </ul>
+				                    </div>
+				                  </div>
+				                </div>
+						
+						</li>
+						<li><a href="#">Princing</a></li>
+						<li>
+						<a href="#">Partners <i class="fa fa-caret-down"></i></a>
+						<ul style="max-width:100%;" class="mega-menu-submenu">
+			              <li>
+			                <a href="#"> Introduction </a>
+			              </li> 
+			              <li>
+			                <a href="#"> Developer Program </a>
+			              </li> 
+			              <li>
+			                <a href="#"> Developer Resources </a>
+			              </li> 
+			            </ul>
+
+						</li>
+						<li>
+						<a href="#">Company <i class="fa fa-caret-down"></i></a>
+							<ul class="mega-menu-submenu">
+				              <li>
+				                <a href="#"> About Us</a>
+				              </li> 
+				              <li>
+				                <a href="#"> Team </a>
+				              </li> 
+				              <li>
+				                <a href="#"> Careers </a>
+				              </li>
+				              <li>
+				                <a href="#"> Press &amp; Media </a>
+				              </li> 
+				            </ul>
+						</li>
 					</ul>
 				</nav>
 				<div class="btns pull-right">
-					<a href="#" class="btn btn-secondary">Sing In</a>
+					<a href="#" class="btn orange">Sing In</a>
 					<a href="#" class="btn btn-primary">Create Team</a>
 				</div>
 			</div>			
@@ -98,34 +174,32 @@
 		<section class="row-images-homepage">
 			<div class="container">
 				<div class="row row-img-containerh">
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
 					</div>
-				</div>
-				<div class="row row-img-containerh">
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4">
 						<img src="https://s3.amazonaws.com/variousbucket/placeholer-image.png" alt="Demo Image">
 						<p>Team Contacts <br> in one place</p>
 						<a href="#">Learn More <i class="fa fa-angle-right"></i> </a>
@@ -249,7 +323,7 @@
 	<script src="js/main.js"></script>
 	<script>
 	  $(document).ready(function(){
-	    $("#sticky").sticky({topSpacing:55});
+	    $("#sticky").sticky({topSpacing:35});
 	    $('#sticky').on('sticky-start', function() { $(".h1-second").addClass("activate"); });
 	    $('#sticky').on('sticky-end', function() { $(".h1-second").removeClass("activate"); });
 	    });
