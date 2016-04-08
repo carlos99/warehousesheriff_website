@@ -9,19 +9,25 @@ header {
   border-bottom: 1px solid #eee;
   padding: 5px 0;
   background-color: #fff;
-  z-index: 2; }
+  z-index: 2;
+  max-height: 100%;
+  overflow: auto; }
   header .fa-bars {
     font-size: 30px;
     padding: 10px;
     color: #f68b1f !important;
     cursor: pointer;
     display: none; }
-    @media (max-width: 900px) {
+    @media (max-width: 990px) {
       header .fa-bars {
         display: block; } }
-  @media (max-width: 900px) {
+  @media (min-width: 992px) {
     header .wrapper {
-      padding: 0; } }
+      padding: 0 20px; } }
+  @media (max-width: 991px) {
+    header .wrapper {
+      padding: 0;
+      text-align: center; } }
   header .btns {
     padding-top: 8px; }
 
@@ -29,6 +35,9 @@ header {
   max-width: 50px;
   float: left;
   padding: 0; }
+  @media (max-width: 990px) {
+    .logo {
+      float: none; } }
 
 .logo-text {
   font-family: "Montserrat",sans-serif;
@@ -41,92 +50,63 @@ header {
   margin-right: 25px;
   float: left;
   padding: 0; }
-
-@media (max-width: 900px) {
-  .Jnav {
-    display: none;
-    position: absolute;
-    background: white;
-    width: 100%;
-    left: 0;
-    top: 60px; } }
-
-nav {
-  float: left; }
-  @media (max-width: 900px) {
-    nav {
+  @media (max-width: 990px) {
+    .logo-text {
       float: none; } }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    nav ul li {
-      display: inline-block;
-      padding: 0px 15px;
-      color: #474747;
+
+.sub-arrow {
+  display: none; }
+
+.sm-simple ul > li {
+  border-top: 0;
+  padding: 0 25px 0 0; }
+  @media (max-width: 990px) {
+    .sm-simple ul > li {
+      padding: 0 !important; } }
+
+.sm-simple {
+  box-shadow: none;
+  border: none;
+  float: left; }
+  @media (max-width: 990px) {
+    .sm-simple {
+      float: none; } }
+  .sm-simple li {
+    border-left: none; }
+    .sm-simple li a {
+      color: #474747 !important;
       font-family: "Montserrat",sans-serif;
       font-size: 15px;
       letter-spacing: -1.5px;
-      line-height: 50px;
-      text-transform: uppercase; }
-      @media (max-width: 900px) {
-        nav ul li {
-          width: 100%;
-          text-align: center;
-          border-bottom: 1px solid #ccc; } }
-      nav ul li a {
-        color: #474747; }
-        nav ul li a:hover {
-          color: #f68b1f !important;
-          text-decoration: none; }
-      nav ul li ul {
-        position: absolute;
-        background-color: #FFF;
-        padding: 10px;
-        min-width: 160px;
-        display: none; }
-        nav ul li ul li {
-          display: block;
-          padding: 0;
-          text-transform: capitalize;
-          line-height: 30px; }
-      nav ul li:hover ul {
-        display: block; }
-      nav ul li:hover .mega-menu-content {
-        display: block; }
-      nav ul li i {
-        margin-left: 5px; }
+      line-height: 3;
+      padding: 0 25px; }
 
-.mega-menu-content {
-  position: absolute;
-  background-color: #fff;
-  padding: 15px;
-  display: none;
-  transition: all 1s linear; }
-  .mega-menu-content h1 {
-    font-size: 15px; }
-  .mega-menu-content ul {
-    position: relative; }
-    .mega-menu-content ul:first-child {
-      border-right: 1px solid #eee; }
-    .mega-menu-content ul li {
-      display: block;
-      text-transform: capitalize;
-      line-height: 30px; }
-  .mega-menu-content .separator-menu {
-    border-bottom: 1px solid #ccc;
-    width: 160px;
-    margin: 0 auto;
-    overflow-y: auto; }
-  .mega-menu-content .row > div:first-child {
-    border-right: 1px solid #ccc;
-    padding-right: 15px; }
+.sm-simple ul {
+  border: none;
+  box-shadow: none; }
 
-@media (max-width: 900px) {
+.sm-simple a.has-submenu {
+  padding-right: 0px !important; }
+
+.sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active, .sm-simple a.highlighted {
+  background: none;
+  color: #f68b1f !important;
+  font-family: "Montserrat",sans-serif;
+  font-size: 15px;
+  letter-spacing: -1.5px;
+  line-height: 3;
+  padding: 0 25px; }
+
+@media (max-width: 990px) {
   .btns {
     float: none !important;
     text-align: center;
-    padding: 20px 0 10px; } }
+    padding: 20px 0 10px;
+    display: none; } }
+
+@media (max-width: 990px) {
+  #main-nav {
+    display: none; } }
 
 .banner {
   background-image: url("../images/bigbanner.jpg");
