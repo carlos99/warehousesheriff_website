@@ -63,9 +63,17 @@ header{
     margin-right: 25px;
     float: left;
     padding: 0;
-    @media (max-width: 990px ){
+    @media (max-width: 990px){
 		float: none;
 	}
+ }
+ .Jsubnav{
+ 	 .sub-arrow{
+	 	display: block !important;
+	 	position: absolute !important;
+	    width: 100% !important;
+	    opacity: 0;
+	 }
  }
  .sub-arrow{
  	display: none;
@@ -93,6 +101,9 @@ header{
 		    letter-spacing: -1.5px;
 		    line-height: 3;
 		    padding: 0 25px;
+		    i{
+		    	margin-left: 5px;
+		    }
  		}
  	}
  }
@@ -107,7 +118,7 @@ header{
     background: none;
     color: #f68b1f !important;
     font-family: "Montserrat",sans-serif;
-    font-size: 15px;
+    font-size: 15px !important;
     letter-spacing: -1.5px;
     line-height: 3;
     padding: 0 25px;

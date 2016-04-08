@@ -1,8 +1,4 @@
 $(document).ready(function(){
-    
-   
-
-
     $(".Jnav_btn").click(function(){
         Jnav();
     });
