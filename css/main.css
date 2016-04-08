@@ -10,8 +10,10 @@ header {
   padding: 5px 0;
   background-color: #fff;
   z-index: 2;
-  max-height: 100%;
-  overflow: auto; }
+  max-height: 100%; }
+  @media (max-width: 990px) {
+    header {
+      overflow: auto; } }
   header .fa-bars {
     font-size: 30px;
     padding: 10px;
@@ -112,10 +114,16 @@ header {
   background-image: url("../images/bigbanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 750px;
-  padding-top: 80px;
   color: #fff;
   text-align: center; }
+  .banner .wrapper {
+    padding: 200px 20px; }
+    @media (max-width: 768px) {
+      .banner .wrapper {
+        padding: 100px 10px; } }
+    @media (max-width: 480px) {
+      .banner .wrapper {
+        padding: 50px 10px; } }
   .banner.bg2 {
     background-image: url("../images/Depositphotos_60069873_original_mini.jpg"); }
   .banner h1 {
@@ -276,13 +284,18 @@ h5 {
   margin: 0; }
   .inline li {
     display: inline-block;
+    padding: 0;
     padding: 10px 15px; }
-    .inline li a:hover {
-      text-decoration: none; }
     .inline li.active {
       border-bottom: 5px solid orange; }
+    .inline li a {
+      margin-bottom: -1px; }
+      .inline li a:hover {
+        text-decoration: none; }
+      .inline li a:focus {
+        text-decoration: none; }
     .inline li:hover {
-      border-bottom: 5px solid orange; }
+      border-bottomm: 5px solid orange; }
     @media (max-width: 550px) {
       .inline li {
         padding: 7px 5px; } }
@@ -313,6 +326,9 @@ h5 {
 
 .add-bottomM-25 {
   margin-bottom: 25px; }
+
+.add-topM-60 {
+  margin-top: 60px; }
 
 .add-topP-30 {
   padding-top: 30px; }
@@ -531,5 +547,10 @@ footer {
       text-align: center; }
     footer ul.color-text2 {
       color: #5bc0de; }
+
+.nav-tabs {
+  border-bottom: none !important; }
+  .nav-tabs .nav-item {
+    float: none; }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,7 +15,10 @@ header{
 	background-color: #fff;
 	z-index: 2;
 	max-height: 100%;
-    overflow: auto;
+	@media (max-width: 990px ){
+		overflow: auto;
+	}
+    
 	.fa-bars{
 		font-size: 30px;
 	    padding: 10px;
@@ -128,10 +131,17 @@ header{
 	background-image: url("../images/bigbanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 750px;
-    padding-top: 80px;
     color: #fff;
     text-align: center;
+    .wrapper{
+    	padding: 200px 20px;
+    	@media (max-width: 768px){
+    		padding: 100px 10px;
+    	}
+    	@media (max-width: 480px){
+    		padding: 50px 10px;
+    	}
+    }
     &.bg2{
     	background-image: url("../images/Depositphotos_60069873_original_mini.jpg");
     }
@@ -310,17 +320,26 @@ h5{
 	margin: 0;
 	li{
 		display: inline-block;
+		padding: 0;
 		padding: 10px 15px;
+		&.active{
+				border-bottom: 5px solid orange;
+			}
 		a{
+			
+			margin-bottom: -1px;
 			&:hover{
 				text-decoration:none;
 			}
+			&:focus{
+				text-decoration:none;
+			}
+
+			
 		}
-		&.active{
-			border-bottom: 5px solid orange;
-		}
+		
 		&:hover{
-			border-bottom: 5px solid orange;
+			border-bottomm: 5px solid orange;
 		}
 		@media (max-width: 550px){
 			padding: 7px 5px;
@@ -356,6 +375,9 @@ h5{
 }
 .add-bottomM-25{
 	margin-bottom: 25px;
+}
+.add-topM-60{
+	margin-top: 60px;
 }
 .add-topP-30{
 	padding-top: 30px;
@@ -550,5 +572,12 @@ footer{
 	    &.color-text2{
 	    	color: #5bc0de;
 	    }
+	}
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+    .nav-item {
+    	float: none;
 	}
 }

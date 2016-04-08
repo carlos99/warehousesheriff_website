@@ -20,9 +20,9 @@
 			<i class="fa fa-bars pull-right Jnav_btn"></i>
 			<nav id="main-nav" role="navigation">
 				  <ul id="main-menu" class="sm sm-simple">
-				    <li><a href="#">FEATURES</a>
+				    <li><a href="#">FEATURES <i class="fa fa-caret-down"></i></a>
 				      <ul>
-				        <li><a href="#">TOMMY PLATFORM</a>
+				        <li><a href="javascript:void(0);">TOMMY PLATFORM</a>
 				          <ul>
 				            <li>
 	                          <a href="#"> Personal </a>
@@ -41,7 +41,7 @@
 	                        </li>  
 				          </ul>
 				        </li>
-				        <li><a href="#">PRE-BUNDLED APPS</a>
+				        <li><a href="javascript:void(0);">PRE-BUNDLED APPS</a>
 				          <ul>
 				          	<li>
 	                          <a href="#"> Rostering </a>
@@ -61,7 +61,7 @@
 				    </li>
 
 				    <li><a href="#">PRICING</a></li>
-				    <li><a href="#">PARTNERS</a>
+				    <li><a href="#">PARTNERS <i class="fa fa-caret-down"></i></a>
 				      <ul>
 				        <li>
 			                <a href="#"> Introduction </a>
@@ -74,7 +74,7 @@
 			              </li> 
 				      </ul>
 				    </li>
-				    <li><a href="#">COMPANY</a>
+				    <li><a href="#">COMPANY <i class="fa fa-caret-down"></i></a>
 				      <ul>
 				        <li><a href="#">About us</a></li>
                         <li><a href="#">Team</a></li>
@@ -94,7 +94,7 @@
 	</header>
 	<div class="clearfix"></div>
 	<main>
-		<section class="banner vertical-center">
+		<section class="banner add-topM-60">
 			<div class="wrapper">
 				<h1>MESSAGING AND SCHEDULING</h1>
 				<h3>FOR PERSONAL & PROFESSIONAL TEAMS</h3>
@@ -138,24 +138,61 @@
 		<section class="grayBG center add-topP-30" id="sticky">
 			<div class="wrapper">
 				<h1 class="h1-second">How to use Tommy</h1>
-				<ul class="inline">
-		            <li><a href="#myself">Myself</a></li>
-		            <li class="active"><a href="#small-teams">Small Teams</a></li>
-		            <li><a href="#big-teams">Big Teams</a></li>
-		            <li><a href="#developers">Developers</a></li>
+				<ul class="inline nav nav-tabs" role="tablist">
+		            <li class="nav-item"><a href="#myself" data-toggle="tab" role="tab">Myself</a></li>
+		            <li class="nav-item active"><a class="active" href="#small-teams" data-toggle="tab" role="tab">Small Teams</a></li>
+		            <li class="nav-item"><a href="#big-teams" data-toggle="tab" role="tab">Big Teams</a></li>
+		            <li class="nav-item"><a href="#developers" data-toggle="tab" role="tab">Developers</a></li>
 		        </ul>
 			</div>
 		</section>
-		<section class="banner vertical-center bg2">
-			<div class="wrapper">
-				<h1 class="add-bottomM-50">TOMMY IS FOR TEAMS</h1>
-				<h3 class="add-bottomM-50">THAT ARE KICKING GOALS, CARING FOR PEOPLE OR CREATING THE NEXT ENGINEERING MARVEL</h3>
-				<p class="add-bottomM-50">If you have a team that needs communication, then Tommy is for you. It’s that simple.</p>
-		            <div class="form-group">
-		              <button type="submit" class="btn btn-primary btn-lg">Create Team</button>
-		            </div>
-			</div>
-		</section>
+		<div class="tab-content">
+			<section class="banner fade tab-pane" id="myself" role="tabpanel">
+				<div class="wrapper">
+					<h1 class="add-bottomM-50">TOMMY IS FOR TEAMS</h1>
+					<h3 class="add-bottomM-50">THAT ARE KICKING GOALS, CARING FOR PEOPLE OR CREATING THE NEXT ENGINEERING MARVEL</h3>
+					<p class="add-bottomM-50">If you have a team that needs communication, then Tommy is for you. It’s that simple.</p>
+			            <div class="form-group">
+			              <button type="submit" class="btn btn-primary btn-lg">Create Team</button>
+			            </div>
+				</div>
+			</section>
+
+			<section class="banner bg2 fade tab-pane active in" id="small-teams" role="tabpanel">
+				<div class="wrapper">
+					<h1 class="add-bottomM-50">TOMMY IS FOR TEAMS</h1>
+					<h3 class="add-bottomM-50">THAT ARE KICKING GOALS, CARING FOR PEOPLE OR CREATING THE NEXT ENGINEERING MARVEL</h3>
+					<p class="add-bottomM-50">If you have a team that needs communication, then Tommy is for you. It’s that simple.</p>
+			            <div class="form-group">
+			              <button type="submit" class="btn btn-primary btn-lg">Create Team</button>
+			            </div>
+				</div>
+			</section>
+
+			<section class="banner fade tab-pane" id="big-teams" role="tabpanel">
+				<div class="wrapper">
+					<h1 class="add-bottomM-50">TOMMY IS FOR TEAMS</h1>
+					<h3 class="add-bottomM-50">THAT ARE KICKING GOALS, CARING FOR PEOPLE OR CREATING THE NEXT ENGINEERING MARVEL</h3>
+					<p class="add-bottomM-50">If you have a team that needs communication, then Tommy is for you. It’s that simple.</p>
+			            <div class="form-group">
+			              <button type="submit" class="btn btn-primary btn-lg">Create Team</button>
+			            </div>
+				</div>
+			</section>
+
+			<section class="banner bg2 fade tab-pane" id="developers" role="tabpanel">
+				<div class="wrapper">
+					<h1 class="add-bottomM-50">TOMMY IS FOR TEAMS</h1>
+					<h3 class="add-bottomM-50">THAT ARE KICKING GOALS, CARING FOR PEOPLE OR CREATING THE NEXT ENGINEERING MARVEL</h3>
+					<p class="add-bottomM-50">If you have a team that needs communication, then Tommy is for you. It’s that simple.</p>
+			            <div class="form-group">
+			              <button type="submit" class="btn btn-primary btn-lg">Create Team</button>
+			            </div>
+				</div>
+			</section>
+			
+		</div>
+		
 		<section class="row-images-homepage">
 			<div class="container">
 				<div class="row row-img-containerh">
