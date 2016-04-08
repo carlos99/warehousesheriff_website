@@ -89,6 +89,7 @@ header{
  	box-shadow: none;
  	border: none;
  	float: left;
+ 	margin-top: 5px;
  	@media (max-width: 990px){
  		float: none;
  	}
@@ -232,7 +233,7 @@ header{
 .text-logos{
 	transition: all 0.4s linear;
 	@media (max-width: 480px){
-		    font-size: 17px;
+		    font-size: 14px;
     		line-height: 30px;
 	}
 }
@@ -241,8 +242,11 @@ header{
 }
 .logos-section{
 	min-height: 100px;
-	padding: 50px 0px;
+	padding: 40px 0px;
 	text-align: center;
+	@media (max-width: 767px){
+		padding: 30px 0;
+	}
 }
 h5{
 	font-family: "Montserrat",sans-serif;
@@ -329,15 +333,7 @@ h5{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	li{
-		display: inline-block;
-		padding: 0;
-		padding: 10px 15px;
-		&.active{
-				border-bottom: 5px solid orange;
-			}
 		a{
-			
 			margin-bottom: -1px;
 			&:hover{
 				text-decoration:none;
@@ -345,20 +341,27 @@ h5{
 			&:focus{
 				text-decoration:none;
 			}
-
-			
+			li{
+				display: inline-block;
+				padding: 0;
+				padding: 10px 15px;
+				@media (max-width: 550px){
+					padding: 7px 5px;
+				}
+				@media (max-width: 425px){
+					padding: 5px 5px;
+				}
+			}
+			&.active{
+				li{
+					border-bottom: 5px solid orange;
+				}
+		}
 		}
 		
-		&:hover{
-			border-bottomm: 5px solid orange;
-		}
-		@media (max-width: 550px){
-			padding: 7px 5px;
-		}
-		@media (max-width: 425px){
-			padding: 5px 5px;
-		}
-	}
+		
+		
+	
 }
 .triangulo_inf {
     width: 0;
@@ -402,13 +405,19 @@ h5{
 	z-index: 1;
 }
 .white-frange{
-	padding: 0 0 100px;
+	padding: 0 0 70px;
 	.triangulo_inf{
-		margin-bottom: 80px;
+		margin-bottom: 50px;
+		@media (max-width: 767px){
+			margin-bottom: 30px;
+		}
 	}
 	&.for_form{
 		padding: 0;
     	margin-bottom: -100px;
+	}
+	@media (max-width: 767px){
+		padding: 0 0 50px;
 	}
 }
 
