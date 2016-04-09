@@ -1,6 +1,7 @@
 .row-images-homepage{
-
 	margin-top: 50px;
+	padding: 50px 0;    
+	background-color: #f5f4f0;
 	text-align: center;
 
 	img{
@@ -28,6 +29,16 @@
 .row-img-containerh{
 	margin-right: 0;
     margin-left: 0;
+    padding-bottom: 30px;
+    .col-xs-12{
+    	margin-bottom: 30px;
+    }
+    @media (max-width: 600px){
+    	.col-xs-12{
+    		margin-bottom: 15px;
+    	}
+    	padding-bottom: 0px;
+    }
 }
 
 .white-bgu{

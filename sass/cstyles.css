@@ -1,5 +1,7 @@
 .row-images-homepage {
   margin-top: 50px;
+  padding: 50px 0;
+  background-color: #f5f4f0;
   text-align: center; }
   .row-images-homepage img {
     width: 225px; }
@@ -19,7 +21,15 @@
 
 .row-img-containerh {
   margin-right: 0;
-  margin-left: 0; }
+  margin-left: 0;
+  padding-bottom: 30px; }
+  .row-img-containerh .col-xs-12 {
+    margin-bottom: 30px; }
+  @media (max-width: 600px) {
+    .row-img-containerh {
+      padding-bottom: 0px; }
+      .row-img-containerh .col-xs-12 {
+        margin-bottom: 15px; } }
 
 .white-bgu {
   text-align: center; }
