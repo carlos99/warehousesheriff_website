@@ -394,6 +394,10 @@ h5{
 			padding: 5px 5px;
 		}
 	}
+	
+	a {
+		color: #CCCCCC;
+	}
 }
 .triangulo_inf {
     width: 0;
@@ -440,7 +444,7 @@ h5{
 	}
 	&.for_form{
 		padding: 0;
-    	margin-bottom: -100px;
+    	margin-bottom: -201px;
 	}
 }
 
@@ -450,9 +454,9 @@ h5{
 	text-align: center;
 	color: #fff;
 	h1{
-    	font-family: "Montserrat",sans-serif;
-	    font-size: 71px;
-	    letter-spacing: -2px;
+    	font-family: inherit;
+	    font-size: 65px;
+	    font-weight: 700;
 	    text-transform: uppercase;
 	    margin-bottom: 0;
 	    @media (max-width: 1024px ){
@@ -468,18 +472,29 @@ h5{
 			font-size: 30px;
 	    }
     }
+    
+    h3 {
+	    font-size: 23px;
+	    font-weight: 700;
+	    
+	    a {
+		    color: #FFFFFF;
+		    text-decoration: underline;
+	    }
+    }
 }
 
 .started_form{
     text-align: center;
     width: 90%;
-    max-width: 700px;
+    max-width: 785px;
     margin: 0 auto;
     position: relative;
-    top: -200px;
+    top: -226px;
     background-color: #ffffff;
     border-radius: 20px;
     padding: 35px;
+	
 	input{
 		background-color: #f5f4f0;
 	    border: 1px solid transparent;
@@ -488,9 +503,10 @@ h5{
 	    font-size: 20px;
 	    font-weight: 700;
 	    padding: 10px 15px;
-	    margin-bottom: 20px; 
 	    width: 100%;
+	    margin-bottom: 16px;
 	}
+	
 	span{
 		color: #808285;
     	font-size: 20px;
@@ -498,7 +514,68 @@ h5{
     	margin: 10px 0;
 	}
 	button{
+		font-size: 20px;
+		font-weight: 700;
 		text-transform: uppercase;
+		border: 0;
+		letter-spacing: normal;
+		
+		.btn-lg {
+			-webkit-border-radius: 4px;
+			   -moz-border-radius: 4px;
+			        border-radius: 4px;
+		}
+		
+		&.btn-primary {
+			background: #1999d6;
+			padding: 15px 50px;
+			margin-top: 15px;
+			
+			&:hover {
+				background-color: #1999d6;
+			}
+			
+			&:focus {
+				background-color: #1999d6;
+			}
+			
+			&:active {
+				background-color: #1999d6;
+			}
+			
+			&:focus:active {
+				background-color: #1999d6;
+			}
+			
+			&:active:hover {
+				background-color: #1999d6;
+			}
+		}
+		
+		&.btn-orange {
+			background: #ff7e20;
+			padding: 15px 50px;
+			
+			&:hover {
+				background-color: #ff7e20;
+			}
+			
+			&:focus {
+				background-color: #ff7e20;
+			}
+			
+			&:active {
+				background-color: #ff7e20;
+			}
+			
+			&:focus:active {
+				background-color: #ff7e20;
+			}
+			
+			&:active:hover {
+				background-color: #ff7e20;
+			}
+		}
 		@media (max-width: 480px){
 			font-size: 15px;
     		font-weight: bold;
@@ -542,7 +619,7 @@ footer{
 	background-color: #333;
     color: #eee;
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 51px 0 20px 0;
     @media (max-width: 991px){
     	.logo-text{
 			float: none;
