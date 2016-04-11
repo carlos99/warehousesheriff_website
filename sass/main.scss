@@ -276,21 +276,13 @@ nav{
 }
 .logos-section{
 	min-height: 100px;
-	padding: 50px 0px;
+	padding: 40px 0px 8px;
 	text-align: center;
 }
 h5{
 	font-family: "Montserrat",sans-serif;
     font-size: 23px;
     color: #fff;
-}
-.logo-holder img {
-    width: 85% !important;
-    max-width: 100px !important;
-    margin: 0 auto !important;
-    @media (max-width: 543px){
-    	padding-top: 15px;
-    }
 }
 
 .vertical-center{
@@ -348,16 +340,33 @@ h5{
 .grayBG{
 	background-color: #292929;
 	transition: all 0.4s linear;
-	a{
-		color: #eee !important;
-	    font-family: "Montserrat",sans-serif !important;
-	    font-size: 16px;
-	    @media (max-width: 480px){
-	    	font-size: 12px;
-	    }
-	    @media (max-width: 345px){
-	    	font-size: 10px;
-	    }
+	
+	.row-logo {
+		width: 100%;
+		max-width: 840px;
+		margin: 0 auto;
+		
+		.left-logo-holder {
+			float: left;
+			width: 100%;
+			max-width: 420px;
+		}
+		
+		.right-logo-holder {
+			float: left;
+			width: 100%;
+			max-width: 420px;
+		}
+		
+		a {
+			padding: 25px 15px;
+		}
+		
+		.logo-holder img {
+			width: 100%;
+			max-width: 125px;
+			margin: 0 auto;
+		}
 	}
 }
 .inline{
@@ -393,7 +402,7 @@ h5{
     border-right: 35px solid transparent;
     border-top: 35px solid #292929;
     margin: 0 auto;
-    margin-top: -5px;
+    margin-top: -10px;
     &.color2{
 		border-top: 35px solid #f5f4f0;
     }
