@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -25,7 +26,7 @@ header {
     header .wrapper {
       padding: 0; } }
   header .btns {
-    padding-top: 8px; }
+    padding-top: 6px; }
 
 .logo {
   max-width: 50px;
@@ -410,8 +411,11 @@ h5 {
         font-weight: bold; } }
 
 .btn {
-  text-transform: uppercase !important;
-  font-weight: bold; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.2px; }
 
 .btn-orange {
   background-color: #ff7e20;
