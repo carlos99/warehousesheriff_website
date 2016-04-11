@@ -609,6 +609,63 @@ footer {
       color: #5bc0de; }
 
 @media (min-width: 320px) and (max-width: 479px) {
+  header {
+    padding: 0 16px; }
+    header .logo {
+      max-width: 33px;
+      margin-top: 3px; }
+    header .logo-text {
+      font-size: 23px;
+      line-height: 1.8; }
+    header .fa-bars {
+      font-size: 20px; }
+
   .banner {
-    min-height: 630px;
-    padding-top: 20px; } }
+    min-height: 430px;
+    padding-top: 20px; }
+    .banner h1 {
+      font-size: 28px; }
+    .banner h3 {
+      font-size: 16px;
+      margin-top: 0; }
+    .banner p {
+      font-size: 13px;
+      margin-top: 10px; }
+
+  .logos-section {
+    padding: 26px 0px 14px; }
+    .logos-section .wrapper {
+      padding: 0; }
+      .logos-section .wrapper h5 {
+        padding: 0 20px; }
+    .logos-section .text-logos {
+      font-size: 13px;
+      line-height: normal; }
+    .logos-section .row-logo a {
+      padding: 25px 5px; }
+
+  .white-frange {
+    padding: 0 0 26px 0; }
+    .white-frange .triangulo_inf {
+      margin-bottom: 20px; }
+
+  #sticky-wrapper {
+    height: 110px; }
+
+  .grayBG .wrapper {
+    padding: 0; }
+  .grayBG h1 {
+    font-size: 30px; }
+  .grayBG ul li a {
+    font-size: 13px;
+    font-weight: 700; }
+
+  .blue-frange h1 {
+    font-size: 28px; }
+  .blue-frange h3 {
+    font-size: 13px; }
+
+  .white-frange .started_form button.btn-primary {
+    padding: 12px 20px; }
+  .white-frange .started_form button.btn-orange {
+    padding: 12px 20px; } }
