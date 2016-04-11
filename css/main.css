@@ -181,6 +181,13 @@ nav {
     display: inline-block; }
   .banner .form-group {
     display: inline-block; }
+    .banner .form-group button {
+      width: 235px; }
+      .banner .form-group button.btn-primary {
+        padding: 7.5px 16px !important;
+        margin-top: -3px;
+        margin-left: 6px;
+        margin-right: 6px; }
   .banner .play {
     color: #ccc;
     font-size: 26px; }

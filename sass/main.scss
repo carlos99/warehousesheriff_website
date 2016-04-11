@@ -227,6 +227,17 @@ nav{
 	}
 	.form-group{
 		display: inline-block;
+		
+		button {
+			width: 235px;
+			
+			&.btn-primary {
+				padding: 7.5px 16px !important;
+				margin-top: -3px;
+				margin-left: 6px;
+				margin-right: 6px;
+			}
+		}
 	}
 	.play{
 		color: #ccc;
