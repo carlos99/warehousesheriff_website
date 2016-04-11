@@ -1,0 +1,126 @@
+@media (min-width: 480px) and (max-width: 639px) {
+	header {
+		padding: 0 16px;
+		
+		.logo {
+			max-width: 33px;
+			margin-top: 3px;
+		}
+		
+		.logo-text {
+			font-size: 23px;
+			line-height: 1.8;
+		}
+		
+		.fa-bars {
+			font-size: 20px;
+		}
+	}
+	
+	.banner {
+		min-height: 430px;
+		padding-top: 20px;
+		
+		h1 {
+			font-size: 28px;
+		}
+		
+		h3 {
+			font-size: 16px;
+			margin-top: 0;
+		}
+		
+		p {
+			font-size: 13px;
+			margin-top: 10px;
+		}
+	}
+	
+	.logos-section {
+		padding: 26px 0px 14px;
+		.wrapper {
+			padding: 0;
+			
+			h5 {
+				padding: 0 20px;
+			} 
+		}
+		 
+		.text-logos {
+			font-size: 13px;
+			line-height: normal;
+		}
+		
+		.row-logo {
+			
+			.left-logo-holder {
+				float: none;
+				margin: 0 auto;
+			}
+			
+			.right-logo-holder {
+				float: none;
+				margin: 0 auto;
+			}
+			
+			a {
+				padding: 25px 5px;
+			}
+		}
+	}
+	
+	.white-frange {
+		padding: 0 0 26px 0;
+		
+		.triangulo_inf {
+			margin-bottom: 20px;
+		}
+	}
+	
+	#sticky-wrapper {
+		height: 110px;
+	}
+	
+	.grayBG {
+		.wrapper {
+			padding: 0;
+		}
+		
+		h1 {
+			font-size: 30px;
+		}
+		
+		ul {
+			li {
+				a {
+					font-size: 13px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	
+	.blue-frange {
+		h1 {
+			font-size: 28px;
+		}
+		
+		h3 {
+			font-size: 13px;
+		}
+	}
+	
+	.white-frange {
+		.started_form {
+			button {
+				&.btn-primary {
+					padding: 12px 20px;
+				}
+				
+				&.btn-orange {
+					padding: 12px 20px;
+				}
+			}
+		}
+	}
+}
