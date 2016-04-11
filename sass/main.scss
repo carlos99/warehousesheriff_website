@@ -11,9 +11,14 @@ header{
 	width: 100%;
 	position: fixed;
 	border-bottom: 1px solid #eee;
-	padding: 5px 0;
+	padding: 3.6px 16px;
 	background-color: #fff;
 	z-index: 2;
+	
+	.wrapper {
+		max-width: 100%;
+	}
+	
 	.fa-bars{
 		font-size: 30px;
 	    padding: 10px;
@@ -44,10 +49,10 @@ header{
     font-size: 26px;
     letter-spacing: -2.2px;
     line-height: 1.9;
-    margin-left: 5px;
+    margin-left: 0px;
     color: #f68b1f !important;
     font-weight: 700;
-    margin-right: 25px;
+    margin-right: 19px;
     float: left;
     padding: 0;
  }
@@ -73,12 +78,12 @@ nav{
 		padding: 0;
 		li{
 			display: inline-block;
-		    padding: 0px 15px;
+		    padding: 0px 6px;
 		    color: #474747;
 		    font-family: "Montserrat",sans-serif;
 		    font-size: 15px;
 		    letter-spacing: -1.5px;
-		    line-height: 50px;
+		    line-height: 51px;
 		    text-transform: uppercase;
 		    @media (max-width: 900px ){
 		    	width: 100%;
@@ -114,7 +119,7 @@ nav{
 		    	}
 		    }
 		    i{
-		    	margin-left: 5px;
+		    	margin-left: 0px;
 		    }
 		}
 	}
