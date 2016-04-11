@@ -607,3 +607,8 @@ footer {
       text-align: center; }
     footer ul.color-text2 {
       color: #5bc0de; }
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .banner {
+    min-height: 630px;
+    padding-top: 20px; } }
