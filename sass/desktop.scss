@@ -58,7 +58,7 @@ header{
     padding: 0;
  }
  .Jnav{
- 	@media (max-width: 900px ){
+ 	@media (max-width: 991px ){
  		display: none;
  		position: absolute;
 	    background: white;
@@ -173,10 +173,16 @@ nav{
 	background-image: url("../images/bigbanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 750px;
-    padding-top: 80px;
     color: #fff;
     text-align: center;
+    padding: 205px 0;
+    @media (max-width: 900px){
+    	padding: 150px 0;
+    }
+    @media (max-width: 639px){
+    	padding: 100px 0;
+    	margin-bottom: -2px;
+    }
     &.bg2{
     	background-image: url("../images/Depositphotos_60069873_original_mini.jpg");
     }
@@ -318,20 +324,6 @@ h5{
     @media (max-width: 480px){
     	font-size: 35px;
     }
-    &.activate{
-    	    float: left;
-    		padding-top: 8px;
-    		font-size: 20px;
-    		 @media (max-width: 768px){
-    		 	font-size: 30px;
-		    	float: none;
-		    	display: none;
-		    }
-		    @media (max-width: 480px){
-    		 	font-size: 25px;
-		    	float: none;
-		    }
-    } 
 }
 .center{
 	text-align: center;
@@ -371,11 +363,15 @@ h5{
 }
 .inline{
 	list-style: none;
+	position: relative;
 	padding: 0;
 	margin: 0;
 	li{
 		display: inline-block;
-		padding: 10px 15px;
+		padding: 5px 15px;
+		color: #eee !important;
+	    font-family: "Montserrat",sans-serif !important;
+	    font-size: 16px;
 		a{
 			&:hover{
 				text-decoration:none;
@@ -390,8 +386,13 @@ h5{
 		@media (max-width: 550px){
 			padding: 7px 5px;
 		}
-		@media (max-width: 425px){
+		@media (max-width: 480px){
+			font-size: 14px;
 			padding: 5px 5px;
+		}
+		@media (max-width: 374px){
+			font-size: 12px;
+			padding: 5px 3px;
 		}
 	}
 	
@@ -419,7 +420,15 @@ h5{
     z-index: 10000;
     border-radius: 0 0 0.5em 0.5em;
 }
-
+.first-banner{
+	margin-top: 59px;
+	@media (max-width: 1024px){
+		margin-top:50px;
+	}
+	@media (max-width: 900px){
+		margin-top:40px;
+	}
+}
 .add-bottomM-10{
 	margin-bottom: 10px;
 }
@@ -695,5 +704,20 @@ footer{
 	    &.color-text2{
 	    	color: #5bc0de;
 	    }
+	}
+}
+
+.how-to{
+	font-size: 0px !important;
+	position: absolute;
+	left: 0;
+	&:hover{
+		border-bottom: none !important;
+	}
+	&.stiked{
+		font-size: 18px !important;
+	}
+	@media (max-width: 1023px){
+		display:none !important;
 	}
 }
