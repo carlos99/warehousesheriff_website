@@ -99,6 +99,21 @@ nav {
         display: block; }
       nav ul li i {
         margin-left: 0px; }
+    nav ul .mega-menu-content {
+      padding: 10px; }
+      nav ul .mega-menu-content h1 {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: normal;
+        text-transform: uppercase; }
+      nav ul .mega-menu-content ul {
+        padding: 0; }
+        nav ul .mega-menu-content ul li a {
+          color: #3b3b3b;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: normal;
+          text-transform: capitalize; }
 
 .mega-menu-content {
   position: absolute;
