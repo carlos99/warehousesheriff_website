@@ -978,10 +978,10 @@ footer{
 }
 
 .banner-steam {
-	background-image: url("../images/tabs/myself/myself_back.jpg");
+	background-image: url("../images/tabs/small-team/steam_back.jpg");
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
-	background-size: 60%;
+	background-size: auto;
 	padding: 205px 0 0 0;
 }
 
@@ -1067,7 +1067,131 @@ footer{
 	.steam-easy {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background-color: #FFFFFF;
+		background-image: url(../images/tabs/small-team/back-easy.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0% 70%;
+		padding: 80px 0;
+		
+		h2 {
+			color: #FFFFFF;
+			text-shadow: 1px 1px 2px #000;
+			margin-bottom: 30px;
+		}
+		
+		h3 {
+			color: #FFFFFF;
+			text-shadow: 1px 1px 2px #000;
+			margin-bottom: 40px;
+		}
+		
+		.link-more {
+			color: #ff7e20;
+			display: block;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 0;
+			text-decoration: none;
+		}
+	}
+	
+	.steam-action {
+		padding: 80px 0;
+		
+		h1 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 80px;
+		}
+		
+		.container-actions {
+			max-width: 460px;
+			font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			
+			&:nth-child(2) {
+				margin-bottom: 60px;
+			}
+			
+			&.special-pos-1 {
+				margin-top: -503px;
+			}
+			
+			&.special-pos-2 {
+				margin-top: 60px;
+				margin-left: 120px;
+			}
+			
+			&.special-pos-3 {
+				margin-top: -459px;
+			}
+			
+			img {
+				margin-bottom: 16px;
+			}
+			
+			h4 {
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+			
+			.media {
+				margin-top: 20px;
+				
+				&:first-child {
+					margin-top: 50px;
+				}
+				
+				.media-body {
+					h4 {
+						font-weight: 400;
+						text-transform: none;
+					}
+				}
+			}
+		}
+	}
+	
+	.steam-scheduling {
+		font-family: 'Montserrat', sans-serif;
+		text-align: left;
+		background-image: url(../images/tabs/small-team/back-easy.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0% 70%;
+		padding: 80px 0;
+		
+		h2 {
+			color: #FFFFFF;
+			text-shadow: 1px 1px 2px #000;
+			margin-bottom: 30px;
+		}
+		
+		h3 {
+			color: #FFFFFF;
+			text-shadow: 1px 1px 2px #000;
+			margin-bottom: 40px;
+		}
+		
+		.link-more {
+			color: #ff7e20;
+			display: block;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 0;
+			text-decoration: none;
+		}
+	}
+	
+	.steam-wait {
+		font-family: 'Montserrat', sans-serif;
+		text-align: left;
+		background-image: url(../images/tabs/small-team/steam_back.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 74% center;
 		padding: 80px 0;
 		
 		h2 {

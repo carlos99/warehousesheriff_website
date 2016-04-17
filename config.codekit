@@ -225,6 +225,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/tabs\/small-team\/back-easy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04977e+06,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/back-easy.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/back-easy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/small-team\/fetch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58030,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/fetch.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/fetch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/small-team\/message.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74885,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/message.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/message.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/small-team\/steam_back.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131072,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/steam_back.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/steam_back.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/small-team\/task.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64768,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/task.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/task.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/xero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
