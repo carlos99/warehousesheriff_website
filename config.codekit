@@ -126,13 +126,101 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/tabs\/myself_back.jpg": {
+	"\/images\/tabs\/myself\/24-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36413,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/24-7.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/24-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/alarm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63332,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/alarm.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/alarm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/complex.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32225,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/complex.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/complex.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/easy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35546,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/easy.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/easy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/fetch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58030,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/fetch.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/fetch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/message.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74885,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/message.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/message.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/myself_back.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 198871,
-		"inputAbbreviatedPath": "\/images\/tabs\/myself_back.jpg",
-		"outputAbbreviatedPath": "\/images\/tabs\/myself_back.jpg",
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/myself_back.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/myself_back.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/private.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29804,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/private.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/private.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tabs\/myself\/smart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28535,
+		"inputAbbreviatedPath": "\/images\/tabs\/myself\/smart.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/myself\/smart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
