@@ -113,6 +113,14 @@ nav{
 		    		text-transform: capitalize;
 		    		line-height: 30px;
 		    	}
+		    	
+		    	a {
+				    color: #3b3b3b;
+			    	font-size: 13px;
+			    	font-weight: 600;
+			    	letter-spacing: normal;
+					text-transform: capitalize;
+		    	}
 		    }
 		
 		    &:hover{
@@ -131,13 +139,29 @@ nav{
 		}
 		
 		.mega-menu-content {
-			padding: 10px;
+			padding: 12px 10px 10px 10px;
 			
 			h1 {
 				font-size: 13px;
 				font-weight: 600;
 				letter-spacing: normal;
 				text-transform: uppercase;
+				margin-bottom: 14px;
+			}
+			
+			.separator-menu {
+				width: calc(100% - 8px);
+				margin: 0;
+			}
+			
+			.col-md-6 {
+				&:first-child {
+					padding-right: 0;
+				}
+				
+				&:last-child {
+					padding-left: 7px;
+				}
 			}
 			
 			ul {

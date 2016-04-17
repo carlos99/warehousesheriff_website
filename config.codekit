@@ -32,7 +32,7 @@
 	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -200,7 +200,7 @@
 		"inputAbbreviatedPath": "\/sass\/320.scss",
 		"outputAbbreviatedPath": "\/css\/320.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
