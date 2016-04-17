@@ -850,12 +850,11 @@ footer{
 		text-align: center;
 		background-color: #1999d6;
 		margin-top: 80px;
-		padding: 80px 0;
+		padding: 40px 0;
 		
-		h1 {
+		h2 {
 			color: #FFFFFF;
 			font-family: 'Montserrat', sans-serif;
-			font-size: 65px;
 			font-weight: 700;
 			text-transform: uppercase;
 		}
@@ -951,10 +950,9 @@ footer{
 		background-color: #1999d6;
 		padding: 80px 0;
 		
-		h1 {
+		h2 {
 			color: #FFFFFF;
 			font-family: 'Montserrat', sans-serif;
-			font-size: 65px;
 			font-weight: 700;
 			text-transform: uppercase;
 		}
@@ -970,3 +968,124 @@ footer{
 	}
 }
 // End Tab MySelf
+
+// Start Tab SmallTeams
+.tab-pane {
+	.wrapper {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+.banner-steam {
+	background-image: url("../images/tabs/myself/myself_back.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	background-size: 60%;
+	padding: 205px 0 0 0;
+}
+
+.steam-main {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	
+	h2:first-child {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	
+	.media {
+		margin-top: 50px;
+		
+		.media-left {
+			padding-right: 25px;
+			
+			.fa-rocket {
+				font-size: 4rem;
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+			
+			.fa-comments-o {
+				font-size: 4rem;
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+			
+			.fa-calendar {
+				font-size: 4rem;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+		
+		.media-body {
+			text-align: left;
+			
+			p {
+				margin-top: 0;
+			}
+			
+			.link-more {
+				color: #ff7e20;
+				display: block;
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 0;
+				text-decoration: none;
+			}
+		}
+	}
+	
+	.steam-free {
+		text-align: center;
+		background-color: #1999d6;
+		margin-top: 80px;
+		padding: 40px 0;
+		
+		h2 {
+			color: #FFFFFF;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700 !important;
+			text-transform: uppercase;
+		}
+		
+		p {
+			color: #FFFFFF;
+		}
+		
+		.btn-orange {
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: normal;
+			padding: 15px 50px;
+			margin-top: 20px;
+		}
+	}
+	
+	.steam-easy {
+		font-family: 'Montserrat', sans-serif;
+		text-align: left;
+		background-color: #FFFFFF;
+		padding: 80px 0;
+		
+		h2 {
+			margin-bottom: 30px;
+		}
+		
+		h3 {
+			margin-bottom: 40px;
+		}
+		
+		.link-more {
+			color: #ff7e20;
+			display: block;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 0;
+			text-decoration: none;
+		}
+	}
+}
+// End Tab SmallTeams
