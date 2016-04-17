@@ -662,7 +662,7 @@ footer {
 
 @media (min-width: 320px) and (max-width: 479px) {
   header {
-    padding: 0 16px; }
+    padding: 0; }
     header .logo {
       max-width: 33px;
       margin-top: 3px; }
@@ -671,6 +671,13 @@ footer {
       line-height: 1.8; }
     header .fa-bars {
       font-size: 20px; }
+    header .Jnav {
+      top: 41px; }
+      header .Jnav nav ul {
+        padding: 0 12px; }
+        header .Jnav nav ul li {
+          text-align: left;
+          border-bottom: 0; }
 
   .banner h1 {
     font-size: 28px; }

@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 479px) {
 	header {
-		padding: 0 16px;
+		padding: 0;
 		
 		.logo {
 			max-width: 33px;
@@ -14,6 +14,20 @@
 		
 		.fa-bars {
 			font-size: 20px;
+		}
+		
+		.Jnav {
+			top: 41px;
+			
+			nav {
+				ul {
+					padding: 0 12px;
+					li {
+						text-align: left;
+						border-bottom: 0;	
+					}
+				}
+			}
 		}
 	}
 	
