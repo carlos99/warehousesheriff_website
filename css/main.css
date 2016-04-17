@@ -662,7 +662,67 @@ footer {
 
 @media (min-width: 320px) and (max-width: 479px) {
   header {
-    padding: 0; }
+    padding: 0;
+    border-bottom: 0; }
+    header .navbar {
+      padding: 0 1rem; }
+    header .navbar-light {
+      background-color: #FFFFFF; }
+    header .collapse .p-a-1, header .collapsing .p-a-1 {
+      padding: 0.2rem 0.8rem !important; }
+    header .collapse li, header .collapsing li {
+      list-style: none;
+      padding-left: 14px;
+      margin-bottom: 11px; }
+      header .collapse li a, header .collapsing li a {
+        color: #292929;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        text-decoration: none;
+        padding: 0;
+        display: inline-block;
+        width: 100%; }
+        header .collapse li a:hover, header .collapsing li a:hover {
+          color: orange; }
+        header .collapse li a.pos-1, header .collapsing li a.pos-1 {
+          margin-left: -1px; }
+        header .collapse li a.link-s2, header .collapsing li a.link-s2 {
+          text-transform: capitalize; }
+      header .collapse li .pos-2, header .collapsing li .pos-2 {
+        margin-left: -4px; }
+    header .collapse ul, header .collapsing ul {
+      padding: 0;
+      list-style: none;
+      margin-bottom: 0.6rem;
+      padding-left: 13px; }
+      header .collapse ul li, header .collapsing ul li {
+        padding-left: 0; }
+        header .collapse ul li a, header .collapsing ul li a {
+          color: #292929;
+          font-size: 15px;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+          text-align: left;
+          text-transform: uppercase;
+          letter-spacing: normal;
+          text-decoration: none;
+          display: inline-block;
+          width: 100%; }
+          header .collapse ul li a:hover, header .collapsing ul li a:hover {
+            color: orange; }
+        header .collapse ul li ul, header .collapsing ul li ul {
+          padding-left: 10px; }
+          header .collapse ul li ul ul, header .collapsing ul li ul ul {
+            padding-left: 20px; }
+    header .collapse .btns, header .collapsing .btns {
+      text-align: left;
+      padding: 0px 27px 20px 27px; }
+      header .collapse .btns .orange, header .collapsing .btns .orange {
+        margin-right: 10px; }
     header .logo {
       max-width: 33px;
       margin-top: 3px; }
@@ -727,7 +787,67 @@ footer {
     padding: 12px 20px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
-    padding: 0 16px; }
+    padding: 0;
+    border-bottom: 0; }
+    header .navbar {
+      padding: 0 1rem; }
+    header .navbar-light {
+      background-color: #FFFFFF; }
+    header .collapse .p-a-1, header .collapsing .p-a-1 {
+      padding: 0.2rem 0.8rem !important; }
+    header .collapse li, header .collapsing li {
+      list-style: none;
+      padding-left: 14px;
+      margin-bottom: 11px; }
+      header .collapse li a, header .collapsing li a {
+        color: #292929;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        text-decoration: none;
+        padding: 0;
+        display: inline-block;
+        width: 100%; }
+        header .collapse li a:hover, header .collapsing li a:hover {
+          color: orange; }
+        header .collapse li a.pos-1, header .collapsing li a.pos-1 {
+          margin-left: -1px; }
+        header .collapse li a.link-s2, header .collapsing li a.link-s2 {
+          text-transform: capitalize; }
+      header .collapse li .pos-2, header .collapsing li .pos-2 {
+        margin-left: -4px; }
+    header .collapse ul, header .collapsing ul {
+      padding: 0;
+      list-style: none;
+      margin-bottom: 0.6rem;
+      padding-left: 13px; }
+      header .collapse ul li, header .collapsing ul li {
+        padding-left: 0; }
+        header .collapse ul li a, header .collapsing ul li a {
+          color: #292929;
+          font-size: 15px;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+          text-align: left;
+          text-transform: uppercase;
+          letter-spacing: normal;
+          text-decoration: none;
+          display: inline-block;
+          width: 100%; }
+          header .collapse ul li a:hover, header .collapsing ul li a:hover {
+            color: orange; }
+        header .collapse ul li ul, header .collapsing ul li ul {
+          padding-left: 10px; }
+          header .collapse ul li ul ul, header .collapsing ul li ul ul {
+            padding-left: 20px; }
+    header .collapse .btns, header .collapsing .btns {
+      text-align: left;
+      padding: 0px 27px 20px 27px; }
+      header .collapse .btns .orange, header .collapsing .btns .orange {
+        margin-right: 10px; }
     header .logo {
       max-width: 33px;
       margin-top: 3px; }
@@ -791,7 +911,67 @@ footer {
     padding: 12px 20px; } }
 @media (min-width: 640px) and (max-width: 767px) {
   header {
-    padding: 0 16px; }
+    padding: 0;
+    border-bottom: 0; }
+    header .navbar {
+      padding: 0 1rem; }
+    header .navbar-light {
+      background-color: #FFFFFF; }
+    header .collapse .p-a-1, header .collapsing .p-a-1 {
+      padding: 0.2rem 0.8rem !important; }
+    header .collapse li, header .collapsing li {
+      list-style: none;
+      padding-left: 14px;
+      margin-bottom: 11px; }
+      header .collapse li a, header .collapsing li a {
+        color: #292929;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        text-decoration: none;
+        padding: 0;
+        display: inline-block;
+        width: 100%; }
+        header .collapse li a:hover, header .collapsing li a:hover {
+          color: orange; }
+        header .collapse li a.pos-1, header .collapsing li a.pos-1 {
+          margin-left: -1px; }
+        header .collapse li a.link-s2, header .collapsing li a.link-s2 {
+          text-transform: capitalize; }
+      header .collapse li .pos-2, header .collapsing li .pos-2 {
+        margin-left: -4px; }
+    header .collapse ul, header .collapsing ul {
+      padding: 0;
+      list-style: none;
+      margin-bottom: 0.6rem;
+      padding-left: 13px; }
+      header .collapse ul li, header .collapsing ul li {
+        padding-left: 0; }
+        header .collapse ul li a, header .collapsing ul li a {
+          color: #292929;
+          font-size: 15px;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+          text-align: left;
+          text-transform: uppercase;
+          letter-spacing: normal;
+          text-decoration: none;
+          display: inline-block;
+          width: 100%; }
+          header .collapse ul li a:hover, header .collapsing ul li a:hover {
+            color: orange; }
+        header .collapse ul li ul, header .collapsing ul li ul {
+          padding-left: 10px; }
+          header .collapse ul li ul ul, header .collapsing ul li ul ul {
+            padding-left: 20px; }
+    header .collapse .btns, header .collapsing .btns {
+      text-align: left;
+      padding: 0px 27px 20px 27px; }
+      header .collapse .btns .orange, header .collapsing .btns .orange {
+        margin-right: 10px; }
     header .logo {
       max-width: 33px;
       margin-top: 3px; }
@@ -816,7 +996,67 @@ footer {
       font-size: 45px; } }
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
-    padding: 0 16px; }
+    padding: 0;
+    border-bottom: 0; }
+    header .navbar {
+      padding: 0 1rem; }
+    header .navbar-light {
+      background-color: #FFFFFF; }
+    header .collapse .p-a-1, header .collapsing .p-a-1 {
+      padding: 0.2rem 0.8rem !important; }
+    header .collapse li, header .collapsing li {
+      list-style: none;
+      padding-left: 14px;
+      margin-bottom: 11px; }
+      header .collapse li a, header .collapsing li a {
+        color: #292929;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        text-decoration: none;
+        padding: 0;
+        display: inline-block;
+        width: 100%; }
+        header .collapse li a:hover, header .collapsing li a:hover {
+          color: orange; }
+        header .collapse li a.pos-1, header .collapsing li a.pos-1 {
+          margin-left: -1px; }
+        header .collapse li a.link-s2, header .collapsing li a.link-s2 {
+          text-transform: capitalize; }
+      header .collapse li .pos-2, header .collapsing li .pos-2 {
+        margin-left: -4px; }
+    header .collapse ul, header .collapsing ul {
+      padding: 0;
+      list-style: none;
+      margin-bottom: 0.6rem;
+      padding-left: 13px; }
+      header .collapse ul li, header .collapsing ul li {
+        padding-left: 0; }
+        header .collapse ul li a, header .collapsing ul li a {
+          color: #292929;
+          font-size: 15px;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+          text-align: left;
+          text-transform: uppercase;
+          letter-spacing: normal;
+          text-decoration: none;
+          display: inline-block;
+          width: 100%; }
+          header .collapse ul li a:hover, header .collapsing ul li a:hover {
+            color: orange; }
+        header .collapse ul li ul, header .collapsing ul li ul {
+          padding-left: 10px; }
+          header .collapse ul li ul ul, header .collapsing ul li ul ul {
+            padding-left: 20px; }
+    header .collapse .btns, header .collapsing .btns {
+      text-align: left;
+      padding: 0px 27px 20px 27px; }
+      header .collapse .btns .orange, header .collapsing .btns .orange {
+        margin-right: 10px; }
     header .logo {
       max-width: 33px;
       margin-top: 3px; }
