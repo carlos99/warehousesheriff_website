@@ -1602,28 +1602,30 @@ footer {
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/download.jpg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0;
+      background-size: 80%;
+      background-position: center 20%;
+      padding: 80px 0 0 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 220px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/panel.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0; }
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 80px 0 0 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 160px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -1631,13 +1633,14 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/chart.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
+      background-size: 40%;
+      background-position: center 11%;
       padding: 80px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 160px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -2165,28 +2168,30 @@ footer {
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/download.jpg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0;
+      background-size: 66%;
+      background-position: center 20%;
+      padding: 80px 0 20px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 220px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/panel.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0; }
+      background-size: 34%;
+      background-position: center 11%;
+      padding: 80px 0 20px 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 170px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -2194,13 +2199,14 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/chart.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
+      background-size: 34%;
+      background-position: center 11%;
       padding: 80px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 170px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -2692,28 +2698,30 @@ footer {
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/download.jpg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0;
+      background-size: 50%;
+      background-position: center 20%;
+      padding: 80px 0 60px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 240px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/panel.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0; }
+      background-size: 24%;
+      background-position: center 11%;
+      padding: 80px 0 60px 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 170px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -2721,13 +2729,14 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/chart.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
+      background-size: 24%;
+      background-position: center 11%;
       padding: 80px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 170px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -3226,28 +3235,30 @@ footer {
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/download.jpg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0;
+      background-size: 44%;
+      background-position: center 20%;
+      padding: 80px 0 60px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 240px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/panel.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
-      padding: 80px 0; }
+      background-size: 20%;
+      background-position: center 11%;
+      padding: 80px 0 60px 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 170px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -3255,13 +3266,14 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background: url(../images/tabs/big-team/chart.svg), #292929;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center center;
+      background-size: 20%;
+      background-position: center 11%;
       padding: 80px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
+        margin-top: 160px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
