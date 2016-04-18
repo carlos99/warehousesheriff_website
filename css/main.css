@@ -1242,7 +1242,139 @@ footer {
   .white-frange .started_form button.btn-primary {
     padding: 12px 20px; }
   .white-frange .started_form button.btn-orange {
-    padding: 12px 20px; } }
+    padding: 12px 20px; }
+
+  .tab-content .wrapper {
+    max-width: 100%;
+    padding: 0; }
+
+  .banner-myself {
+    background-image: url("../images/tabs/myself/myself_back.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    padding: 205px 0 0 0; }
+
+  .myself-main {
+    text-align: left; }
+    .myself-main .pull-right {
+      float: none !important; }
+      .myself-main .pull-right h2 {
+        text-align: center; }
+      .myself-main .pull-right p {
+        padding-right: 20px;
+        padding-left: 20px; }
+    .myself-main .media {
+      margin-top: 50px;
+      padding-left: 9px;
+      padding-right: 18px; }
+      .myself-main .media .media-left {
+        padding-right: 25px; }
+        .myself-main .media .media-left .fa-comments-o {
+          font-size: 4rem;
+          margin-left: 8px;
+          margin-right: 8px; }
+        .myself-main .media .media-left .fa-calendar {
+          font-size: 4rem;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .myself-main .media .media-left .fa-user-secret {
+          font-size: 4rem;
+          margin-left: 15px;
+          margin-right: 10px; }
+        .myself-main .media .media-left .myself-icon {
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          background-color: #FFFFFF; }
+      .myself-main .media .media-body {
+        text-align: left; }
+        .myself-main .media .media-body p {
+          margin-top: 0;
+          padding: 0; }
+        .myself-main .media .media-body .link-more {
+          color: #ff7e20;
+          display: block;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 0;
+          text-decoration: none; }
+    .myself-main .my-sign {
+      padding: 40px 18px; }
+      .myself-main .my-sign h2 {
+        font-size: 1.9rem; }
+      .myself-main .my-sign .btn-orange {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding: 15px 50px;
+        margin-top: 20px; }
+    .myself-main .my-action {
+      padding: 80px 18px; }
+      .myself-main .my-action h1 {
+        font-size: 1.9rem;
+        margin-bottom: 20px; }
+      .myself-main .my-action .container-actions {
+        width: 100%;
+        margin-bottom: 60px; }
+        .myself-main .my-action .container-actions:last-child {
+          margin-bottom: 0; }
+        .myself-main .my-action .container-actions img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 16px; }
+        .myself-main .my-action .container-actions.special-pos-1 {
+          margin-top: 0; }
+        .myself-main .my-action .container-actions.special-pos-2 {
+          margin-top: 0;
+          margin-left: 0; }
+        .myself-main .my-action .container-actions h4 {
+          font-weight: 700;
+          text-transform: uppercase; }
+    .myself-main .icons-panel {
+      background: #292929;
+      padding: 60px 0px; }
+      .myself-main .icons-panel .box-icons {
+        float: none;
+        max-width: 100%;
+        margin: 0 auto 40px auto;
+        padding: 0 18px; }
+        .myself-main .icons-panel .box-icons:last-child {
+          margin-right: 0; }
+        .myself-main .icons-panel .box-icons img {
+          max-width: 50%;
+          height: auto;
+          text-align: center;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          background-color: #FFFFFF;
+          margin-bottom: 20px; }
+        .myself-main .icons-panel .box-icons h4 {
+          font-weight: 700;
+          text-transform: uppercase; }
+        .myself-main .icons-panel .box-icons p {
+          font-weight: 400;
+          margin: 0;
+          padding-left: 18px;
+          padding-right: 18px; }
+    .myself-main .my-tour {
+      text-align: center;
+      background-color: #1999d6;
+      padding: 80px 0; }
+      .myself-main .my-tour h2 {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .myself-main .my-tour .btn-orange {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding: 15px 50px;
+        margin-top: 20px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
