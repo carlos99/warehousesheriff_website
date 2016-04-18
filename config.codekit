@@ -137,6 +137,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/tabs\/big-team\/download.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15076e+06,
+		"inputAbbreviatedPath": "\/images\/tabs\/big-team\/download.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/big-team\/download.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/tabs\/myself\/24-7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

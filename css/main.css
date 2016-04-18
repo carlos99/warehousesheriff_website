@@ -999,11 +999,11 @@ footer {
   .bteam-main .bteam-download {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+    background: url(../images/tabs/big-team/download.jpg), #292929;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 22% center;
-    padding: 80px 0;
+    background-size: 26%;
+    background-position: 30% center;
+    padding: 120px 0;
     margin-top: 80px; }
     .bteam-main .bteam-download h2 {
       color: #FFFFFF;
@@ -1020,39 +1020,45 @@ footer {
   .bteam-main .bteam-experience {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+    background: url(../images/tabs/big-team/panel.svg), #292929;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 72% center;
+    background-size: 11%;
+    background-position: 65% center;
     padding: 80px 0; }
     .bteam-main .bteam-experience h2 {
       color: #FFFFFF;
       margin-bottom: 30px; }
+    .bteam-main .bteam-experience h3 {
+      color: #FFFFFF; }
     .bteam-main .bteam-experience .link-more {
       color: #ff7e20;
       display: block;
       font-size: 20px;
       font-weight: 600;
       line-height: 0;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-top: 40px; }
   .bteam-main .bteam-recover {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+    background: url(../images/tabs/big-team/chart.svg), #292929;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 22% center;
+    background-size: 11%;
+    background-position: 30% center;
     padding: 80px 0; }
     .bteam-main .bteam-recover h2 {
       color: #FFFFFF;
       margin-bottom: 30px; }
+    .bteam-main .bteam-recover h3 {
+      color: #FFFFFF; }
     .bteam-main .bteam-recover .link-more {
       color: #ff7e20;
       display: block;
       font-size: 20px;
       font-weight: 600;
       line-height: 0;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-top: 40px; }
 
 .tab-pane .wrapper {
   max-width: 100%;

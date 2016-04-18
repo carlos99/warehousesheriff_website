@@ -1286,12 +1286,12 @@ footer{
 	.bteam-download {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/small-team/steam_back.jpg),
+		background: url(../images/tabs/big-team/download.jpg),
 					#292929;
 		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: 22% center;
-		padding: 80px 0;
+		background-size: 26%;
+		background-position: 30% center;
+		padding: 120px 0;
 		margin-top: 80px;
 		
 		h2 {
@@ -1316,11 +1316,11 @@ footer{
 	.bteam-experience {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/small-team/steam_back.jpg),
+		background: url(../images/tabs/big-team/panel.svg),
 					#292929;
 		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: 72% center;
+		background-size: 11%;
+		background-position: 65% center;
 		padding: 80px 0;
 		
 		h2 {
@@ -1328,6 +1328,10 @@ footer{
 			margin-bottom: 30px;
 		}
 		
+		h3 {
+			color: #FFFFFF;
+		}
+		
 		.link-more {
 			color: #ff7e20;
 			display: block;
@@ -1335,17 +1339,18 @@ footer{
 			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
+			margin-top: 40px;
 		}
 	}
 	
 	.bteam-recover {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/small-team/steam_back.jpg),
+		background: url(../images/tabs/big-team/chart.svg),
 					#292929;
 		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: 22% center;
+		background-size: 11%;
+		background-position: 30% center;
 		padding: 80px 0;
 		
 		h2 {
@@ -1353,6 +1358,10 @@ footer{
 			margin-bottom: 30px;		
 		}
 		
+		h3 {
+			color: #FFFFFF;
+		}
+		
 		.link-more {
 			color: #ff7e20;
 			display: block;
@@ -1360,6 +1369,7 @@ footer{
 			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
+			margin-top: 40px;
 		}
 	}
 }
