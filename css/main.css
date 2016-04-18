@@ -1541,7 +1541,129 @@ footer {
       .steam-main .steam-wait .link-more {
         text-align: center;
         padding-left: 18px;
-        padding-right: 18px; } }
+        padding-right: 18px; }
+
+  .tab-pane .wrapper {
+    max-width: 100%;
+    padding: 0; }
+
+  .banner-bteam {
+    background-image: url("../images/tabs/big-team/bteam_back.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    padding: 205px 0 0 0; }
+
+  .bteam-main {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; }
+    .bteam-main h3 {
+      font-size: 1.5rem;
+      padding-left: 18px;
+      padding-right: 18px; }
+    .bteam-main .media {
+      margin-top: 50px;
+      padding-left: 18px;
+      padding-right: 18px; }
+      .bteam-main .media .media-left {
+        padding-right: 25px; }
+        .bteam-main .media .media-left .fa-lightbulb-o {
+          font-size: 4rem;
+          margin-left: 8px;
+          margin-right: 18px; }
+        .bteam-main .media .media-left .fa-bar-chart {
+          font-size: 3rem;
+          margin-left: 2px;
+          margin-right: 0px; }
+        .bteam-main .media .media-left .fa-cloud {
+          font-size: 3.2rem;
+          margin-left: 2px;
+          margin-right: 0px; }
+        .bteam-main .media .media-left .fa-refresh {
+          font-size: 4rem;
+          margin-left: 2px;
+          margin-right: 0px; }
+      .bteam-main .media .media-body {
+        text-align: left; }
+        .bteam-main .media .media-body p {
+          margin-top: 0; }
+        .bteam-main .media .media-body .link-more {
+          color: #ff7e20;
+          display: block;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 0;
+          text-decoration: none; }
+    .bteam-main .bteam-download {
+      text-align: center;
+      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      padding: 80px 0;
+      margin-top: 60px; }
+      .bteam-main .bteam-download .pull-right {
+        float: none; }
+      .bteam-main .bteam-download h2 {
+        font-size: 1.9rem;
+        margin-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 18px; }
+    .bteam-main .bteam-experience {
+      text-align: center;
+      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      padding: 80px 0; }
+      .bteam-main .bteam-experience h2 {
+        font-size: 1.9rem;
+        margin-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .bteam-main .bteam-experience .link-more {
+        margin-top: 40px; }
+    .bteam-main .bteam-recover {
+      text-align: center;
+      background: url(../images/tabs/small-team/steam_back.jpg), #292929;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      padding: 80px 0; }
+      .bteam-main .bteam-recover h2 {
+        font-size: 1.9rem;
+        margin-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .bteam-main .bteam-recover .link-more {
+        margin-top: 40px; }
+
+  .tab-pane .wrapper {
+    max-width: 100%;
+    padding: 0; }
+
+  .banner-developers {
+    background-color: #FFFFFF;
+    padding: 105px 0 0 0; }
+
+  .developers-main {
+    text-align: center; }
+    .developers-main .link-visit {
+      line-height: normal;
+      margin-top: 20px;
+      margin-bottom: 80px; }
+    .developers-main .media {
+      margin-top: 30px; }
+      .developers-main .media:first-child {
+        margin-top: 0; }
+    .developers-main .developers-join h2 {
+      font-size: 1.9rem;
+      padding-left: 18px;
+      padding-right: 18px; }
+    .developers-main .developers-join .btn-orange {
+      font-size: 1rem;
+      padding: 15px 45px;
+      margin-top: 20px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;

@@ -676,4 +676,193 @@
 		}
 	}
 	// End Tab SmallTeams
+	
+	// Start Tab BigTeams
+	.tab-pane {
+		.wrapper {
+			max-width: 100%;
+			padding: 0;
+		}
+	}
+	
+	.banner-bteam {
+		background-image: url("../images/tabs/big-team/bteam_back.jpg");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: contain;
+		padding: 205px 0 0 0;
+	}
+	
+	.bteam-main {
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		
+		h3 {
+			font-size: 1.5rem;
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+		
+		.media {
+			margin-top: 50px;
+			padding-left: 18px;
+			padding-right: 18px;
+			
+			.media-left {
+				padding-right: 25px;
+				
+				.fa-lightbulb-o {
+					font-size: 4rem;
+					margin-left: 8px;
+					margin-right: 18px;
+				}
+				
+				.fa-bar-chart {
+					font-size: 3rem;
+					margin-left: 2px;
+					margin-right: 0px;
+				}
+				
+				.fa-cloud {
+					font-size: 3.2rem;
+					margin-left: 2px;
+					margin-right: 0px;
+				}
+				
+				.fa-refresh {
+					font-size: 4rem;
+					margin-left: 2px;
+					margin-right: 0px;
+				}
+			}
+			
+			.media-body {
+				text-align: left;
+				
+				p {
+					margin-top: 0;
+				}
+				
+				.link-more {
+					color: #ff7e20;
+					display: block;
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 0;
+					text-decoration: none;
+				}
+			}
+		}
+		
+		.bteam-download {
+			text-align: center;
+			background: url(../images/tabs/small-team/steam_back.jpg),
+						#292929;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center center;
+			padding: 80px 0;
+			margin-top: 60px;
+			
+			.pull-right {
+				float: none;
+			}
+			
+			h2 {
+				font-size: 1.9rem;
+				margin-bottom: 30px;
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+		}
+		
+		.bteam-experience {
+			text-align: center;
+			background: url(../images/tabs/small-team/steam_back.jpg),
+						#292929;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center center;
+			padding: 80px 0;
+			
+			h2 {
+				font-size: 1.9rem;
+				margin-bottom: 30px;
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+			
+			.link-more {
+				margin-top: 40px;
+			}
+		}
+		
+		.bteam-recover {
+			text-align: center;
+			background: url(../images/tabs/small-team/steam_back.jpg),
+						#292929;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center center;
+			padding: 80px 0;
+			
+			h2 {
+				font-size: 1.9rem;
+				margin-bottom: 30px;
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+			
+			.link-more {
+				margin-top: 40px;
+			}
+		}
+	}
+	// End Tab BigTeams
+	
+	// Start Tab Developers
+	.tab-pane {
+		.wrapper {
+			max-width: 100%;
+			padding: 0;
+		}
+	}
+	
+	.banner-developers {
+		background-color: #FFFFFF;
+		padding: 105px 0 0 0;
+	}
+	
+	.developers-main {
+		text-align: center;
+		
+		.link-visit {
+			line-height: normal;
+			margin-top: 20px;
+			margin-bottom: 80px;
+		}
+		
+		.media {
+			margin-top: 30px;
+			
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		
+		.developers-join {
+			h2 {
+				font-size: 1.9rem;
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+			
+			.btn-orange {
+				font-size: 1rem;
+				padding: 15px 45px;
+				margin-top: 20px;
+			}
+		}
+	}
+	// End Tab Developers
 }
