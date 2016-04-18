@@ -911,10 +911,10 @@ footer {
   .steam-main .steam-scheduling {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background-image: url(../images/tabs/small-team/back-easy.jpg);
+    background-image: url(../images/tabs/small-team/back-scheduling.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 70%;
+    background-position: 0% 30%;
     padding: 80px 0; }
     .steam-main .steam-scheduling h2 {
       color: #FFFFFF;
@@ -1511,9 +1511,9 @@ footer {
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, 70% center;
+      background-position: center center, 22% center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -2073,9 +2073,9 @@ footer {
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, 70% center;
+      background-position: center center, left center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -2603,9 +2603,9 @@ footer {
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, 70% center;
+      background-position: center center, left center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -3140,9 +3140,9 @@ footer {
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, 70% center;
+      background-position: center center, left center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;

@@ -258,6 +258,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/tabs\/small-team\/back-scheduling.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 690124,
+		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/back-scheduling.jpg",
+		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/back-scheduling.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/tabs\/small-team\/fetch.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
