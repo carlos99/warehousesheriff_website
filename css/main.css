@@ -1374,7 +1374,174 @@ footer {
         text-transform: uppercase;
         letter-spacing: normal;
         padding: 15px 50px;
-        margin-top: 20px; } }
+        margin-top: 20px; }
+
+  .tab-pane .wrapper {
+    max-width: 100%;
+    padding: 0; }
+
+  .banner-steam {
+    background-image: url("../images/tabs/small-team/steam_back.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain; }
+
+  .steam-main {
+    text-align: center; }
+    .steam-main h2:nth-child(1) {
+      text-align: center;
+      margin-top: 80px;
+      padding-left: 18px;
+      padding-right: 18px; }
+    .steam-main h2:nth-child(2) {
+      font-size: 1.2rem;
+      text-align: center;
+      padding-left: 18px;
+      padding-right: 18px; }
+    .steam-main .media {
+      margin-top: 50px;
+      padding-left: 18px;
+      padding-right: 18px; }
+      .steam-main .media .media-left {
+        padding-right: 25px; }
+        .steam-main .media .media-left .fa-rocket {
+          font-size: 4rem;
+          margin-left: 8px;
+          margin-right: 8px; }
+        .steam-main .media .media-left .fa-comments-o {
+          font-size: 4rem;
+          margin-left: 8px;
+          margin-right: 8px; }
+        .steam-main .media .media-left .fa-calendar {
+          font-size: 4rem;
+          margin-left: 10px;
+          margin-right: 10px; }
+      .steam-main .media .media-body {
+        text-align: left; }
+        .steam-main .media .media-body p {
+          margin-top: 0; }
+        .steam-main .media .media-body .link-more {
+          color: #ff7e20;
+          display: block;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 0;
+          text-decoration: none; }
+    .steam-main .steam-free {
+      text-align: center;
+      background-color: #1999d6;
+      margin-top: 80px;
+      padding: 40px 0; }
+      .steam-main .steam-free h2 {
+        font-size: 1.9rem;
+        margin-top: 0; }
+      .steam-main .steam-free p {
+        padding-left: 18px;
+        padding-right: 18px; }
+      .steam-main .steam-free .btn-orange {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding: 15px 50px;
+        margin-top: 20px; }
+    .steam-main .steam-easy {
+      font-family: 'Montserrat', sans-serif;
+      text-align: left;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center, 70% center;
+      padding: 60px 0; }
+      .steam-main .steam-easy h2 {
+        font-size: 1.9rem;
+        text-shadow: 1px 1px 2px #000;
+        margin-top: 0;
+        margin-bottom: 30px; }
+      .steam-main .steam-easy h3 {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .steam-main .steam-easy .link-more {
+        text-align: center;
+        padding-left: 18px;
+        padding-right: 18px; }
+    .steam-main .steam-action {
+      padding: 80px 0; }
+      .steam-main .steam-action h1 {
+        font-size: 1.9rem;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 60px; }
+      .steam-main .steam-action .container-actions {
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 60px; }
+        .steam-main .steam-action .container-actions.pull-right {
+          float: none; }
+        .steam-main .steam-action .container-actions:nth-child(2) {
+          margin-bottom: 60px; }
+        .steam-main .steam-action .container-actions.special-pos-1 {
+          margin-top: 0px; }
+        .steam-main .steam-action .container-actions.special-pos-2 {
+          margin-top: 0px;
+          margin-left: 0px; }
+        .steam-main .steam-action .container-actions.special-pos-3 {
+          margin-top: 0px; }
+        .steam-main .steam-action .container-actions img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 16px; }
+        .steam-main .steam-action .container-actions h4 {
+          font-weight: 700;
+          text-transform: uppercase; }
+        .steam-main .steam-action .container-actions .media {
+          margin-top: 20px; }
+          .steam-main .steam-action .container-actions .media:first-child {
+            margin-top: 50px; }
+          .steam-main .steam-action .container-actions .media .media-body h4 {
+            font-weight: 400;
+            text-transform: none; }
+    .steam-main .steam-scheduling {
+      text-align: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center, 70% center;
+      padding: 60px 0; }
+      .steam-main .steam-scheduling h2 {
+        font-size: 1.9rem;
+        text-shadow: 1px 1px 2px #000;
+        margin-top: 0;
+        margin-bottom: 30px; }
+      .steam-main .steam-scheduling h3 {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .steam-main .steam-scheduling .link-more {
+        text-align: center;
+        padding-left: 18px;
+        padding-right: 18px; }
+    .steam-main .steam-wait {
+      text-align: center;
+      background-image: url(../images/tabs/small-team/steam_back.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center top;
+      padding: 60px 0; }
+      .steam-main .steam-wait h2 {
+        font-size: 1.9rem;
+        margin-top: 200px;
+        margin-bottom: 30px; }
+      .steam-main .steam-wait h3 {
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 40px; }
+      .steam-main .steam-wait .link-more {
+        text-align: center;
+        padding-left: 18px;
+        padding-right: 18px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
