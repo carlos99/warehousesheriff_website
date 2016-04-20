@@ -4,6 +4,9 @@
   margin: 0 auto;
   padding: 0px 20px; }
 
+a[aria-expanded="true"] {
+  color: orange !important; }
+
 header {
   width: 100%;
   position: fixed;
