@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	header {
 		padding: 0;
 		border-bottom: 0;
@@ -822,4 +822,77 @@
 		}
 	}
 	// End Tab Developers
+
+	/*Messaging page */
+
+
+}
+@media(max-width: 1024px){
+	.the-last{
+		margin-bottom: 50px;
+	}
+	.real-time{
+	 padding: 100px 0 0px;
+		h1 {
+			font-size: 40px;
+		}
+		.triangle_float{
+			margin-top: -105px;
+		}
+	}
+
+	.banner{
+		 h1 {
+		    font-size: 55px;
+		    margin-bottom: 30px;
+		}
+	}
+
+	.config-left-content{
+		h2{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.img-responsive {
+	    max-width: 50%;
+	}
+	.real-time{
+		.media{
+			text-align: center;
+		}
+		.media-left{
+			display: block;
+			img{
+				margin: 0 auto 15px;
+			}
+		}
+
+	}
+	.config-right-content{
+		h2{
+			text-align: center;
+		}
+		.noP-left{
+			text-align: center;
+		}
+	}
+
+	.config-left-content{
+		h2{
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		.noP-left{
+			text-align: center;
+		}
+	}
+
+	.img-special{
+		position: relative;
+	    top: 0px;
+	}
+
 }

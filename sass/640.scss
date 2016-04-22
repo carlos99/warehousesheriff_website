@@ -813,3 +813,59 @@
 	}
 	// End Tab Developers
 }
+
+@media (max-width: 640px){
+	.real-time h1 {
+	    font-size: 28px !important;
+	    font-weight: bold;
+	}
+	.config-right-content {
+		padding: 80px 20px 0;
+		h3 {
+		    font-size: 23px;
+		}
+		.media{
+			 .fa-check{
+			 	font-size: 20px;
+			 }
+		}
+	} 
+	.config-left-content {
+		padding: 80px 20px 0;
+		h3 {
+		    font-size: 23px;
+		}
+		.media{
+			 .fa-check{
+			 	font-size: 20px;
+			 }
+		}
+	}
+
+	.steam-free-2 {
+	    padding: 40px 20px;
+	}
+
+	.media-heading {
+	    font-size: 20px;
+	}
+	h4{
+		font-size: 18px !important;
+		line-height: 25px;
+	}
+	h3{
+		font-size: 20px !important;
+	}
+	h2 {
+	    font-size: 25px !important;
+	}
+
+	.banner{
+		h1 {
+		    font-size: 30px !important;
+		}
+	}
+	.the-last{
+		margin-bottom: 50px;
+	}
+}

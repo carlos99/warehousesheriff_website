@@ -5,7 +5,6 @@ $(document).ready(function(){
     });
 
 $('a.navbar-toggler').on('click', function(event) {
- 
         $(this).parent().siblings().removeClass('open').find("ul").collapse('hide');
     });
 });
