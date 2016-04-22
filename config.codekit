@@ -29,6 +29,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/enterprise.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/enterprise.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/back_enterprise.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 487251,
+		"inputAbbreviatedPath": "\/images\/back_enterprise.jpg",
+		"outputAbbreviatedPath": "\/images\/back_enterprise.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/back_messaging.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -91,6 +111,17 @@
 		"initialSize": 7717,
 		"inputAbbreviatedPath": "\/images\/dropbox.jpg",
 		"outputAbbreviatedPath": "\/images\/dropbox.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/imageHolder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29206,
+		"inputAbbreviatedPath": "\/images\/imageHolder.png",
+		"outputAbbreviatedPath": "\/images\/imageHolder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
