@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+input {
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+}
+
 .noP-left{
 	padding-left: 0px !important;
 }
@@ -16,13 +22,18 @@ a[aria-expanded="true"]{
 header{
 	width: 100%;
 	position: fixed;
-	border-bottom: 1px solid #eee;
-	padding: 3.6px 16px;
-	background-color: #fff;
+// 	border-bottom: 1px solid #eee;
+// 	padding: 3.6px 16px;
+// 	background-color: #fff;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 88%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 	z-index: 2;
 	
 	.wrapper {
 		max-width: 100%;
+		padding: 3.6px 36px;
 	}
 	
 	.fa-bars{
@@ -1859,7 +1870,403 @@ footer{
 }
 // END MESSAGING PAGE
 
-// START ENTERPRISE PAGE
+// F3.- START ACTIONS PAGE
+.b-actions {
+	background-image: url("../images/back_enterprise.jpg");
+	background-repeat: no-repeat;
+    background-position: center 50%;
+    
+    .link-more {
+		color: #ff7e20;
+		font-family: 'Montserrat', sans-serif;
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 0;
+		text-decoration: none;
+		margin-bottom: 20px;
+	}
+	
+	h2 {
+		padding: 0 200px;
+	}
+}
+
+.save-time {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/tommy_actions.jpg");
+	background-repeat: no-repeat;
+	background-size: 44%;
+    background-position: left top;
+	padding: 100px 0;
+	
+	.triangle_float {
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-right: 35px solid transparent;
+		border-top: 35px solid #292929;
+		left: 50%;
+		margin-top: -100px;	
+		margin-left: -35px;
+	}
+	
+	.media {
+		margin-top: 40px;
+		
+		.media-left {
+			padding-right: 20px;
+			
+			img {
+				max-width: 80px;
+				height: auto;
+			}
+		}
+		
+		.media-body {
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.no-Tm {
+	margin-top: 0;
+}
+
+.actions-step-1 {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/hand-phone.svg");
+	background-repeat: no-repeat;
+	background-size: 34%;
+	background-position: right top;
+	padding-bottom: 100px;
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	
+	.left-h1 {
+		font-size: 40px;
+		text-align: left;
+	}
+}
+
+.actions-step-2 {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	background: url("../images/hand-phone.svg"), #292929;
+	background-repeat: no-repeat;
+	background-size: 34%;
+	background-position: left top;
+	padding-bottom: 100px;
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	
+	.left-h1 {
+		font-size: 40px;
+		text-align: left;
+	}
+	
+	h2 {
+		margin-bottom: 8px;
+	}
+}
+
+.actions-step-3 {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/hand-phone.svg");
+	background-repeat: no-repeat;
+	background-size: 34%;
+	background-position: right top;
+	padding-bottom: 100px;
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	
+	.left-h1 {
+		font-size: 40px;
+		text-align: left;
+	}
+	
+	h2 {
+		margin-bottom: 8px;
+	}
+}
+
+.actions-step-4 {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	background: url("../images/hand-phone.svg"), #292929;
+	background-repeat: no-repeat;
+	background-size: 34%;
+	background-position: left top;
+	padding-bottom: 100px;
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	
+	.left-h1 {
+		font-size: 40px;
+		text-align: left;
+	}
+	
+	h2 {
+		margin-bottom: 8px;
+	}
+}
+
+.actions-step-5 {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/hand-phone.svg");
+	background-repeat: no-repeat;
+	background-size: 34%;
+	background-position: right top;
+	padding-bottom: 100px;
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	
+	.left-h1 {
+		font-size: 40px;
+		text-align: left;
+	}
+	
+	h2 {
+		margin-bottom: 8px;
+	}
+}
+// END ACTIONS PAGE
+
+// F4.- START ADD-ON STORE PAGE
+.secondary-header {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #E6731F;
+	padding: 10px 41px;
+	
+	ul {
+		float: left;
+		display: table-cell;
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0;
+		
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			
+			&:first-child {
+				width: 224px;
+				
+				h4 {
+					margin-top: 6px;
+				}
+			}
+		}
+		
+		.divider-addon-1 {
+			color: #FFFFFF;
+			margin-right: 7px;
+		}
+		
+		.divider-addon-2 {
+			color: #FFFFFF;
+			margin-left: 7px;
+			margin-right: 7px;
+		}
+	}
+	
+	a {
+		color: #FFFFFF;
+			
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	img {
+		float: left;
+		max-width: 50px;
+		height: auto;
+		margin-right: 15px;
+	}
+	
+	h4 {
+		color: #FFFFFF;
+		font-size: 1.2rem;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.01em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
+
+.header-addon {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	background-color: #292929;
+	background-image: none;
+	margin-top: 113px;
+	padding: 0;
+	
+	.container-haddon {
+		display: table;
+        width: 100%;
+        
+        &> div[class^='col-'] {
+	        display: table-cell;
+			float: none;
+			vertical-align: top;
+        }
+        
+		.back-left {
+			background-image: url("../images/bigbanner.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 100px 0;
+			
+			.haddon-left {
+				float: right;
+				width: 76%;
+				margin-right: 20px;
+				
+				.btn-group {
+					.btn-orange {
+						width: 224px;
+						font-size: 16px;
+						font-weight: 700;
+						text-transform: uppercase;
+						letter-spacing: normal;
+						padding: 15px 30px;
+						margin-top: 20px;
+					}
+					
+					.dropdown-menu {
+						margin: -1px 0 0;
+						border-radius: 0rem 0rem 0.25rem 0.25rem;
+					}
+				}
+			}
+		}
+        
+		.back-right {
+			background-image: url("../images/back_messaging.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 100px 0;
+			
+			.haddon-right {
+				float: left;
+				width: 76%;
+				padding-left: 60px;
+				
+				h2 {
+					padding-left: 5px;
+				}
+				
+				.box-sign {
+					text-align: left;
+					.btn-orange {
+						font-size: 16px;
+						font-weight: 700;
+						text-transform: uppercase;
+						letter-spacing: normal;
+						padding: 15px 30px;
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.connect-all {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 100px 0;
+	
+	img {
+		max-width: 100%;
+		height: auto
+	}
+	
+	h1 {
+		font-size: 65px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	
+	.box-sign {
+		text-align: center;
+		.btn-orange {
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: normal;
+			padding: 15px 50px;
+			margin-top: 20px;
+		}
+	}
+}
+
+.browse-store {
+	font-family: 'Montserrat', sans-serif;
+	padding: 100px 0;
+	
+	h2 {
+		text-transform: none;
+	}
+	
+	.link-more {
+		color: #ff7e20;
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 0;
+		text-decoration: none;
+	}
+	
+	.pull-right {
+		margin-top: -70px;
+		
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+// END ADD-ON STORE PAGE
+
+// F5.- START ENTERPRISE PAGE
 .b-enterprise {
 	background-image: url("../images/back_enterprise.jpg");
     background-position: center 50%;
