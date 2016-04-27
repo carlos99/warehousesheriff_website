@@ -1,6 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+//Normal and hover BTNS
+$blue-btn: #0275d8;
+$blue-hover: #025aa5;
+$orange-btn: #ff7e20;
+$orange-hover: #E6731F;
+
+//Color Backgrounds
+$b-lblue: #1999d6;
+$b-dark: #292929;
+$b-lgray: #F0F0F0;
+$b-orange: #ff7e20;
+
+//Color Fonts
+$f-white: #FFFFFF;
+$f-dark: #292929;
+$f-gray: #CCCCCC;
+
+body {
+	background-color: #FFFFFF;
+}
 
 input {
+	@include U-btn;
 	-webkit-appearance: none;
 	   -moz-appearance: none;
 	        appearance: none;
@@ -24,16 +44,15 @@ header{
 	position: fixed;
 // 	border-bottom: 1px solid #eee;
 // 	padding: 3.6px 16px;
-// 	background-color: #fff;
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 88%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+	background-color: #fff;
 	z-index: 2;
+	padding: 4px 36px;
 	
-	.wrapper {
-		max-width: 100%;
-		padding: 3.6px 36px;
+	&.nav-back2 {
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 88%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 88%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 	}
 	
 	.fa-bars{
@@ -46,13 +65,12 @@ header{
 	    	display: block;
 	    }
 	}
-	.wrapper{
-		@media (max-width: 900px ){
-			padding: 0;
-		}
-	}
 	.btns{
 		padding-top: 6px;
+		
+		.btn {
+			@include L-nav-btn;
+		}
 	}
 }
 .logo{
@@ -62,14 +80,11 @@ header{
 }
 
  .logo-text{
- 	font-family: "Montserrat",sans-serif;
-    font-size: 26px;
-    letter-spacing: -2.2px;
-    line-height: 1.9;
+ 	@include B-h5;
+    line-height: 2.1;
     margin-left: 0px;
     color: #f68b1f !important;
-    font-weight: 700;
-    margin-right: 19px;
+    margin-right: 18px;
     float: left;
     padding: 0;
  }
@@ -96,12 +111,11 @@ nav{
 		padding: 0;
 		
 		li{
+			@include R-nav;
 			display: inline-block;
 		    padding: 0px 6px;
 		    color: #474747;
-		    font-family: "Montserrat",sans-serif;
-		    font-size: 15px;
-		    letter-spacing: -1.5px;
+			letter-spacing: -1.3px;
 		    line-height: 51px;
 		    text-transform: uppercase;
 		    @media (max-width: 900px ){
@@ -133,9 +147,8 @@ nav{
 		    	}
 		    	
 		    	a {
-				    color: #3b3b3b;
-			    	font-size: 13px;
-			    	font-weight: 600;
+					color: #3b3b3b;
+					@include B-nav-a;
 			    	letter-spacing: normal;
 					text-transform: capitalize;
 		    	}
@@ -160,8 +173,6 @@ nav{
 			padding: 12px 10px 10px 10px;
 			
 			h1 {
-				font-size: 13px;
-				font-weight: 600;
 				letter-spacing: normal;
 				text-transform: uppercase;
 				margin-bottom: 14px;
@@ -188,8 +199,6 @@ nav{
 				li {
 					a {
 						color: #3b3b3b;
-						font-size: 13px;
-						font-weight: 600;
 						letter-spacing: normal;
 						text-transform: capitalize;
 					}
@@ -260,27 +269,12 @@ nav{
     	background-image: url("../images/Depositphotos_60069873_original_mini.jpg");
     }
     h1{
-    	font-family: "Montserrat",sans-serif;
-	    font-size: 71px;
+    	@include U-h1;
 	    letter-spacing: -2px;
-	    text-transform: uppercase;
 	    margin-bottom: 0;
-	    @media (max-width: 1024px ){
-			font-size: 60px;
-	    }
-	    @media (max-width: 768px ){
-			font-size: 50px;
-	    }
-	    @media (max-width: 480px ){
-			font-size: 40px;
-	    }
-	    @media (max-width: 320px ){
-			font-size: 30px;
-	    }
     }
     h3{
-    	text-transform: uppercase;
-    	font-family: 'Montserrat', sans-serif;
+	    @include U-h3;
     	transition: all 0.4s linear;
     	@media (max-width: 768px){
     		margin-top: 20px;
@@ -291,7 +285,7 @@ nav{
     	}
     }
     p{
-    	font-size: 22px;
+	    @include U-p;
 	    margin-top: 25px;
 	    margin-bottom: 18px;
     }
@@ -311,7 +305,8 @@ nav{
 			width: 235px;
 			
 			&.btn-primary {
-				padding: 7.5px 16px !important;
+				@include L-p;
+				padding: 6.5px 16px !important;
 				margin-top: -3px;
 				margin-left: 6px;
 				margin-right: 6px;
@@ -357,11 +352,11 @@ nav{
 	min-height: 100px;
 	padding: 40px 0px 8px;
 	text-align: center;
-}
-h5{
-	font-family: "Montserrat",sans-serif;
-    font-size: 23px;
-    color: #fff;
+	
+	h5{
+		color: #fff;
+		@include U-btn;
+	}
 }
 .img-special{
 	position: relative;
@@ -380,9 +375,7 @@ h5{
 }
 
 .bannerbox {
-    font-family: "Montserrat",sans-serif;
-    font-size: 50px;
-    font-weight: 500;
+    @include U-h2;
     letter-spacing: -2px;
     text-align: center;
     @media (max-width: 991px){
@@ -529,11 +522,110 @@ h5{
 #sticky{
 	z-index: 1;
 }
-.white-frange{
-	padding: 0 0 100px;
-	.triangulo_inf{
-		margin-bottom: 80px;
+
+footer {
+	&.gray {
+		text-align: center;
+		background-color: $b-dark;
+		padding-top: 24px;
+		padding-bottom: 0px;
 	}
+	
+	&.to-be-scrolled {
+		width: 100% !important;
+		overflow: hidden;
+		-webkit-transition: 0.3s all;
+		   -moz-transition: 0.3s all;
+		     -o-transition: 0.3s all;
+		        transition: 0.3s all;
+	}
+	
+	&.show {
+		width: 100%;
+		max-height: 20px;
+		position: fixed;
+		top: 60px;
+		overflow: auto;
+		padding: 15px 0 0px !important;
+		margin-top: -2px;
+		z-index: 1;
+		display: table;
+		
+		.row {
+			max-width: 954px;
+			margin: 0 auto;
+		}
+		
+		h1 {
+			float: left;
+			font-size: 18px;
+			text-align: left;
+			margin-top: 2px;
+		}
+		
+		.tabs-menu {
+			float: left;
+			width: calc(100% - 334px);
+		}
+	}
+	
+	h1 {
+		color: $f-gray;
+		@include R-h2;
+	}
+	
+	.tabs-menu {
+		text-align: center;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		-webkit-transition: 0.3s all;
+		   -moz-transition: 0.3s all;
+		     -o-transition: 0.3s all;
+		        transition: 0.3s all;
+		
+		li {
+			display: inline-block;
+			
+			a {
+				color: $f-gray;
+				@include R-p;
+				padding: 0 18px 7px 18px;
+				
+				&:hover {
+					text-decoration: none;
+					border-bottom: 5px solid $b-orange;
+				}
+			}
+			
+			&.current {
+				padding-bottom: 4px;
+				border-bottom: 5px solid $b-orange;
+			}
+		}
+	}
+}
+
+.white-frange{
+	padding: 80px 0;
+	
+	.triangle_float {
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-right: 35px solid transparent;
+		border-top: 35px solid #292929;
+		left: 50%;
+		margin-top: -100px;	
+		margin-left: -35px;
+	}
+	
+	.btn {
+		@include B-btn;
+		letter-spacing: normal;
+	}
+	
 	&.for_form{
 		padding: 0;
     	margin-bottom: -201px;
@@ -546,10 +638,7 @@ h5{
 	text-align: center;
 	color: #fff;
 	h1{
-    	font-family: inherit;
-	    font-size: 65px;
-	    font-weight: 700;
-	    text-transform: uppercase;
+	    @include L-h1;
 	    margin-bottom: 0;
 	    @media (max-width: 1024px ){
 			font-size: 60px;
@@ -565,9 +654,8 @@ h5{
 	    }
     }
     
-    h3 {
-	    font-size: 23px;
-	    font-weight: 700;
+    h5 {
+	    @include U-h5;
 	    
 	    a {
 		    color: #FFFFFF;
@@ -592,8 +680,6 @@ h5{
 	    border: 1px solid transparent;
 	    border-radius: 0;
 	    color: #a7a9ac;
-	    font-size: 20px;
-	    font-weight: 700;
 	    padding: 10px 15px;
 	    width: 100%;
 	    margin-bottom: 16px;
@@ -606,8 +692,7 @@ h5{
     	margin: 10px 0;
 	}
 	button{
-		font-size: 20px;
-		font-weight: 700;
+		@include B-btn;
 		text-transform: uppercase;
 		border: 0;
 		letter-spacing: normal;
@@ -646,7 +731,7 @@ h5{
 		
 		&.btn-orange {
 			background: #ff7e20;
-			padding: 15px 50px;
+			padding: 15px 41px;
 			
 			&:hover {
 				background-color: #ff7e20;
@@ -667,17 +752,15 @@ h5{
 			&:active:hover {
 				background-color: #ff7e20;
 			}
-		}
-		@media (max-width: 480px){
-			font-size: 15px;
-    		font-weight: bold;
+			
+			.fa-angle-right {
+				margin-left: 5px;
+				font-weight: 700;
+			}
 		}
 	}
 }
 .btn{
-	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
-	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: -1.2px;
 }
@@ -807,22 +890,31 @@ footer{
 
 // Start Tab MySelf
 .tab-content {
-	.wrapper {
-		max-width: 100%;
-		padding: 0;
+	max-width: 100%;
+	padding: 0;
+	
+	&.banner-myself {
+		background-image: url("../images/tabs/myself/myself_back.jpg");
+		background-repeat: no-repeat;
+		background-position: -10% 0%;
+		background-size: 50%;
+		padding: 100px 0 0 0;
 	}
-}
-
-.banner-myself {
-	background-image: url("../images/tabs/myself/myself_back.jpg");
-	background-repeat: no-repeat;
-	background-position: -10% 0%;
-	background-size: 60%;
-	padding: 205px 0 0 0;
 }
 
 .myself-main {
 	text-align: left;
+	
+	h2 {
+		@include L-h2;
+	}
+	
+	.row {
+		p {
+			@include L-p;
+			margin-bottom: 10px;
+		}
+	}
 	
 	.media {
 		margin-top: 50px;
@@ -859,15 +951,19 @@ footer{
 		.media-body {
 			text-align: left;
 			
+			h4 {
+				@include R-btn;
+			}
+			
 			p {
+				@include L-p;
 				margin-top: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
+				@include B-btn;
 				display: block;
-				font-size: 20px;
-				font-weight: 600;
 				line-height: 0;
 				text-decoration: none;
 			}
@@ -882,8 +978,7 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
+			@include L-h2;
 			text-transform: uppercase;
 		}
 		
@@ -901,12 +996,9 @@ footer{
 		padding: 80px 0;
 		
 		h1 {
-			font-family: 'Montserrat', sans-serif;
-			font-size: 65px;
-			font-weight: 700;
-			text-transform: uppercase;
+			@include U-h1;
 			text-align: center;
-			margin-bottom: 80px;
+			margin-bottom: 40px;
 		}
 		
 		.container-actions {
@@ -928,8 +1020,11 @@ footer{
 			}
 			
 			h4 {
-				font-weight: 700;
-				text-transform: uppercase;
+				@include B-h5;
+			}
+			
+			p {
+				@include L-p;
 			}
 		}
 	}
@@ -951,7 +1046,7 @@ footer{
 			}
 			
 			img {
-				max-width: 60%;
+				max-width: 54%;
 				height: auto;
 				text-align: center;
 				-webkit-border-radius: 50%;
@@ -962,13 +1057,14 @@ footer{
 			}
 			
 			h4 {
-				font-weight: 700;
-				text-transform: uppercase;
+				@include B-h5;
 			}
 			
 			p {
-				font-weight: 400;
-				margin: 0;
+				@include U-p;
+				line-height: 1.2;
+				padding: 0 10px;
+				margin-bottom: 0;
 			}
 		}
 	}
@@ -976,12 +1072,11 @@ footer{
 	.my-tour {
 		text-align: center;
 		background-color: #1999d6;
-		padding: 80px 0;
+		padding: 40px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
+			@include L-h2;
 			text-transform: uppercase;
 		}
 		
@@ -999,27 +1094,24 @@ footer{
 
 // Start Tab SmallTeams
 .tab-pane {
-	.wrapper {
-		max-width: 100%;
-		padding: 0;
-	}
+	max-width: 100%;
+	padding: 0;
 }
 
-.banner-steam {
+.steam-main {
+	text-align: left;
 	background-image: url("../images/tabs/small-team/steam_back.jpg");
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
 	background-size: auto;
-	padding: 205px 0 0 0;
-}
-
-.steam-main {
-	font-family: 'Montserrat', sans-serif;
-	text-align: left;
+	padding: 100px 0 0 0;
 	
-	h2:first-child {
-		font-weight: 700;
-		text-transform: uppercase;
+	h2 {
+		@include L-h2;
+	}
+	
+	h5 {
+		@include L-h5;
 	}
 	
 	.media {
@@ -1050,15 +1142,19 @@ footer{
 		.media-body {
 			text-align: left;
 			
+			h4 {
+				@include R-btn;
+			}
+			
 			p {
+				@include L-p;
 				margin-top: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
+				@include B-btn;
 				display: block;
-				font-size: 20px;
-				font-weight: 600;
 				line-height: 0;
 				text-decoration: none;
 			}
@@ -1073,27 +1169,25 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700 !important;
+			@include L-h2;
 			text-transform: uppercase;
 		}
 		
 		p {
 			color: #FFFFFF;
+			@include L-p;
 		}
 		
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include B-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
-			margin-top: 20px;
+			margin-top: 0px;
 		}
 	}
 	
 	.steam-easy {
-		font-family: 'Montserrat', sans-serif;
 		text-align: left;
 		background-image: url(../images/tabs/small-team/back-easy.jpg);
 		background-repeat: no-repeat;
@@ -1103,23 +1197,29 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
+			@include U-h2;
 			text-shadow: 1px 1px 2px #000;
-			margin-bottom: 30px;
+			margin-bottom: 10px;
 		}
 		
 		h3 {
 			color: #FFFFFF;
+			@include U-h5;
 			text-shadow: 1px 1px 2px #000;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 		}
 		
 		.link-more {
 			color: #ff7e20;
+			@include B-btn;
 			display: block;
-			font-size: 20px;
-			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
+			
+			.fa-angle-right {
+				font-weight: 700;
+				line-height: 1;
+			}
 		}
 	}
 	
@@ -1127,11 +1227,9 @@ footer{
 		padding: 80px 0;
 		
 		h1 {
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
-			text-transform: uppercase;
+			@include U-h1;
 			text-align: center;
-			margin-bottom: 80px;
+			margin-bottom: 40px;
 		}
 		
 		.container-actions {
@@ -1161,8 +1259,11 @@ footer{
 			}
 			
 			h4 {
-				font-weight: 700;
-				text-transform: uppercase;
+				@include B-h5;
+			}
+			
+			p {
+				@include L-p;
 			}
 			
 			.media {
@@ -1185,56 +1286,58 @@ footer{
 	.steam-scheduling {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background-image: url(../images/tabs/small-team/back-scheduling.jpg);
+		background-image: url('../images/tabs/small-team/back-scheduling.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: 0% 30%;
+		background-position: left 30%;
 		padding: 80px 0;
 		
 		h2 {
 			color: #FFFFFF;
+			@include U-h2;
 			text-shadow: 1px 1px 2px #000;
-			margin-bottom: 30px;
+			margin-bottom: 10px;
 		}
 		
 		h3 {
 			color: #FFFFFF;
+			@include U-h5;
 			text-shadow: 1px 1px 2px #000;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 		}
 		
 		.link-more {
 			color: #ff7e20;
+			@include B-btn;
 			display: block;
-			font-size: 20px;
-			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
+			
+			.fa-angle-right {
+				font-weight: 700;
+			}
 		}
 	}
 	
 	.steam-wait {
-		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background-image: url(../images/tabs/small-team/steam_back.jpg);
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: 74% center;
-		padding: 80px 0;
+		background-color: $b-lgray;
+		padding: 80px 0 0 0;
 		
 		h2 {
-			margin-bottom: 30px;
+			@include U-h2;
+			margin-bottom: 10px;
 		}
 		
 		h3 {
-			margin-bottom: 40px;
+			@include U-h5;
+			margin-bottom: 20px;
 		}
 		
 		.link-more {
 			color: #ff7e20;
+			@include B-btn;
 			display: block;
-			font-size: 20px;
-			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
 		}
@@ -1244,23 +1347,26 @@ footer{
 
 // Start Tab BigTeams
 .tab-pane {
-	.wrapper {
-		max-width: 100%;
-		padding: 0;
-	}
-}
-
-.banner-bteam {
-	background-image: url("../images/tabs/big-team/bteam_back.jpg");
-	background-repeat: no-repeat;
-	background-position: -8% 0%;
-	background-size: auto;
-	padding: 205px 0 0 0;
+	max-width: 100%;
+	padding: 0;
 }
 
 .bteam-main {
-	font-family: 'Montserrat', sans-serif;
 	text-align: left;
+	background-image: url("../images/tabs/big-team/bteam_back.jpg");
+	background-repeat: no-repeat;
+	background-position: -8% 0%;
+	background-size: 50%;
+	padding: 100px 0 0 0;
+	
+	h2 {
+		@include L-h2;
+	}
+	
+	h5 {
+		@include L-h5;
+		margin-bottom: 0;
+	}
 	
 	.media {
 		margin-top: 50px;
@@ -1296,44 +1402,51 @@ footer{
 		.media-body {
 			text-align: left;
 			
+			h4 {
+				@include R-btn;
+			}
+			
 			p {
+				@include L-p;
 				margin-top: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
+				@include B-btn;
 				display: block;
-				font-size: 20px;
-				font-weight: 600;
 				line-height: 0;
 				text-decoration: none;
+				
+				.fa-angle-right {
+					font-weight: 900;
+				}
 			}
 		}
 	}
 	
 	.bteam-download {
-		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/big-team/download.jpg),
-					#292929;
-		background-repeat: no-repeat;
-		background-size: 26%;
-		background-position: 30% center;
-		padding: 120px 0;
+		background-color: $b-dark;
+		padding: 100px 0;
 		margin-top: 80px;
 		
 		h2 {
 			color: #FFFFFF;
+			@include U-h3;
 			margin-bottom: 30px;
 			
 			.h2-italic {
-				font-style: italic;
+				@include L-h3;
 			}
 		}
 		
+		.img-responsive {
+			margin-bottom: 0;
+		}
+		
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include B-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -1344,27 +1457,36 @@ footer{
 	.bteam-experience {
 		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/big-team/panel.svg),
-					#292929;
-		background-repeat: no-repeat;
-		background-size: 11%;
-		background-position: 65% center;
+		background: #FFFFFF;
 		padding: 80px 0;
 		
 		h2 {
-			color: #FFFFFF;
+			color: $f-dark;
+			@include U-h2;
 			margin-bottom: 30px;
 		}
 		
 		h3 {
-			color: #FFFFFF;
+			color: $f-dark;
+			@include U-h5;
+		}
+		
+		img {
+			width: 50%;
+			opacity: 0.2;
+			display: block;
+			text-align: center;
+			
+			&.img-responsive {
+				vertical-align: middle;
+				margin-bottom: 0;
+			}
 		}
 		
 		.link-more {
 			color: #ff7e20;
+			@include B-btn;
 			display: block;
-			font-size: 20px;
-			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
 			margin-top: 40px;
@@ -1372,29 +1494,37 @@ footer{
 	}
 	
 	.bteam-recover {
-		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: url(../images/tabs/big-team/chart.svg),
-					#292929;
-		background-repeat: no-repeat;
-		background-size: 11%;
-		background-position: 30% center;
+		background: #292929;
 		padding: 80px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			margin-bottom: 30px;		
+			@include U-h2;
+			margin-bottom: 30px;
 		}
 		
 		h3 {
 			color: #FFFFFF;
+			@include U-h5;
+		}
+		
+		img {
+			width: 50%;
+			opacity: 0.6;
+			display: block;
+			text-align: center;
+			
+			&.img-responsive {
+				vertical-align: middle;
+				margin-bottom: 0;
+			}
 		}
 		
 		.link-more {
 			color: #ff7e20;
+			@include B-btn;
 			display: block;
-			font-size: 20px;
-			font-weight: 600;
 			line-height: 0;
 			text-decoration: none;
 			margin-top: 40px;
@@ -1405,30 +1535,30 @@ footer{
 
 // Start Tab Developers
 .tab-pane {
-	.wrapper {
-		max-width: 100%;
-		padding: 0;
-	}
-}
-
-.banner-developers {
-	background-color: #FFFFFF;
-	padding: 205px 0 0 0;
+	max-width: 100%;
+	padding: 0;
 }
 
 .developers-main {
-	font-family: 'Montserrat', sans-serif;
 	text-align: left;
+	padding: 100px 0 0 0;
+	
+	h1 {
+		@include L-h2;
+	}
+	
+	h3 {
+		@include L-h5;
+	}
 	
 	.link-visit {
 		color: #ff7e20;
+		@include B-btn;
 		display: block;
-		font-size: 20px;
-		font-weight: 600;
 		line-height: 0;
 		text-decoration: none;
-		margin-top: 40px;
 		text-transform: uppercase;
+		margin-top: 20px;
 	}
 	
 	.media {
@@ -1469,7 +1599,12 @@ footer{
 		.media-body {
 			text-align: left;
 			
+			h4 {
+				@include R-btn;
+			}
+			
 			p {
+				@include L-p;
 				margin-top: 0;
 			}
 		}
@@ -1483,8 +1618,7 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700 !important;
+			@include L-h2;
 			text-transform: uppercase;
 		}
 		

@@ -1,5 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'MontserratUltraLight';
+  src: url("../fonts/montserrat/ultra-light/MontserratUltraLight.eot");
+  src: url("../fonts/montserrat/ultra-light/MontserratUltraLight.eot") format("embedded-opentype"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.woff2") format("woff2"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.woff") format("woff"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.ttf") format("truetype"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.svg#MontserratUltraLight") format("svg"); }
+@font-face {
+  font-family: 'MontserratLight';
+  src: url("../fonts/montserrat/light/MontserratLight.eot");
+  src: url("../fonts/montserrat/light/MontserratLight.eot") format("embedded-opentype"), url("../fonts/montserrat/light/MontserratLight.woff2") format("woff2"), url("../fonts/montserrat/light/MontserratLight.woff") format("woff"), url("../fonts/montserrat/light/MontserratLight.ttf") format("truetype"), url("../fonts/montserrat/light/MontserratLight.svg#MontserratLight") format("svg"); }
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/montserrat/regular/MontserratRegular.eot");
+  src: url("../fonts/montserrat/regular/MontserratRegular.eot") format("embedded-opentype"), url("../fonts/montserrat/regular/MontserratRegular.woff2") format("woff2"), url("../fonts/montserrat/regular/MontserratRegular.woff") format("woff"), url("../fonts/montserrat/regular/MontserratRegular.ttf") format("truetype"), url("../fonts/montserrat/regular/MontserratRegular.svg#MontserratRegular") format("svg"); }
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/montserrat/bold/MontserratBold.eot");
+  src: url("../fonts/montserrat/bold/MontserratBold.eot") format("embedded-opentype"), url("../fonts/montserrat/bold/MontserratBold.woff2") format("woff2"), url("../fonts/montserrat/bold/MontserratBold.woff") format("woff"), url("../fonts/montserrat/bold/MontserratBold.ttf") format("truetype"), url("../fonts/montserrat/bold/MontserratBold.svg#MontserratBold") format("svg"); }
+body {
+  background-color: #FFFFFF; }
+
 input {
+  font-family: 'MontserratUltraLight', sans-serif;
+  font-size: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
@@ -18,18 +38,18 @@ a[aria-expanded="true"] {
 header {
   width: 100%;
   position: fixed;
-  background: -moz-linear-gradient(top, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
-  /* IE6-9 */
-  z-index: 2; }
-  header .wrapper {
-    max-width: 100%;
-    padding: 3.6px 36px; }
+  background-color: #fff;
+  z-index: 2;
+  padding: 4px 36px; }
+  header.nav-back2 {
+    background: -moz-linear-gradient(top, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, white 0%, white 88%, rgba(255, 255, 255, 0) 90%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */ }
   header .fa-bars {
     font-size: 30px;
     padding: 10px;
@@ -39,11 +59,11 @@ header {
     @media (max-width: 900px) {
       header .fa-bars {
         display: block; } }
-  @media (max-width: 900px) {
-    header .wrapper {
-      padding: 0; } }
   header .btns {
     padding-top: 6px; }
+    header .btns .btn {
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 14px; }
 
 .logo {
   max-width: 50px;
@@ -51,14 +71,12 @@ header {
   padding: 0; }
 
 .logo-text {
-  font-family: "Montserrat",sans-serif;
-  font-size: 26px;
-  letter-spacing: -2.2px;
-  line-height: 1.9;
+  font-family: 'MontserratBold', sans-serif;
+  font-size: 23px;
+  line-height: 2.1;
   margin-left: 0px;
   color: #f68b1f !important;
-  font-weight: 700;
-  margin-right: 19px;
+  margin-right: 18px;
   float: left;
   padding: 0; }
 
@@ -81,12 +99,12 @@ nav {
     margin: 0;
     padding: 0; }
     nav ul li {
+      font-family: 'MontserratRegular', sans-serif;
+      font-size: 15px;
       display: inline-block;
       padding: 0px 6px;
       color: #474747;
-      font-family: "Montserrat",sans-serif;
-      font-size: 15px;
-      letter-spacing: -1.5px;
+      letter-spacing: -1.3px;
       line-height: 51px;
       text-transform: uppercase; }
       @media (max-width: 900px) {
@@ -112,8 +130,8 @@ nav {
           line-height: 30px; }
         nav ul li ul a {
           color: #3b3b3b;
+          font-family: 'MontserratBold', sans-serif;
           font-size: 13px;
-          font-weight: 600;
           letter-spacing: normal;
           text-transform: capitalize; }
       nav ul li:hover ul {
@@ -125,8 +143,6 @@ nav {
     nav ul .mega-menu-content {
       padding: 12px 10px 10px 10px; }
       nav ul .mega-menu-content h1 {
-        font-size: 13px;
-        font-weight: 600;
         letter-spacing: normal;
         text-transform: uppercase;
         margin-bottom: 14px; }
@@ -141,8 +157,6 @@ nav {
         padding: 0; }
         nav ul .mega-menu-content ul li a {
           color: #3b3b3b;
-          font-size: 13px;
-          font-weight: 600;
           letter-spacing: normal;
           text-transform: capitalize; }
 
@@ -194,26 +208,13 @@ nav {
   .banner.bg2 {
     background-image: url("../images/Depositphotos_60069873_original_mini.jpg"); }
   .banner h1 {
-    font-family: "Montserrat",sans-serif;
-    font-size: 71px;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 64px;
     letter-spacing: -2px;
-    text-transform: uppercase;
     margin-bottom: 0; }
-    @media (max-width: 1024px) {
-      .banner h1 {
-        font-size: 60px; } }
-    @media (max-width: 768px) {
-      .banner h1 {
-        font-size: 50px; } }
-    @media (max-width: 480px) {
-      .banner h1 {
-        font-size: 40px; } }
-    @media (max-width: 320px) {
-      .banner h1 {
-        font-size: 30px; } }
   .banner h3 {
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 30px;
     transition: all 0.4s linear; }
     @media (max-width: 768px) {
       .banner h3 {
@@ -223,7 +224,8 @@ nav {
         font-size: 1.4rem;
         margin-top: 20px; } }
   .banner p {
-    font-size: 22px;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
     margin-top: 25px;
     margin-bottom: 18px; }
   .banner form input {
@@ -236,7 +238,9 @@ nav {
     .banner .form-group button {
       width: 235px; }
       .banner .form-group button.btn-primary {
-        padding: 7.5px 16px !important;
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
+        padding: 6.5px 16px !important;
         margin-top: -3px;
         margin-left: 6px;
         margin-right: 6px; }
@@ -274,11 +278,10 @@ nav {
   min-height: 100px;
   padding: 40px 0px 8px;
   text-align: center; }
-
-h5 {
-  font-family: "Montserrat",sans-serif;
-  font-size: 23px;
-  color: #fff; }
+  .logos-section h5 {
+    color: #fff;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 20px; }
 
 .img-special {
   position: relative;
@@ -294,9 +297,8 @@ h5 {
     max-width: 100%; }
 
 .bannerbox {
-  font-family: "Montserrat",sans-serif;
-  font-size: 50px;
-  font-weight: 500;
+  font-family: 'MontserratUltraLight', sans-serif;
+  font-size: 48px;
   letter-spacing: -2px;
   text-align: center; }
   @media (max-width: 991px) {
@@ -421,10 +423,82 @@ h5 {
 #sticky {
   z-index: 1; }
 
+footer.gray {
+  text-align: center;
+  background-color: #292929;
+  padding-top: 24px;
+  padding-bottom: 0px; }
+footer.to-be-scrolled {
+  width: 100% !important;
+  overflow: hidden;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all; }
+footer.show {
+  width: 100%;
+  max-height: 20px;
+  position: fixed;
+  top: 60px;
+  overflow: auto;
+  padding: 15px 0 0px !important;
+  margin-top: -2px;
+  z-index: 1;
+  display: table; }
+  footer.show .row {
+    max-width: 954px;
+    margin: 0 auto; }
+  footer.show h1 {
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2px; }
+  footer.show .tabs-menu {
+    float: left;
+    width: calc(100% - 334px); }
+footer h1 {
+  color: #CCCCCC;
+  font-family: 'MontserratRegular', sans-serif;
+  font-size: 48px; }
+footer .tabs-menu {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all; }
+  footer .tabs-menu li {
+    display: inline-block; }
+    footer .tabs-menu li a {
+      color: #CCCCCC;
+      font-family: 'MontserratRegular', sans-serif;
+      font-size: 17px;
+      padding: 0 18px 7px 18px; }
+      footer .tabs-menu li a:hover {
+        text-decoration: none;
+        border-bottom: 5px solid #ff7e20; }
+    footer .tabs-menu li.current {
+      padding-bottom: 4px;
+      border-bottom: 5px solid #ff7e20; }
+
 .white-frange {
-  padding: 0 0 100px; }
-  .white-frange .triangulo_inf {
-    margin-bottom: 80px; }
+  padding: 80px 0; }
+  .white-frange .triangle_float {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid #292929;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -35px; }
+  .white-frange .btn {
+    font-family: 'MontserratBold', sans-serif;
+    font-size: 20px;
+    letter-spacing: normal; }
   .white-frange.for_form {
     padding: 0;
     margin-bottom: -201px; }
@@ -435,10 +509,8 @@ h5 {
   text-align: center;
   color: #fff; }
   .blue-frange h1 {
-    font-family: inherit;
-    font-size: 65px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 64px;
     margin-bottom: 0; }
     @media (max-width: 1024px) {
       .blue-frange h1 {
@@ -452,10 +524,10 @@ h5 {
     @media (max-width: 320px) {
       .blue-frange h1 {
         font-size: 30px; } }
-  .blue-frange h3 {
-    font-size: 23px;
-    font-weight: 700; }
-    .blue-frange h3 a {
+  .blue-frange h5 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px; }
+    .blue-frange h5 a {
       color: #FFFFFF;
       text-decoration: underline; }
 
@@ -474,8 +546,6 @@ h5 {
     border: 1px solid transparent;
     border-radius: 0;
     color: #a7a9ac;
-    font-size: 20px;
-    font-weight: 700;
     padding: 10px 15px;
     width: 100%;
     margin-bottom: 16px; }
@@ -485,8 +555,8 @@ h5 {
     display: block;
     margin: 10px 0; }
   .started_form button {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 20px;
-    font-weight: 700;
     text-transform: uppercase;
     border: 0;
     letter-spacing: normal; }
@@ -510,7 +580,7 @@ h5 {
         background-color: #1999d6; }
     .started_form button.btn-orange {
       background: #ff7e20;
-      padding: 15px 50px; }
+      padding: 15px 41px; }
       .started_form button.btn-orange:hover {
         background-color: #ff7e20; }
       .started_form button.btn-orange:focus {
@@ -521,15 +591,11 @@ h5 {
         background-color: #ff7e20; }
       .started_form button.btn-orange:active:hover {
         background-color: #ff7e20; }
-    @media (max-width: 480px) {
-      .started_form button {
-        font-size: 15px;
-        font-weight: bold; } }
+      .started_form button.btn-orange .fa-angle-right {
+        margin-left: 5px;
+        font-weight: 700; }
 
 .btn {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: -1.2px; }
 
@@ -686,19 +752,25 @@ footer {
     .how-to {
       display: none !important; } }
 
-.tab-content .wrapper {
+.tab-content {
   max-width: 100%;
   padding: 0; }
-
-.banner-myself {
-  background-image: url("../images/tabs/myself/myself_back.jpg");
-  background-repeat: no-repeat;
-  background-position: -10% 0%;
-  background-size: 60%;
-  padding: 205px 0 0 0; }
+  .tab-content.banner-myself {
+    background-image: url("../images/tabs/myself/myself_back.jpg");
+    background-repeat: no-repeat;
+    background-position: -10% 0%;
+    background-size: 50%;
+    padding: 100px 0 0 0; }
 
 .myself-main {
   text-align: left; }
+  .myself-main h2 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 48px; }
+  .myself-main .row p {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px; }
   .myself-main .media {
     margin-top: 50px; }
     .myself-main .media .media-left {
@@ -722,13 +794,18 @@ footer {
         background-color: #FFFFFF; }
     .myself-main .media .media-body {
       text-align: left; }
+      .myself-main .media .media-body h4 {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 20px; }
       .myself-main .media .media-body p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         margin-top: 0; }
       .myself-main .media .media-body .link-more {
         color: #ff7e20;
-        display: block;
+        font-family: 'MontserratBold', sans-serif;
         font-size: 20px;
-        font-weight: 600;
+        display: block;
         line-height: 0;
         text-decoration: none; }
   .myself-main .my-sign {
@@ -738,8 +815,8 @@ footer {
     padding: 40px 0; }
     .myself-main .my-sign h2 {
       color: #FFFFFF;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 48px;
       text-transform: uppercase; }
     .myself-main .my-sign .btn-orange {
       font-size: 20px;
@@ -751,12 +828,10 @@ footer {
   .myself-main .my-action {
     padding: 80px 0; }
     .myself-main .my-action h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 65px;
-      font-weight: 700;
-      text-transform: uppercase;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 64px;
       text-align: center;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .myself-main .my-action .container-actions {
       max-width: 460px;
       font-family: 'Montserrat', sans-serif;
@@ -769,8 +844,11 @@ footer {
       .myself-main .my-action .container-actions img {
         margin-bottom: 16px; }
       .myself-main .my-action .container-actions h4 {
-        font-weight: 700;
-        text-transform: uppercase; }
+        font-family: 'MontserratBold', sans-serif;
+        font-size: 23px; }
+      .myself-main .my-action .container-actions p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px; }
   .myself-main .icons-panel {
     background: #292929;
     padding: 60px 0px; }
@@ -784,7 +862,7 @@ footer {
       .myself-main .icons-panel .box-icons:last-child {
         margin-right: 0; }
       .myself-main .icons-panel .box-icons img {
-        max-width: 60%;
+        max-width: 54%;
         height: auto;
         text-align: center;
         -webkit-border-radius: 50%;
@@ -793,19 +871,22 @@ footer {
         background-color: #FFFFFF;
         margin-bottom: 20px; }
       .myself-main .icons-panel .box-icons h4 {
-        font-weight: 700;
-        text-transform: uppercase; }
+        font-family: 'MontserratBold', sans-serif;
+        font-size: 23px; }
       .myself-main .icons-panel .box-icons p {
-        font-weight: 400;
-        margin: 0; }
+        font-family: 'MontserratUltraLight', sans-serif;
+        font-size: 17px;
+        line-height: 1.2;
+        padding: 0 10px;
+        margin-bottom: 0; }
   .myself-main .my-tour {
     text-align: center;
     background-color: #1999d6;
-    padding: 80px 0; }
+    padding: 40px 0; }
     .myself-main .my-tour h2 {
       color: #FFFFFF;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 48px;
       text-transform: uppercase; }
     .myself-main .my-tour .btn-orange {
       font-size: 20px;
@@ -815,23 +896,23 @@ footer {
       padding: 15px 50px;
       margin-top: 20px; }
 
-.tab-pane .wrapper {
+.tab-pane {
   max-width: 100%;
   padding: 0; }
 
-.banner-steam {
+.steam-main {
+  text-align: left;
   background-image: url("../images/tabs/small-team/steam_back.jpg");
   background-repeat: no-repeat;
   background-position: 100% 0%;
   background-size: auto;
-  padding: 205px 0 0 0; }
-
-.steam-main {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left; }
-  .steam-main h2:first-child {
-    font-weight: 700;
-    text-transform: uppercase; }
+  padding: 100px 0 0 0; }
+  .steam-main h2 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 48px; }
+  .steam-main h5 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 23px; }
   .steam-main .media {
     margin-top: 50px; }
     .steam-main .media .media-left {
@@ -850,13 +931,18 @@ footer {
         margin-right: 10px; }
     .steam-main .media .media-body {
       text-align: left; }
+      .steam-main .media .media-body h4 {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 20px; }
       .steam-main .media .media-body p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         margin-top: 0; }
       .steam-main .media .media-body .link-more {
         color: #ff7e20;
-        display: block;
+        font-family: 'MontserratBold', sans-serif;
         font-size: 20px;
-        font-weight: 600;
+        display: block;
         line-height: 0;
         text-decoration: none; }
   .steam-main .steam-free {
@@ -866,20 +952,21 @@ footer {
     padding: 40px 0; }
     .steam-main .steam-free h2 {
       color: #FFFFFF;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700 !important;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 48px;
       text-transform: uppercase; }
     .steam-main .steam-free p {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 17px; }
     .steam-main .steam-free .btn-orange {
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
-      margin-top: 20px; }
+      margin-top: 0px; }
   .steam-main .steam-easy {
-    font-family: 'Montserrat', sans-serif;
     text-align: left;
     background-image: url(../images/tabs/small-team/back-easy.jpg);
     background-repeat: no-repeat;
@@ -888,27 +975,33 @@ footer {
     padding: 80px 0; }
     .steam-main .steam-easy h2 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px;
       text-shadow: 1px 1px 2px #000;
-      margin-bottom: 30px; }
+      margin-bottom: 10px; }
     .steam-main .steam-easy h3 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 23px;
       text-shadow: 1px 1px 2px #000;
-      margin-bottom: 40px; }
+      margin-bottom: 20px; }
     .steam-main .steam-easy .link-more {
       color: #ff7e20;
-      display: block;
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 600;
+      display: block;
       line-height: 0;
       text-decoration: none; }
+      .steam-main .steam-easy .link-more .fa-angle-right {
+        font-weight: 700;
+        line-height: 1; }
   .steam-main .steam-action {
     padding: 80px 0; }
     .steam-main .steam-action h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 64px;
       text-align: center;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .steam-main .steam-action .container-actions {
       max-width: 460px;
       font-family: 'Montserrat', sans-serif;
@@ -925,8 +1018,11 @@ footer {
       .steam-main .steam-action .container-actions img {
         margin-bottom: 16px; }
       .steam-main .steam-action .container-actions h4 {
-        font-weight: 700;
-        text-transform: uppercase; }
+        font-family: 'MontserratBold', sans-serif;
+        font-size: 23px; }
+      .steam-main .steam-action .container-actions p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px; }
       .steam-main .steam-action .container-actions .media {
         margin-top: 20px; }
         .steam-main .steam-action .container-actions .media:first-child {
@@ -937,60 +1033,70 @@ footer {
   .steam-main .steam-scheduling {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background-image: url(../images/tabs/small-team/back-scheduling.jpg);
+    background-image: url("../images/tabs/small-team/back-scheduling.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: left 30%;
     padding: 80px 0; }
     .steam-main .steam-scheduling h2 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px;
       text-shadow: 1px 1px 2px #000;
-      margin-bottom: 30px; }
+      margin-bottom: 10px; }
     .steam-main .steam-scheduling h3 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 23px;
       text-shadow: 1px 1px 2px #000;
-      margin-bottom: 40px; }
+      margin-bottom: 20px; }
     .steam-main .steam-scheduling .link-more {
       color: #ff7e20;
-      display: block;
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 600;
+      display: block;
       line-height: 0;
       text-decoration: none; }
+      .steam-main .steam-scheduling .link-more .fa-angle-right {
+        font-weight: 700; }
   .steam-main .steam-wait {
-    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background-image: url(../images/tabs/small-team/steam_back.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 74% center;
-    padding: 80px 0; }
+    background-color: #F0F0F0;
+    padding: 80px 0 0 0; }
     .steam-main .steam-wait h2 {
-      margin-bottom: 30px; }
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px;
+      margin-bottom: 10px; }
     .steam-main .steam-wait h3 {
-      margin-bottom: 40px; }
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 23px;
+      margin-bottom: 20px; }
     .steam-main .steam-wait .link-more {
       color: #ff7e20;
-      display: block;
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 600;
+      display: block;
       line-height: 0;
       text-decoration: none; }
 
-.tab-pane .wrapper {
+.tab-pane {
   max-width: 100%;
   padding: 0; }
 
-.banner-bteam {
+.bteam-main {
+  text-align: left;
   background-image: url("../images/tabs/big-team/bteam_back.jpg");
   background-repeat: no-repeat;
   background-position: -8% 0%;
-  background-size: auto;
-  padding: 205px 0 0 0; }
-
-.bteam-main {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left; }
+  background-size: 50%;
+  padding: 100px 0 0 0; }
+  .bteam-main h2 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 48px; }
+  .bteam-main h5 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 23px;
+    margin-bottom: 0; }
   .bteam-main .media {
     margin-top: 50px; }
     .bteam-main .media .media-left {
@@ -1013,32 +1119,40 @@ footer {
         margin-right: 0px; }
     .bteam-main .media .media-body {
       text-align: left; }
+      .bteam-main .media .media-body h4 {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 20px; }
       .bteam-main .media .media-body p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         margin-top: 0; }
       .bteam-main .media .media-body .link-more {
         color: #ff7e20;
-        display: block;
+        font-family: 'MontserratBold', sans-serif;
         font-size: 20px;
-        font-weight: 600;
+        display: block;
         line-height: 0;
         text-decoration: none; }
+        .bteam-main .media .media-body .link-more .fa-angle-right {
+          font-weight: 900; }
   .bteam-main .bteam-download {
-    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/big-team/download.jpg), #292929;
-    background-repeat: no-repeat;
-    background-size: 26%;
-    background-position: 30% center;
-    padding: 120px 0;
+    background-color: #292929;
+    padding: 100px 0;
     margin-top: 80px; }
     .bteam-main .bteam-download h2 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 30px;
       margin-bottom: 30px; }
       .bteam-main .bteam-download h2 .h2-italic {
-        font-style: italic; }
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 30px; }
+    .bteam-main .bteam-download .img-responsive {
+      margin-bottom: 0; }
     .bteam-main .bteam-download .btn-orange {
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
@@ -1046,66 +1160,85 @@ footer {
   .bteam-main .bteam-experience {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/big-team/panel.svg), #292929;
-    background-repeat: no-repeat;
-    background-size: 11%;
-    background-position: 65% center;
+    background: #FFFFFF;
     padding: 80px 0; }
     .bteam-main .bteam-experience h2 {
-      color: #FFFFFF;
+      color: #292929;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px;
       margin-bottom: 30px; }
     .bteam-main .bteam-experience h3 {
-      color: #FFFFFF; }
+      color: #292929;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 23px; }
+    .bteam-main .bteam-experience img {
+      width: 50%;
+      opacity: 0.2;
+      display: block;
+      text-align: center; }
+      .bteam-main .bteam-experience img.img-responsive {
+        vertical-align: middle;
+        margin-bottom: 0; }
     .bteam-main .bteam-experience .link-more {
       color: #ff7e20;
-      display: block;
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 600;
+      display: block;
       line-height: 0;
       text-decoration: none;
       margin-top: 40px; }
   .bteam-main .bteam-recover {
-    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: url(../images/tabs/big-team/chart.svg), #292929;
-    background-repeat: no-repeat;
-    background-size: 11%;
-    background-position: 30% center;
+    background: #292929;
     padding: 80px 0; }
     .bteam-main .bteam-recover h2 {
       color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px;
       margin-bottom: 30px; }
     .bteam-main .bteam-recover h3 {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 23px; }
+    .bteam-main .bteam-recover img {
+      width: 50%;
+      opacity: 0.6;
+      display: block;
+      text-align: center; }
+      .bteam-main .bteam-recover img.img-responsive {
+        vertical-align: middle;
+        margin-bottom: 0; }
     .bteam-main .bteam-recover .link-more {
       color: #ff7e20;
-      display: block;
+      font-family: 'MontserratBold', sans-serif;
       font-size: 20px;
-      font-weight: 600;
+      display: block;
       line-height: 0;
       text-decoration: none;
       margin-top: 40px; }
 
-.tab-pane .wrapper {
+.tab-pane {
   max-width: 100%;
   padding: 0; }
 
-.banner-developers {
-  background-color: #FFFFFF;
-  padding: 205px 0 0 0; }
-
 .developers-main {
-  font-family: 'Montserrat', sans-serif;
-  text-align: left; }
+  text-align: left;
+  padding: 100px 0 0 0; }
+  .developers-main h1 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 48px; }
+  .developers-main h3 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 23px; }
   .developers-main .link-visit {
     color: #ff7e20;
-    display: block;
+    font-family: 'MontserratBold', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    display: block;
     line-height: 0;
     text-decoration: none;
-    margin-top: 40px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 20px; }
   .developers-main .media {
     margin-top: 50px; }
     .developers-main .media:first-child {
@@ -1130,7 +1263,12 @@ footer {
         margin-right: 0px; }
     .developers-main .media .media-body {
       text-align: left; }
+      .developers-main .media .media-body h4 {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 20px; }
       .developers-main .media .media-body p {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         margin-top: 0; }
   .developers-main .developers-join {
     text-align: center;
@@ -1139,8 +1277,8 @@ footer {
     padding: 40px 0; }
     .developers-main .developers-join h2 {
       color: #FFFFFF;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700 !important;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 48px;
       text-transform: uppercase; }
     .developers-main .developers-join .btn-orange {
       font-size: 20px;
@@ -2145,9 +2283,8 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 15px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
         text-align: left;
         text-transform: uppercase;
         letter-spacing: normal;
@@ -2162,19 +2299,18 @@ footer {
         header .collapse li a.link-s2, header .collapsing li a.link-s2 {
           text-transform: capitalize; }
       header .collapse li .pos-2, header .collapsing li .pos-2 {
-        margin-left: -4px; }
+        margin-left: 0px; }
     header .collapse ul, header .collapsing ul {
       padding: 0;
       list-style: none;
       margin-bottom: 0.6rem;
-      padding-left: 13px; }
+      padding-left: 5px; }
       header .collapse ul li, header .collapsing ul li {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
+          font-family: 'MontserratBold', sans-serif;
           font-size: 15px;
-          font-weight: 400;
-          font-family: 'Montserrat', sans-serif;
           text-align: left;
           text-transform: uppercase;
           letter-spacing: normal;
@@ -2189,7 +2325,7 @@ footer {
             padding-left: 20px; }
     header .collapse .btns, header .collapsing .btns {
       text-align: left;
-      padding: 0px 27px 20px 27px; }
+      padding: 0px 18px 20px 18px; }
       header .collapse .btns .orange, header .collapsing .btns .orange {
         margin-right: 10px; }
     header .logo {
@@ -2197,7 +2333,7 @@ footer {
       margin-top: 3px; }
     header .logo-text {
       font-size: 23px;
-      line-height: 1.8; }
+      line-height: 1.7; }
     header .fa-bars {
       font-size: 20px; }
     header .Jnav {
@@ -2208,14 +2344,21 @@ footer {
           text-align: left;
           border-bottom: 0; }
 
-  .banner h1 {
-    font-size: 28px; }
-  .banner h3 {
-    font-size: 16px;
-    margin-top: 0; }
-  .banner p {
-    font-size: 13px;
-    margin-top: 10px; }
+  .banner {
+    padding: 40px 0; }
+    .banner .row {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .banner h1 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important; }
+    .banner h3 {
+      font-size: 20px;
+      margin-top: 0; }
+    .banner p {
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 0 10px; }
 
   .logos-section {
     padding: 26px 0px 14px; }
@@ -2224,55 +2367,86 @@ footer {
       .logos-section .wrapper h5 {
         padding: 0 20px; }
     .logos-section .text-logos {
-      font-size: 13px;
-      line-height: normal; }
+      font-size: 16px;
+      line-height: normal;
+      padding: 0 10px; }
+    .logos-section.grayBG .left-logo-holder {
+      float: none;
+      margin: 0 auto;
+      display: inline-block; }
+    .logos-section.grayBG .right-logo-holder {
+      float: none;
+      margin: 0 auto;
+      display: inline-block; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
 
   .white-frange {
-    padding: 0 0 26px 0; }
-    .white-frange .triangulo_inf {
+    padding: 26px 0 26px 0; }
+    .white-frange .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -26px;
+      margin-left: -15px;
       margin-bottom: 20px; }
+    .white-frange h1 {
+      padding-left: 12px;
+      padding-right: 12px; }
+    .white-frange .bannerbox {
+      font-size: 30px;
+      letter-spacing: normal;
+      padding: 0; }
 
-  #sticky-wrapper {
-    height: 110px; }
-
-  .grayBG .wrapper {
-    padding: 0; }
-  .grayBG h1 {
-    font-size: 30px; }
-  .grayBG ul li a {
-    font-size: 13px;
-    font-weight: 700; }
+  footer.gray h1 {
+    font-size: 24px; }
+  footer.gray .tabs-menu li a {
+    font-size: 12px;
+    padding: 0 4px 7px 4px; }
+    footer.gray .tabs-menu li a:hover {
+      border-bottom: 0px solid #ff7e20; }
+  footer.show {
+    top: 41px;
+    padding: 10px 0 0px !important; }
+    footer.show h1 {
+      display: none; }
+    footer.show ul {
+      width: 100% !important; }
 
   .blue-frange h1 {
-    font-size: 28px; }
-  .blue-frange h3 {
-    font-size: 13px; }
+    font-size: 1.9rem;
+    padding-bottom: 10px; }
+  .blue-frange h5 {
+    font-size: 1.2rem; }
 
-  .white-frange .started_form button.btn-primary {
-    padding: 12px 20px; }
-  .white-frange .started_form button.btn-orange {
-    padding: 12px 20px; }
+  .white-frange .started_form {
+    padding: 18px; }
+    .white-frange .started_form button.btn {
+      font-size: 16.5px; }
+    .white-frange .started_form button.btn-primary {
+      padding: 12px 28px; }
+    .white-frange .started_form button.btn-orange {
+      padding: 12px 20px; }
 
-  .tab-content .wrapper {
+  .tab-content {
     max-width: 100%;
     padding: 0; }
-
-  .banner-myself {
-    background-image: url("../images/tabs/myself/myself_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
-    padding: 205px 0 0 0; }
+    .tab-content.banner-myself {
+      background-image: url("../images/tabs/myself/myself_back.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: contain;
+      padding: 205px 0 0 0; }
 
   .myself-main {
     text-align: left; }
     .myself-main .pull-right {
       float: none !important; }
       .myself-main .pull-right h2 {
+        font-size: 34px;
         text-align: center; }
       .myself-main .pull-right p {
+        font-size: 15px;
         padding-right: 20px;
         padding-left: 20px; }
     .myself-main .media {
@@ -2280,7 +2454,7 @@ footer {
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -2301,13 +2475,13 @@ footer {
       .myself-main .media .media-body {
         text-align: left; }
         .myself-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0;
           padding: 0; }
         .myself-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
@@ -2324,11 +2498,11 @@ footer {
     .myself-main .my-action {
       padding: 80px 18px; }
       .myself-main .my-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
-        margin-bottom: 60px; }
+        margin-bottom: 30px; }
         .myself-main .my-action .container-actions:last-child {
           margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
@@ -2343,18 +2517,22 @@ footer {
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .myself-main .my-action .container-actions p {
+          font-size: 15px;
+          margin-bottom: 0; }
     .myself-main .icons-panel {
       background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
         max-width: 100%;
-        margin: 0 auto 40px auto;
+        margin: 0 auto 50px auto;
         padding: 0 18px; }
         .myself-main .icons-panel .box-icons:last-child {
+          margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 50%;
+          max-width: 40%;
           height: auto;
           text-align: center;
           -webkit-border-radius: 50%;
@@ -2362,22 +2540,18 @@ footer {
           border-radius: 50%;
           background-color: #FFFFFF;
           margin-bottom: 20px; }
-        .myself-main .icons-panel .box-icons h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
         .myself-main .icons-panel .box-icons p {
-          font-weight: 400;
-          margin: 0;
+          font-size: 15px;
           padding-left: 18px;
-          padding-right: 18px; }
+          padding-right: 18px;
+          margin: 0; }
     .myself-main .my-tour {
       text-align: center;
       background-color: #1999d6;
-      padding: 80px 0; }
+      padding: 40px 20px; }
       .myself-main .my-tour h2 {
         color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-size: 1.9rem;
         text-transform: uppercase; }
       .myself-main .my-tour .btn-orange {
         font-size: 20px;
@@ -2387,19 +2561,18 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-steam {
+  .steam-main {
+    text-align: center;
     background-image: url("../images/tabs/small-team/steam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain; }
-
-  .steam-main {
-    text-align: center; }
+    background-size: 80%; }
     .steam-main h2:nth-child(1) {
+      font-size: 34px;
       text-align: center;
       margin-top: 80px;
       padding-left: 18px;
@@ -2409,12 +2582,14 @@ footer {
       text-align: center;
       padding-left: 18px;
       padding-right: 18px; }
+    .steam-main h5 {
+      padding: 0 15px; }
     .steam-main .media {
       margin-top: 50px;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
           font-size: 4rem;
           margin-left: 8px;
@@ -2430,12 +2605,13 @@ footer {
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
-          margin-top: 0; }
+          font-size: 15px;
+          margin-top: 0;
+          margin-bottom: 10px; }
         .steam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .steam-main .steam-free {
@@ -2480,10 +2656,10 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 60px; }
+        margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
         width: 100%;
         padding-left: 18px;
@@ -2500,6 +2676,8 @@ footer {
           margin-left: 0px; }
         .steam-main .steam-action .container-actions.special-pos-3 {
           margin-top: 0px; }
+        .steam-main .steam-action .container-actions:last-child {
+          margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -2507,6 +2685,8 @@ footer {
         .steam-main .steam-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .steam-main .steam-action .container-actions p {
+          font-size: 15px; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
@@ -2543,7 +2723,6 @@ footer {
       padding: 60px 0; }
       .steam-main .steam-wait h2 {
         font-size: 1.9rem;
-        margin-top: 200px;
         margin-bottom: 30px; }
       .steam-main .steam-wait h3 {
         padding-left: 18px;
@@ -2554,20 +2733,19 @@ footer {
         padding-left: 18px;
         padding-right: 18px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-bteam {
+  .bteam-main {
+    text-align: center;
     background-image: url("../images/tabs/big-team/bteam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
     padding: 205px 0 0 0; }
-
-  .bteam-main {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; }
+    .bteam-main h2 {
+      font-size: 34px; }
     .bteam-main h3 {
       font-size: 1.5rem;
       padding-left: 18px;
@@ -2577,7 +2755,7 @@ footer {
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .bteam-main .media .media-left .fa-lightbulb-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -2596,41 +2774,45 @@ footer {
           margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
+        .bteam-main .media .media-body h4 {
+          font-size: 20px; }
         .bteam-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0; }
         .bteam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/big-team/download.jpg), #292929;
+      background: #292929;
       background-repeat: no-repeat;
       background-size: 80%;
       background-position: center 20%;
-      padding: 80px 0 0 0;
+      padding: 80px 0 80px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
+      .bteam-main .bteam-download .img-responsive {
+        max-width: 80%; }
       .bteam-main .bteam-download h2 {
         font-size: 1.6rem;
-        margin-top: 220px;
+        margin-top: 10px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/big-team/panel.svg), #292929;
+      background: #FFFFFF;
       background-repeat: no-repeat;
       background-size: 40%;
       background-position: center 11%;
-      padding: 80px 0 0 0; }
+      padding: 80px 0 80px 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.6rem;
-        margin-top: 160px;
+        font-size: 1.9rem;
+        margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -2638,38 +2820,43 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/big-team/chart.svg), #292929;
+      background: #292929;
       background-repeat: no-repeat;
       background-size: 40%;
       background-position: center 11%;
       padding: 80px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.6rem;
-        margin-top: 160px;
+        font-size: 1.9rem;
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 40px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-developers {
-    background-color: #FFFFFF;
-    padding: 105px 0 0 0; }
-
   .developers-main {
-    text-align: center; }
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 60px 0 0 0; }
+    .developers-main h1 {
+      font-size: 34px; }
     .developers-main .link-visit {
       line-height: normal;
       margin-top: 20px;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .developers-main .media {
       margin-top: 30px; }
       .developers-main .media:first-child {
         margin-top: 0; }
+      .developers-main .media .media-left {
+        padding-right: 15px; }
+      .developers-main .media .media-body p {
+        font-size: 15px;
+        margin-bottom: 0; }
     .developers-main .developers-join h2 {
       font-size: 1.9rem;
       padding-left: 18px;
@@ -2694,9 +2881,8 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 15px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
         text-align: left;
         text-transform: uppercase;
         letter-spacing: normal;
@@ -2711,19 +2897,18 @@ footer {
         header .collapse li a.link-s2, header .collapsing li a.link-s2 {
           text-transform: capitalize; }
       header .collapse li .pos-2, header .collapsing li .pos-2 {
-        margin-left: -4px; }
+        margin-left: 0px; }
     header .collapse ul, header .collapsing ul {
       padding: 0;
       list-style: none;
       margin-bottom: 0.6rem;
-      padding-left: 13px; }
+      padding-left: 5px; }
       header .collapse ul li, header .collapsing ul li {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
+          font-family: 'MontserratBold', sans-serif;
           font-size: 15px;
-          font-weight: 400;
-          font-family: 'Montserrat', sans-serif;
           text-align: left;
           text-transform: uppercase;
           letter-spacing: normal;
@@ -2738,7 +2923,7 @@ footer {
             padding-left: 20px; }
     header .collapse .btns, header .collapsing .btns {
       text-align: left;
-      padding: 0px 27px 20px 27px; }
+      padding: 0px 18px 20px 18px; }
       header .collapse .btns .orange, header .collapsing .btns .orange {
         margin-right: 10px; }
     header .logo {
@@ -2746,18 +2931,32 @@ footer {
       margin-top: 3px; }
     header .logo-text {
       font-size: 23px;
-      line-height: 1.8; }
+      line-height: 1.7; }
     header .fa-bars {
       font-size: 20px; }
+    header .Jnav {
+      top: 41px; }
+      header .Jnav nav ul {
+        padding: 0 12px; }
+        header .Jnav nav ul li {
+          text-align: left;
+          border-bottom: 0; }
 
-  .banner h1 {
-    font-size: 28px; }
-  .banner h3 {
-    font-size: 16px;
-    margin-top: 0; }
-  .banner p {
-    font-size: 13px;
-    margin-top: 10px; }
+  .banner {
+    padding: 40px 0; }
+    .banner .row {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .banner h1 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important; }
+    .banner h3 {
+      font-size: 20px;
+      margin-top: 0; }
+    .banner p {
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 0 10px; }
 
   .logos-section {
     padding: 26px 0px 14px; }
@@ -2766,72 +2965,97 @@ footer {
       .logos-section .wrapper h5 {
         padding: 0 20px; }
     .logos-section .text-logos {
-      font-size: 13px;
-      line-height: normal; }
-    .logos-section .row-logo .left-logo-holder {
+      font-size: 16px;
+      line-height: normal;
+      padding: 0 15px; }
+    .logos-section.grayBG .left-logo-holder {
       float: none;
-      margin: 0 auto; }
-    .logos-section .row-logo .right-logo-holder {
+      margin: 0 auto;
+      display: inline-block; }
+    .logos-section.grayBG .right-logo-holder {
       float: none;
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: inline-block; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
 
   .white-frange {
-    padding: 0 0 26px 0; }
-    .white-frange .triangulo_inf {
+    padding: 26px 0 26px 0; }
+    .white-frange .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -26px;
+      margin-left: -15px;
       margin-bottom: 20px; }
+    .white-frange h1 {
+      padding-left: 12px;
+      padding-right: 12px; }
+    .white-frange .bannerbox {
+      font-size: 30px;
+      letter-spacing: normal;
+      padding: 0; }
 
-  #sticky-wrapper {
-    height: 110px; }
-
-  .grayBG .wrapper {
-    padding: 0; }
-  .grayBG h1 {
-    font-size: 30px; }
-  .grayBG ul li a {
-    font-size: 13px;
-    font-weight: 700; }
+  footer.gray h1 {
+    font-size: 24px; }
+  footer.gray .tabs-menu li a {
+    font-size: 12px;
+    padding: 0 4px 7px 4px; }
+    footer.gray .tabs-menu li a:hover {
+      border-bottom: 0px solid #ff7e20; }
+  footer.show {
+    top: 41px;
+    padding: 10px 0 0px !important; }
+    footer.show h1 {
+      display: none; }
+    footer.show ul {
+      width: 100% !important; }
 
   .blue-frange h1 {
-    font-size: 28px; }
-  .blue-frange h3 {
-    font-size: 13px; }
+    font-size: 1.9rem;
+    padding-bottom: 10px; }
+  .blue-frange h5 {
+    font-size: 1.2rem; }
 
-  .white-frange .started_form button.btn-primary {
-    padding: 12px 20px; }
-  .white-frange .started_form button.btn-orange {
-    padding: 12px 20px; }
+  .white-frange .started_form {
+    padding: 18px; }
+    .white-frange .started_form button.btn {
+      font-size: 16.5px; }
+    .white-frange .started_form button.btn-primary {
+      padding: 12px 28px; }
+    .white-frange .started_form button.btn-orange {
+      padding: 12px 20px; }
 
-  .tab-content .wrapper {
+  .tab-content {
     max-width: 100%;
     padding: 0; }
-
-  .banner-myself {
-    background-image: url("../images/tabs/myself/myself_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
+    .tab-content.banner-myself {
+      background-image: url("../images/tabs/myself/myself_back.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 430px;
+      padding: 205px 0 0 0; }
 
   .myself-main {
     text-align: left; }
     .myself-main .pull-right {
       float: none !important; }
       .myself-main .pull-right h2 {
-        text-align: center; }
+        font-size: 34px;
+        text-align: center;
+        margin-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px; }
       .myself-main .pull-right p {
+        font-size: 15px;
         padding-right: 20px;
         padding-left: 20px; }
     .myself-main .media {
-      width: 480px;
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -2852,13 +3076,13 @@ footer {
       .myself-main .media .media-body {
         text-align: left; }
         .myself-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0;
           padding: 0; }
         .myself-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
@@ -2875,13 +3099,13 @@ footer {
     .myself-main .my-action {
       padding: 80px 18px; }
       .myself-main .my-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 60px; }
+        margin-bottom: 30px; }
         .myself-main .my-action .container-actions:last-child {
           margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
@@ -2897,15 +3121,19 @@ footer {
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .myself-main .my-action .container-actions p {
+          font-size: 15px;
+          margin-bottom: 0; }
     .myself-main .icons-panel {
       background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
         max-width: 100%;
-        margin: 0 auto 60px auto;
+        margin: 0 auto 50px auto;
         padding: 0 18px; }
         .myself-main .icons-panel .box-icons:last-child {
+          margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
           max-width: 30%;
@@ -2916,22 +3144,18 @@ footer {
           border-radius: 50%;
           background-color: #FFFFFF;
           margin-bottom: 20px; }
-        .myself-main .icons-panel .box-icons h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
         .myself-main .icons-panel .box-icons p {
-          font-weight: 400;
-          margin: 0;
+          font-size: 15px;
           padding-left: 18px;
-          padding-right: 18px; }
+          padding-right: 18px;
+          margin: 0; }
     .myself-main .my-tour {
       text-align: center;
       background-color: #1999d6;
-      padding: 80px 0; }
+      padding: 40px 20px; }
       .myself-main .my-tour h2 {
         color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-size: 1.9rem;
         text-transform: uppercase; }
       .myself-main .my-tour .btn-orange {
         font-size: 20px;
@@ -2941,22 +3165,20 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-steam {
+  .steam-main {
+    text-align: center;
     background-image: url("../images/tabs/small-team/steam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
-
-  .steam-main {
-    text-align: center; }
+    background-size: 400px; }
     .steam-main h2:nth-child(1) {
+      font-size: 34px;
       text-align: center;
-      margin-top: 80px;
+      margin-top: 180px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -2964,12 +3186,14 @@ footer {
       text-align: center;
       padding-left: 18px;
       padding-right: 18px; }
+    .steam-main h5 {
+      padding: 0 15px; }
     .steam-main .media {
       margin-top: 50px;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
           font-size: 4rem;
           margin-left: 8px;
@@ -2985,12 +3209,13 @@ footer {
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
-          margin-top: 0; }
+          font-size: 15px;
+          margin-top: 0;
+          margin-bottom: 10px; }
         .steam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .steam-main .steam-free {
@@ -3035,10 +3260,10 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 60px; }
+        margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
         width: 100%;
         padding-left: 18px;
@@ -3051,17 +3276,14 @@ footer {
         .steam-main .steam-action .container-actions:nth-child(2) {
           margin-bottom: 60px; }
         .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-left: auto;
-          margin-right: auto;
           margin-top: 0px; }
         .steam-main .steam-action .container-actions.special-pos-2 {
           margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-left: 0px; }
         .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-top: 0px; }
+        .steam-main .steam-action .container-actions:last-child {
+          margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -3069,6 +3291,8 @@ footer {
         .steam-main .steam-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .steam-main .steam-action .container-actions p {
+          font-size: 15px; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
@@ -3080,7 +3304,7 @@ footer {
       text-align: center;
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, left center;
+      background-position: center center, 22% center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -3098,14 +3322,12 @@ footer {
         padding-right: 18px; }
     .steam-main .steam-wait {
       text-align: center;
-      background-image: url(../images/tabs/small-team/steam_back.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center top;
       padding: 60px 0; }
+      .steam-main .steam-wait .img-responsive {
+        max-width: 70%; }
       .steam-main .steam-wait h2 {
         font-size: 1.9rem;
-        margin-top: 318px;
+        margin-top: 0;
         margin-bottom: 30px; }
       .steam-main .steam-wait h3 {
         padding-left: 18px;
@@ -3116,34 +3338,29 @@ footer {
         padding-left: 18px;
         padding-right: 18px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-bteam {
+  .bteam-main {
+    text-align: center;
     background-image: url("../images/tabs/big-team/bteam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 205px 0 0 0; }
-
-  .bteam-main {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; }
+    background-size: 400px;
+    padding: 240px 0 0 0; }
     .bteam-main h2 {
-      margin-top: 100px; }
+      font-size: 34px; }
     .bteam-main h3 {
       font-size: 1.5rem;
       padding-left: 18px;
       padding-right: 18px; }
     .bteam-main .media {
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .bteam-main .media .media-left .fa-lightbulb-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -3162,41 +3379,41 @@ footer {
           margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
+        .bteam-main .media .media-body h4 {
+          font-size: 20px; }
         .bteam-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0; }
         .bteam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/big-team/download.jpg), #292929;
-      background-repeat: no-repeat;
-      background-size: 66%;
-      background-position: center 20%;
-      padding: 80px 0 20px 0;
+      background: #292929;
+      padding: 80px 0 80px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
+      .bteam-main .bteam-download .img-responsive {
+        max-width: 50%; }
       .bteam-main .bteam-download h2 {
         font-size: 1.6rem;
-        margin-top: 220px;
+        margin-top: 10px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/big-team/panel.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 34%;
-      background-position: center 11%;
-      padding: 80px 0 20px 0; }
+      background: #FFFFFF;
+      padding: 80px 0 80px 0; }
+      .bteam-main .bteam-experience .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.6rem;
-        margin-top: 170px;
+        font-size: 1.9rem;
+        margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -3204,40 +3421,42 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/big-team/chart.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 34%;
-      background-position: center 11%;
+      background: #292929;
       padding: 80px 0; }
+      .bteam-main .bteam-recover .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.6rem;
-        margin-top: 170px;
+        font-size: 1.9rem;
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 40px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-developers {
-    background-color: #FFFFFF;
-    padding: 105px 0 0 0; }
-
   .developers-main {
-    text-align: center; }
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 60px 0 0 0; }
+    .developers-main h1 {
+      font-size: 34px; }
     .developers-main .link-visit {
       line-height: normal;
       margin-top: 20px;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .developers-main .media {
-      margin-top: 30px;
-      margin-left: auto;
-      margin-right: auto; }
+      margin-top: 30px; }
       .developers-main .media:first-child {
         margin-top: 0; }
+      .developers-main .media .media-left {
+        padding-right: 15px; }
+      .developers-main .media .media-body p {
+        font-size: 15px;
+        margin-bottom: 0; }
     .developers-main .developers-join h2 {
       font-size: 1.9rem;
       padding-left: 18px;
@@ -3262,9 +3481,8 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 15px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
         text-align: left;
         text-transform: uppercase;
         letter-spacing: normal;
@@ -3279,19 +3497,18 @@ footer {
         header .collapse li a.link-s2, header .collapsing li a.link-s2 {
           text-transform: capitalize; }
       header .collapse li .pos-2, header .collapsing li .pos-2 {
-        margin-left: -4px; }
+        margin-left: 0px; }
     header .collapse ul, header .collapsing ul {
       padding: 0;
       list-style: none;
       margin-bottom: 0.6rem;
-      padding-left: 13px; }
+      padding-left: 5px; }
       header .collapse ul li, header .collapsing ul li {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
+          font-family: 'MontserratBold', sans-serif;
           font-size: 15px;
-          font-weight: 400;
-          font-family: 'Montserrat', sans-serif;
           text-align: left;
           text-transform: uppercase;
           letter-spacing: normal;
@@ -3306,7 +3523,7 @@ footer {
             padding-left: 20px; }
     header .collapse .btns, header .collapsing .btns {
       text-align: left;
-      padding: 0px 27px 20px 27px; }
+      padding: 0px 18px 20px 18px; }
       header .collapse .btns .orange, header .collapsing .btns .orange {
         margin-right: 10px; }
     header .logo {
@@ -3314,54 +3531,131 @@ footer {
       margin-top: 3px; }
     header .logo-text {
       font-size: 23px;
-      line-height: 1.8; }
+      line-height: 1.7; }
     header .fa-bars {
       font-size: 20px; }
+    header .Jnav {
+      top: 41px; }
+      header .Jnav nav ul {
+        padding: 0 12px; }
+        header .Jnav nav ul li {
+          text-align: left;
+          border-bottom: 0; }
 
-  .logos-section .row-logo .left-logo-holder {
-    float: none;
-    margin: 0 auto; }
-  .logos-section .row-logo .right-logo-holder {
-    float: none;
-    margin: 0 auto; }
-  .logos-section .row-logo a {
-    padding: 25px 5px; }
+  .banner {
+    padding: 40px 0; }
+    .banner .row {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .banner h1 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important; }
+    .banner h3 {
+      font-size: 20px;
+      margin-top: 0; }
+    .banner p {
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 0 10px; }
+
+  .logos-section {
+    padding: 26px 0px 14px; }
+    .logos-section .wrapper {
+      padding: 0; }
+      .logos-section .wrapper h5 {
+        padding: 0 20px; }
+    .logos-section .text-logos {
+      font-size: 16px;
+      line-height: normal;
+      padding: 0 15px; }
+    .logos-section.grayBG .left-logo-holder {
+      float: none;
+      margin: 0 auto;
+      display: inline-block; }
+    .logos-section.grayBG .right-logo-holder {
+      float: none;
+      margin: 0 auto;
+      display: inline-block; }
+    .logos-section .row-logo a {
+      padding: 25px 5px; }
 
   .white-frange {
-    padding: 0 0 80px 0; }
+    padding: 26px 0 26px 0; }
+    .white-frange .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -26px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
     .white-frange h1 {
-      font-size: 45px; }
+      padding-left: 12px;
+      padding-right: 12px; }
+    .white-frange .bannerbox {
+      font-size: 30px;
+      letter-spacing: normal;
+      padding: 0; }
 
-  .tab-content .wrapper {
+  footer.gray h1 {
+    font-size: 24px; }
+  footer.gray .tabs-menu li a {
+    font-size: 16px;
+    padding: 0 12px 7px 12px; }
+    footer.gray .tabs-menu li a:hover {
+      border-bottom: 0px solid #ff7e20; }
+  footer.show {
+    top: 41px;
+    padding: 10px 0 0px !important; }
+    footer.show h1 {
+      display: none; }
+    footer.show ul {
+      width: 100% !important; }
+
+  .blue-frange h1 {
+    font-size: 1.9rem;
+    padding-bottom: 10px; }
+  .blue-frange h5 {
+    font-size: 1.2rem; }
+
+  .white-frange .started_form {
+    padding: 18px; }
+    .white-frange .started_form button.btn {
+      font-size: 16.5px; }
+    .white-frange .started_form button.btn-primary {
+      padding: 12px 28px; }
+    .white-frange .started_form button.btn-orange {
+      padding: 12px 20px; }
+
+  .tab-content {
     max-width: 100%;
     padding: 0; }
-
-  .banner-myself {
-    background-image: url("../images/tabs/myself/myself_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
+    .tab-content.banner-myself {
+      background-image: url("../images/tabs/myself/myself_back.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 430px;
+      padding: 205px 0 0 0; }
 
   .myself-main {
     text-align: left; }
     .myself-main .pull-right {
       float: none !important; }
       .myself-main .pull-right h2 {
+        font-size: 34px;
         text-align: center;
-        margin-top: 80px; }
+        margin-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px; }
       .myself-main .pull-right p {
+        font-size: 15px;
         padding-right: 20px;
         padding-left: 20px; }
     .myself-main .media {
-      width: 480px;
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -3382,13 +3676,13 @@ footer {
       .myself-main .media .media-body {
         text-align: left; }
         .myself-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0;
           padding: 0; }
         .myself-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
@@ -3405,13 +3699,13 @@ footer {
     .myself-main .my-action {
       padding: 80px 18px; }
       .myself-main .my-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 60px; }
+        margin-bottom: 30px; }
         .myself-main .my-action .container-actions:last-child {
           margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
@@ -3427,15 +3721,19 @@ footer {
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .myself-main .my-action .container-actions p {
+          font-size: 15px;
+          margin-bottom: 0; }
     .myself-main .icons-panel {
       background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
         max-width: 100%;
-        margin: 0 auto 60px auto;
+        margin: 0 auto 50px auto;
         padding: 0 18px; }
         .myself-main .icons-panel .box-icons:last-child {
+          margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
           max-width: 30%;
@@ -3446,22 +3744,18 @@ footer {
           border-radius: 50%;
           background-color: #FFFFFF;
           margin-bottom: 20px; }
-        .myself-main .icons-panel .box-icons h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
         .myself-main .icons-panel .box-icons p {
-          font-weight: 400;
-          margin: 0;
+          font-size: 15px;
           padding-left: 18px;
-          padding-right: 18px; }
+          padding-right: 18px;
+          margin: 0; }
     .myself-main .my-tour {
       text-align: center;
       background-color: #1999d6;
-      padding: 80px 0; }
+      padding: 40px 20px; }
       .myself-main .my-tour h2 {
         color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-size: 1.9rem;
         text-transform: uppercase; }
       .myself-main .my-tour .btn-orange {
         font-size: 20px;
@@ -3471,22 +3765,20 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-steam {
+  .steam-main {
+    text-align: center;
     background-image: url("../images/tabs/small-team/steam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
-
-  .steam-main {
-    text-align: center; }
+    background-size: 400px; }
     .steam-main h2:nth-child(1) {
+      font-size: 34px;
       text-align: center;
-      margin-top: 200px;
+      margin-top: 180px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -3494,12 +3786,14 @@ footer {
       text-align: center;
       padding-left: 18px;
       padding-right: 18px; }
+    .steam-main h5 {
+      padding: 0 15px; }
     .steam-main .media {
       margin-top: 50px;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
           font-size: 4rem;
           margin-left: 8px;
@@ -3515,12 +3809,13 @@ footer {
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
-          margin-top: 0; }
+          font-size: 15px;
+          margin-top: 0;
+          margin-bottom: 10px; }
         .steam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .steam-main .steam-free {
@@ -3565,10 +3860,10 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 60px; }
+        margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
         width: 100%;
         padding-left: 18px;
@@ -3581,17 +3876,14 @@ footer {
         .steam-main .steam-action .container-actions:nth-child(2) {
           margin-bottom: 60px; }
         .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-left: auto;
-          margin-right: auto;
           margin-top: 0px; }
         .steam-main .steam-action .container-actions.special-pos-2 {
           margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-left: 0px; }
         .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-top: 0px; }
+        .steam-main .steam-action .container-actions:last-child {
+          margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -3599,6 +3891,8 @@ footer {
         .steam-main .steam-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .steam-main .steam-action .container-actions p {
+          font-size: 15px; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
@@ -3610,7 +3904,7 @@ footer {
       text-align: center;
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, left center;
+      background-position: center center, 22% center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -3628,14 +3922,12 @@ footer {
         padding-right: 18px; }
     .steam-main .steam-wait {
       text-align: center;
-      background-image: url(../images/tabs/small-team/steam_back.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center top;
       padding: 60px 0; }
+      .steam-main .steam-wait .img-responsive {
+        max-width: 70%; }
       .steam-main .steam-wait h2 {
         font-size: 1.9rem;
-        margin-top: 448px;
+        margin-top: 0;
         margin-bottom: 30px; }
       .steam-main .steam-wait h3 {
         padding-left: 18px;
@@ -3646,34 +3938,29 @@ footer {
         padding-left: 18px;
         padding-right: 18px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-bteam {
+  .bteam-main {
+    text-align: center;
     background-image: url("../images/tabs/big-team/bteam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 205px 0 0 0; }
-
-  .bteam-main {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; }
+    background-size: 400px;
+    padding: 240px 0 0 0; }
     .bteam-main h2 {
-      margin-top: 220px; }
+      font-size: 34px; }
     .bteam-main h3 {
       font-size: 1.5rem;
       padding-left: 18px;
       padding-right: 18px; }
     .bteam-main .media {
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .bteam-main .media .media-left .fa-lightbulb-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -3692,41 +3979,41 @@ footer {
           margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
+        .bteam-main .media .media-body h4 {
+          font-size: 20px; }
         .bteam-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0; }
         .bteam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/big-team/download.jpg), #292929;
-      background-repeat: no-repeat;
-      background-size: 50%;
-      background-position: center 20%;
-      padding: 80px 0 60px 0;
+      background: #292929;
+      padding: 80px 0 80px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
+      .bteam-main .bteam-download .img-responsive {
+        max-width: 50%; }
       .bteam-main .bteam-download h2 {
         font-size: 1.6rem;
-        margin-top: 240px;
+        margin-top: 10px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/big-team/panel.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 24%;
-      background-position: center 11%;
-      padding: 80px 0 60px 0; }
+      background: #FFFFFF;
+      padding: 80px 0 80px 0; }
+      .bteam-main .bteam-experience .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.6rem;
-        margin-top: 170px;
+        font-size: 1.9rem;
+        margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -3734,40 +4021,42 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/big-team/chart.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 24%;
-      background-position: center 11%;
+      background: #292929;
       padding: 80px 0; }
+      .bteam-main .bteam-recover .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.6rem;
-        margin-top: 170px;
+        font-size: 1.9rem;
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 40px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-developers {
-    background-color: #FFFFFF;
-    padding: 105px 0 0 0; }
-
   .developers-main {
-    text-align: center; }
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 60px 0 0 0; }
+    .developers-main h1 {
+      font-size: 34px; }
     .developers-main .link-visit {
       line-height: normal;
       margin-top: 20px;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .developers-main .media {
-      margin-top: 30px;
-      margin-left: auto;
-      margin-right: auto; }
+      margin-top: 30px; }
       .developers-main .media:first-child {
         margin-top: 0; }
+      .developers-main .media .media-left {
+        padding-right: 15px; }
+      .developers-main .media .media-body p {
+        font-size: 15px;
+        margin-bottom: 0; }
     .developers-main .developers-join h2 {
       font-size: 1.9rem;
       padding-left: 18px;
@@ -3776,51 +4065,12 @@ footer {
       font-size: 1rem;
       padding: 15px 45px;
       margin-top: 20px; } }
-@media (max-width: 640px) {
-  .real-time h1 {
-    font-size: 28px !important;
-    font-weight: bold; }
-
-  .config-right-content {
-    padding: 80px 20px 0; }
-    .config-right-content h3 {
-      font-size: 23px; }
-    .config-right-content .media .fa-check {
-      font-size: 20px; }
-
-  .config-left-content {
-    padding: 80px 20px 0; }
-    .config-left-content h3 {
-      font-size: 23px; }
-    .config-left-content .media .fa-check {
-      font-size: 20px; }
-
-  .steam-free-2 {
-    padding: 40px 20px; }
-
-  .media-heading {
-    font-size: 20px; }
-
-  h4 {
-    font-size: 18px !important;
-    line-height: 25px; }
-
-  h3 {
-    font-size: 20px !important; }
-
-  h2 {
-    font-size: 25px !important; }
-
-  .banner h1 {
-    font-size: 30px !important; }
-
-  .the-last {
-    margin-bottom: 50px; } }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 0;
     border-bottom: 0; }
     header .navbar {
+      width: 100%;
       padding: 0 1rem; }
     header .navbar-light {
       background-color: #FFFFFF; }
@@ -3832,9 +4082,8 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 15px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
         text-align: left;
         text-transform: uppercase;
         letter-spacing: normal;
@@ -3849,19 +4098,18 @@ footer {
         header .collapse li a.link-s2, header .collapsing li a.link-s2 {
           text-transform: capitalize; }
       header .collapse li .pos-2, header .collapsing li .pos-2 {
-        margin-left: -4px; }
+        margin-left: 0px; }
     header .collapse ul, header .collapsing ul {
       padding: 0;
       list-style: none;
       margin-bottom: 0.6rem;
-      padding-left: 13px; }
+      padding-left: 5px; }
       header .collapse ul li, header .collapsing ul li {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
+          font-family: 'MontserratBold', sans-serif;
           font-size: 15px;
-          font-weight: 400;
-          font-family: 'Montserrat', sans-serif;
           text-align: left;
           text-transform: uppercase;
           letter-spacing: normal;
@@ -3876,7 +4124,7 @@ footer {
             padding-left: 20px; }
     header .collapse .btns, header .collapsing .btns {
       text-align: left;
-      padding: 0px 27px 20px 27px; }
+      padding: 0px 18px 20px 18px; }
       header .collapse .btns .orange, header .collapsing .btns .orange {
         margin-right: 10px; }
     header .logo {
@@ -3884,54 +4132,129 @@ footer {
       margin-top: 3px; }
     header .logo-text {
       font-size: 23px;
-      line-height: 1.8; }
+      line-height: 1.7; }
     header .fa-bars {
       font-size: 20px; }
+    header .Jnav {
+      top: 41px; }
+      header .Jnav nav ul {
+        padding: 0 12px; }
+        header .Jnav nav ul li {
+          text-align: left;
+          border-bottom: 0; }
 
-  .logos-section .row-logo .left-logo-holder {
-    float: none;
-    margin: 0 auto; }
-  .logos-section .row-logo .right-logo-holder {
-    float: none;
-    margin: 0 auto; }
-  .logos-section .row-logo a {
-    padding: 25px 5px; }
+  .banner {
+    padding: 40px 0; }
+    .banner .row {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .banner h1 {
+      font-size: 40px !important;
+      margin-bottom: 10px !important; }
+    .banner h3 {
+      font-size: 20px;
+      margin-top: 0; }
+    .banner p {
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 0 10px; }
+
+  .logos-section {
+    padding: 26px 0px 14px; }
+    .logos-section .wrapper {
+      padding: 0; }
+      .logos-section .wrapper h5 {
+        padding: 0 20px; }
+    .logos-section .text-logos {
+      font-size: 16px;
+      line-height: normal;
+      padding: 0 15px; }
+    .logos-section.grayBG .left-logo-holder {
+      float: left;
+      max-width: 50%; }
+    .logos-section.grayBG .right-logo-holder {
+      float: left;
+      max-width: 50%; }
+    .logos-section .row-logo a {
+      padding: 25px 5px; }
 
   .white-frange {
-    padding: 0 0 80px 0; }
+    padding: 26px 0 26px 0; }
+    .white-frange .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -26px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
     .white-frange h1 {
-      font-size: 45px; }
+      padding-left: 12px;
+      padding-right: 12px; }
+    .white-frange .bannerbox {
+      font-size: 30px;
+      letter-spacing: normal;
+      padding: 0; }
 
-  .tab-content .wrapper {
+  footer.gray h1 {
+    font-size: 24px; }
+  footer.gray .tabs-menu li a {
+    font-size: 16px;
+    padding: 0 12px 7px 12px; }
+    footer.gray .tabs-menu li a:hover {
+      border-bottom: 0px solid #ff7e20; }
+  footer.show {
+    top: 41px;
+    padding: 10px 0 0px !important; }
+    footer.show h1 {
+      display: none; }
+    footer.show ul {
+      width: 100% !important; }
+
+  .blue-frange h1 {
+    font-size: 1.9rem;
+    padding-bottom: 10px; }
+  .blue-frange h5 {
+    font-size: 1.2rem; }
+
+  .white-frange .started_form {
+    padding: 18px; }
+    .white-frange .started_form button.btn {
+      font-size: 16.5px; }
+    .white-frange .started_form button.btn-primary {
+      padding: 12px 28px; }
+    .white-frange .started_form button.btn-orange {
+      padding: 12px 20px; }
+
+  .tab-content {
     max-width: 100%;
     padding: 0; }
-
-  .banner-myself {
-    background-image: url("../images/tabs/myself/myself_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
+    .tab-content.banner-myself {
+      background-image: url("../images/tabs/myself/myself_back.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 430px;
+      padding: 205px 0 0 0; }
 
   .myself-main {
     text-align: left; }
     .myself-main .pull-right {
       float: none !important; }
       .myself-main .pull-right h2 {
+        font-size: 34px;
         text-align: center;
-        margin-top: 150px; }
+        margin-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px; }
       .myself-main .pull-right p {
+        font-size: 15px;
         padding-right: 20px;
         padding-left: 20px; }
     .myself-main .media {
-      width: 480px;
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -3952,13 +4275,13 @@ footer {
       .myself-main .media .media-body {
         text-align: left; }
         .myself-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0;
           padding: 0; }
         .myself-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
@@ -3975,13 +4298,13 @@ footer {
     .myself-main .my-action {
       padding: 80px 18px; }
       .myself-main .my-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 60px; }
+        margin-bottom: 30px; }
         .myself-main .my-action .container-actions:last-child {
           margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
@@ -3997,19 +4320,32 @@ footer {
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .myself-main .my-action .container-actions p {
+          font-size: 15px;
+          margin-bottom: 0; }
     .myself-main .icons-panel {
       background: #292929;
       padding: 60px 0px; }
+      .myself-main .icons-panel .row {
+        width: 720px;
+        margin: 0 auto; }
       .myself-main .icons-panel .box-icons {
         float: left;
-        max-width: 340px;
-        margin: 0 auto 60px auto;
+        max-width: 360px;
+        width: 360px;
+        height: 186px !important;
+        margin: 0 auto 50px auto;
         padding: 0 18px; }
         .myself-main .icons-panel .box-icons:last-child {
-          float: none;
-          margin: 0 auto 60px auto; }
+          float: left;
+          max-width: 100%;
+          width: 100%;
+          margin-bottom: 0; }
+          .myself-main .icons-panel .box-icons:last-child img {
+            width: 97px;
+            height: 97px; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 50%;
+          max-width: 30%;
           height: auto;
           text-align: center;
           -webkit-border-radius: 50%;
@@ -4017,22 +4353,18 @@ footer {
           border-radius: 50%;
           background-color: #FFFFFF;
           margin-bottom: 20px; }
-        .myself-main .icons-panel .box-icons h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
         .myself-main .icons-panel .box-icons p {
-          font-weight: 400;
-          margin: 0;
+          font-size: 15px;
           padding-left: 18px;
-          padding-right: 18px; }
+          padding-right: 18px;
+          margin: 0; }
     .myself-main .my-tour {
       text-align: center;
       background-color: #1999d6;
-      padding: 80px 0; }
+      padding: 40px 20px; }
       .myself-main .my-tour h2 {
         color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-size: 1.9rem;
         text-transform: uppercase; }
       .myself-main .my-tour .btn-orange {
         font-size: 20px;
@@ -4042,22 +4374,20 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-steam {
+  .steam-main {
+    text-align: center;
     background-image: url("../images/tabs/small-team/steam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 305px 0 0 0; }
-
-  .steam-main {
-    text-align: center; }
+    background-size: 400px; }
     .steam-main h2:nth-child(1) {
+      font-size: 34px;
       text-align: center;
-      margin-top: 300px;
+      margin-top: 180px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -4065,15 +4395,14 @@ footer {
       text-align: center;
       padding-left: 18px;
       padding-right: 18px; }
+    .steam-main h5 {
+      padding: 0 15px; }
     .steam-main .media {
-      width: 600px;
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
           font-size: 4rem;
           margin-left: 8px;
@@ -4089,12 +4418,13 @@ footer {
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
-          margin-top: 0; }
+          font-size: 15px;
+          margin-top: 0;
+          margin-bottom: 10px; }
         .steam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .steam-main .steam-free {
@@ -4139,10 +4469,10 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 1.9rem;
+        font-size: 40px;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 60px; }
+        margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
         width: 100%;
         padding-left: 18px;
@@ -4150,24 +4480,19 @@ footer {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions:last-child {
-          max-width: 600px; }
         .steam-main .steam-action .container-actions.pull-right {
           float: none; }
         .steam-main .steam-action .container-actions:nth-child(2) {
           margin-bottom: 60px; }
         .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-left: auto;
-          margin-right: auto;
           margin-top: 0px; }
         .steam-main .steam-action .container-actions.special-pos-2 {
           margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-left: 0px; }
         .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px;
-          margin-left: auto;
-          margin-right: auto; }
+          margin-top: 0px; }
+        .steam-main .steam-action .container-actions:last-child {
+          margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -4175,8 +4500,9 @@ footer {
         .steam-main .steam-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
+        .steam-main .steam-action .container-actions p {
+          font-size: 15px; }
         .steam-main .steam-action .container-actions .media {
-          width: 100%;
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
             margin-top: 50px; }
@@ -4187,7 +4513,7 @@ footer {
       text-align: center;
       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
       background-size: cover;
-      background-position: center center, left center;
+      background-position: center center, 22% center;
       padding: 60px 0; }
       .steam-main .steam-scheduling h2 {
         font-size: 1.9rem;
@@ -4205,14 +4531,12 @@ footer {
         padding-right: 18px; }
     .steam-main .steam-wait {
       text-align: center;
-      background-image: url(../images/tabs/small-team/steam_back.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center top;
       padding: 60px 0; }
+      .steam-main .steam-wait .img-responsive {
+        max-width: 70%; }
       .steam-main .steam-wait h2 {
         font-size: 1.9rem;
-        margin-top: 548px;
+        margin-top: 0;
         margin-bottom: 30px; }
       .steam-main .steam-wait h3 {
         padding-left: 18px;
@@ -4223,34 +4547,29 @@ footer {
         padding-left: 18px;
         padding-right: 18px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-bteam {
+  .bteam-main {
+    text-align: center;
     background-image: url("../images/tabs/big-team/bteam_back.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    padding: 205px 0 0 0; }
-
-  .bteam-main {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; }
+    background-size: 400px;
+    padding: 240px 0 0 0; }
     .bteam-main h2 {
-      margin-top: 310px; }
+      font-size: 34px; }
     .bteam-main h3 {
       font-size: 1.5rem;
       padding-left: 18px;
       padding-right: 18px; }
     .bteam-main .media {
       margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
-        padding-right: 25px; }
+        padding-right: 15px; }
         .bteam-main .media .media-left .fa-lightbulb-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -4269,41 +4588,41 @@ footer {
           margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
+        .bteam-main .media .media-body h4 {
+          font-size: 20px; }
         .bteam-main .media .media-body p {
+          font-size: 15px;
           margin-top: 0; }
         .bteam-main .media .media-body .link-more {
           color: #ff7e20;
           display: block;
-          font-size: 20px;
-          font-weight: 600;
+          font-size: 15px;
           line-height: 0;
           text-decoration: none; }
     .bteam-main .bteam-download {
       text-align: center;
-      background: url(../images/tabs/big-team/download.jpg), #292929;
-      background-repeat: no-repeat;
-      background-size: 44%;
-      background-position: center 20%;
-      padding: 80px 0 60px 0;
+      background: #292929;
+      padding: 80px 0 80px 0;
       margin-top: 60px; }
       .bteam-main .bteam-download .pull-right {
         float: none; }
+      .bteam-main .bteam-download .img-responsive {
+        max-width: 50%; }
       .bteam-main .bteam-download h2 {
         font-size: 1.6rem;
-        margin-top: 240px;
+        margin-top: 10px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
     .bteam-main .bteam-experience {
       text-align: center;
-      background: url(../images/tabs/big-team/panel.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 20%;
-      background-position: center 11%;
-      padding: 80px 0 60px 0; }
+      background: #FFFFFF;
+      padding: 80px 0 80px 0; }
+      .bteam-main .bteam-experience .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.6rem;
-        margin-top: 170px;
+        font-size: 1.9rem;
+        margin-top: 30px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
@@ -4311,41 +4630,42 @@ footer {
         margin-top: 40px; }
     .bteam-main .bteam-recover {
       text-align: center;
-      background: url(../images/tabs/big-team/chart.svg), #292929;
-      background-repeat: no-repeat;
-      background-size: 20%;
-      background-position: center 11%;
+      background: #292929;
       padding: 80px 0; }
+      .bteam-main .bteam-recover .img-responsive {
+        max-width: 30%; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.6rem;
-        margin-top: 160px;
+        font-size: 1.9rem;
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-left: 18px;
         padding-right: 18px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 40px; }
 
-  .tab-pane .wrapper {
+  .tab-pane {
     max-width: 100%;
     padding: 0; }
 
-  .banner-developers {
-    background-color: #FFFFFF;
-    padding: 105px 0 0 0; }
-
   .developers-main {
-    text-align: center; }
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 60px 0 0 0; }
+    .developers-main h1 {
+      font-size: 34px; }
     .developers-main .link-visit {
       line-height: normal;
       margin-top: 20px;
-      margin-bottom: 80px; }
+      margin-bottom: 40px; }
     .developers-main .media {
-      width: 540px;
-      margin-top: 30px;
-      margin-left: auto;
-      margin-right: auto; }
+      margin-top: 30px; }
       .developers-main .media:first-child {
         margin-top: 0; }
+      .developers-main .media .media-left {
+        padding-right: 15px; }
+      .developers-main .media .media-body p {
+        font-size: 15px;
+        margin-bottom: 0; }
     .developers-main .developers-join h2 {
       font-size: 1.9rem;
       padding-left: 18px;
@@ -4353,51 +4673,7 @@ footer {
     .developers-main .developers-join .btn-orange {
       font-size: 1rem;
       padding: 15px 45px;
-      margin-top: 20px; }
-
-  /*Messaging page */ }
-@media (max-width: 1024px) {
-  .the-last {
-    margin-bottom: 50px; }
-
-  .real-time {
-    padding: 100px 0 0px; }
-    .real-time h1 {
-      font-size: 40px; }
-    .real-time .triangle_float {
-      margin-top: -105px; }
-
-  .banner h1 {
-    font-size: 55px;
-    margin-bottom: 30px; }
-
-  .config-left-content h2 {
-    margin-bottom: 20px; } }
-@media (max-width: 991px) {
-  .img-responsive {
-    max-width: 50%; }
-
-  .real-time .media {
-    text-align: center; }
-  .real-time .media-left {
-    display: block; }
-    .real-time .media-left img {
-      margin: 0 auto 15px; }
-
-  .config-right-content h2 {
-    text-align: center; }
-  .config-right-content .noP-left {
-    text-align: center; }
-
-  .config-left-content h2 {
-    text-align: center;
-    margin-bottom: 25px; }
-  .config-left-content .noP-left {
-    text-align: center; }
-
-  .img-special {
-    position: relative;
-    top: 0px; } }
+      margin-top: 20px; } }
 .lato {
   font-family: 'Lato',sans-serif; }
 

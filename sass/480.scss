@@ -23,9 +23,7 @@
 				
 				a {
 					color: #292929;
-					font-size: 15px;
-					font-weight: 400;
-					font-family: 'Montserrat', sans-serif;
+					@include R-nav;
 					text-align: left;
 					text-transform: uppercase;
 					letter-spacing: normal;
@@ -48,7 +46,7 @@
 				}
 				
 				.pos-2 {
-					margin-left: -4px;
+					margin-left: 0px;
 				}
 			}
 			
@@ -56,15 +54,13 @@
 				padding: 0;
 				list-style: none;
 				margin-bottom: 0.6rem;
-				padding-left: 13px;
+				padding-left: 5px;
 				
 				li {
 					padding-left: 0;
 					a {
 						color: #292929;
-						font-size: 15px;
-						font-weight: 400;
-						font-family: 'Montserrat', sans-serif;
+						@include B-nav;
 						text-align: left;
 						text-transform: uppercase;
 						letter-spacing: normal;
@@ -89,7 +85,7 @@
 			
 			.btns {
 				text-align: left;
-				padding: 0px 27px 20px 27px;
+				padding: 0px 18px 20px 18px;
 				
 				.orange {
 					margin-right: 10px;
@@ -104,28 +100,50 @@
 		
 		.logo-text {
 			font-size: 23px;
-			line-height: 1.8;
+			line-height: 1.7;
 		}
 		
 		.fa-bars {
 			font-size: 20px;
 		}
+		
+		.Jnav {
+			top: 41px;
+			
+			nav {
+				ul {
+					padding: 0 12px;
+					li {
+						text-align: left;
+						border-bottom: 0;	
+					}
+				}
+			}
+		}
 	}
 	
 	.banner {
+		padding: 40px 0;
+		
+		.row {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 		
 		h1 {
-			font-size: 28px;
+			font-size: 40px !important;
+			margin-bottom: 10px !important;
 		}
 		
 		h3 {
-			font-size: 16px;
+			font-size: 20px;
 			margin-top: 0;
 		}
 		
 		p {
-			font-size: 13px;
+			font-size: 14px;
 			margin-top: 10px;
+			padding: 0 10px;
 		}
 	}
 	
@@ -140,74 +158,110 @@
 		}
 		 
 		.text-logos {
-			font-size: 13px;
+			font-size: 16px;
 			line-height: normal;
+			padding: 0 15px;
 		}
 		
-		.row-logo {
-			
+		&.grayBG {
 			.left-logo-holder {
 				float: none;
 				margin: 0 auto;
+				display: inline-block;
 			}
 			
 			.right-logo-holder {
 				float: none;
 				margin: 0 auto;
+				display: inline-block;
 			}
-			
-			a {
-				padding: 25px 5px;
-			}
+		}
+		
+		.row-logo a {
+			padding: 25px 5px;
 		}
 	}
 	
 	.white-frange {
-		padding: 0 0 26px 0;
+		padding: 26px 0 26px 0;
 		
-		.triangulo_inf {
+		.triangle_float {
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid #292929;
+			margin-top: -26px;
+			margin-left: -15px;
 			margin-bottom: 20px;
-		}
-	}
-	
-	#sticky-wrapper {
-		height: 110px;
-	}
-	
-	.grayBG {
-		.wrapper {
-			padding: 0;
 		}
 		
 		h1 {
-			font-size: 30px;
+			padding-left: 12px;
+			padding-right: 12px;
 		}
 		
-		ul {
-			li {
-				a {
-					font-size: 13px;
-					font-weight: 700;
+		.bannerbox {
+			font-size: 30px;
+			letter-spacing: normal;
+			padding: 0;
+		}
+	}
+	
+	footer {
+		&.gray {
+			h1 {
+				font-size: 24px;
+			}
+			
+			.tabs-menu {
+				li {
+					a {
+						font-size: 12px;
+						padding: 0 4px 7px 4px;
+						
+						&:hover {
+							border-bottom: 0px solid #ff7e20;
+						}
+					}
 				}
+			}
+		}
+		
+		&.show {
+			top: 41px;
+			padding: 10px 0 0px !important;
+			
+			h1 {
+				display: none;
+			}
+			
+			ul {
+				width: 100% !important;
 			}
 		}
 	}
 	
 	.blue-frange {
 		h1 {
-			font-size: 28px;
+			font-size: 1.9rem;
+			padding-bottom: 10px;
 		}
 		
-		h3 {
-			font-size: 13px;
+		h5 {
+			font-size: 1.2rem;
 		}
 	}
 	
 	.white-frange {
 		.started_form {
+			padding: 18px;
+			
 			button {
+				&.btn {
+					font-size: 16.5px;
+				}
+				
 				&.btn-primary {
-					padding: 12px 20px;
+					padding: 12px 28px;
 				}
 				
 				&.btn-orange {
@@ -219,18 +273,16 @@
 	
 	// Start Tab MySelf
 	.tab-content {
-		.wrapper {
-			max-width: 100%;
-			padding: 0;
+		max-width: 100%;
+		padding: 0;
+		
+		&.banner-myself {
+			background-image: url("../images/tabs/myself/myself_back.jpg");
+			background-repeat: no-repeat;
+			background-position: center top;
+			background-size: 430px;
+			padding: 205px 0 0 0;
 		}
-	}
-	
-	.banner-myself {
-		background-image: url("../images/tabs/myself/myself_back.jpg");
-		background-repeat: no-repeat;
-		background-position: center top;
-		background-size: contain;
-		padding: 305px 0 0 0;
 	}
 	
 	.myself-main {
@@ -240,25 +292,27 @@
 			float: none !important;
 			
 			h2 {
+				font-size: 34px;
 				text-align: center;
+				margin-top: 40px;
+				padding-left: 15px;
+				padding-right: 15px;
 			}
 			
 			p {
+				font-size: 15px;
 				padding-right: 20px;
 				padding-left: 20px;
 			}
 		}
 		
 		.media {
-			width: 480px;
 			margin-top: 50px;
-			margin-left: auto;
-			margin-right: auto;
 			padding-left: 9px;
 			padding-right: 18px;
 			
 			.media-left {
-				padding-right: 25px;
+				padding-right: 15px;
 				
 				.fa-comments-o {
 					font-size: 4rem;
@@ -290,6 +344,7 @@
 				text-align: left;
 				
 				p {
+					font-size: 15px;
 					margin-top: 0;
 					padding: 0;
 				}
@@ -297,8 +352,7 @@
 				.link-more {
 					color: #ff7e20;
 					display: block;
-					font-size: 20px;
-					font-weight: 600;
+					font-size: 15px;
 					line-height: 0;
 					text-decoration: none;
 				}
@@ -326,7 +380,7 @@
 			padding: 80px 18px;
 			
 			h1 {
-				font-size: 1.9rem;
+				font-size: 40px;
 				margin-bottom: 20px;
 			}
 			
@@ -334,7 +388,7 @@
 				width: 100%;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 60px;
+				margin-bottom: 30px;
 				
 				&:last-child {
 					margin-bottom: 0;
@@ -360,6 +414,11 @@
 					font-weight: 700;
 					text-transform: uppercase;
 				}
+				
+				p {
+					font-size: 15px;
+					margin-bottom: 0;
+				}
 			}
 		}
 		
@@ -370,10 +429,11 @@
 			.box-icons {
 				float: none;
 				max-width: 100%;
-				margin: 0 auto 60px auto;
+				margin: 0 auto 50px auto;
 				padding: 0 18px;
 				
 				&:last-child {
+					margin-bottom: 0;
 					margin-right: 0;
 				}
 				
@@ -388,16 +448,11 @@
 					margin-bottom: 20px;
 				}
 				
-				h4 {
-					font-weight: 700;
-					text-transform: uppercase;
-				}
-				
 				p {
-					font-weight: 400;
-					margin: 0;
+					font-size: 15px;
 					padding-left: 18px;
 					padding-right: 18px;
+					margin: 0;
 				}
 			}
 		}
@@ -405,12 +460,11 @@
 		.my-tour {
 			text-align: center;
 			background-color: #1999d6;
-			padding: 80px 0;
+			padding: 40px 20px;
 			
 			h2 {
 				color: #FFFFFF;
-				font-family: 'Montserrat', sans-serif;
-				font-weight: 700;
+				font-size: 1.9rem;
 				text-transform: uppercase;
 			}
 			
@@ -428,27 +482,22 @@
 	
 	// Start Tab SmallTeams
 	.tab-pane {
-		.wrapper {
-			max-width: 100%;
-			padding: 0;
-		}
-	}
-	
-	.banner-steam {
-		background-image: url("../images/tabs/small-team/steam_back.jpg");
-		background-repeat: no-repeat;
-		background-position: center top;
-		background-size: contain;
-		padding: 305px 0 0 0;
+		max-width: 100%;
+		padding: 0;
 	}
 	
 	.steam-main {
 		text-align: center;
+		background-image: url("../images/tabs/small-team/steam_back.jpg");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 400px;
 		
 		h2 {
 			&:nth-child(1) {
+				font-size: 34px;
 				text-align: center;
-				margin-top: 80px;
+				margin-top: 180px;
 				padding-left: 18px;
 				padding-right: 18px;
 			}
@@ -461,13 +510,17 @@
 			}
 		}
 		
+		h5 {
+			padding: 0 15px;
+		}
+		
 		.media {
 			margin-top: 50px;
 			padding-left: 18px;
 			padding-right: 18px;
 			
 			.media-left {
-				padding-right: 25px;
+				padding-right: 15px;
 				
 				.fa-rocket {
 					font-size: 4rem;
@@ -492,14 +545,15 @@
 				text-align: left;
 				
 				p {
+					font-size: 15px;
 					margin-top: 0;
+					margin-bottom: 10px;
 				}
 				
 				.link-more {
 					color: #ff7e20;
 					display: block;
-					font-size: 20px;
-					font-weight: 600;
+					font-size: 15px;
 					line-height: 0;
 					text-decoration: none;
 				}
@@ -565,10 +619,10 @@
 			padding: 80px 0;
 			
 			h1 {
-				font-size: 1.9rem;
+				font-size: 40px;
 				padding-left: 18px;
 				padding-right: 18px;
-				margin-bottom: 60px;
+				margin-bottom: 20px;
 			}	
 				
 			.container-actions {
@@ -588,21 +642,20 @@
 				}
 				
 				&.special-pos-1 {
-					margin-left: auto;
-					margin-right: auto;
 					margin-top: 0px;
 				}
 				
 				&.special-pos-2 {
 					margin-top: 0px;
-					margin-left: auto;
-					margin-right: auto;
+					margin-left: 0px;
 				}
 				
 				&.special-pos-3 {
 					margin-top: 0px;
-					margin-left: auto;
-					margin-right: auto;
+				}
+				
+				&:last-child {
+					margin-bottom: 0;
 				}
 				
 				img {
@@ -614,6 +667,10 @@
 				h4 {
 					font-weight: 700;
 					text-transform: uppercase;
+				}
+				
+				p {
+					font-size: 15px;
 				}
 				
 				.media {
@@ -637,7 +694,7 @@
 			text-align: center;
 			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tabs/small-team/back-scheduling.jpg) no-repeat;
 			background-size: cover;
-			background-position: center center, left center;
+			background-position: center center, 22% center;
 			padding: 60px 0;
 			
 			h2 {
@@ -663,15 +720,15 @@
 		
 		.steam-wait {
 			text-align: center;
-			background-image: url(../images/tabs/small-team/steam_back.jpg);
-			background-repeat: no-repeat;
-			background-size: contain;
-			background-position: center top;
 			padding: 60px 0;
+			
+			.img-responsive {
+				max-width: 70%;
+			}
 			
 			h2 {
 				font-size: 1.9rem;
-				margin-top: 318px;
+				margin-top: 0;
 				margin-bottom: 30px;
 			}
 			
@@ -692,26 +749,20 @@
 	
 	// Start Tab BigTeams
 	.tab-pane {
-		.wrapper {
-			max-width: 100%;
-			padding: 0;
-		}
-	}
-	
-	.banner-bteam {
-		background-image: url("../images/tabs/big-team/bteam_back.jpg");
-		background-repeat: no-repeat;
-		background-position: center top;
-		background-size: contain;
-		padding: 205px 0 0 0;
+		max-width: 100%;
+		padding: 0;
 	}
 	
 	.bteam-main {
-		font-family: 'Montserrat', sans-serif;
 		text-align: center;
+		background-image: url("../images/tabs/big-team/bteam_back.jpg");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 400px;
+		padding: 240px 0 0 0;
 		
 		h2 {
-			margin-top: 100px;
+			font-size: 34px;
 		}
 		
 		h3 {
@@ -722,13 +773,11 @@
 		
 		.media {
 			margin-top: 50px;
-			margin-left: auto;
-			margin-right: auto;
 			padding-left: 18px;
 			padding-right: 18px;
 			
 			.media-left {
-				padding-right: 25px;
+				padding-right: 15px;
 				
 				.fa-lightbulb-o {
 					font-size: 4rem;
@@ -758,15 +807,19 @@
 			.media-body {
 				text-align: left;
 				
+				h4 {
+					font-size: 20px;
+				}
+				
 				p {
+					font-size: 15px;
 					margin-top: 0;
 				}
 				
 				.link-more {
 					color: #ff7e20;
 					display: block;
-					font-size: 20px;
-					font-weight: 600;
+					font-size: 15px;
 					line-height: 0;
 					text-decoration: none;
 				}
@@ -775,21 +828,21 @@
 		
 		.bteam-download {
 			text-align: center;
-			background: url(../images/tabs/big-team/download.jpg),
-						#292929;
-			background-repeat: no-repeat;
-			background-size: 66%;
-			background-position: center 20%;
-			padding: 80px 0 20px 0;
+			background: #292929;
+			padding: 80px 0 80px 0;
 			margin-top: 60px;
 			
 			.pull-right {
 				float: none;
 			}
 			
+			.img-responsive {
+				max-width: 50%;
+			}
+			
 			h2 {
 				font-size: 1.6rem;
-				margin-top: 220px;
+				margin-top: 10px;
 				margin-bottom: 30px;
 				padding-left: 18px;
 				padding-right: 18px;
@@ -798,16 +851,16 @@
 		
 		.bteam-experience {
 			text-align: center;
-			background: url(../images/tabs/big-team/panel.svg),
-						#292929;
-			background-repeat: no-repeat;
-			background-size: 34%;
-			background-position: center 11%;
-			padding: 80px 0 20px 0;
+			background: #FFFFFF;
+			padding: 80px 0 80px 0;
+			
+			.img-responsive {
+				max-width: 30%;
+			}
 			
 			h2 {
-				font-size: 1.6rem;
-				margin-top: 170px;
+				font-size: 1.9rem;
+				margin-top: 30px;
 				margin-bottom: 30px;
 				padding-left: 18px;
 				padding-right: 18px;
@@ -820,16 +873,16 @@
 		
 		.bteam-recover {
 			text-align: center;
-			background: url(../images/tabs/big-team/chart.svg),
-						#292929;
-			background-repeat: no-repeat;
-			background-size: 34%;
-			background-position: center 11%;
+			background: #292929;
 			padding: 80px 0;
 			
+			.img-responsive {
+				max-width: 30%;
+			}
+			
 			h2 {
-				font-size: 1.6rem;
-				margin-top: 170px;
+				font-size: 1.9rem;
+				margin-top: 20px;
 				margin-bottom: 30px;
 				padding-left: 18px;
 				padding-right: 18px;
@@ -844,33 +897,41 @@
 	
 	// Start Tab Developers
 	.tab-pane {
-		.wrapper {
-			max-width: 100%;
-			padding: 0;
-		}
-	}
-	
-	.banner-developers {
-		background-color: #FFFFFF;
-		padding: 105px 0 0 0;
+		max-width: 100%;
+		padding: 0;
 	}
 	
 	.developers-main {
 		text-align: center;
+		background-color: #FFFFFF;
+		padding: 60px 0 0 0;
+		
+		h1 {
+			font-size: 34px;
+		}
 		
 		.link-visit {
 			line-height: normal;
 			margin-top: 20px;
-			margin-bottom: 80px;
+			margin-bottom: 40px;
 		}
 		
 		.media {
 			margin-top: 30px;
-			margin-left: auto;
-			margin-right: auto;
 			
 			&:first-child {
 				margin-top: 0;
+			}
+			
+			.media-left {
+				padding-right: 15px;
+			}
+			
+			.media-body {
+				p {
+					font-size: 15px;
+					margin-bottom: 0;
+				}
 			}
 		}
 		
