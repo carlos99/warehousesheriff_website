@@ -65,6 +65,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/b-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15064,
+		"inputAbbreviatedPath": "\/images\/b-blur.jpg",
+		"outputAbbreviatedPath": "\/images\/b-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/back_enterprise.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -333,7 +344,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58030,
+		"initialSize": 58344,
 		"inputAbbreviatedPath": "\/images\/tabs\/small-team\/fetch.jpg",
 		"outputAbbreviatedPath": "\/images\/tabs\/small-team\/fetch.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -380,6 +391,17 @@
 		"initialSize": 99868,
 		"inputAbbreviatedPath": "\/images\/tommy-chat.jpg",
 		"outputAbbreviatedPath": "\/images\/tommy-chat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tommy-chat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50877,
+		"inputAbbreviatedPath": "\/images\/tommy-chat.png",
+		"outputAbbreviatedPath": "\/images\/tommy-chat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

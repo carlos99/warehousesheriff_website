@@ -5,7 +5,7 @@ $orange-btn: #ff7e20;
 $orange-hover: #E6731F;
 
 //Color Backgrounds
-$b-lblue: #1999d6;
+$b-lblue: #0275D8;
 $b-dark: #292929;
 $b-lgray: #F0F0F0;
 $b-orange: #ff7e20;
@@ -111,11 +111,10 @@ nav{
 		padding: 0;
 		
 		li{
-			@include R-nav;
+			@include L-nav;
 			display: inline-block;
 		    padding: 0px 6px;
 		    color: #474747;
-			letter-spacing: -1.3px;
 		    line-height: 51px;
 		    text-transform: uppercase;
 		    @media (max-width: 900px ){
@@ -148,7 +147,7 @@ nav{
 		    	
 		    	a {
 					color: #3b3b3b;
-					@include B-nav-a;
+					@include L-nav-a;
 			    	letter-spacing: normal;
 					text-transform: capitalize;
 		    	}
@@ -173,6 +172,7 @@ nav{
 			padding: 12px 10px 10px 10px;
 			
 			h1 {
+				@include U-nav;
 				letter-spacing: normal;
 				text-transform: uppercase;
 				margin-bottom: 14px;
@@ -270,6 +270,7 @@ nav{
     }
     h1{
     	@include U-h1;
+    	text-transform: uppercase;
 	    letter-spacing: -2px;
 	    margin-bottom: 0;
     }
@@ -285,7 +286,7 @@ nav{
     	}
     }
     p{
-	    @include U-p;
+	    @include L-h5;
 	    margin-top: 25px;
 	    margin-bottom: 18px;
     }
@@ -566,12 +567,16 @@ footer {
 		.tabs-menu {
 			float: left;
 			width: calc(100% - 334px);
+			
+			a {
+				@include L-nav;
+			}
 		}
 	}
 	
 	h1 {
 		color: $f-gray;
-		@include R-h2;
+		@include U-h4;
 	}
 	
 	.tabs-menu {
@@ -589,7 +594,7 @@ footer {
 			
 			a {
 				color: $f-gray;
-				@include R-p;
+				@include L-p;
 				padding: 0 18px 7px 18px;
 				
 				&:hover {
@@ -622,8 +627,24 @@ footer {
 	}
 	
 	.btn {
-		@include B-btn;
+		@include U-btn;
 		letter-spacing: normal;
+		
+		&.btn-primary {
+			background-color: $b-lblue;
+			
+			&:hover {
+				background-color: $blue-hover;
+			}
+		}
+		
+		&.btn-orange {
+			background-color: $b-orange;
+			
+			&:hover {
+				background-color: $orange-hover;
+			}
+		}
 	}
 	
 	&.for_form{
@@ -634,11 +655,11 @@ footer {
 
 .blue-frange{
 	padding: 50px 20px 250px;
-	background-color: #1999d6;
+	background-color: $b-lblue;
 	text-align: center;
 	color: #fff;
 	h1{
-	    @include L-h1;
+	    @include U-h1;
 	    margin-bottom: 0;
 	    @media (max-width: 1024px ){
 			font-size: 60px;
@@ -692,7 +713,7 @@ footer {
     	margin: 10px 0;
 	}
 	button{
-		@include B-btn;
+		@include U-btn;
 		text-transform: uppercase;
 		border: 0;
 		letter-spacing: normal;
@@ -795,6 +816,11 @@ footer{
     color: #eee;
     text-align: center;
     padding: 51px 0 20px 0;
+    
+    &.global-f {
+	    @include U-footer-global;
+    }
+    
     @media (max-width: 991px){
     	.logo-text{
 			float: none;
@@ -807,9 +833,9 @@ footer{
     }
     h5{
     	text-align: left;
-	    padding-bottom: 10px;
 	    padding-left: 15px;
 	    color: #ccc;
+	    @include R-btn;
 	    @media (max-width: 991px){
 			text-align: center;
 		}
@@ -894,10 +920,7 @@ footer{
 	padding: 0;
 	
 	&.banner-myself {
-		background-image: url("../images/tabs/myself/myself_back.jpg");
-		background-repeat: no-repeat;
-		background-position: -10% 0%;
-		background-size: 50%;
+		background-color: $f-white;
 		padding: 100px 0 0 0;
 	}
 }
@@ -905,37 +928,46 @@ footer{
 .myself-main {
 	text-align: left;
 	
+	.full-wth {
+		max-width: 1500px !important;
+		
+		.img-responsive {
+			max-width: 100%;
+			margin-bottom: 0;
+		}
+	}
+	
 	h2 {
-		@include L-h2;
+		@include U-h4;
 	}
 	
 	.row {
 		p {
-			@include L-p;
+			@include U-p;
 			margin-bottom: 10px;
 		}
 	}
 	
 	.media {
-		margin-top: 50px;
+		margin-top: 40px;
 		
 		.media-left {
-			padding-right: 25px;
+			padding-right: 15px;
 			
 			.fa-comments-o {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 8px;
 				margin-right: 8px;
 			}
 			
 			.fa-calendar {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 10px;
 				margin-right: 10px;
 			}
 			
 			.fa-user-secret {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 15px;
 				margin-right: 10px;
 			}
@@ -952,17 +984,18 @@ footer{
 			text-align: left;
 			
 			h4 {
-				@include R-btn;
+				@include L-btn;
 			}
 			
 			p {
-				@include L-p;
+				@include U-p;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
-				@include B-btn;
+				@include L-btn-17;
 				display: block;
 				line-height: 0;
 				text-decoration: none;
@@ -972,19 +1005,17 @@ footer{
 	
 	.my-sign {
 		text-align: center;
-		background-color: #1999d6;
+		background-color: $b-lblue;
 		margin-top: 80px;
 		padding: 40px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			@include L-h2;
-			text-transform: uppercase;
+			@include U-h2;
 		}
 		
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -996,15 +1027,14 @@ footer{
 		padding: 80px 0;
 		
 		h1 {
-			@include U-h1;
+			@include U-h2;
 			text-align: center;
 			margin-bottom: 40px;
 		}
 		
 		.container-actions {
-			max-width: 460px;
-			font-family: 'Montserrat', sans-serif;
 			text-align: center;
+			padding: 0 20px;
 			
 			&.special-pos-1 {
 				margin-top: -310px;
@@ -1020,17 +1050,17 @@ footer{
 			}
 			
 			h4 {
-				@include B-h5;
+				@include R-h5;
 			}
 			
 			p {
-				@include L-p;
+				@include U-p;
 			}
 		}
 	}
 	
 	.icons-panel {
-		background: #292929;
+		background: $b-lblue;
 		padding: 60px 0px;
 		
 		.box-icons {
@@ -1049,15 +1079,11 @@ footer{
 				max-width: 54%;
 				height: auto;
 				text-align: center;
-				-webkit-border-radius: 50%;
-				   -moz-border-radius: 50%;
-				        border-radius: 50%;
-				background-color: #FFFFFF;
 				margin-bottom: 20px;
 			}
 			
 			h4 {
-				@include B-h5;
+				@include L-h5;
 			}
 			
 			p {
@@ -1081,8 +1107,7 @@ footer{
 		}
 		
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -1100,40 +1125,46 @@ footer{
 
 .steam-main {
 	text-align: left;
-	background-image: url("../images/tabs/small-team/steam_back.jpg");
-	background-repeat: no-repeat;
-	background-position: 100% 0%;
-	background-size: auto;
+	background-color: #FFFFFF;
 	padding: 100px 0 0 0;
 	
+	.full-wth {
+		max-width: 1500px !important;
+		
+		.img-responsive {
+			max-width: 100%;
+			margin-bottom: 0;
+		}
+	}
+	
 	h2 {
-		@include L-h2;
+		@include U-h4;
 	}
 	
 	h5 {
-		@include L-h5;
+		@include U-h5;
 	}
 	
 	.media {
 		margin-top: 50px;
 		
 		.media-left {
-			padding-right: 25px;
+			padding-right: 15px;
 			
 			.fa-rocket {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 8px;
 				margin-right: 8px;
 			}
 			
 			.fa-comments-o {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 8px;
 				margin-right: 8px;
 			}
 			
 			.fa-calendar {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 10px;
 				margin-right: 10px;
 			}
@@ -1143,17 +1174,18 @@ footer{
 			text-align: left;
 			
 			h4 {
-				@include R-btn;
+				@include L-btn;
 			}
 			
 			p {
-				@include L-p;
+				@include U-p;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
-				@include B-btn;
+				@include L-btn-17;
 				display: block;
 				line-height: 0;
 				text-decoration: none;
@@ -1163,23 +1195,22 @@ footer{
 	
 	.steam-free {
 		text-align: center;
-		background-color: #1999d6;
-		margin-top: 80px;
+		background-color: $b-lblue;
+		margin-top: 2px;
 		padding: 40px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			@include L-h2;
-			text-transform: uppercase;
+			@include U-h2;
 		}
 		
 		p {
 			color: #FFFFFF;
-			@include L-p;
+			@include U-p;
 		}
 		
 		.btn-orange {
-			@include B-btn;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -1197,7 +1228,7 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
-			@include U-h2;
+			@include U-h4;
 			text-shadow: 1px 1px 2px #000;
 			margin-bottom: 10px;
 		}
@@ -1211,13 +1242,12 @@ footer{
 		
 		.link-more {
 			color: #ff7e20;
-			@include B-btn;
+			@include L-btn;
 			display: block;
 			line-height: 0;
 			text-decoration: none;
 			
 			.fa-angle-right {
-				font-weight: 700;
 				line-height: 1;
 			}
 		}
@@ -1227,18 +1257,23 @@ footer{
 		padding: 80px 0;
 		
 		h1 {
-			@include U-h1;
+			@include U-h2;
 			text-align: center;
 			margin-bottom: 40px;
 		}
 		
 		.container-actions {
-			max-width: 460px;
-			font-family: 'Montserrat', sans-serif;
+			float: left;
+			max-width: 50%;
+			height: 469px;
 			text-align: center;
+			padding: 0 20px;
+			margin-bottom: 60px;
 			
-			&:nth-child(2) {
-				margin-bottom: 60px;
+			&:last-child {
+				float: none;
+				height: auto;
+				margin: -50px auto 0 auto;
 			}
 			
 			&.special-pos-1 {
@@ -1259,11 +1294,12 @@ footer{
 			}
 			
 			h4 {
-				@include B-h5;
+				@include R-h5;
 			}
 			
 			p {
 				@include L-p;
+				margin-bottom: 0;
 			}
 			
 			.media {
@@ -1275,7 +1311,7 @@ footer{
 				
 				.media-body {
 					h4 {
-						font-weight: 400;
+						@include R-h5;
 						text-transform: none;
 					}
 				}
@@ -1294,7 +1330,7 @@ footer{
 		
 		h2 {
 			color: #FFFFFF;
-			@include U-h2;
+			@include U-h4;
 			text-shadow: 1px 1px 2px #000;
 			margin-bottom: 10px;
 		}
@@ -1308,24 +1344,20 @@ footer{
 		
 		.link-more {
 			color: #ff7e20;
-			@include B-btn;
+			@include L-btn;
 			display: block;
 			line-height: 0;
 			text-decoration: none;
-			
-			.fa-angle-right {
-				font-weight: 700;
-			}
 		}
 	}
 	
 	.steam-wait {
 		text-align: left;
 		background-color: $b-lgray;
-		padding: 80px 0 0 0;
+		padding: 80px 0 30px 0;
 		
 		h2 {
-			@include U-h2;
+			@include U-h4;
 			margin-bottom: 10px;
 		}
 		
@@ -1336,7 +1368,7 @@ footer{
 		
 		.link-more {
 			color: #ff7e20;
-			@include B-btn;
+			@include L-btn;
 			display: block;
 			line-height: 0;
 			text-decoration: none;
@@ -1353,18 +1385,19 @@ footer{
 
 .bteam-main {
 	text-align: left;
-	background-image: url("../images/tabs/big-team/bteam_back.jpg");
-	background-repeat: no-repeat;
-	background-position: -8% 0%;
-	background-size: 50%;
+	background-color: #FFFFFF;
 	padding: 100px 0 0 0;
 	
+	.full-wth {
+		max-width: 1500px;
+	}
+	
 	h2 {
-		@include L-h2;
+		@include U-h4;
 	}
 	
 	h5 {
-		@include L-h5;
+		@include U-h5;
 		margin-bottom: 0;
 	}
 	
@@ -1372,29 +1405,31 @@ footer{
 		margin-top: 50px;
 		
 		.media-left {
-			padding-right: 25px;
+			text-align: center;
+			padding-right: 15px;
+			
+			.fa {
+				width: 24px;
+				height: 24px;
+			}
 			
 			.fa-lightbulb-o {
-				font-size: 4rem;
-				margin-left: 8px;
-				margin-right: 18px;
+				font-size: 1.3rem;
+				margin-right: 0px;
 			}
 			
 			.fa-bar-chart {
-				font-size: 3rem;
-				margin-left: 2px;
+				font-size: 1.3rem;
 				margin-right: 0px;
 			}
 			
 			.fa-cloud {
-				font-size: 3.2rem;
-				margin-left: 2px;
+				font-size: 1.3rem;
 				margin-right: 0px;
 			}
 			
 			.fa-refresh {
-				font-size: 4rem;
-				margin-left: 2px;
+				font-size: 1.3rem;
 				margin-right: 0px;
 			}
 		}
@@ -1403,17 +1438,18 @@ footer{
 			text-align: left;
 			
 			h4 {
-				@include R-btn;
+				@include L-btn;
 			}
 			
 			p {
-				@include L-p;
+				@include U-p;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 			
 			.link-more {
 				color: #ff7e20;
-				@include B-btn;
+				@include L-btn;
 				display: block;
 				line-height: 0;
 				text-decoration: none;
@@ -1428,16 +1464,16 @@ footer{
 	.bteam-download {
 		text-align: left;
 		background-color: $b-dark;
-		padding: 100px 0;
+		padding: 60px 0;
 		margin-top: 80px;
 		
 		h2 {
 			color: #FFFFFF;
-			@include U-h3;
+			@include U-h5;
 			margin-bottom: 30px;
 			
 			.h2-italic {
-				@include L-h3;
+				font-style: italic;
 			}
 		}
 		
@@ -1446,24 +1482,23 @@ footer{
 		}
 		
 		.btn-orange {
-			@include B-btn;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
-			padding: 15px 50px;
+			padding: 10px 20px;
 			margin-top: 0px;
 		}
 	}
 	
 	.bteam-experience {
-		font-family: 'Montserrat', sans-serif;
 		text-align: left;
-		background: #FFFFFF;
+		background-color: $f-white;
 		padding: 80px 0;
 		
 		h2 {
 			color: $f-dark;
-			@include U-h2;
-			margin-bottom: 30px;
+			@include U-h4;
+			margin-bottom: 10px;
 		}
 		
 		h3 {
@@ -1485,23 +1520,23 @@ footer{
 		
 		.link-more {
 			color: #ff7e20;
-			@include B-btn;
+			@include L-btn;
 			display: block;
 			line-height: 0;
 			text-decoration: none;
-			margin-top: 40px;
+			margin-top: 4px;
 		}
 	}
 	
 	.bteam-recover {
 		text-align: left;
-		background: #292929;
+		background-color: $b-dark;
 		padding: 80px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			@include U-h2;
-			margin-bottom: 30px;
+			@include U-h4;
+			margin-bottom: 10px;
 		}
 		
 		h3 {
@@ -1511,9 +1546,8 @@ footer{
 		
 		img {
 			width: 50%;
-			opacity: 0.6;
-			display: block;
-			text-align: center;
+			opacity: 0.4;
+			text-align: left;
 			
 			&.img-responsive {
 				vertical-align: middle;
@@ -1522,12 +1556,12 @@ footer{
 		}
 		
 		.link-more {
-			color: #ff7e20;
-			@include B-btn;
+			color: $b-orange;
+			@include L-btn;
 			display: block;
 			line-height: 0;
 			text-decoration: none;
-			margin-top: 40px;
+			margin-top: 4px;
 		}
 	}
 }
@@ -1544,47 +1578,46 @@ footer{
 	padding: 100px 0 0 0;
 	
 	h1 {
-		@include L-h2;
+		@include U-h4;
 	}
 	
 	h3 {
-		@include L-h5;
+		@include U-h5;
 	}
 	
 	.link-visit {
 		color: #ff7e20;
-		@include B-btn;
+		@include L-btn;
 		display: block;
 		line-height: 0;
 		text-decoration: none;
-		text-transform: uppercase;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	
 	.media {
-		margin-top: 50px;
+		margin-top: 20px;
 		
 		&:first-child {
 			margin-top: 0;
 		}
 		
 		.media-left {
-			padding-right: 25px;
+			padding-right: 15px;
 			
 			.fa-lightbulb-o {
-				font-size: 4rem;
+				font-size: 1.3rem;
 				margin-left: 8px;
 				margin-right: 18px;
 			}
 			
 			.fa-bar-chart {
-				font-size: 3rem;
+				font-size: 1.3rem;
 				margin-left: 2px;
 				margin-right: 0px;
 			}
 			
 			.fa-cloud {
-				font-size: 3.2rem;
+				font-size: 1.3rem;
 				margin-left: 2px;
 				margin-right: 0px;
 			}
@@ -1600,31 +1633,31 @@ footer{
 			text-align: left;
 			
 			h4 {
-				@include R-btn;
+				@include L-btn;
 			}
 			
 			p {
-				@include L-p;
+				@include U-p;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 		}
 	}
 	
 	.developers-join {
 		text-align: center;
-		background-color: #1999d6;
+		background-color: $b-lblue;
 		margin-top: 80px;
 		padding: 40px 0;
 		
 		h2 {
 			color: #FFFFFF;
-			@include L-h2;
+			@include U-h2;
 			text-transform: uppercase;
 		}
 		
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -1646,21 +1679,21 @@ footer{
 
 // F1.- START PERSONAL PAGE
 .platform_personal {
-	font-family: 'Montserrat', sans-serif;
 	background-image: url(../images/bigbanner.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 59px;
-	padding: 205px 0px;
+	padding: 80px 0px;
 	
 	h1 {
-		color: #FFFFFF;
-		font-weight: 700;
+		color: $f-white;
+		@include U-h1;
 		text-transform: uppercase;
 	}
 	
 	h3 {
-		color: #FFFFFF;
+		color: $f-white;
+		@include U-h3;
 	}
 	
 	img  {
@@ -1672,8 +1705,7 @@ footer{
 	.box-sign {
 		text-align: center;
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
 			padding: 15px 50px;
@@ -1683,8 +1715,11 @@ footer{
 }
 
 .own_personal {
-	font-family: 'Montserrat', sans-serif;
-	padding: 100px 0px;
+	background-image: url('../images/b-blur.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 60px 0px;
 	
 	.icons-side-personal {
 		display: block;
@@ -1694,13 +1729,18 @@ footer{
 	}
 	
 	h1 {
-		font-weight: 700;
-		text-transform: uppercase;
+		color: $f-white;
+		@include U-h4;
+	}
+	
+	h3 {
+		color: $f-white;
+		@include U-h5;
 	}
 	
 	.op-apps {
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 30px;
 		
 		ul {
 			list-style: none;
@@ -1724,27 +1764,30 @@ footer{
 }
 
 .communicate-teams {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #FFFFFF;
-	padding: 100px 0px;
+	background-color: $f-white;
+	padding: 60px 0px;
 	
 	h2 {
-		font-weight: 700;
-		text-transform: uppercase;
+		color: $f-dark;
+		@include L-h3;
 		
 		&:first-child {
 			margin-bottom: 0;
 		}
 	}
 	
+	h3 {
+		color: $f-dark;
+		@include U-h5;
+	}
+	
 	.link-more {
 		color: #ff7e20;
 		display: block;
-		font-size: 20px;
-		font-weight: 600;
+		@include L-btn;
 		line-height: 0;
 		text-decoration: none;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	
 	.icons-side-personal {
@@ -1756,24 +1799,27 @@ footer{
 }
 
 .schedule-simple {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #FFFFFF;
-	padding: 100px 0px;
+	background-color: $b-lblue;
+	padding: 60px 0px;
 	
 	h2 {
-		font-weight: 700;
-		text-transform: uppercase;
+		color: $f-white;
+		@include L-h3;
 		margin-bottom: 30px;
+	}
+	
+	h3 {
+		color: $f-white;
+		@include U-h5;
 	}
 	
 	.link-more {
 		color: #ff7e20;
 		display: block;
-		font-size: 20px;
-		font-weight: 600;
+		@include L-btn;
 		line-height: 0;
 		text-decoration: none;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	
 	.icons-side-personal {
@@ -1787,13 +1833,14 @@ footer{
 .my-action-personal {
 	padding: 80px 0;
 	
+	.full-wth {
+		max-width: 1500px;
+	}
+	
 	h1 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 65px;
-		font-weight: 700;
-		text-transform: uppercase;
+		@include U-h2;
 		text-align: center;
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 	}
 	
 	.container-actions {
@@ -1815,8 +1862,11 @@ footer{
 		}
 		
 		h4 {
-			font-weight: 700;
-			text-transform: uppercase;
+			@include R-h5;
+		}
+		
+		p {
+			@include U-p;
 		}
 	}
 }
@@ -1827,7 +1877,7 @@ footer{
 }
 
 .icons-panel-personal {
-	background: #292929;
+	background: $b-lblue;
 	padding: 60px 0px;
 	
 	.box-icons {
@@ -1843,24 +1893,21 @@ footer{
 		}
 		
 		img {
-			max-width: 60%;
+			max-width: 54%;
 			height: auto;
 			text-align: center;
-			-webkit-border-radius: 50%;
-			   -moz-border-radius: 50%;
-			        border-radius: 50%;
-			background-color: #FFFFFF;
 			margin-bottom: 20px;
 		}
 		
 		h4 {
-			font-weight: 700;
-			text-transform: uppercase;
+			@include L-h5;
 		}
 		
 		p {
-			font-weight: 400;
-			margin: 0;
+			@include U-p;
+			line-height: 1.2;
+			padding: 0 10px;
+			margin-bottom: 0;
 		}
 	}
 }

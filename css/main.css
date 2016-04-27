@@ -99,12 +99,11 @@ nav {
     margin: 0;
     padding: 0; }
     nav ul li {
-      font-family: 'MontserratRegular', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 15px;
       display: inline-block;
       padding: 0px 6px;
       color: #474747;
-      letter-spacing: -1.3px;
       line-height: 51px;
       text-transform: uppercase; }
       @media (max-width: 900px) {
@@ -130,7 +129,7 @@ nav {
           line-height: 30px; }
         nav ul li ul a {
           color: #3b3b3b;
-          font-family: 'MontserratBold', sans-serif;
+          font-family: 'MontserratLight', sans-serif;
           font-size: 13px;
           letter-spacing: normal;
           text-transform: capitalize; }
@@ -143,6 +142,8 @@ nav {
     nav ul .mega-menu-content {
       padding: 12px 10px 10px 10px; }
       nav ul .mega-menu-content h1 {
+        font-family: 'MontserratUltraLight', sans-serif;
+        font-size: 15px;
         letter-spacing: normal;
         text-transform: uppercase;
         margin-bottom: 14px; }
@@ -210,6 +211,7 @@ nav {
   .banner h1 {
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 64px;
+    text-transform: uppercase;
     letter-spacing: -2px;
     margin-bottom: 0; }
   .banner h3 {
@@ -224,8 +226,8 @@ nav {
         font-size: 1.4rem;
         margin-top: 20px; } }
   .banner p {
-    font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 17px;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 23px;
     margin-top: 25px;
     margin-bottom: 18px; }
   .banner form input {
@@ -456,10 +458,13 @@ footer.show {
   footer.show .tabs-menu {
     float: left;
     width: calc(100% - 334px); }
+    footer.show .tabs-menu a {
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 15px; }
 footer h1 {
   color: #CCCCCC;
-  font-family: 'MontserratRegular', sans-serif;
-  font-size: 48px; }
+  font-family: 'MontserratUltraLight', sans-serif;
+  font-size: 40px; }
 footer .tabs-menu {
   text-align: center;
   list-style: none;
@@ -473,7 +478,7 @@ footer .tabs-menu {
     display: inline-block; }
     footer .tabs-menu li a {
       color: #CCCCCC;
-      font-family: 'MontserratRegular', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 17px;
       padding: 0 18px 7px 18px; }
       footer .tabs-menu li a:hover {
@@ -496,20 +501,28 @@ footer .tabs-menu {
     margin-top: -100px;
     margin-left: -35px; }
   .white-frange .btn {
-    font-family: 'MontserratBold', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 20px;
     letter-spacing: normal; }
+    .white-frange .btn.btn-primary {
+      background-color: #0275D8; }
+      .white-frange .btn.btn-primary:hover {
+        background-color: #025aa5; }
+    .white-frange .btn.btn-orange {
+      background-color: #ff7e20; }
+      .white-frange .btn.btn-orange:hover {
+        background-color: #E6731F; }
   .white-frange.for_form {
     padding: 0;
     margin-bottom: -201px; }
 
 .blue-frange {
   padding: 50px 20px 250px;
-  background-color: #1999d6;
+  background-color: #0275D8;
   text-align: center;
   color: #fff; }
   .blue-frange h1 {
-    font-family: 'MontserratLight', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 64px;
     margin-bottom: 0; }
     @media (max-width: 1024px) {
@@ -555,7 +568,7 @@ footer .tabs-menu {
     display: block;
     margin: 10px 0; }
   .started_form button {
-    font-family: 'MontserratBold', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     border: 0;
@@ -682,6 +695,8 @@ footer {
   color: #eee;
   text-align: center;
   padding: 51px 0 20px 0; }
+  footer.global-f {
+    font-family: 'MontserratUltraLight', sans-serif; }
   @media (max-width: 991px) {
     footer .logo-text {
       float: none;
@@ -691,9 +706,10 @@ footer {
       display: inline-block; } }
   footer h5 {
     text-align: left;
-    padding-bottom: 10px;
     padding-left: 15px;
-    color: #ccc; }
+    color: #ccc;
+    font-family: 'MontserratRegular', sans-serif;
+    font-size: 20px; }
     @media (max-width: 991px) {
       footer h5 {
         text-align: center; } }
@@ -756,35 +772,37 @@ footer {
   max-width: 100%;
   padding: 0; }
   .tab-content.banner-myself {
-    background-image: url("../images/tabs/myself/myself_back.jpg");
-    background-repeat: no-repeat;
-    background-position: -10% 0%;
-    background-size: 50%;
+    background-color: #FFFFFF;
     padding: 100px 0 0 0; }
 
 .myself-main {
   text-align: left; }
+  .myself-main .full-wth {
+    max-width: 1500px !important; }
+    .myself-main .full-wth .img-responsive {
+      max-width: 100%;
+      margin-bottom: 0; }
   .myself-main h2 {
-    font-family: 'MontserratLight', sans-serif;
-    font-size: 48px; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
   .myself-main .row p {
-    font-family: 'MontserratLight', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 17px;
     margin-bottom: 10px; }
   .myself-main .media {
-    margin-top: 50px; }
+    margin-top: 40px; }
     .myself-main .media .media-left {
-      padding-right: 25px; }
+      padding-right: 15px; }
       .myself-main .media .media-left .fa-comments-o {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 8px;
         margin-right: 8px; }
       .myself-main .media .media-left .fa-calendar {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 10px;
         margin-right: 10px; }
       .myself-main .media .media-left .fa-user-secret {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 15px;
         margin-right: 10px; }
       .myself-main .media .media-left .myself-icon {
@@ -795,32 +813,32 @@ footer {
     .myself-main .media .media-body {
       text-align: left; }
       .myself-main .media .media-body h4 {
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 20px; }
       .myself-main .media .media-body p {
-        font-family: 'MontserratLight', sans-serif;
+        font-family: 'MontserratUltraLight', sans-serif;
         font-size: 17px;
-        margin-top: 0; }
+        margin-top: 0;
+        margin-bottom: 0; }
       .myself-main .media .media-body .link-more {
         color: #ff7e20;
-        font-family: 'MontserratBold', sans-serif;
-        font-size: 20px;
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         display: block;
         line-height: 0;
         text-decoration: none; }
   .myself-main .my-sign {
     text-align: center;
-    background-color: #1999d6;
+    background-color: #0275D8;
     margin-top: 80px;
     padding: 40px 0; }
     .myself-main .my-sign h2 {
       color: #FFFFFF;
-      font-family: 'MontserratLight', sans-serif;
-      font-size: 48px;
-      text-transform: uppercase; }
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px; }
     .myself-main .my-sign .btn-orange {
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
@@ -829,13 +847,12 @@ footer {
     padding: 80px 0; }
     .myself-main .my-action h1 {
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 64px;
+      font-size: 48px;
       text-align: center;
       margin-bottom: 40px; }
     .myself-main .my-action .container-actions {
-      max-width: 460px;
-      font-family: 'Montserrat', sans-serif;
-      text-align: center; }
+      text-align: center;
+      padding: 0 20px; }
       .myself-main .my-action .container-actions.special-pos-1 {
         margin-top: -310px; }
       .myself-main .my-action .container-actions.special-pos-2 {
@@ -844,13 +861,13 @@ footer {
       .myself-main .my-action .container-actions img {
         margin-bottom: 16px; }
       .myself-main .my-action .container-actions h4 {
-        font-family: 'MontserratBold', sans-serif;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 23px; }
       .myself-main .my-action .container-actions p {
-        font-family: 'MontserratLight', sans-serif;
+        font-family: 'MontserratUltraLight', sans-serif;
         font-size: 17px; }
   .myself-main .icons-panel {
-    background: #292929;
+    background: #0275D8;
     padding: 60px 0px; }
     .myself-main .icons-panel .box-icons {
       float: left;
@@ -865,13 +882,9 @@ footer {
         max-width: 54%;
         height: auto;
         text-align: center;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-        background-color: #FFFFFF;
         margin-bottom: 20px; }
       .myself-main .icons-panel .box-icons h4 {
-        font-family: 'MontserratBold', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 23px; }
       .myself-main .icons-panel .box-icons p {
         font-family: 'MontserratUltraLight', sans-serif;
@@ -889,8 +902,8 @@ footer {
       font-size: 48px;
       text-transform: uppercase; }
     .myself-main .my-tour .btn-orange {
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
@@ -902,65 +915,67 @@ footer {
 
 .steam-main {
   text-align: left;
-  background-image: url("../images/tabs/small-team/steam_back.jpg");
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
-  background-size: auto;
+  background-color: #FFFFFF;
   padding: 100px 0 0 0; }
+  .steam-main .full-wth {
+    max-width: 1500px !important; }
+    .steam-main .full-wth .img-responsive {
+      max-width: 100%;
+      margin-bottom: 0; }
   .steam-main h2 {
-    font-family: 'MontserratLight', sans-serif;
-    font-size: 48px; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
   .steam-main h5 {
-    font-family: 'MontserratLight', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 23px; }
   .steam-main .media {
     margin-top: 50px; }
     .steam-main .media .media-left {
-      padding-right: 25px; }
+      padding-right: 15px; }
       .steam-main .media .media-left .fa-rocket {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 8px;
         margin-right: 8px; }
       .steam-main .media .media-left .fa-comments-o {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 8px;
         margin-right: 8px; }
       .steam-main .media .media-left .fa-calendar {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 10px;
         margin-right: 10px; }
     .steam-main .media .media-body {
       text-align: left; }
       .steam-main .media .media-body h4 {
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 20px; }
       .steam-main .media .media-body p {
-        font-family: 'MontserratLight', sans-serif;
+        font-family: 'MontserratUltraLight', sans-serif;
         font-size: 17px;
-        margin-top: 0; }
+        margin-top: 0;
+        margin-bottom: 0; }
       .steam-main .media .media-body .link-more {
         color: #ff7e20;
-        font-family: 'MontserratBold', sans-serif;
-        font-size: 20px;
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 17px;
         display: block;
         line-height: 0;
         text-decoration: none; }
   .steam-main .steam-free {
     text-align: center;
-    background-color: #1999d6;
-    margin-top: 80px;
+    background-color: #0275D8;
+    margin-top: 2px;
     padding: 40px 0; }
     .steam-main .steam-free h2 {
       color: #FFFFFF;
-      font-family: 'MontserratLight', sans-serif;
-      font-size: 48px;
-      text-transform: uppercase; }
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 48px; }
     .steam-main .steam-free p {
       color: #FFFFFF;
-      font-family: 'MontserratLight', sans-serif;
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 17px; }
     .steam-main .steam-free .btn-orange {
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
       text-transform: uppercase;
       letter-spacing: normal;
@@ -976,7 +991,7 @@ footer {
     .steam-main .steam-easy h2 {
       color: #FFFFFF;
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 48px;
+      font-size: 40px;
       text-shadow: 1px 1px 2px #000;
       margin-bottom: 10px; }
     .steam-main .steam-easy h3 {
@@ -987,27 +1002,31 @@ footer {
       margin-bottom: 20px; }
     .steam-main .steam-easy .link-more {
       color: #ff7e20;
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 20px;
       display: block;
       line-height: 0;
       text-decoration: none; }
       .steam-main .steam-easy .link-more .fa-angle-right {
-        font-weight: 700;
         line-height: 1; }
   .steam-main .steam-action {
     padding: 80px 0; }
     .steam-main .steam-action h1 {
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 64px;
+      font-size: 48px;
       text-align: center;
       margin-bottom: 40px; }
     .steam-main .steam-action .container-actions {
-      max-width: 460px;
-      font-family: 'Montserrat', sans-serif;
-      text-align: center; }
-      .steam-main .steam-action .container-actions:nth-child(2) {
-        margin-bottom: 60px; }
+      float: left;
+      max-width: 50%;
+      height: 469px;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 60px; }
+      .steam-main .steam-action .container-actions:last-child {
+        float: none;
+        height: auto;
+        margin: -50px auto 0 auto; }
       .steam-main .steam-action .container-actions.special-pos-1 {
         margin-top: -503px; }
       .steam-main .steam-action .container-actions.special-pos-2 {
@@ -1018,17 +1037,19 @@ footer {
       .steam-main .steam-action .container-actions img {
         margin-bottom: 16px; }
       .steam-main .steam-action .container-actions h4 {
-        font-family: 'MontserratBold', sans-serif;
+        font-family: 'MontserratRegular', sans-serif;
         font-size: 23px; }
       .steam-main .steam-action .container-actions p {
         font-family: 'MontserratLight', sans-serif;
-        font-size: 17px; }
+        font-size: 17px;
+        margin-bottom: 0; }
       .steam-main .steam-action .container-actions .media {
         margin-top: 20px; }
         .steam-main .steam-action .container-actions .media:first-child {
           margin-top: 50px; }
         .steam-main .steam-action .container-actions .media .media-body h4 {
-          font-weight: 400;
+          font-family: 'MontserratRegular', sans-serif;
+          font-size: 23px;
           text-transform: none; }
   .steam-main .steam-scheduling {
     font-family: 'Montserrat', sans-serif;
@@ -1041,7 +1062,7 @@ footer {
     .steam-main .steam-scheduling h2 {
       color: #FFFFFF;
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 48px;
+      font-size: 40px;
       text-shadow: 1px 1px 2px #000;
       margin-bottom: 10px; }
     .steam-main .steam-scheduling h3 {
@@ -1052,20 +1073,18 @@ footer {
       margin-bottom: 20px; }
     .steam-main .steam-scheduling .link-more {
       color: #ff7e20;
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 20px;
       display: block;
       line-height: 0;
       text-decoration: none; }
-      .steam-main .steam-scheduling .link-more .fa-angle-right {
-        font-weight: 700; }
   .steam-main .steam-wait {
     text-align: left;
     background-color: #F0F0F0;
-    padding: 80px 0 0 0; }
+    padding: 80px 0 30px 0; }
     .steam-main .steam-wait h2 {
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 48px;
+      font-size: 40px;
       margin-bottom: 10px; }
     .steam-main .steam-wait h3 {
       font-family: 'MontserratUltraLight', sans-serif;
@@ -1073,7 +1092,7 @@ footer {
       margin-bottom: 20px; }
     .steam-main .steam-wait .link-more {
       color: #ff7e20;
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 20px;
       display: block;
       line-height: 0;
@@ -1085,50 +1104,50 @@ footer {
 
 .bteam-main {
   text-align: left;
-  background-image: url("../images/tabs/big-team/bteam_back.jpg");
-  background-repeat: no-repeat;
-  background-position: -8% 0%;
-  background-size: 50%;
+  background-color: #FFFFFF;
   padding: 100px 0 0 0; }
+  .bteam-main .full-wth {
+    max-width: 1500px; }
   .bteam-main h2 {
-    font-family: 'MontserratLight', sans-serif;
-    font-size: 48px; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
   .bteam-main h5 {
-    font-family: 'MontserratLight', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 23px;
     margin-bottom: 0; }
   .bteam-main .media {
     margin-top: 50px; }
     .bteam-main .media .media-left {
-      padding-right: 25px; }
+      text-align: center;
+      padding-right: 15px; }
+      .bteam-main .media .media-left .fa {
+        width: 24px;
+        height: 24px; }
       .bteam-main .media .media-left .fa-lightbulb-o {
-        font-size: 4rem;
-        margin-left: 8px;
-        margin-right: 18px; }
+        font-size: 1.3rem;
+        margin-right: 0px; }
       .bteam-main .media .media-left .fa-bar-chart {
-        font-size: 3rem;
-        margin-left: 2px;
+        font-size: 1.3rem;
         margin-right: 0px; }
       .bteam-main .media .media-left .fa-cloud {
-        font-size: 3.2rem;
-        margin-left: 2px;
+        font-size: 1.3rem;
         margin-right: 0px; }
       .bteam-main .media .media-left .fa-refresh {
-        font-size: 4rem;
-        margin-left: 2px;
+        font-size: 1.3rem;
         margin-right: 0px; }
     .bteam-main .media .media-body {
       text-align: left; }
       .bteam-main .media .media-body h4 {
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 20px; }
       .bteam-main .media .media-body p {
-        font-family: 'MontserratLight', sans-serif;
+        font-family: 'MontserratUltraLight', sans-serif;
         font-size: 17px;
-        margin-top: 0; }
+        margin-top: 0;
+        margin-bottom: 0; }
       .bteam-main .media .media-body .link-more {
         color: #ff7e20;
-        font-family: 'MontserratBold', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 20px;
         display: block;
         line-height: 0;
@@ -1138,35 +1157,33 @@ footer {
   .bteam-main .bteam-download {
     text-align: left;
     background-color: #292929;
-    padding: 100px 0;
+    padding: 60px 0;
     margin-top: 80px; }
     .bteam-main .bteam-download h2 {
       color: #FFFFFF;
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 30px;
+      font-size: 23px;
       margin-bottom: 30px; }
       .bteam-main .bteam-download h2 .h2-italic {
-        font-family: 'MontserratLight', sans-serif;
-        font-size: 30px; }
+        font-style: italic; }
     .bteam-main .bteam-download .img-responsive {
       margin-bottom: 0; }
     .bteam-main .bteam-download .btn-orange {
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
       text-transform: uppercase;
       letter-spacing: normal;
-      padding: 15px 50px;
+      padding: 10px 20px;
       margin-top: 0px; }
   .bteam-main .bteam-experience {
-    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     padding: 80px 0; }
     .bteam-main .bteam-experience h2 {
       color: #292929;
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 48px;
-      margin-bottom: 30px; }
+      font-size: 40px;
+      margin-bottom: 10px; }
     .bteam-main .bteam-experience h3 {
       color: #292929;
       font-family: 'MontserratUltraLight', sans-serif;
@@ -1181,41 +1198,40 @@ footer {
         margin-bottom: 0; }
     .bteam-main .bteam-experience .link-more {
       color: #ff7e20;
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 20px;
       display: block;
       line-height: 0;
       text-decoration: none;
-      margin-top: 40px; }
+      margin-top: 4px; }
   .bteam-main .bteam-recover {
     text-align: left;
-    background: #292929;
+    background-color: #292929;
     padding: 80px 0; }
     .bteam-main .bteam-recover h2 {
       color: #FFFFFF;
       font-family: 'MontserratUltraLight', sans-serif;
-      font-size: 48px;
-      margin-bottom: 30px; }
+      font-size: 40px;
+      margin-bottom: 10px; }
     .bteam-main .bteam-recover h3 {
       color: #FFFFFF;
       font-family: 'MontserratUltraLight', sans-serif;
       font-size: 23px; }
     .bteam-main .bteam-recover img {
       width: 50%;
-      opacity: 0.6;
-      display: block;
-      text-align: center; }
+      opacity: 0.4;
+      text-align: left; }
       .bteam-main .bteam-recover img.img-responsive {
         vertical-align: middle;
         margin-bottom: 0; }
     .bteam-main .bteam-recover .link-more {
       color: #ff7e20;
-      font-family: 'MontserratBold', sans-serif;
+      font-family: 'MontserratLight', sans-serif;
       font-size: 20px;
       display: block;
       line-height: 0;
       text-decoration: none;
-      margin-top: 40px; }
+      margin-top: 4px; }
 
 .tab-pane {
   max-width: 100%;
@@ -1225,36 +1241,35 @@ footer {
   text-align: left;
   padding: 100px 0 0 0; }
   .developers-main h1 {
-    font-family: 'MontserratLight', sans-serif;
-    font-size: 48px; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
   .developers-main h3 {
-    font-family: 'MontserratLight', sans-serif;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 23px; }
   .developers-main .link-visit {
     color: #ff7e20;
-    font-family: 'MontserratBold', sans-serif;
+    font-family: 'MontserratLight', sans-serif;
     font-size: 20px;
     display: block;
     line-height: 0;
     text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 20px; }
+    margin-top: 10px; }
   .developers-main .media {
-    margin-top: 50px; }
+    margin-top: 20px; }
     .developers-main .media:first-child {
       margin-top: 0; }
     .developers-main .media .media-left {
-      padding-right: 25px; }
+      padding-right: 15px; }
       .developers-main .media .media-left .fa-lightbulb-o {
-        font-size: 4rem;
+        font-size: 1.3rem;
         margin-left: 8px;
         margin-right: 18px; }
       .developers-main .media .media-left .fa-bar-chart {
-        font-size: 3rem;
+        font-size: 1.3rem;
         margin-left: 2px;
         margin-right: 0px; }
       .developers-main .media .media-left .fa-cloud {
-        font-size: 3.2rem;
+        font-size: 1.3rem;
         margin-left: 2px;
         margin-right: 0px; }
       .developers-main .media .media-left .fa-refresh {
@@ -1264,43 +1279,46 @@ footer {
     .developers-main .media .media-body {
       text-align: left; }
       .developers-main .media .media-body h4 {
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 20px; }
       .developers-main .media .media-body p {
-        font-family: 'MontserratLight', sans-serif;
+        font-family: 'MontserratUltraLight', sans-serif;
         font-size: 17px;
-        margin-top: 0; }
+        margin-top: 0;
+        margin-bottom: 0; }
   .developers-main .developers-join {
     text-align: center;
-    background-color: #1999d6;
+    background-color: #0275D8;
     margin-top: 80px;
     padding: 40px 0; }
     .developers-main .developers-join h2 {
       color: #FFFFFF;
-      font-family: 'MontserratLight', sans-serif;
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 48px;
       text-transform: uppercase; }
     .developers-main .developers-join .btn-orange {
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
       margin-top: 20px; }
 
 .platform_personal {
-  font-family: 'Montserrat', sans-serif;
   background-image: url(../images/bigbanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 59px;
-  padding: 205px 0px; }
+  padding: 80px 0px; }
   .platform_personal h1 {
     color: #FFFFFF;
-    font-weight: 700;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 64px;
     text-transform: uppercase; }
   .platform_personal h3 {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 30px; }
   .platform_personal img {
     max-width: 100%;
     margin: 0 auto;
@@ -1308,27 +1326,35 @@ footer {
   .platform_personal .box-sign {
     text-align: center; }
     .platform_personal .box-sign .btn-orange {
+      font-family: 'MontserratUltraLight', sans-serif;
       font-size: 20px;
-      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: normal;
       padding: 15px 50px;
       margin-top: 20px; }
 
 .own_personal {
-  font-family: 'Montserrat', sans-serif;
-  padding: 100px 0px; }
+  background-image: url("../images/b-blur.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 60px 0px; }
   .own_personal .icons-side-personal {
     display: block;
     max-width: 90%;
     height: auto;
     margin: 0 auto; }
   .own_personal h1 {
-    font-weight: 700;
-    text-transform: uppercase; }
+    color: #FFFFFF;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
+  .own_personal h3 {
+    color: #FFFFFF;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px; }
   .own_personal .op-apps {
     text-align: center;
-    margin-top: 40px; }
+    margin-top: 30px; }
     .own_personal .op-apps ul {
       list-style: none;
       padding: 0;
@@ -1342,22 +1368,26 @@ footer {
           height: 50px; }
 
 .communicate-teams {
-  font-family: 'Montserrat', sans-serif;
   background-color: #FFFFFF;
-  padding: 100px 0px; }
+  padding: 60px 0px; }
   .communicate-teams h2 {
-    font-weight: 700;
-    text-transform: uppercase; }
+    color: #292929;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 30px; }
     .communicate-teams h2:first-child {
       margin-bottom: 0; }
+  .communicate-teams h3 {
+    color: #292929;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px; }
   .communicate-teams .link-more {
     color: #ff7e20;
     display: block;
+    font-family: 'MontserratLight', sans-serif;
     font-size: 20px;
-    font-weight: 600;
     line-height: 0;
     text-decoration: none;
-    margin-top: 20px; }
+    margin-top: 10px; }
   .communicate-teams .icons-side-personal {
     display: block;
     max-width: 60%;
@@ -1365,21 +1395,25 @@ footer {
     margin: 0 auto; }
 
 .schedule-simple {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #FFFFFF;
-  padding: 100px 0px; }
+  background-color: #0275D8;
+  padding: 60px 0px; }
   .schedule-simple h2 {
-    font-weight: 700;
-    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 30px;
     margin-bottom: 30px; }
+  .schedule-simple h3 {
+    color: #FFFFFF;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px; }
   .schedule-simple .link-more {
     color: #ff7e20;
     display: block;
+    font-family: 'MontserratLight', sans-serif;
     font-size: 20px;
-    font-weight: 600;
     line-height: 0;
     text-decoration: none;
-    margin-top: 20px; }
+    margin-top: 10px; }
   .schedule-simple .icons-side-personal {
     display: block;
     max-width: 45%;
@@ -1388,13 +1422,13 @@ footer {
 
 .my-action-personal {
   padding: 80px 0; }
+  .my-action-personal .full-wth {
+    max-width: 1500px; }
   .my-action-personal h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 48px;
     text-align: center;
-    margin-bottom: 80px; }
+    margin-bottom: 40px; }
   .my-action-personal .container-actions {
     max-width: 460px;
     font-family: 'Montserrat', sans-serif;
@@ -1407,8 +1441,11 @@ footer {
     .my-action-personal .container-actions img {
       margin-bottom: 16px; }
     .my-action-personal .container-actions h4 {
-      font-weight: 700;
-      text-transform: uppercase; }
+      font-family: 'MontserratRegular', sans-serif;
+      font-size: 23px; }
+    .my-action-personal .container-actions p {
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px; }
 
 .img-responsive {
   max-width: 90%;
@@ -1416,7 +1453,7 @@ footer {
   margin-bottom: 30px; }
 
 .icons-panel-personal {
-  background: #292929;
+  background: #0275D8;
   padding: 60px 0px; }
   .icons-panel-personal .box-icons {
     float: left;
@@ -1428,20 +1465,19 @@ footer {
     .icons-panel-personal .box-icons:last-child {
       margin-right: 0; }
     .icons-panel-personal .box-icons img {
-      max-width: 60%;
+      max-width: 54%;
       height: auto;
       text-align: center;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      background-color: #FFFFFF;
       margin-bottom: 20px; }
     .icons-panel-personal .box-icons h4 {
-      font-weight: 700;
-      text-transform: uppercase; }
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 23px; }
     .icons-panel-personal .box-icons p {
-      font-weight: 400;
-      margin: 0; }
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px;
+      line-height: 1.2;
+      padding: 0 10px;
+      margin-bottom: 0; }
 
 .b-messaging {
   background-image: url("../images/back_messaging.jpg");

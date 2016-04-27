@@ -9,22 +9,28 @@
          url('../fonts/montserrat/ultra-light/MontserratUltraLight.svg#MontserratUltraLight') format('svg');
 }
 
+@mixin U-footer-global {
+	font-family: 'MontserratUltraLight', sans-serif;
+}
+
 @mixin U-h1 {
 	font-family: 'MontserratUltraLight', sans-serif;
 	font-size: 64px;
-	
 }
 
 @mixin U-h2 {
 	font-family: 'MontserratUltraLight', sans-serif;
 	font-size: 48px;
-	
 }
 
 @mixin U-h3 {
 	font-family: 'MontserratUltraLight', sans-serif;
 	font-size: 30px;
-	
+}
+
+@mixin U-h4 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 40px;
 }
 
 @mixin U-h5 {
@@ -72,19 +78,21 @@
 @mixin L-h1 {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 64px;
-	
 }
 
 @mixin L-h2 {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 48px;
-	
 }
 
 @mixin L-h3 {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 30px;
-	
+}
+
+@mixin L-h4 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 40px;
 }
 
 @mixin L-h5 {
@@ -95,6 +103,11 @@
 @mixin L-btn {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 20px;
+}
+
+@mixin L-btn-17 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 17px;
 }
 
 @mixin L-p {
@@ -143,6 +156,11 @@
 @mixin R-h3 {
 	font-family: 'MontserratRegular', sans-serif;
 	font-size: 30px;
+}
+
+@mixin R-h4 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 40px;
 }
 
 @mixin R-h5 {
@@ -200,7 +218,11 @@
 @mixin B-h3 {
 	font-family: 'MontserratBold', sans-serif;
 	font-size: 30px;
-	
+}
+
+@mixin B-h4 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 40px;
 }
 
 @mixin B-h5 {
