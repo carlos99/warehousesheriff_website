@@ -296,6 +296,7 @@
 				margin-top: 40px;
 				padding-left: 15px;
 				padding-right: 15px;
+				text-align: center !important;
 			}
 			
 			p {
@@ -309,9 +310,12 @@
 			margin-top: 50px;
 			padding-left: 9px;
 			padding-right: 18px;
+			display: block;
+			text-align: center;
 			
 			.media-left {
 				padding-right: 15px;
+				display: block;
 				
 				.fa-comments-o {
 					font-size: 4rem;
@@ -340,7 +344,7 @@
 			}
 			
 			.media-body {
-				text-align: left;
+				text-align: center;
 				
 				p {
 					font-size: 15px;
@@ -394,7 +398,7 @@
 				}
 				
 				img {
-					max-width: 100%;
+					max-width: 50%;
 					height: auto;
 					margin-bottom: 16px;
 				}
@@ -418,6 +422,9 @@
 					font-size: 15px;
 					margin-bottom: 0;
 				}
+			}
+			.col-sm-12{
+				margin-bottom: 25px;
 			}
 		}
 		

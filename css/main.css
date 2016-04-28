@@ -4280,7 +4280,8 @@ footer {
         text-align: center;
         margin-top: 40px;
         padding-left: 15px;
-        padding-right: 15px; }
+        padding-right: 15px;
+        text-align: center !important; }
       .myself-main .pull-right p {
         font-size: 15px;
         padding-right: 20px;
@@ -4288,9 +4289,12 @@ footer {
     .myself-main .media {
       margin-top: 50px;
       padding-left: 9px;
-      padding-right: 18px; }
+      padding-right: 18px;
+      display: block;
+      text-align: center; }
       .myself-main .media .media-left {
-        padding-right: 15px; }
+        padding-right: 15px;
+        display: block; }
         .myself-main .media .media-left .fa-comments-o {
           font-size: 4rem;
           margin-left: 8px;
@@ -4309,7 +4313,7 @@ footer {
           border-radius: 50%;
           background-color: #FFFFFF; }
       .myself-main .media .media-body {
-        text-align: left; }
+        text-align: center; }
         .myself-main .media .media-body p {
           font-size: 15px;
           margin-top: 0;
@@ -4344,7 +4348,7 @@ footer {
         .myself-main .my-action .container-actions:last-child {
           margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
-          max-width: 100%;
+          max-width: 50%;
           height: auto;
           margin-bottom: 16px; }
         .myself-main .my-action .container-actions.special-pos-1 {
@@ -4359,6 +4363,8 @@ footer {
         .myself-main .my-action .container-actions p {
           font-size: 15px;
           margin-bottom: 0; }
+      .myself-main .my-action .col-sm-12 {
+        margin-bottom: 25px; }
     .myself-main .icons-panel {
       background: #292929;
       padding: 60px 0px; }
