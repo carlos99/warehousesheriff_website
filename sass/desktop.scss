@@ -1131,6 +1131,11 @@ footer{
 	.full-wth {
 		max-width: 1500px !important;
 		
+		.row {
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+		
 		.img-responsive {
 			max-width: 100%;
 			margin-bottom: 0;

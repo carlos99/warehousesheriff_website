@@ -919,6 +919,9 @@ footer {
   padding: 100px 0 0 0; }
   .steam-main .full-wth {
     max-width: 1500px !important; }
+    .steam-main .full-wth .row {
+      padding-left: 12px;
+      padding-right: 12px; }
     .steam-main .full-wth .img-responsive {
       max-width: 100%;
       margin-bottom: 0; }
@@ -2319,7 +2322,7 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 15px;
         text-align: left;
         text-transform: uppercase;
@@ -2345,7 +2348,7 @@ footer {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
-          font-family: 'MontserratBold', sans-serif;
+          font-family: 'MontserratLight', sans-serif;
           font-size: 15px;
           text-align: left;
           text-transform: uppercase;
@@ -2468,39 +2471,27 @@ footer {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
-      background-image: url("../images/tabs/myself/myself_back.jpg");
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-size: contain;
-      padding: 205px 0 0 0; }
+      padding: 0; }
 
   .myself-main {
     text-align: left; }
-    .myself-main .pull-right {
-      float: none !important; }
-      .myself-main .pull-right h2 {
-        font-size: 34px;
-        text-align: center; }
-      .myself-main .pull-right p {
-        font-size: 15px;
-        padding-right: 20px;
-        padding-left: 20px; }
+    .myself-main h2 {
+      font-size: 34px;
+      text-align: center; }
+    .myself-main p {
+      font-size: 15px;
+      text-align: center; }
     .myself-main .media {
-      margin-top: 50px;
-      padding-left: 9px;
-      padding-right: 18px; }
+      margin-top: 20px; }
       .myself-main .media .media-left {
         padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .myself-main .media .media-left .fa-calendar {
-          font-size: 4rem;
           margin-left: 10px;
           margin-right: 10px; }
         .myself-main .media .media-left .fa-user-secret {
-          font-size: 4rem;
           margin-left: 15px;
           margin-right: 10px; }
         .myself-main .media .media-left .myself-icon {
@@ -2511,7 +2502,7 @@ footer {
       .myself-main .media .media-body {
         text-align: left; }
         .myself-main .media .media-body p {
-          font-size: 15px;
+          text-align: left;
           margin-top: 0;
           padding: 0; }
         .myself-main .media .media-body .link-more {
@@ -2521,6 +2512,7 @@ footer {
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
+      margin-top: 40px;
       padding: 40px 18px; }
       .myself-main .my-sign h2 {
         font-size: 1.9rem; }
@@ -2532,32 +2524,27 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
     .myself-main .my-action {
-      padding: 80px 18px; }
+      padding: 40px 15px; }
       .myself-main .my-action h1 {
-        font-size: 40px;
+        text-align: center;
+        font-size: 34px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
-        margin-bottom: 30px; }
-        .myself-main .my-action .container-actions:last-child {
-          margin-bottom: 0; }
+        margin-bottom: 0px;
+        padding-left: 0;
+        padding-right: 0; }
         .myself-main .my-action .container-actions img {
           max-width: 100%;
           height: auto;
           margin-bottom: 16px; }
-        .myself-main .my-action .container-actions.special-pos-1 {
-          margin-top: 0; }
-        .myself-main .my-action .container-actions.special-pos-2 {
-          margin-top: 0;
-          margin-left: 0; }
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
           text-transform: uppercase; }
         .myself-main .my-action .container-actions p {
           font-size: 15px;
-          margin-bottom: 0; }
+          margin-bottom: 26px; }
     .myself-main .icons-panel {
-      background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
@@ -2568,13 +2555,9 @@ footer {
           margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 40%;
+          max-width: 114px;
           height: auto;
           text-align: center;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #FFFFFF;
           margin-bottom: 20px; }
         .myself-main .icons-panel .box-icons p {
           font-size: 15px;
@@ -2603,14 +2586,10 @@ footer {
 
   .steam-main {
     text-align: center;
-    background-image: url("../images/tabs/small-team/steam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 80%; }
+    padding: 0; }
     .steam-main h2:nth-child(1) {
       font-size: 34px;
       text-align: center;
-      margin-top: 80px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -2619,23 +2598,20 @@ footer {
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h5 {
-      padding: 0 15px; }
+      font-size: 17px; }
     .steam-main .media {
-      margin-top: 50px;
+      margin-top: 30px;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
         padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .steam-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .steam-main .media .media-left .fa-calendar {
-          font-size: 4rem;
           margin-left: 10px;
           margin-right: 10px; }
       .steam-main .media .media-body {
@@ -2653,7 +2629,7 @@ footer {
     .steam-main .steam-free {
       text-align: center;
       background-color: #1999d6;
-      margin-top: 80px;
+      margin-top: 40px;
       padding: 40px 0; }
       .steam-main .steam-free h2 {
         font-size: 1.9rem;
@@ -2669,7 +2645,6 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
     .steam-main .steam-easy {
-      font-family: 'Montserrat', sans-serif;
       text-align: left;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
       background-size: cover;
@@ -2692,26 +2667,16 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 18px;
         padding-right: 18px;
         margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.pull-right {
-          float: none; }
-        .steam-main .steam-action .container-actions:nth-child(2) {
-          margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-2 {
-          margin-top: 0px;
-          margin-left: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px; }
+        margin-bottom: 0px; }
         .steam-main .steam-action .container-actions:last-child {
           margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
@@ -2722,13 +2687,14 @@ footer {
           font-weight: 700;
           text-transform: uppercase; }
         .steam-main .steam-action .container-actions p {
-          font-size: 15px; }
+          font-size: 15px;
+          margin-bottom: 26px; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
             margin-top: 50px; }
           .steam-main .steam-action .container-actions .media .media-body h4 {
-            font-weight: 400;
+            font-size: 17px;
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
@@ -2752,18 +2718,15 @@ footer {
         padding-right: 18px; }
     .steam-main .steam-wait {
       text-align: center;
-      background-image: url(../images/tabs/small-team/steam_back.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center top;
       padding: 60px 0; }
       .steam-main .steam-wait h2 {
-        font-size: 1.9rem;
-        margin-bottom: 30px; }
+        font-size: 34px;
+        margin-bottom: 10px; }
       .steam-main .steam-wait h3 {
+        font-size: 17px;
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 40px; }
+        margin-bottom: 30px; }
       .steam-main .steam-wait .link-more {
         text-align: center;
         padding-left: 18px;
@@ -2775,11 +2738,7 @@ footer {
 
   .bteam-main {
     text-align: center;
-    background-image: url("../images/tabs/big-team/bteam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
-    padding: 205px 0 0 0; }
+    padding: 0 0 0 0; }
     .bteam-main h2 {
       font-size: 34px; }
     .bteam-main h3 {
@@ -2792,20 +2751,13 @@ footer {
       padding-right: 18px; }
       .bteam-main .media .media-left {
         padding-right: 15px; }
-        .bteam-main .media .media-left .fa-lightbulb-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 18px; }
         .bteam-main .media .media-left .fa-bar-chart {
-          font-size: 3rem;
           margin-left: 2px;
           margin-right: 0px; }
         .bteam-main .media .media-left .fa-cloud {
-          font-size: 3.2rem;
           margin-left: 2px;
           margin-right: 0px; }
         .bteam-main .media .media-left .fa-refresh {
-          font-size: 4rem;
           margin-left: 2px;
           margin-right: 0px; }
       .bteam-main .media .media-body {
@@ -2827,48 +2779,52 @@ footer {
       background-repeat: no-repeat;
       background-size: 80%;
       background-position: center 20%;
-      padding: 80px 0 80px 0;
+      padding: 40px 0;
       margin-top: 60px; }
-      .bteam-main .bteam-download .pull-right {
-        float: none; }
       .bteam-main .bteam-download .img-responsive {
-        max-width: 80%; }
+        max-width: 70%; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.6rem;
-        margin-top: 10px;
+        font-size: 23px;
+        margin-top: 0px;
         margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-download .form-group {
+        margin-bottom: 0; }
     .bteam-main .bteam-experience {
       text-align: center;
       background: #FFFFFF;
       background-repeat: no-repeat;
       background-size: 40%;
       background-position: center 11%;
-      padding: 80px 0 80px 0; }
+      padding: 40px 0; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 23px;
         margin-top: 30px;
-        margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        margin-bottom: 20px;
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-experience h3 {
+        font-size: 17px; }
       .bteam-main .bteam-experience .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
     .bteam-main .bteam-recover {
       text-align: center;
       background: #292929;
       background-repeat: no-repeat;
       background-size: 40%;
       background-position: center 11%;
-      padding: 80px 0; }
+      padding: 40px 0; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         padding-left: 18px;
         padding-right: 18px; }
+      .bteam-main .bteam-recover h3 {
+        font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
 
   .tab-pane {
     max-width: 100%;
@@ -2877,12 +2833,14 @@ footer {
   .developers-main {
     text-align: center;
     background-color: #FFFFFF;
-    padding: 60px 0 0 0; }
+    padding: 40px 0 0 0; }
     .developers-main h1 {
       font-size: 34px; }
     .developers-main .link-visit {
+      font-size: 17px;
       line-height: normal;
-      margin-top: 20px;
+      padding: 0 6px;
+      margin-top: 10px;
       margin-bottom: 40px; }
     .developers-main .media {
       margin-top: 30px; }
@@ -2893,14 +2851,16 @@ footer {
       .developers-main .media .media-body p {
         font-size: 15px;
         margin-bottom: 0; }
-    .developers-main .developers-join h2 {
-      font-size: 1.9rem;
-      padding-left: 18px;
-      padding-right: 18px; }
-    .developers-main .developers-join .btn-orange {
-      font-size: 1rem;
-      padding: 15px 45px;
-      margin-top: 20px; } }
+    .developers-main .developers-join {
+      margin-top: 30px; }
+      .developers-main .developers-join h2 {
+        font-size: 1.9rem;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .developers-main .developers-join .btn-orange {
+        font-size: 1rem;
+        padding: 15px 45px;
+        margin-top: 20px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
@@ -2917,7 +2877,7 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 15px;
         text-align: left;
         text-transform: uppercase;
@@ -2943,7 +2903,7 @@ footer {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
-          font-family: 'MontserratBold', sans-serif;
+          font-family: 'MontserratLight', sans-serif;
           font-size: 15px;
           text-align: left;
           text-transform: uppercase;
@@ -3066,42 +3026,32 @@ footer {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
-      background-image: url("../images/tabs/myself/myself_back.jpg");
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-size: 430px;
-      padding: 205px 0 0 0; }
+      padding: 0; }
 
   .myself-main {
-    text-align: left; }
-    .myself-main .pull-right {
-      float: none !important; }
-      .myself-main .pull-right h2 {
-        font-size: 34px;
-        text-align: center;
-        margin-top: 40px;
-        padding-left: 15px;
-        padding-right: 15px; }
-      .myself-main .pull-right p {
-        font-size: 15px;
-        padding-right: 20px;
-        padding-left: 20px; }
+    text-align: center; }
+    .myself-main h2 {
+      font-size: 34px;
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px; }
+    .myself-main p {
+      font-size: 15px;
+      padding-right: 20px;
+      padding-left: 20px; }
     .myself-main .media {
-      margin-top: 50px;
+      margin-top: 30px;
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
         padding-right: 15px; }
         .myself-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .myself-main .media .media-left .fa-calendar {
-          font-size: 4rem;
           margin-left: 10px;
           margin-right: 10px; }
         .myself-main .media .media-left .fa-user-secret {
-          font-size: 4rem;
           margin-left: 15px;
           margin-right: 10px; }
         .myself-main .media .media-left .myself-icon {
@@ -3122,6 +3072,7 @@ footer {
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
+      margin-top: 40px;
       padding: 40px 18px; }
       .myself-main .my-sign h2 {
         font-size: 1.9rem; }
@@ -3135,15 +3086,13 @@ footer {
     .myself-main .my-action {
       padding: 80px 18px; }
       .myself-main .my-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px; }
-        .myself-main .my-action .container-actions:last-child {
-          margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -3161,8 +3110,7 @@ footer {
           font-size: 15px;
           margin-bottom: 0; }
     .myself-main .icons-panel {
-      background: #292929;
-      padding: 60px 0px; }
+      padding: 80px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
         max-width: 100%;
@@ -3172,18 +3120,14 @@ footer {
           margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 30%;
+          max-width: 133px;
           height: auto;
           text-align: center;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #FFFFFF;
           margin-bottom: 20px; }
         .myself-main .icons-panel .box-icons p {
           font-size: 15px;
-          padding-left: 18px;
-          padding-right: 18px;
+          padding-left: 80px;
+          padding-right: 80px;
           margin: 0; }
     .myself-main .my-tour {
       text-align: center;
@@ -3207,14 +3151,10 @@ footer {
 
   .steam-main {
     text-align: center;
-    background-image: url("../images/tabs/small-team/steam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px; }
+    padding: 0; }
     .steam-main h2:nth-child(1) {
       font-size: 34px;
       text-align: center;
-      margin-top: 180px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -3231,15 +3171,12 @@ footer {
       .steam-main .media .media-left {
         padding-right: 15px; }
         .steam-main .media .media-left .fa-rocket {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .steam-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
           margin-left: 8px;
           margin-right: 8px; }
         .steam-main .media .media-left .fa-calendar {
-          font-size: 4rem;
           margin-left: 10px;
           margin-right: 10px; }
       .steam-main .media .media-body {
@@ -3256,8 +3193,7 @@ footer {
           text-decoration: none; }
     .steam-main .steam-free {
       text-align: center;
-      background-color: #1999d6;
-      margin-top: 80px;
+      margin-top: 60px;
       padding: 40px 0; }
       .steam-main .steam-free h2 {
         font-size: 1.9rem;
@@ -3267,74 +3203,59 @@ footer {
         padding-right: 18px; }
       .steam-main .steam-free .btn-orange {
         font-size: 20px;
-        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
     .steam-main .steam-easy {
-      font-family: 'Montserrat', sans-serif;
       text-align: left;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
       background-size: cover;
       background-position: center center, 70% center;
       padding: 60px 0; }
       .steam-main .steam-easy h2 {
-        font-size: 1.9rem;
         text-shadow: 1px 1px 2px #000;
         margin-top: 0;
         margin-bottom: 30px; }
       .steam-main .steam-easy h3 {
         text-align: center;
-        margin-bottom: 40px;
         padding-left: 18px;
         padding-right: 18px; }
       .steam-main .steam-easy .link-more {
         text-align: center;
+        margin-top: 10px;
         padding-left: 18px;
         padding-right: 18px; }
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 18px;
         padding-right: 18px;
         margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
         padding-left: 18px;
         padding-right: 18px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.pull-right {
-          float: none; }
-        .steam-main .steam-action .container-actions:nth-child(2) {
-          margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-2 {
-          margin-top: 0px;
-          margin-left: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions:last-child {
-          margin-bottom: 0; }
+        margin-bottom: 30px; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
           margin-bottom: 16px; }
         .steam-main .steam-action .container-actions h4 {
-          font-weight: 700;
           text-transform: uppercase; }
         .steam-main .steam-action .container-actions p {
-          font-size: 15px; }
+          font-size: 15px;
+          margin-bottom: 0; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
           .steam-main .steam-action .container-actions .media:first-child {
             margin-top: 50px; }
           .steam-main .steam-action .container-actions .media .media-body h4 {
-            font-weight: 400;
+            font-size: 17px;
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
@@ -3360,15 +3281,15 @@ footer {
       text-align: center;
       padding: 60px 0; }
       .steam-main .steam-wait .img-responsive {
-        max-width: 70%; }
+        max-width: 70%;
+        margin-bottom: 10px; }
       .steam-main .steam-wait h2 {
-        font-size: 1.9rem;
-        margin-top: 0;
-        margin-bottom: 30px; }
+        font-size: 34px;
+        margin-bottom: 10px; }
       .steam-main .steam-wait h3 {
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 40px; }
+        margin-bottom: 20px; }
       .steam-main .steam-wait .link-more {
         text-align: center;
         padding-left: 18px;
@@ -3380,39 +3301,19 @@ footer {
 
   .bteam-main {
     text-align: center;
-    background-image: url("../images/tabs/big-team/bteam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px;
-    padding: 240px 0 0 0; }
+    padding: 0; }
     .bteam-main h2 {
       font-size: 34px; }
     .bteam-main h3 {
-      font-size: 1.5rem;
+      font-size: 17px;
       padding-left: 18px;
       padding-right: 18px; }
     .bteam-main .media {
-      margin-top: 50px;
+      margin-top: 30px;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
         padding-right: 15px; }
-        .bteam-main .media .media-left .fa-lightbulb-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 18px; }
-        .bteam-main .media .media-left .fa-bar-chart {
-          font-size: 3rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-cloud {
-          font-size: 3.2rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-refresh {
-          font-size: 4rem;
-          margin-left: 2px;
-          margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
         .bteam-main .media .media-body h4 {
@@ -3429,46 +3330,59 @@ footer {
     .bteam-main .bteam-download {
       text-align: center;
       background: #292929;
-      padding: 80px 0 80px 0;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center 20%;
+      padding: 40px 0;
       margin-top: 60px; }
-      .bteam-main .bteam-download .pull-right {
-        float: none; }
       .bteam-main .bteam-download .img-responsive {
         max-width: 50%; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.6rem;
-        margin-top: 10px;
+        font-size: 23px;
+        margin-top: 0px;
         margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-download .form-group {
+        margin-bottom: 0; }
     .bteam-main .bteam-experience {
       text-align: center;
       background: #FFFFFF;
-      padding: 80px 0 80px 0; }
-      .bteam-main .bteam-experience .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-experience img {
+        max-width: 140px; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 23px;
         margin-top: 30px;
-        margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        margin-bottom: 20px;
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-experience h3 {
+        font-size: 17px; }
       .bteam-main .bteam-experience .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
     .bteam-main .bteam-recover {
       text-align: center;
       background: #292929;
-      padding: 80px 0; }
-      .bteam-main .bteam-recover .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-recover img {
+        max-width: 140px; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         padding-left: 18px;
         padding-right: 18px; }
+      .bteam-main .bteam-recover h3 {
+        font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
 
   .tab-pane {
     max-width: 100%;
@@ -3517,7 +3431,7 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 15px;
         text-align: left;
         text-transform: uppercase;
@@ -3543,7 +3457,7 @@ footer {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
-          font-family: 'MontserratBold', sans-serif;
+          font-family: 'MontserratLight', sans-serif;
           font-size: 15px;
           text-align: left;
           text-transform: uppercase;
@@ -3666,44 +3580,29 @@ footer {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
-      background-image: url("../images/tabs/myself/myself_back.jpg");
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-size: 430px;
-      padding: 205px 0 0 0; }
+      padding: 0; }
 
   .myself-main {
-    text-align: left; }
-    .myself-main .pull-right {
-      float: none !important; }
-      .myself-main .pull-right h2 {
-        font-size: 34px;
-        text-align: center;
-        margin-top: 40px;
-        padding-left: 15px;
-        padding-right: 15px; }
-      .myself-main .pull-right p {
-        font-size: 15px;
-        padding-right: 20px;
-        padding-left: 20px; }
+    text-align: center; }
+    .myself-main .img-responsive {
+      width: 510px;
+      margin-top: 40px; }
+    .myself-main h2 {
+      font-size: 34px;
+      text-align: center;
+      margin-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px; }
+    .myself-main p {
+      font-size: 15px;
+      padding-right: 20px;
+      padding-left: 20px; }
     .myself-main .media {
       margin-top: 50px;
       padding-left: 9px;
       padding-right: 18px; }
       .myself-main .media .media-left {
         padding-right: 15px; }
-        .myself-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .myself-main .media .media-left .fa-calendar {
-          font-size: 4rem;
-          margin-left: 10px;
-          margin-right: 10px; }
-        .myself-main .media .media-left .fa-user-secret {
-          font-size: 4rem;
-          margin-left: 15px;
-          margin-right: 10px; }
         .myself-main .media .media-left .myself-icon {
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
@@ -3722,9 +3621,11 @@ footer {
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
+      margin-top: 60px;
       padding: 40px 18px; }
       .myself-main .my-sign h2 {
-        font-size: 1.9rem; }
+        font-size: 1.9rem;
+        margin-top: 0; }
       .myself-main .my-sign .btn-orange {
         font-size: 20px;
         font-weight: 700;
@@ -3733,17 +3634,15 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
     .myself-main .my-action {
-      padding: 80px 18px; }
+      padding: 60px 18px; }
       .myself-main .my-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
-        width: 100%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px; }
-        .myself-main .my-action .container-actions:last-child {
-          margin-bottom: 0; }
         .myself-main .my-action .container-actions img {
           max-width: 100%;
           height: auto;
@@ -3756,12 +3655,11 @@ footer {
           margin-right: auto; }
         .myself-main .my-action .container-actions h4 {
           font-weight: 700;
-          text-transform: uppercase; }
+          text-transform: none; }
         .myself-main .my-action .container-actions p {
           font-size: 15px;
           margin-bottom: 0; }
     .myself-main .icons-panel {
-      background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .box-icons {
         float: none;
@@ -3772,13 +3670,9 @@ footer {
           margin-bottom: 0;
           margin-right: 0; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 30%;
+          max-width: 162px;
           height: auto;
           text-align: center;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #FFFFFF;
           margin-bottom: 20px; }
         .myself-main .icons-panel .box-icons p {
           font-size: 15px;
@@ -3807,41 +3701,29 @@ footer {
 
   .steam-main {
     text-align: center;
-    background-image: url("../images/tabs/small-team/steam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px; }
+    padding: 0; }
+    .steam-main .img-responsive {
+      max-width: 480px !important;
+      margin-bottom: 0; }
     .steam-main h2:nth-child(1) {
       font-size: 34px;
       text-align: center;
-      margin-top: 180px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
-      font-size: 1.2rem;
+      font-size: 17px;
       text-align: center;
-      padding-left: 18px;
-      padding-right: 18px; }
+      padding-left: 30px;
+      padding-right: 30px; }
     .steam-main h5 {
-      padding: 0 15px; }
+      font-size: 23px;
+      padding: 0 30px; }
     .steam-main .media {
       margin-top: 50px;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
         padding-right: 15px; }
-        .steam-main .media .media-left .fa-rocket {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .steam-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .steam-main .media .media-left .fa-calendar {
-          font-size: 4rem;
-          margin-left: 10px;
-          margin-right: 10px; }
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
@@ -3856,8 +3738,7 @@ footer {
           text-decoration: none; }
     .steam-main .steam-free {
       text-align: center;
-      background-color: #1999d6;
-      margin-top: 80px;
+      margin-top: 60px;
       padding: 40px 0; }
       .steam-main .steam-free h2 {
         font-size: 1.9rem;
@@ -3866,19 +3747,16 @@ footer {
         padding-left: 18px;
         padding-right: 18px; }
       .steam-main .steam-free .btn-orange {
-        font-size: 20px;
-        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
     .steam-main .steam-easy {
-      font-family: 'Montserrat', sans-serif;
       text-align: left;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tabs/small-team/back-easy.jpg) no-repeat;
       background-size: cover;
       background-position: center center, 70% center;
-      padding: 60px 0; }
+      padding: 40px 0; }
       .steam-main .steam-easy h2 {
         font-size: 1.9rem;
         text-shadow: 1px 1px 2px #000;
@@ -3886,7 +3764,7 @@ footer {
         margin-bottom: 30px; }
       .steam-main .steam-easy h3 {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         padding-left: 18px;
         padding-right: 18px; }
       .steam-main .steam-easy .link-more {
@@ -3896,45 +3774,29 @@ footer {
     .steam-main .steam-action {
       padding: 80px 0; }
       .steam-main .steam-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 18px;
         padding-right: 18px;
         margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
-        width: 100%;
+        max-width: 100%;
         padding-left: 18px;
         padding-right: 18px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.pull-right {
-          float: none; }
-        .steam-main .steam-action .container-actions:nth-child(2) {
-          margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-2 {
-          margin-top: 0px;
-          margin-left: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions:last-child {
-          margin-bottom: 0; }
+        margin-bottom: 30px; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
           height: auto;
           margin-bottom: 16px; }
         .steam-main .steam-action .container-actions h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
+          text-transform: none; }
         .steam-main .steam-action .container-actions p {
           font-size: 15px; }
         .steam-main .steam-action .container-actions .media {
           margin-top: 20px; }
-          .steam-main .steam-action .container-actions .media:first-child {
-            margin-top: 50px; }
           .steam-main .steam-action .container-actions .media .media-body h4 {
-            font-weight: 400;
+            font-size: 23px;
             text-transform: none; }
     .steam-main .steam-scheduling {
       text-align: center;
@@ -3980,39 +3842,22 @@ footer {
 
   .bteam-main {
     text-align: center;
-    background-image: url("../images/tabs/big-team/bteam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px;
-    padding: 240px 0 0 0; }
+    padding: 0; }
+    .bteam-main .img-responsive {
+      max-width: 500px; }
     .bteam-main h2 {
       font-size: 34px; }
     .bteam-main h3 {
-      font-size: 1.5rem;
-      padding-left: 18px;
-      padding-right: 18px; }
+      font-size: 23px;
+      padding-left: 30px;
+      padding-right: 30px; }
     .bteam-main .media {
-      margin-top: 50px;
+      margin-top: 30px;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
+        padding-left: 10px;
         padding-right: 15px; }
-        .bteam-main .media .media-left .fa-lightbulb-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 18px; }
-        .bteam-main .media .media-left .fa-bar-chart {
-          font-size: 3rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-cloud {
-          font-size: 3.2rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-refresh {
-          font-size: 4rem;
-          margin-left: 2px;
-          margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
         .bteam-main .media .media-body h4 {
@@ -4029,46 +3874,59 @@ footer {
     .bteam-main .bteam-download {
       text-align: center;
       background: #292929;
-      padding: 80px 0 80px 0;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center 20%;
+      padding: 40px 0;
       margin-top: 60px; }
-      .bteam-main .bteam-download .pull-right {
-        float: none; }
       .bteam-main .bteam-download .img-responsive {
         max-width: 50%; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.6rem;
-        margin-top: 10px;
+        font-size: 23px;
+        margin-top: 0px;
         margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-download .form-group {
+        margin-bottom: 0; }
     .bteam-main .bteam-experience {
       text-align: center;
       background: #FFFFFF;
-      padding: 80px 0 80px 0; }
-      .bteam-main .bteam-experience .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-experience img {
+        max-width: 140px; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 23px;
         margin-top: 30px;
-        margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        margin-bottom: 20px;
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-experience h3 {
+        font-size: 17px; }
       .bteam-main .bteam-experience .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
     .bteam-main .bteam-recover {
       text-align: center;
       background: #292929;
-      padding: 80px 0; }
-      .bteam-main .bteam-recover .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-recover img {
+        max-width: 140px; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         padding-left: 18px;
         padding-right: 18px; }
+      .bteam-main .bteam-recover h3 {
+        font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
 
   .tab-pane {
     max-width: 100%;
@@ -4118,7 +3976,7 @@ footer {
       margin-bottom: 11px; }
       header .collapse li a, header .collapsing li a {
         color: #292929;
-        font-family: 'MontserratRegular', sans-serif;
+        font-family: 'MontserratLight', sans-serif;
         font-size: 15px;
         text-align: left;
         text-transform: uppercase;
@@ -4144,7 +4002,7 @@ footer {
         padding-left: 0; }
         header .collapse ul li a, header .collapsing ul li a {
           color: #292929;
-          font-family: 'MontserratBold', sans-serif;
+          font-family: 'MontserratLight', sans-serif;
           font-size: 15px;
           text-align: left;
           text-transform: uppercase;
@@ -4265,55 +4123,30 @@ footer {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
-      background-image: url("../images/tabs/myself/myself_back.jpg");
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-size: 430px;
-      padding: 205px 0 0 0; }
+      padding: 0; }
 
   .myself-main {
-    text-align: left; }
-    .myself-main .pull-right {
-      float: none !important; }
-      .myself-main .pull-right h2 {
-        font-size: 34px;
-        text-align: center;
-        margin-top: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center !important; }
-      .myself-main .pull-right p {
-        font-size: 15px;
-        padding-right: 20px;
-        padding-left: 20px; }
+    text-align: center; }
+    .myself-main .img-responsive {
+      max-width: 610px !important;
+      margin-bottom: 20px !important; }
+    .myself-main h2 {
+      font-size: 34px;
+      padding: 0 30px; }
+    .myself-main p {
+      font-size: 15px;
+      padding: 0 30px; }
     .myself-main .media {
-      margin-top: 50px;
+      width: 430px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
       padding-left: 9px;
-      padding-right: 18px;
-      display: block;
-      text-align: center; }
+      padding-right: 18px; }
       .myself-main .media .media-left {
-        padding-right: 15px;
-        display: block; }
-        .myself-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .myself-main .media .media-left .fa-calendar {
-          font-size: 4rem;
-          margin-left: 10px;
-          margin-right: 10px; }
-        .myself-main .media .media-left .fa-user-secret {
-          font-size: 4rem;
-          margin-left: 15px;
-          margin-right: 10px; }
-        .myself-main .media .media-left .myself-icon {
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #FFFFFF; }
+        padding-right: 15px; }
       .myself-main .media .media-body {
-        text-align: center; }
+        text-align: left; }
         .myself-main .media .media-body p {
           font-size: 15px;
           margin-top: 0;
@@ -4325,9 +4158,11 @@ footer {
           line-height: 0;
           text-decoration: none; }
     .myself-main .my-sign {
+      margin-top: 60px;
       padding: 40px 18px; }
       .myself-main .my-sign h2 {
-        font-size: 1.9rem; }
+        font-size: 1.9rem;
+        margin-top: 0; }
       .myself-main .my-sign .btn-orange {
         font-size: 20px;
         font-weight: 700;
@@ -4336,37 +4171,25 @@ footer {
         padding: 15px 50px;
         margin-top: 20px; }
     .myself-main .my-action {
-      padding: 80px 18px; }
+      padding: 60px 18px 0 18px; }
       .myself-main .my-action h1 {
-        font-size: 40px;
+        font-size: 34px;
         margin-bottom: 20px; }
       .myself-main .my-action .container-actions {
-        width: 100%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px; }
-        .myself-main .my-action .container-actions:last-child {
-          margin-bottom: 0; }
+        margin-bottom: 60px; }
         .myself-main .my-action .container-actions img {
-          max-width: 50%;
+          max-width: 70%;
           height: auto;
           margin-bottom: 16px; }
-        .myself-main .my-action .container-actions.special-pos-1 {
-          margin-top: 0; }
-        .myself-main .my-action .container-actions.special-pos-2 {
-          margin-top: 0;
-          margin-left: auto;
-          margin-right: auto; }
         .myself-main .my-action .container-actions h4 {
-          font-weight: 700;
-          text-transform: uppercase; }
+          font-weight: 700; }
         .myself-main .my-action .container-actions p {
           font-size: 15px;
           margin-bottom: 0; }
-      .myself-main .my-action .col-sm-12 {
-        margin-bottom: 25px; }
     .myself-main .icons-panel {
-      background: #292929;
       padding: 60px 0px; }
       .myself-main .icons-panel .row {
         width: 720px;
@@ -4387,13 +4210,9 @@ footer {
             width: 97px;
             height: 97px; }
         .myself-main .icons-panel .box-icons img {
-          max-width: 30%;
+          max-width: 100px;
           height: auto;
           text-align: center;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #FFFFFF;
           margin-bottom: 20px; }
         .myself-main .icons-panel .box-icons p {
           font-size: 15px;
@@ -4422,14 +4241,13 @@ footer {
 
   .steam-main {
     text-align: center;
-    background-image: url("../images/tabs/small-team/steam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px; }
+    padding: 0; }
+    .steam-main .img-responsive {
+      max-width: 590px !important; }
     .steam-main h2:nth-child(1) {
       font-size: 34px;
       text-align: center;
-      margin-top: 180px;
+      margin-top: -30px;
       padding-left: 18px;
       padding-right: 18px; }
     .steam-main h2:nth-child(2) {
@@ -4440,23 +4258,14 @@ footer {
     .steam-main h5 {
       padding: 0 15px; }
     .steam-main .media {
-      margin-top: 50px;
+      width: 454px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .steam-main .media .media-left {
         padding-right: 15px; }
-        .steam-main .media .media-left .fa-rocket {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .steam-main .media .media-left .fa-comments-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 8px; }
-        .steam-main .media .media-left .fa-calendar {
-          font-size: 4rem;
-          margin-left: 10px;
-          margin-right: 10px; }
       .steam-main .media .media-body {
         text-align: left; }
         .steam-main .media .media-body p {
@@ -4471,8 +4280,7 @@ footer {
           text-decoration: none; }
     .steam-main .steam-free {
       text-align: center;
-      background-color: #1999d6;
-      margin-top: 80px;
+      margin-top: 60px;
       padding: 40px 0; }
       .steam-main .steam-free h2 {
         font-size: 1.9rem;
@@ -4482,7 +4290,6 @@ footer {
         padding-right: 18px; }
       .steam-main .steam-free .btn-orange {
         font-size: 20px;
-        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: normal;
         padding: 15px 50px;
@@ -4517,23 +4324,14 @@ footer {
         margin-bottom: 20px; }
       .steam-main .steam-action .container-actions {
         width: 100%;
+        height: 100%;
         padding-left: 18px;
         padding-right: 18px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.pull-right {
-          float: none; }
-        .steam-main .steam-action .container-actions:nth-child(2) {
-          margin-bottom: 60px; }
-        .steam-main .steam-action .container-actions.special-pos-1 {
-          margin-top: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-2 {
-          margin-top: 0px;
-          margin-left: 0px; }
-        .steam-main .steam-action .container-actions.special-pos-3 {
-          margin-top: 0px; }
         .steam-main .steam-action .container-actions:last-child {
+          max-width: 100%;
           margin-bottom: 0; }
         .steam-main .steam-action .container-actions img {
           max-width: 100%;
@@ -4575,7 +4373,7 @@ footer {
       text-align: center;
       padding: 60px 0; }
       .steam-main .steam-wait .img-responsive {
-        max-width: 70%; }
+        max-width: 410px !important; }
       .steam-main .steam-wait h2 {
         font-size: 1.9rem;
         margin-top: 0;
@@ -4583,7 +4381,7 @@ footer {
       .steam-main .steam-wait h3 {
         padding-left: 18px;
         padding-right: 18px;
-        margin-bottom: 40px; }
+        margin-bottom: 10px; }
       .steam-main .steam-wait .link-more {
         text-align: center;
         padding-left: 18px;
@@ -4595,11 +4393,10 @@ footer {
 
   .bteam-main {
     text-align: center;
-    background-image: url("../images/tabs/big-team/bteam_back.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px;
-    padding: 240px 0 0 0; }
+    padding: 0; }
+    .bteam-main .img-responsive {
+      max-width: 680px !important;
+      margin-bottom: 0; }
     .bteam-main h2 {
       font-size: 34px; }
     .bteam-main h3 {
@@ -4607,27 +4404,14 @@ footer {
       padding-left: 18px;
       padding-right: 18px; }
     .bteam-main .media {
-      margin-top: 50px;
+      width: 454px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
       padding-left: 18px;
       padding-right: 18px; }
       .bteam-main .media .media-left {
         padding-right: 15px; }
-        .bteam-main .media .media-left .fa-lightbulb-o {
-          font-size: 4rem;
-          margin-left: 8px;
-          margin-right: 18px; }
-        .bteam-main .media .media-left .fa-bar-chart {
-          font-size: 3rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-cloud {
-          font-size: 3.2rem;
-          margin-left: 2px;
-          margin-right: 0px; }
-        .bteam-main .media .media-left .fa-refresh {
-          font-size: 4rem;
-          margin-left: 2px;
-          margin-right: 0px; }
       .bteam-main .media .media-body {
         text-align: left; }
         .bteam-main .media .media-body h4 {
@@ -4644,46 +4428,59 @@ footer {
     .bteam-main .bteam-download {
       text-align: center;
       background: #292929;
-      padding: 80px 0 80px 0;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center 20%;
+      padding: 40px 0;
       margin-top: 60px; }
-      .bteam-main .bteam-download .pull-right {
-        float: none; }
       .bteam-main .bteam-download .img-responsive {
-        max-width: 50%; }
+        max-width: 288px !important; }
       .bteam-main .bteam-download h2 {
-        font-size: 1.6rem;
-        margin-top: 10px;
+        font-size: 23px;
+        margin-top: 0px;
         margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-download .form-group {
+        margin-bottom: 0; }
     .bteam-main .bteam-experience {
       text-align: center;
       background: #FFFFFF;
-      padding: 80px 0 80px 0; }
-      .bteam-main .bteam-experience .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-experience img {
+        max-width: 140px !important; }
       .bteam-main .bteam-experience h2 {
-        font-size: 1.9rem;
+        font-size: 23px;
         margin-top: 30px;
-        margin-bottom: 30px;
-        padding-left: 18px;
-        padding-right: 18px; }
+        margin-bottom: 20px;
+        padding-left: 6px;
+        padding-right: 6px; }
+      .bteam-main .bteam-experience h3 {
+        font-size: 17px; }
       .bteam-main .bteam-experience .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
     .bteam-main .bteam-recover {
       text-align: center;
       background: #292929;
-      padding: 80px 0; }
-      .bteam-main .bteam-recover .img-responsive {
-        max-width: 30%; }
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center 11%;
+      padding: 40px 0; }
+      .bteam-main .bteam-recover img {
+        max-width: 140px !important; }
       .bteam-main .bteam-recover h2 {
-        font-size: 1.9rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         padding-left: 18px;
         padding-right: 18px; }
+      .bteam-main .bteam-recover h3 {
+        font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
-        margin-top: 40px; }
+        margin-top: 10px; }
 
   .tab-pane {
     max-width: 100%;
@@ -4700,22 +4497,166 @@ footer {
       margin-top: 20px;
       margin-bottom: 40px; }
     .developers-main .media {
+      width: 434px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 30px; }
-      .developers-main .media:first-child {
-        margin-top: 0; }
       .developers-main .media .media-left {
         padding-right: 15px; }
       .developers-main .media .media-body p {
         font-size: 15px;
         margin-bottom: 0; }
-    .developers-main .developers-join h2 {
-      font-size: 1.9rem;
-      padding-left: 18px;
+    .developers-main .developers-join {
+      margin-top: 60px; }
+      .developers-main .developers-join h2 {
+        font-size: 1.9rem;
+        padding-left: 18px;
+        padding-right: 18px; }
+      .developers-main .developers-join .btn-orange {
+        font-size: 1rem;
+        padding: 15px 45px;
+        margin-top: 20px; } }
+@media (min-width: 992px) and (max-width: 1499px) {
+  .tab-content {
+    max-width: 100%;
+    padding: 0; }
+    .tab-content.banner-myself {
+      padding-top: 40px; }
+
+  .myself-main {
+    text-align: left; }
+    .myself-main h2 {
+      font-size: 34px;
+      padding: 0 30px; }
+    .myself-main p {
+      font-size: 15px;
+      padding: 0 30px; }
+    .myself-main .media {
+      width: 430px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 9px;
       padding-right: 18px; }
-    .developers-main .developers-join .btn-orange {
-      font-size: 1rem;
-      padding: 15px 45px;
-      margin-top: 20px; } }
+      .myself-main .media .media-left {
+        padding-right: 15px; }
+      .myself-main .media .media-body {
+        text-align: left; }
+        .myself-main .media .media-body p {
+          font-size: 15px;
+          margin-top: 0;
+          padding: 0; }
+        .myself-main .media .media-body .link-more {
+          color: #ff7e20;
+          display: block;
+          font-size: 15px;
+          line-height: 0;
+          text-decoration: none; }
+    .myself-main .my-sign {
+      margin-top: 60px;
+      padding: 40px 18px; }
+      .myself-main .my-sign h2 {
+        margin-top: 0; }
+      .myself-main .my-sign .btn-orange {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding: 15px 50px;
+        margin-top: 20px; }
+    .myself-main .my-action {
+      padding: 60px 18px 0 18px; }
+      .myself-main .my-action h1 {
+        font-size: 34px;
+        margin-bottom: 20px; }
+      .myself-main .my-action .container-actions {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        padding: 0; }
+        .myself-main .my-action .container-actions img {
+          max-width: 70%;
+          height: auto;
+          margin-bottom: 16px; }
+        .myself-main .my-action .container-actions h4 {
+          font-weight: 700; }
+        .myself-main .my-action .container-actions p {
+          font-size: 15px;
+          margin-bottom: 0;
+          padding: 0 15px; }
+    .myself-main .icons-panel {
+      padding: 60px 0px; }
+      .myself-main .icons-panel .row {
+        width: 720px;
+        margin: 0 auto; }
+      .myself-main .icons-panel .box-icons {
+        float: left;
+        max-width: 360px;
+        width: 360px;
+        height: 186px !important;
+        margin: 0 auto 70px auto;
+        padding: 0 18px; }
+        .myself-main .icons-panel .box-icons:last-child {
+          float: left;
+          max-width: 100%;
+          width: 100%;
+          margin-bottom: 0; }
+          .myself-main .icons-panel .box-icons:last-child img {
+            width: 97px;
+            height: 97px; }
+        .myself-main .icons-panel .box-icons img {
+          max-width: 130px;
+          height: auto;
+          text-align: center;
+          margin-bottom: 20px; }
+        .myself-main .icons-panel .box-icons p {
+          font-size: 15px;
+          padding-left: 18px;
+          padding-right: 18px;
+          margin: 0; }
+    .myself-main .my-tour {
+      text-align: center;
+      background-color: #1999d6;
+      padding: 40px 20px; }
+      .myself-main .my-tour h2 {
+        color: #FFFFFF;
+        font-size: 1.9rem;
+        text-transform: uppercase; }
+      .myself-main .my-tour .btn-orange {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding: 15px 50px;
+        margin-top: 20px; }
+
+  .steam-main {
+    padding-top: 50px; }
+    .steam-main .full-wth .row {
+      padding-left: 13px;
+      padding-right: 13px; }
+    .steam-main .full-wth h2 {
+      font-size: 34px; }
+    .steam-main .full-wth h5 {
+      font-size: 23px; }
+
+  .steam-free {
+    margin-top: 60px !important; }
+
+  .bteam-main {
+    padding: 48px 0 0 0; }
+    .bteam-main h2 {
+      font-size: 34px; }
+    .bteam-main .bteam-recover img {
+      display: block;
+      text-align: center; }
+
+  .developers-main {
+    padding: 48px 0 0 0; }
+    .developers-main h1 {
+      font-size: 34px; }
+    .developers-main .developers-join {
+      margin-top: 60px; } }
 .lato {
   font-family: 'Lato',sans-serif; }
 
