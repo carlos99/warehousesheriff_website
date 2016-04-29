@@ -238,79 +238,176 @@
 	
 	// F1.- START PERSONAL PAGE
 	.my-action-personal {
-			padding: 60px 18px 0 18px;
+		padding: 60px 18px 0 18px;
+		
+		h1 {
+			font-size: 34px;
+			margin-bottom: 20px;
+		}
+		
+		.container-actions {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 60px;
+			padding: 0;
 			
-			h1 {
-				font-size: 34px;
+			img {
+				max-width: 70%;
+				height: auto;
+				margin-bottom: 16px;
+			}
+			
+			h4 {
+				font-weight: 700;
+			}
+			
+			p {
+				font-size: 15px;
+				margin-bottom: 0;
+				padding: 0 15px;
+			}
+		}
+	}
+	
+	.icons-panel-personal {
+		padding: 60px 0px;
+		
+		.row {
+			width: 720px;
+			margin: 0 auto;
+		}
+		
+		.box-icons {
+			float: left;
+			max-width: 360px;
+			width: 360px;
+			height: 186px !important;
+			margin: 0 auto 70px auto;
+			padding: 0 18px;
+			
+			&:last-child {
+				float: left;
+				max-width: 100%;
+				width: 100%;
+				margin-bottom: 0;
+				
+				img {
+					width: 97px;
+					height: 97px;
+				}
+			}
+			
+			img {
+				max-width: 130px;
+				height: auto;
+				text-align: center;
 				margin-bottom: 20px;
 			}
 			
-			.container-actions {
-				width: 100%;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 60px;
-				padding: 0;
-				
-				img {
-					max-width: 70%;
-					height: auto;
-					margin-bottom: 16px;
-				}
-				
-				h4 {
-					font-weight: 700;
-				}
-				
-				p {
-					font-size: 15px;
-					margin-bottom: 0;
-					padding: 0 15px;
-				}
+			p {
+				font-size: 15px;
+				padding-left: 18px;
+				padding-right: 18px;
+				margin: 0;
 			}
+		}
+	}
+	
+	// F2.- START MESSAGING PAGE
+	.b-messaging {
+		background-image: url("../images/back_messaging.jpg");
+	    background-position: center center;
+	    padding: 105px 0 102px 0;
+	    
+	    h2 {
+		    padding: 0;
+	    }
+	    
+	    .form-group {
+		    margin-top: 30px;
+	    }
+	}
+	
+	.real-time {
+		padding: 60px 0;
+		
+		.triangle_float {
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 35px solid transparent;
+			border-right: 35px solid transparent;
+			border-top: 35px solid #1F1F1F;
+			left: 50%;
+			margin-top: -61px;	
+			margin-left: -35px;
 		}
 		
-		.icons-panel-personal {
-			padding: 60px 0px;
+		h1 {
+			font-size: 34px;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+		
+		.media {
+			width: 100%;
+			margin-top: 30px;
+			margin-left: auto;
+			margin-right: auto;
 			
-			.row {
-				width: 720px;
-				margin: 0 auto;
+			.media-left {
+				img {
+					width: 40px;
+				}
 			}
 			
-			.box-icons {
-				float: left;
-				max-width: 360px;
-				width: 360px;
-				height: 186px !important;
-				margin: 0 auto 70px auto;
-				padding: 0 18px;
-				
-				&:last-child {
-					float: left;
-					max-width: 100%;
-					width: 100%;
-					margin-bottom: 0;
-					
-					img {
-						width: 97px;
-						height: 97px;
-					}
-				}
-				
-				img {
-					max-width: 130px;
-					height: auto;
-					text-align: center;
-					margin-bottom: 20px;
+			.media-body {
+				h4 {
+					color: $b-orange;
+					@include L-btn;
 				}
 				
 				p {
-					font-size: 15px;
-					padding-left: 18px;
-					padding-right: 18px;
-					margin: 0;
+					@include U-p;
+					margin-bottom: 0;
 				}
 			}
 		}
+	}
+	
+	.config-right-content {
+		padding: 62px 0 63px 0;
+		
+		&.b-o-chat {
+			color: $f-white;
+			background-size: cover;
+			background-position: -80% center;
+		}
+	}
+	
+	.config-left-content {
+		padding: 62px 0 63px 0;
+		
+		&.b-c-chat {
+			background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.6) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/team-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover;
+			background-position: 0% bottom;
+		}
+		
+		&.b-p-chat {
+			background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.6) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/privacy-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover, 60%;
+			background-position: 0% 0%;
+		}
+	}
+	// END MESSAGING PAGE
 }

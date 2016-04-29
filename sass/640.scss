@@ -1030,4 +1030,192 @@
 			}
 		}
 	}
+	
+	// F2.- START MESSAGING PAGE
+	.b-messaging {
+		background-size: cover;
+		background-position: center center;
+	    padding: 60px 0;
+	    
+	    h1 {
+		    font-size: 34px;
+	    }
+	    
+	    h2 {
+		    font-size: 17px;
+		    padding: 0;
+		    margin-bottom: 18px;
+	    }
+	    
+	    .form-group {
+		    margin-top: 0px;
+		    margin-bottom: 0;
+		    
+		    &:last-child {
+			    margin-top: 20px;
+		    }
+	    }
+	}
+	
+	.real-time {
+		.triangle_float {
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid #1F1F1F;
+			margin-top: -61px;
+			margin-left: -15px;
+			margin-bottom: 20px;
+		}
+		
+		h1 {
+			font-size: 34px;
+			text-align: center;
+			margin-bottom: 0px;
+			padding: 0;
+		}
+		
+		.media {
+			width: 100%;
+			margin-top: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			.media-left {
+				img {
+					width: 30px;
+				}
+			}
+		}
+	}
+	
+	.config-right-content {
+		
+		&.b-o-chat {
+			background: -moz-linear-gradient(right, rgba(0,29,54,0.8) 50%, rgba(0,29,54,0.8) 50%); /* FF3.6-15 */
+		    background: -webkit-linear-gradient(right, rgba(0,29,54,0.8) 50%, rgba(0,29,54,0.8) 50%); /* Chrome10-25,Safari5.1-6 */
+		    background: linear-gradient(to right, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		                url('../images/open-chats.jpg'), #001629;
+			background-size: cover;
+			background-position: center center;
+		}
+		
+		h2 {
+			text-align: center;
+			font-size: 34px;
+			padding: 0 15px;
+			margin-bottom: 0.5rem;
+		}
+		
+		.noP-left {
+			padding-left: .9375rem !important;
+		}
+		
+		.img-responsive {
+			display: block;
+			margin: 0 auto 20px auto;
+		}
+		
+		h3 {
+			text-align: center;
+			font-size: 17px;
+			
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+		
+		h4 {
+			text-align: center;
+			@include U-p;
+			margin-bottom: 0;
+		}
+		
+		.media {
+			h4 {
+				text-align: left;
+			}
+		}
+	}
+	
+	.steam-free-orange {
+		h2 {
+			font-size: 30px;
+			padding: 0 20px;
+		}
+		
+		.btn-orange {
+			margin-top: 10px;
+			padding: 10px 15px;
+		}
+	}
+	
+	.config-left-content {
+		&.b-c-chat {
+			color: $f-white;
+			text-shadow: 1px 1px 1px #000;
+			background: -moz-linear-gradient(right, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/team-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover;
+			background-position: center center;
+		}
+		
+		&.b-p-chat {
+			color: $f-white;
+			text-shadow: 1px 1px 1px #000;
+			background: -moz-linear-gradient(right, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,29,54,0.8) 50%,rgba(0,29,54,0.8) 50%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/privacy-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover;
+			background-position: center center;
+		}
+		
+		h2 {
+			text-align: center;
+			font-size: 34px;
+		}
+		
+		.noP-left {
+			padding-left: .9375rem !important;
+		}
+		
+		.img-responsive {
+			display: block;
+			margin: 0 auto 20px auto;
+			
+			&.img-special {
+				top: 0;
+			}
+		}
+		
+		h3 {
+			text-align: center;
+			font-size: 17px;
+			
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+		
+		h4 {
+			text-align: center;
+			@include U-p;
+			padding: 0 15px;
+			margin-bottom: 0;
+		}
+		
+		.media {
+			padding: 0 15px;
+			
+			h4 {
+				text-align: left;
+				padding: 0;
+			}
+		}
+	}
+	// F2.- END MESSAGING PAGE
 }

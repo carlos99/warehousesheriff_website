@@ -1484,91 +1484,167 @@ footer {
 
 .b-messaging {
   background-image: url("../images/back_messaging.jpg");
-  background-position: center 20%; }
+  background-position: center 20%;
+  padding: 205px 0 202px 0; }
+  .b-messaging h2 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px;
+    padding: 0 280px; }
   .b-messaging .form-group {
     margin-top: 30px; }
 
 .real-time {
-  font-family: 'Montserrat', sans-serif;
-  padding: 100px 0 0; }
+  padding: 60px 0; }
   .real-time .triangle_float {
     position: absolute;
     width: 0;
     height: 0;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-top: 35px solid #292929;
+    border-top: 35px solid #1F1F1F;
     left: 50%;
-    margin-top: -100px;
+    margin-top: -61px;
     margin-left: -35px; }
   .real-time h1 {
-    font-size: 65px;
-    font-weight: 700;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 64px;
     text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px; }
+    margin-bottom: 0px; }
   .real-time .media {
-    margin-top: 50px; }
+    width: 484px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; }
     .real-time .media .media-left img {
-      width: 80px; }
+      width: 40px; }
+    .real-time .media .media-body h4 {
+      color: #ff7e20;
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 20px; }
     .real-time .media .media-body p {
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px;
       margin-bottom: 0; }
 
 .config-right-content {
-  font-family: 'Montserrat', sans-serif;
-  padding: 100px 0 0; }
+  padding: 62px 0 63px 0; }
+  .config-right-content.b-o-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0) 110%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0) 110%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #001629 46%, rgba(1, 40, 74, 0) 110%), url("../images/open-chats.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover, 60%;
+    background-position: 100% center; }
   .config-right-content h2 {
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 48px;
     margin-bottom: 25px; }
   .config-right-content h3 {
-    margin-bottom: 30px; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px;
+    margin-bottom: 10px; }
+  .config-right-content h4 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 20px; }
   .config-right-content .media {
-    margin-top: 30px; }
+    margin-top: 20px; }
     .config-right-content .media .fa-check {
-      font-size: 1.6rem; }
+      font-size: 17px; }
+    .config-right-content .media h4 {
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 20px; }
     .config-right-content .media p {
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px;
       margin-bottom: 0; }
+  .config-right-content .img-responsive {
+    margin-bottom: 0; }
 
-.steam-free-2 {
+.steam-free-orange {
   text-align: center;
-  background-color: #1999d6;
-  padding: 40px 0;
-  margin-top: 100px; }
-  .steam-free-2 h2 {
+  background-color: #ff7e20;
+  padding: 40px 0; }
+  .steam-free-orange h2 {
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700 !important;
-    text-transform: uppercase; }
-  .steam-free-2 p {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 48px; }
+  .steam-free-orange p {
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif; }
-  .steam-free-2 .btn-orange {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px; }
+  .steam-free-orange .btn-orange {
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 20px;
-    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: normal;
-    padding: 15px 50px;
-    margin-top: 20px; }
+    border: 1px solid #FFFFFF;
+    padding: 15px 30px;
+    margin-top: 20px;
+    transition: all 250ms ease-in-out; }
+    .steam-free-orange .btn-orange:hover {
+      color: #ff7e20;
+      background-color: #FFFFFF;
+      transition: all 250ms ease-in-out; }
 
 .config-left-content {
-  font-family: 'Montserrat', sans-serif;
-  padding: 100px 0 0; }
+  padding: 62px 0 63px 0; }
+  .config-left-content.b-c-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.3) 110%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.3) 110%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, #001629 46%, rgba(1, 40, 74, 0.3) 110%), url("../images/team-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover, 56%;
+    background-position: 0% bottom; }
+  .config-left-content.b-p-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.3) 110%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.3) 110%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, #001629 46%, rgba(1, 40, 74, 0.3) 110%), url("../images/privacy-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover, 56%;
+    background-position: 0% 40%; }
   .config-left-content h2 {
-    font-weight: 700;
-    text-transform: uppercase; }
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 48px; }
   .config-left-content h3 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 23px;
     margin-bottom: 30px; }
+  .config-left-content h4 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 20px; }
   .config-left-content .media {
     margin-top: 30px; }
     .config-left-content .media .fa-check {
-      font-size: 1.6rem; }
+      font-size: 17px; }
+    .config-left-content .media h4 {
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 20px; }
     .config-left-content .media p {
-      font-weight: 400;
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px;
       margin-bottom: 0; }
-  .config-left-content .tommy_img_responsive {
-    max-width: 100%;
-    height: auto; }
+  .config-left-content .img-responsive {
+    display: block;
+    text-align: center;
+    margin-bottom: 0; }
 
 .b-actions {
   background-image: url("../images/back_enterprise.jpg");
@@ -2957,7 +3033,132 @@ footer {
         font-size: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        margin: 0; } }
+        margin: 0; }
+
+  .b-messaging {
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0; }
+    .b-messaging h1 {
+      font-size: 34px; }
+    .b-messaging h2 {
+      font-size: 17px;
+      padding: 0;
+      margin-bottom: 18px; }
+    .b-messaging .form-group {
+      margin-top: 0px;
+      margin-bottom: 0; }
+      .b-messaging .form-group:last-child {
+        margin-top: 20px; }
+
+  .real-time .triangle_float {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1F1F1F;
+    margin-top: -58px;
+    margin-left: -15px;
+    margin-bottom: 20px; }
+  .real-time h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 34px; }
+  .real-time .media {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; }
+    .real-time .media .media-left img {
+      width: 30px; }
+
+  .config-right-content.b-o-chat {
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/open-chats.jpg"), #001629;
+    background-size: cover;
+    background-position: center center; }
+  .config-right-content h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px;
+    margin-bottom: 0.5rem; }
+  .config-right-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-right-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+  .config-right-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-right-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-right-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    margin-bottom: 0; }
+  .config-right-content .media h4 {
+    text-align: left; }
+
+  .steam-free-orange h2 {
+    font-size: 30px;
+    padding: 0 20px; }
+  .steam-free-orange .btn-orange {
+    margin-top: 10px;
+    padding: 10px 15px; }
+
+  .config-left-content.b-c-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/team-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content.b-p-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/privacy-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content h2 {
+    text-align: center;
+    font-size: 34px; }
+  .config-left-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-left-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+    .config-left-content .img-responsive.img-special {
+      top: 0; }
+  .config-left-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-left-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-left-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    padding: 0 15px;
+    margin-bottom: 0; }
+  .config-left-content .media {
+    padding: 0 15px; }
+    .config-left-content .media h4 {
+      text-align: left;
+      padding: 0; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
@@ -3608,7 +3809,132 @@ footer {
         font-size: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        margin: 0; } }
+        margin: 0; }
+
+  .b-messaging {
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0; }
+    .b-messaging h1 {
+      font-size: 34px; }
+    .b-messaging h2 {
+      font-size: 17px;
+      padding: 0;
+      margin-bottom: 18px; }
+    .b-messaging .form-group {
+      margin-top: 0px;
+      margin-bottom: 0; }
+      .b-messaging .form-group:last-child {
+        margin-top: 20px; }
+
+  .real-time .triangle_float {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1F1F1F;
+    margin-top: -58px;
+    margin-left: -15px;
+    margin-bottom: 20px; }
+  .real-time h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 34px; }
+  .real-time .media {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; }
+    .real-time .media .media-left img {
+      width: 30px; }
+
+  .config-right-content.b-o-chat {
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/open-chats.jpg"), #001629;
+    background-size: cover;
+    background-position: center center; }
+  .config-right-content h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px;
+    margin-bottom: 0.5rem; }
+  .config-right-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-right-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+  .config-right-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-right-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-right-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    margin-bottom: 0; }
+  .config-right-content .media h4 {
+    text-align: left; }
+
+  .steam-free-orange h2 {
+    font-size: 30px;
+    padding: 0 20px; }
+  .steam-free-orange .btn-orange {
+    margin-top: 10px;
+    padding: 10px 15px; }
+
+  .config-left-content.b-c-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/team-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content.b-p-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/privacy-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content h2 {
+    text-align: center;
+    font-size: 34px; }
+  .config-left-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-left-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+    .config-left-content .img-responsive.img-special {
+      top: 0; }
+  .config-left-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-left-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-left-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    padding: 0 15px;
+    margin-bottom: 0; }
+  .config-left-content .media {
+    padding: 0 15px; }
+    .config-left-content .media h4 {
+      text-align: left;
+      padding: 0; } }
 @media (min-width: 640px) and (max-width: 767px) {
   header {
     padding: 0;
@@ -4247,7 +4573,132 @@ footer {
         font-size: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        margin: 0; } }
+        margin: 0; }
+
+  .b-messaging {
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0; }
+    .b-messaging h1 {
+      font-size: 34px; }
+    .b-messaging h2 {
+      font-size: 17px;
+      padding: 0;
+      margin-bottom: 18px; }
+    .b-messaging .form-group {
+      margin-top: 0px;
+      margin-bottom: 0; }
+      .b-messaging .form-group:last-child {
+        margin-top: 20px; }
+
+  .real-time .triangle_float {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1F1F1F;
+    margin-top: -61px;
+    margin-left: -15px;
+    margin-bottom: 20px; }
+  .real-time h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0; }
+  .real-time .media {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; }
+    .real-time .media .media-left img {
+      width: 30px; }
+
+  .config-right-content.b-o-chat {
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/open-chats.jpg"), #001629;
+    background-size: cover;
+    background-position: center center; }
+  .config-right-content h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px;
+    margin-bottom: 0.5rem; }
+  .config-right-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-right-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+  .config-right-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-right-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-right-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    margin-bottom: 0; }
+  .config-right-content .media h4 {
+    text-align: left; }
+
+  .steam-free-orange h2 {
+    font-size: 30px;
+    padding: 0 20px; }
+  .steam-free-orange .btn-orange {
+    margin-top: 10px;
+    padding: 10px 15px; }
+
+  .config-left-content.b-c-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/team-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content.b-p-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/privacy-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content h2 {
+    text-align: center;
+    font-size: 34px; }
+  .config-left-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-left-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+    .config-left-content .img-responsive.img-special {
+      top: 0; }
+  .config-left-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-left-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-left-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    padding: 0 15px;
+    margin-bottom: 0; }
+  .config-left-content .media {
+    padding: 0 15px; }
+    .config-left-content .media h4 {
+      text-align: left;
+      padding: 0; } }
 @media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 0;
@@ -4909,7 +5360,132 @@ footer {
         font-size: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        margin: 0; } }
+        margin: 0; }
+
+  .b-messaging {
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0; }
+    .b-messaging h1 {
+      font-size: 34px; }
+    .b-messaging h2 {
+      font-size: 17px;
+      padding: 0;
+      margin-bottom: 18px; }
+    .b-messaging .form-group {
+      margin-top: 0px;
+      margin-bottom: 0; }
+      .b-messaging .form-group:last-child {
+        margin-top: 20px; }
+
+  .real-time .triangle_float {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1F1F1F;
+    margin-top: -61px;
+    margin-left: -15px;
+    margin-bottom: 20px; }
+  .real-time h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0; }
+  .real-time .media {
+    width: 476px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; }
+    .real-time .media .media-left img {
+      width: 30px; }
+
+  .config-right-content.b-o-chat {
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/open-chats.jpg"), #001629;
+    background-size: cover;
+    background-position: center center; }
+  .config-right-content h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px;
+    margin-bottom: 0.5rem; }
+  .config-right-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-right-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+  .config-right-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-right-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-right-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    margin-bottom: 0; }
+  .config-right-content .media h4 {
+    text-align: left; }
+
+  .steam-free-orange h2 {
+    font-size: 30px;
+    padding: 0 20px; }
+  .steam-free-orange .btn-orange {
+    margin-top: 10px;
+    padding: 10px 15px; }
+
+  .config-left-content.b-c-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/team-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content.b-p-chat {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%), url("../images/privacy-chat.jpg"), #001629;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */
+    background-size: cover;
+    background-position: center center; }
+  .config-left-content h2 {
+    text-align: center;
+    font-size: 34px; }
+  .config-left-content .noP-left {
+    padding-left: .9375rem !important; }
+  .config-left-content .img-responsive {
+    display: block;
+    margin: 0 auto 20px auto; }
+    .config-left-content .img-responsive.img-special {
+      top: 0; }
+  .config-left-content h3 {
+    text-align: center;
+    font-size: 17px; }
+    .config-left-content h3:first-child {
+      margin-bottom: 20px; }
+  .config-left-content h4 {
+    text-align: center;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    padding: 0 15px;
+    margin-bottom: 0; }
+  .config-left-content .media {
+    padding: 0 15px; }
+    .config-left-content .media h4 {
+      text-align: left;
+      padding: 0; } }
 @media (min-width: 992px) and (max-width: 1499px) {
   .tab-content {
     max-width: 100%;
@@ -5103,7 +5679,78 @@ footer {
         font-size: 15px;
         padding-left: 18px;
         padding-right: 18px;
-        margin: 0; } }
+        margin: 0; }
+
+  .b-messaging {
+    background-image: url("../images/back_messaging.jpg");
+    background-position: center center;
+    padding: 105px 0 102px 0; }
+    .b-messaging h2 {
+      padding: 0; }
+    .b-messaging .form-group {
+      margin-top: 30px; }
+
+  .real-time {
+    padding: 60px 0; }
+    .real-time .triangle_float {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-top: 35px solid #1F1F1F;
+      left: 50%;
+      margin-top: -61px;
+      margin-left: -35px; }
+    .real-time h1 {
+      font-size: 34px;
+      text-align: center;
+      margin-bottom: 0px; }
+    .real-time .media {
+      width: 100%;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto; }
+      .real-time .media .media-left img {
+        width: 40px; }
+      .real-time .media .media-body h4 {
+        color: #ff7e20;
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 20px; }
+      .real-time .media .media-body p {
+        font-family: 'MontserratUltraLight', sans-serif;
+        font-size: 17px;
+        margin-bottom: 0; }
+
+  .config-right-content {
+    padding: 62px 0 63px 0; }
+    .config-right-content.b-o-chat {
+      color: #FFFFFF;
+      background-size: cover;
+      background-position: -80% center; }
+
+  .config-left-content {
+    padding: 62px 0 63px 0; }
+    .config-left-content.b-c-chat {
+      background: -moz-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.6) 110%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.6) 110%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to left, #001629 46%, rgba(1, 40, 74, 0.6) 110%), url("../images/team-chat.jpg"), #001629;
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+      /* IE6-9 */
+      background-size: cover;
+      background-position: 0% bottom; }
+    .config-left-content.b-p-chat {
+      background: -moz-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.6) 110%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(right, #001d36 46%, rgba(1, 40, 74, 0.6) 110%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to left, #001629 46%, rgba(1, 40, 74, 0.6) 110%), url("../images/privacy-chat.jpg"), #001629;
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+      /* IE6-9 */
+      background-size: cover, 60%;
+      background-position: 0% 0%; } }
 .lato {
   font-family: 'Lato',sans-serif; }
 

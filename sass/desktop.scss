@@ -1922,6 +1922,12 @@ footer{
 .b-messaging {
 	background-image: url("../images/back_messaging.jpg");
     background-position: center 20%;
+    padding: 205px 0 202px 0;
+    
+    h2 {
+	    @include U-h5;
+	    padding: 0 280px;
+    }
     
     .form-group {
 	    margin-top: 30px;
@@ -1929,8 +1935,7 @@ footer{
 }
 
 .real-time {
-	font-family: 'Montserrat', sans-serif;
-	padding: 100px 0 0;
+	padding: 60px 0;
 	
 	.triangle_float {
 		position: absolute;
@@ -1938,31 +1943,38 @@ footer{
 		height: 0;
 		border-left: 35px solid transparent;
 		border-right: 35px solid transparent;
-		border-top: 35px solid #292929;
+		border-top: 35px solid #1F1F1F;
 		left: 50%;
-		margin-top: -100px;	
+		margin-top: -61px;	
 		margin-left: -35px;
 	}
 	
 	h1 {
-		font-size: 65px;
-		font-weight: 700;
+		@include U-h1;
 		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 	
 	.media {
-		margin-top: 50px;
+		width: 484px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
 		
 		.media-left {
 			img {
-				width: 80px;
+				width: 40px;
 			}
 		}
 		
 		.media-body {
+			h4 {
+				color: $b-orange;
+				@include L-btn;
+			}
+			
 			p {
+				@include U-p;
 				margin-bottom: 0;
 			}
 		}
@@ -1970,89 +1982,152 @@ footer{
 }
 
 .config-right-content {
-	font-family: 'Montserrat', sans-serif;
-	padding: 100px 0 0;
+	padding: 62px 0 63px 0;
+	
+	&.b-o-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(0,22,41,1) 46%,rgba(1,40,74,0) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/open-chats.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 60%;
+		background-position: 100% center;
+	}
 	
 	h2 {
-		font-weight: 700;
-		text-transform: uppercase;
+		@include U-h2;
 		margin-bottom: 25px;
 	}
 	
 	h3 {
-		margin-bottom: 30px;
+		@include U-h5;
+		margin-bottom: 10px;
+	}
+	
+	h4 {
+		@include L-btn;
 	}
 	
 	.media {
-		margin-top: 30px;
+		margin-top: 20px;
 		
 		.fa-check {
-			font-size: 1.6rem;
+			font-size: 17px;
+		}
+		
+		h4 {
+			@include L-btn;
 		}
 		
 		p {
+			@include U-p;
 			margin-bottom: 0;
 		}
 	}
+	
+	.img-responsive {
+		margin-bottom: 0;
+	}
 }
 
-.steam-free-2 {
+.steam-free-orange {
 	text-align: center;
-	background-color: #1999d6;
+	background-color: $b-orange;
 	padding: 40px 0;
-	margin-top: 100px;
 	
 	h2 {
 		color: #FFFFFF;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 700 !important;
-		text-transform: uppercase;
+		@include U-h2;
 	}
 	
 	p {
 		color: #FFFFFF;
-		font-family: 'Montserrat', sans-serif;
+		@include U-p;
 	}
 	
 	.btn-orange {
-		font-size: 20px;
-		font-weight: 700;
+		@include U-btn;
 		text-transform: uppercase;
 		letter-spacing: normal;
-		padding: 15px 50px;
+		border: 1px solid $f-white;
+		padding: 15px 30px;
 		margin-top: 20px;
+		transition: all 250ms ease-in-out;
+		
+		&:hover {
+			color: $b-orange;
+			background-color: $f-white;
+			transition: all 250ms ease-in-out;
+		}
 	}
 }
 
 .config-left-content {
-	font-family: 'Montserrat', sans-serif;
-	padding: 100px 0 0;
+	padding: 62px 0 63px 0;
+	
+	&.b-c-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/team-chat.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 56%;
+		background-position: 0% bottom;
+	}
+	
+	&.b-p-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/privacy-chat.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 56%;
+		background-position: 0% 40%;
+	}
 	
 	h2 {
-		font-weight: 700;
-		text-transform: uppercase;
+		@include U-h2;
 	}
 	
 	h3 {
+		@include U-h5;
 		margin-bottom: 30px;
+	}
+	
+	h4 {
+		@include L-btn;
 	}
 	
 	.media {
 		margin-top: 30px;
 		
 		.fa-check {
-			font-size: 1.6rem;
+			font-size: 17px;
+		}
+		
+		h4 {
+			@include L-btn;
 		}
 		
 		p {
-			font-weight: 400;
+			@include U-p;
 			margin-bottom: 0;
 		}
 	}
 	
-	.tommy_img_responsive {
-		max-width: 100%;
-		height: auto;
+	.img-responsive {
+		display: block;
+		text-align: center;
+		margin-bottom: 0;
 	}
 }
 // END MESSAGING PAGE
