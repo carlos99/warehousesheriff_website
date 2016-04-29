@@ -225,4 +225,92 @@
 		}
 	}
 	// End Tab Developers
+	
+	// ============================================ //
+	//		FEATURES SECTION 						//
+	//		F1.- PERSONAL PAGE 						//
+	//		F2.- MESSAGING PAGE 					//
+	//		F3.- ACTIONS PAGE 						//
+	//		F4.- ADD-ON STORE PAGE 					//
+	//		  F4-1.- ADD-ON FILE MANAGEMENT PAGE 	//
+	//		F5.- ENTERPRISE PAGE 					//
+	// ============================================ //
+	
+	// F1.- START PERSONAL PAGE
+	.my-action-personal {
+			padding: 60px 18px 0 18px;
+			
+			h1 {
+				font-size: 34px;
+				margin-bottom: 20px;
+			}
+			
+			.container-actions {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 60px;
+				padding: 0;
+				
+				img {
+					max-width: 70%;
+					height: auto;
+					margin-bottom: 16px;
+				}
+				
+				h4 {
+					font-weight: 700;
+				}
+				
+				p {
+					font-size: 15px;
+					margin-bottom: 0;
+					padding: 0 15px;
+				}
+			}
+		}
+		
+		.icons-panel-personal {
+			padding: 60px 0px;
+			
+			.row {
+				width: 720px;
+				margin: 0 auto;
+			}
+			
+			.box-icons {
+				float: left;
+				max-width: 360px;
+				width: 360px;
+				height: 186px !important;
+				margin: 0 auto 70px auto;
+				padding: 0 18px;
+				
+				&:last-child {
+					float: left;
+					max-width: 100%;
+					width: 100%;
+					margin-bottom: 0;
+					
+					img {
+						width: 97px;
+						height: 97px;
+					}
+				}
+				
+				img {
+					max-width: 130px;
+					height: auto;
+					text-align: center;
+					margin-bottom: 20px;
+				}
+				
+				p {
+					font-size: 15px;
+					padding-left: 18px;
+					padding-right: 18px;
+					margin: 0;
+				}
+			}
+		}
 }

@@ -2860,7 +2860,104 @@ footer {
       .developers-main .developers-join .btn-orange {
         font-size: 1rem;
         padding: 15px 45px;
-        margin-top: 20px; } }
+        margin-top: 20px; }
+
+  .platform_personal {
+    text-align: center;
+    margin-top: 39px;
+    padding: 40px 0; }
+    .platform_personal h1 {
+      font-size: 34px; }
+    .platform_personal h3 {
+      font-size: 20px; }
+    .platform_personal .btn-orange {
+      padding: 15px 30px !important; }
+
+  .own_personal {
+    text-align: center;
+    padding: 60px 0; }
+    .own_personal .icons-side-personal {
+      width: 200px;
+      margin-bottom: 20px; }
+    .own_personal h1 {
+      font-size: 34px; }
+    .own_personal h3 {
+      font-size: 20px; }
+    .own_personal .op-apps {
+      text-align: center; }
+      .own_personal .op-apps ul li {
+        display: inline-block; }
+        .own_personal .op-apps ul li:nth-child(2) {
+          margin-left: 4px;
+          margin-right: 4px; }
+        .own_personal .op-apps ul li img {
+          height: 28px; }
+
+  .communicate-teams {
+    text-align: center; }
+    .communicate-teams .icons-side-personal {
+      width: 160px;
+      margin-bottom: 20px; }
+    .communicate-teams h2 {
+      font-size: 27px;
+      margin-bottom: 30px; }
+      .communicate-teams h2:first-child {
+        margin-bottom: 20px; }
+    .communicate-teams h3 {
+      font-size: 20px; }
+
+  .schedule-simple {
+    text-align: center; }
+    .schedule-simple h2 {
+      font-size: 27px; }
+    .schedule-simple .icons-side-personal {
+      width: 160px;
+      margin-bottom: 30px; }
+    .schedule-simple h3 {
+      font-size: 20px; }
+
+  .my-action-personal {
+    padding: 40px 15px; }
+    .my-action-personal h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px; }
+    .my-action-personal .container-actions {
+      width: 100%;
+      margin-bottom: 0px;
+      padding-left: 0;
+      padding-right: 0; }
+      .my-action-personal .container-actions img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px; }
+      .my-action-personal .container-actions h4 {
+        font-weight: 700;
+        text-transform: uppercase; }
+      .my-action-personal .container-actions p {
+        font-size: 15px;
+        margin-bottom: 26px; }
+
+  .icons-panel-personal {
+    padding: 60px 0px; }
+    .icons-panel-personal .box-icons {
+      float: none;
+      max-width: 100%;
+      margin: 0 auto 50px auto;
+      padding: 0 18px; }
+      .icons-panel-personal .box-icons:last-child {
+        margin-bottom: 0;
+        margin-right: 0; }
+      .icons-panel-personal .box-icons img {
+        max-width: 114px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px; }
+      .icons-panel-personal .box-icons p {
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
@@ -3414,7 +3511,104 @@ footer {
     .developers-main .developers-join .btn-orange {
       font-size: 1rem;
       padding: 15px 45px;
-      margin-top: 20px; } }
+      margin-top: 20px; }
+
+  .platform_personal {
+    text-align: center;
+    margin-top: 39px;
+    padding: 40px 0; }
+    .platform_personal h1 {
+      font-size: 34px; }
+    .platform_personal h3 {
+      font-size: 20px; }
+    .platform_personal .img-responsive {
+      max-width: 380px; }
+    .platform_personal .btn-orange {
+      padding: 15px 30px !important; }
+
+  .own_personal {
+    text-align: center;
+    padding: 60px 0; }
+    .own_personal .icons-side-personal {
+      width: 200px;
+      margin-bottom: 20px; }
+    .own_personal h1 {
+      font-size: 34px; }
+    .own_personal h3 {
+      font-size: 20px; }
+    .own_personal .op-apps {
+      text-align: center; }
+      .own_personal .op-apps ul li {
+        display: inline-block; }
+        .own_personal .op-apps ul li:nth-child(2) {
+          margin-left: 10px;
+          margin-right: 10px; }
+        .own_personal .op-apps ul li img {
+          height: 38px; }
+
+  .communicate-teams {
+    text-align: center; }
+    .communicate-teams .icons-side-personal {
+      width: 160px;
+      margin-bottom: 20px; }
+    .communicate-teams h2 {
+      font-size: 27px;
+      margin-bottom: 30px; }
+      .communicate-teams h2:first-child {
+        margin-bottom: 20px; }
+    .communicate-teams h3 {
+      font-size: 20px; }
+
+  .schedule-simple {
+    text-align: center; }
+    .schedule-simple h2 {
+      font-size: 27px; }
+    .schedule-simple .icons-side-personal {
+      width: 130px;
+      margin-bottom: 30px; }
+    .schedule-simple h3 {
+      font-size: 20px; }
+
+  .my-action-personal {
+    padding: 40px 15px; }
+    .my-action-personal h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px; }
+    .my-action-personal .container-actions {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+      padding-left: 0;
+      padding-right: 0; }
+      .my-action-personal .container-actions img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px; }
+      .my-action-personal .container-actions p {
+        font-size: 15px;
+        margin-bottom: 26px; }
+
+  .icons-panel-personal {
+    padding: 60px 0px; }
+    .icons-panel-personal .box-icons {
+      float: none;
+      max-width: 100%;
+      margin: 0 auto 50px auto;
+      padding: 0 18px; }
+      .icons-panel-personal .box-icons:last-child {
+        margin-bottom: 0;
+        margin-right: 0; }
+      .icons-panel-personal .box-icons img {
+        max-width: 114px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px; }
+      .icons-panel-personal .box-icons p {
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0; } }
 @media (min-width: 640px) and (max-width: 767px) {
   header {
     padding: 0;
@@ -3958,7 +4152,102 @@ footer {
     .developers-main .developers-join .btn-orange {
       font-size: 1rem;
       padding: 15px 45px;
-      margin-top: 20px; } }
+      margin-top: 20px; }
+
+  .platform_personal {
+    text-align: center;
+    margin-top: 39px;
+    padding: 40px 0; }
+    .platform_personal h1 {
+      font-size: 40px; }
+    .platform_personal h3 {
+      font-size: 20px; }
+    .platform_personal .img-responsive {
+      max-width: 380px; }
+    .platform_personal .btn-orange {
+      padding: 15px 30px !important; }
+
+  .own_personal {
+    text-align: center;
+    padding: 60px 0; }
+    .own_personal .icons-side-personal {
+      width: 280px;
+      margin-bottom: 20px; }
+    .own_personal h1 {
+      font-size: 40px; }
+    .own_personal h3 {
+      font-size: 20px; }
+    .own_personal .op-apps {
+      text-align: center; }
+      .own_personal .op-apps ul li {
+        display: inline-block; }
+        .own_personal .op-apps ul li:nth-child(2) {
+          margin-left: 10px;
+          margin-right: 10px; }
+
+  .communicate-teams {
+    text-align: center; }
+    .communicate-teams .icons-side-personal {
+      width: 160px;
+      margin-bottom: 20px; }
+    .communicate-teams h2 {
+      font-size: 27px;
+      margin-bottom: 30px; }
+      .communicate-teams h2:first-child {
+        margin-bottom: 20px; }
+    .communicate-teams h3 {
+      font-size: 20px; }
+
+  .schedule-simple {
+    text-align: center; }
+    .schedule-simple h2 {
+      font-size: 27px; }
+    .schedule-simple .icons-side-personal {
+      width: 130px;
+      margin-bottom: 30px; }
+    .schedule-simple h3 {
+      font-size: 20px; }
+
+  .my-action-personal {
+    padding: 40px 15px; }
+    .my-action-personal h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px; }
+    .my-action-personal .container-actions {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+      padding-left: 0;
+      padding-right: 0; }
+      .my-action-personal .container-actions img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px; }
+      .my-action-personal .container-actions p {
+        font-size: 15px;
+        margin-bottom: 26px; }
+
+  .icons-panel-personal {
+    padding: 60px 0px; }
+    .icons-panel-personal .box-icons {
+      float: none;
+      max-width: 100%;
+      margin: 0 auto 50px auto;
+      padding: 0 18px; }
+      .icons-panel-personal .box-icons:last-child {
+        margin-bottom: 0;
+        margin-right: 0; }
+      .icons-panel-personal .box-icons img {
+        max-width: 162px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px; }
+      .icons-panel-personal .box-icons p {
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0; } }
 @media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 0;
@@ -4515,7 +4804,112 @@ footer {
       .developers-main .developers-join .btn-orange {
         font-size: 1rem;
         padding: 15px 45px;
-        margin-top: 20px; } }
+        margin-top: 20px; }
+
+  .platform_personal {
+    text-align: center;
+    margin-top: 39px;
+    padding: 40px 0; }
+    .platform_personal h1 {
+      font-size: 40px; }
+    .platform_personal h3 {
+      font-size: 20px; }
+    .platform_personal .img-responsive {
+      max-width: 380px; }
+    .platform_personal .btn-orange {
+      padding: 15px 30px !important; }
+
+  .own_personal {
+    text-align: center;
+    padding: 60px 0; }
+    .own_personal .icons-side-personal {
+      width: 280px;
+      margin-bottom: 20px; }
+    .own_personal h1 {
+      font-size: 40px; }
+    .own_personal h3 {
+      font-size: 20px; }
+    .own_personal .op-apps {
+      text-align: center; }
+      .own_personal .op-apps ul li {
+        display: inline-block; }
+        .own_personal .op-apps ul li:nth-child(2) {
+          margin-left: 10px;
+          margin-right: 10px; }
+
+  .communicate-teams {
+    text-align: center; }
+    .communicate-teams .icons-side-personal {
+      width: 160px;
+      margin-bottom: 20px; }
+    .communicate-teams h2 {
+      font-size: 27px;
+      margin-bottom: 30px; }
+      .communicate-teams h2:first-child {
+        margin-bottom: 20px; }
+    .communicate-teams h3 {
+      font-size: 20px; }
+
+  .schedule-simple {
+    text-align: center; }
+    .schedule-simple h2 {
+      font-size: 27px; }
+    .schedule-simple .icons-side-personal {
+      width: 130px;
+      margin-bottom: 30px; }
+    .schedule-simple h3 {
+      font-size: 20px; }
+
+  .my-action-personal {
+    padding: 40px 15px; }
+    .my-action-personal h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px; }
+    .my-action-personal .container-actions {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+      padding-left: 0;
+      padding-right: 0; }
+      .my-action-personal .container-actions img {
+        max-width: 70%;
+        height: auto;
+        margin-bottom: 16px; }
+      .my-action-personal .container-actions p {
+        font-size: 15px;
+        margin-bottom: 26px; }
+
+  .icons-panel-personal {
+    padding: 60px 0px; }
+    .icons-panel-personal .row {
+      width: 720px;
+      margin: 0 auto; }
+    .icons-panel-personal .box-icons {
+      float: left;
+      max-width: 360px;
+      width: 360px;
+      height: 186px !important;
+      margin: 0 auto 50px auto;
+      padding: 0 18px; }
+      .icons-panel-personal .box-icons:last-child {
+        float: left;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 0; }
+        .icons-panel-personal .box-icons:last-child img {
+          width: 97px;
+          height: 97px; }
+      .icons-panel-personal .box-icons img {
+        max-width: 100px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px; }
+      .icons-panel-personal .box-icons p {
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0; } }
 @media (min-width: 992px) and (max-width: 1499px) {
   .tab-content {
     max-width: 100%;
@@ -4656,7 +5050,60 @@ footer {
     .developers-main h1 {
       font-size: 34px; }
     .developers-main .developers-join {
-      margin-top: 60px; } }
+      margin-top: 60px; }
+
+  .my-action-personal {
+    padding: 60px 18px 0 18px; }
+    .my-action-personal h1 {
+      font-size: 34px;
+      margin-bottom: 20px; }
+    .my-action-personal .container-actions {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 60px;
+      padding: 0; }
+      .my-action-personal .container-actions img {
+        max-width: 70%;
+        height: auto;
+        margin-bottom: 16px; }
+      .my-action-personal .container-actions h4 {
+        font-weight: 700; }
+      .my-action-personal .container-actions p {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 0 15px; }
+
+  .icons-panel-personal {
+    padding: 60px 0px; }
+    .icons-panel-personal .row {
+      width: 720px;
+      margin: 0 auto; }
+    .icons-panel-personal .box-icons {
+      float: left;
+      max-width: 360px;
+      width: 360px;
+      height: 186px !important;
+      margin: 0 auto 70px auto;
+      padding: 0 18px; }
+      .icons-panel-personal .box-icons:last-child {
+        float: left;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 0; }
+        .icons-panel-personal .box-icons:last-child img {
+          width: 97px;
+          height: 97px; }
+      .icons-panel-personal .box-icons img {
+        max-width: 130px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px; }
+      .icons-panel-personal .box-icons p {
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0; } }
 .lato {
   font-family: 'Lato',sans-serif; }
 

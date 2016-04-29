@@ -879,4 +879,182 @@
 		}
 	}
 	// End Tab Developers
+	
+	// ============================================ //
+	//		FEATURES SECTION 						//
+	//		F1.- PERSONAL PAGE 						//
+	//		F2.- MESSAGING PAGE 					//
+	//		F3.- ACTIONS PAGE 						//
+	//		F4.- ADD-ON STORE PAGE 					//
+	//		  F4-1.- ADD-ON FILE MANAGEMENT PAGE 	//
+	//		F5.- ENTERPRISE PAGE 					//
+	// ============================================ //
+	
+	// F1.- START PERSONAL PAGE
+	.platform_personal {
+		text-align: center;
+		margin-top: 39px;
+		padding: 40px 0;
+		
+		h1 {
+			font-size: 40px;
+		}
+		
+		h3 {
+			font-size: 20px;
+		}
+		
+		.img-responsive {
+			max-width: 380px;
+		}
+		
+		.btn-orange {
+			padding: 15px 30px !important;
+		}
+	}
+	
+	.own_personal {
+		text-align: center;
+		padding: 60px 0;
+		
+		.icons-side-personal {
+			width: 280px;
+			margin-bottom: 20px;
+		}
+		
+		h1 {
+			font-size: 40px;
+		}
+		
+		h3 {
+			font-size: 20px;
+		}
+		
+		.op-apps {
+			text-align: center;
+			
+			ul {
+				li {
+					display: inline-block;
+					
+					&:nth-child(2) {
+						margin-left: 10px;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+	
+	.communicate-teams {
+		text-align: center;
+		
+		.icons-side-personal {
+			width: 160px;
+			margin-bottom: 20px;
+		}
+		
+		h2 {
+			font-size: 27px;
+			margin-bottom: 30px;
+						
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+		
+		h3 {
+			font-size: 20px;
+		}
+	}
+	
+	.schedule-simple {
+		text-align: center;
+		
+		h2 {
+			font-size: 27px;
+		}
+		
+		.icons-side-personal {
+			width: 130px;
+			margin-bottom: 30px;
+		}
+		
+		h3 {
+			font-size: 20px;
+		}
+	}
+	
+	.my-action-personal {
+		padding: 40px 15px;
+			
+		h1 {
+			text-align: center;
+			font-size: 34px;
+			margin-bottom: 20px;
+		}
+		
+		.container-actions {
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 0px;
+			padding-left: 0;
+			padding-right: 0;
+			
+			img {
+				max-width: 70%;
+				height: auto;
+				margin-bottom: 16px;
+			}
+			
+			p {
+				font-size: 15px;
+				margin-bottom: 26px;
+			}
+		}
+	}
+	
+	.icons-panel-personal {
+		padding: 60px 0px;
+			
+		.row {
+			width: 720px;
+			margin: 0 auto;
+		}
+		
+		.box-icons {
+			float: left;
+			max-width: 360px;
+			width: 360px;
+			height: 186px !important;
+			margin: 0 auto 50px auto;
+			padding: 0 18px;
+			
+			&:last-child {
+				float: left;
+				max-width: 100%;
+				width: 100%;
+				margin-bottom: 0;
+				
+				img {
+					width: 97px;
+					height: 97px;
+				}
+			}
+			
+			img {
+				max-width: 100px;
+				height: auto;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			
+			p {
+				font-size: 15px;
+				padding-left: 18px;
+				padding-right: 18px;
+				margin: 0;
+			}
+		}
+	}
 }

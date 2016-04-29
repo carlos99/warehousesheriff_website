@@ -245,7 +245,7 @@
 		</section>
 	</main>
 	
-	<footer>
+	<footer class="global-f">
 		<div class="wrapper">
 			<section class="cols">
 				<section class="">
@@ -331,42 +331,42 @@
 			<p>&copy; Tommy 2016</p>
 		</div>
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/main.js"></script>
-	<script>
-	  $(document).ready(function(){
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/main.js"></script>
+<script>
+  $(document).ready(function(){
 
-	  	var mediaquery = window.matchMedia("(min-width: 1024px)");
-        if (mediaquery.matches) {
-        	$("#sticky").sticky({topSpacing:-20});
-        }
-	    
-	  	var mediaquery1 = window.matchMedia("(max-width: 1023px)");
-        if (mediaquery1.matches) {
-        	$("#sticky").sticky({topSpacing:-30});
-        }
+  	var mediaquery = window.matchMedia("(min-width: 1024px)");
+    if (mediaquery.matches) {
+    	$("#sticky").sticky({topSpacing:-20});
+    }
+    
+  	var mediaquery1 = window.matchMedia("(max-width: 1023px)");
+    if (mediaquery1.matches) {
+    	$("#sticky").sticky({topSpacing:-30});
+    }
 
-        var mediaquery2 = window.matchMedia("(max-width: 900px)");
-        if (mediaquery2.matches) {
-        	$("#sticky").sticky({topSpacing:-40});
-        }
+    var mediaquery2 = window.matchMedia("(max-width: 900px)");
+    if (mediaquery2.matches) {
+    	$("#sticky").sticky({topSpacing:-40});
+    }
 
-        var mediaquery3 = window.matchMedia("(max-width: 740px)");
-        if (mediaquery3.matches) {
-        	$("#sticky").sticky({topSpacing:-41});
-        }
+    var mediaquery3 = window.matchMedia("(max-width: 740px)");
+    if (mediaquery3.matches) {
+    	$("#sticky").sticky({topSpacing:-41});
+    }
 
-        var mediaquery4 = window.matchMedia("(max-width: 639px)");
-        if (mediaquery4.matches) {
-        	$("#sticky").sticky({topSpacing:-30});
-        }
+    var mediaquery4 = window.matchMedia("(max-width: 639px)");
+    if (mediaquery4.matches) {
+    	$("#sticky").sticky({topSpacing:-30});
+    }
 
 
-	    $('#sticky').on('sticky-start', function() { $(".how-to").addClass("stiked"); });
-	    $('#sticky').on('sticky-end', function() { $(".how-to").removeClass("stiked"); });
-	    });
-	</script>
+    $('#sticky').on('sticky-start', function() { $(".how-to").addClass("stiked"); });
+    $('#sticky').on('sticky-end', function() { $(".how-to").removeClass("stiked"); });
+    });
+</script>
 </body>
 </html>
