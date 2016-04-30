@@ -3224,7 +3224,133 @@ footer {
     padding: 0 15px; }
     .config-left-content .media h4 {
       text-align: left;
-      padding: 0; } }
+      padding: 0; }
+
+  .b-enterprise .link-more {
+    font-size: 17px; }
+  .b-enterprise h1 {
+    font-size: 34px; }
+  .b-enterprise h2 {
+    font-size: 20px; }
+
+  .enterprise-delivers {
+    padding: 40px 0 0; }
+    .enterprise-delivers .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #1F1F1F;
+      margin-top: -39px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .enterprise-delivers h3 {
+      padding: 0 17px;
+      font-size: 17px;
+      text-align: center; }
+
+  .enterprise-icons {
+    margin-top: 40px;
+    padding: 40px 0; }
+    .enterprise-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .enterprise-icons ul li {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 50px 0; }
+        .enterprise-icons ul li:last-child {
+          margin-bottom: 0; }
+        .enterprise-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .enterprise-icons ul li h4 {
+          font-size: 20px; }
+
+  .enterprise-summary {
+    background: #F6F6F6; }
+    .enterprise-summary h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    .enterprise-summary h3 {
+      font-size: 20px;
+      padding: 0 15px; }
+    .enterprise-summary .img-responsive {
+      max-width: 100%;
+      margin-bottom: 20px; }
+    .enterprise-summary .media {
+      margin-top: 20px; }
+
+  .automated-actions h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .automated-actions h3 {
+    font-size: 20px;
+    padding: 0 15px; }
+  .automated-actions .img-responsive {
+    margin-bottom: 20px; }
+  .automated-actions .media {
+    margin-top: 20px; }
+    .automated-actions .media .media-body p {
+      padding-right: 0px; }
+      .automated-actions .media .media-body p.note {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 13px; }
+
+  .tech-platform h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .tech-platform h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 15px; }
+  .tech-platform .p-random {
+    width: 100%;
+    height: 100%; }
+    .tech-platform .p-random:nth-child(even) {
+      float: left; }
+    .tech-platform .p-random:nth-child(odd) {
+      float: right; }
+  .tech-platform .media {
+    margin-top: 40px;
+    padding: 0 15px; }
+    .tech-platform .media .media-left {
+      padding-right: 10px; }
+    .tech-platform .media img {
+      max-width: 40px;
+      height: auto; }
+
+  .premiere-support h1 {
+    font-size: 34px; }
+  .premiere-support h3 {
+    padding: 0 15px; }
+    .premiere-support h3:nth-child(3) {
+      margin-bottom: 0; }
+
+  .premiere-icons {
+    padding: 40px 0; }
+    .premiere-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .premiere-icons ul li {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 40px 0; }
+        .premiere-icons ul li:last-child {
+          margin-bottom: 0; }
+        .premiere-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .premiere-icons ul li h4 {
+          font-family: 'MontserratLight', sans-serif;
+          font-size: 20px; }
+        .premiere-icons ul li p {
+          font-size: 15px;
+          padding: 0 15px; } }
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
@@ -4000,7 +4126,133 @@ footer {
     padding: 0 15px; }
     .config-left-content .media h4 {
       text-align: left;
-      padding: 0; } }
+      padding: 0; }
+
+  .b-enterprise .link-more {
+    font-size: 17px; }
+  .b-enterprise h1 {
+    font-size: 34px; }
+  .b-enterprise h2 {
+    font-size: 20px; }
+
+  .enterprise-delivers {
+    padding: 40px 0 0; }
+    .enterprise-delivers .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #1F1F1F;
+      margin-top: -39px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .enterprise-delivers h3 {
+      padding: 0 17px;
+      font-size: 17px;
+      text-align: center; }
+
+  .enterprise-icons {
+    margin-top: 40px;
+    padding: 40px 0; }
+    .enterprise-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .enterprise-icons ul li {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 50px 0; }
+        .enterprise-icons ul li:last-child {
+          margin-bottom: 0; }
+        .enterprise-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .enterprise-icons ul li h4 {
+          font-size: 20px; }
+
+  .enterprise-summary {
+    background: #F6F6F6; }
+    .enterprise-summary h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    .enterprise-summary h3 {
+      font-size: 20px;
+      padding: 0 15px; }
+    .enterprise-summary .img-responsive {
+      max-width: 100%;
+      margin-bottom: 20px; }
+    .enterprise-summary .media {
+      margin-top: 20px; }
+
+  .automated-actions h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .automated-actions h3 {
+    font-size: 20px;
+    padding: 0 15px; }
+  .automated-actions .img-responsive {
+    margin-bottom: 20px; }
+  .automated-actions .media {
+    margin-top: 20px; }
+    .automated-actions .media .media-body p {
+      padding-right: 0px; }
+      .automated-actions .media .media-body p.note {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 13px; }
+
+  .tech-platform h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .tech-platform h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 15px; }
+  .tech-platform .p-random {
+    width: 100%;
+    height: 100%; }
+    .tech-platform .p-random:nth-child(even) {
+      float: left; }
+    .tech-platform .p-random:nth-child(odd) {
+      float: right; }
+  .tech-platform .media {
+    margin-top: 40px;
+    padding: 0 15px; }
+    .tech-platform .media .media-left {
+      padding-right: 10px; }
+    .tech-platform .media img {
+      max-width: 40px;
+      height: auto; }
+
+  .premiere-support h1 {
+    font-size: 34px; }
+  .premiere-support h3 {
+    padding: 0 15px; }
+    .premiere-support h3:nth-child(3) {
+      margin-bottom: 0; }
+
+  .premiere-icons {
+    padding: 40px 0; }
+    .premiere-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .premiere-icons ul li {
+        width: 100%;
+        display: inline-block;
+        margin: 0 0 40px 0; }
+        .premiere-icons ul li:last-child {
+          margin-bottom: 0; }
+        .premiere-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .premiere-icons ul li h4 {
+          font-family: 'MontserratLight', sans-serif;
+          font-size: 20px; }
+        .premiere-icons ul li p {
+          font-size: 15px;
+          padding: 0 15px; } }
 @media (min-width: 640px) and (max-width: 767px) {
   header {
     padding: 0;
@@ -4764,7 +5016,129 @@ footer {
     padding: 0 15px; }
     .config-left-content .media h4 {
       text-align: left;
-      padding: 0; } }
+      padding: 0; }
+
+  .b-enterprise .link-more {
+    font-size: 17px; }
+  .b-enterprise h1 {
+    font-size: 34px; }
+  .b-enterprise h2 {
+    font-size: 20px; }
+
+  .enterprise-delivers {
+    padding: 40px 0 0; }
+    .enterprise-delivers .triangle_float {
+      margin-top: -41px; }
+    .enterprise-delivers h3 {
+      padding: 0 17px;
+      font-size: 17px;
+      text-align: center; }
+
+  .enterprise-icons {
+    margin-top: 40px;
+    padding: 40px 0; }
+    .enterprise-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .enterprise-icons ul li {
+        width: 24.4%;
+        display: inline-block;
+        margin: 0; }
+        .enterprise-icons ul li:last-child {
+          margin-bottom: 0; }
+        .enterprise-icons ul li img {
+          max-width: 90px;
+          height: auto;
+          margin-bottom: 15px; }
+        .enterprise-icons ul li h4 {
+          font-size: 20px;
+          margin-bottom: 0; }
+
+  .enterprise-summary {
+    background: #F6F6F6; }
+    .enterprise-summary h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    .enterprise-summary h3 {
+      font-size: 20px;
+      padding: 0 15px; }
+    .enterprise-summary .img-responsive {
+      max-width: 60%;
+      margin-bottom: 20px; }
+    .enterprise-summary .media {
+      margin-top: 20px; }
+
+  .automated-actions h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .automated-actions h3 {
+    font-size: 20px;
+    padding: 0 15px; }
+  .automated-actions .img-responsive {
+    margin-bottom: 20px; }
+  .automated-actions .media {
+    margin-top: 20px; }
+    .automated-actions .media .media-body p {
+      padding-right: 0px; }
+      .automated-actions .media .media-body p.note {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 13px; }
+
+  .tech-platform h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .tech-platform h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 15px; }
+  .tech-platform .p-random {
+    width: 100%;
+    height: 100%; }
+    .tech-platform .p-random:nth-child(even) {
+      float: left; }
+    .tech-platform .p-random:nth-child(odd) {
+      float: right; }
+  .tech-platform .media {
+    margin-top: 40px;
+    padding: 0 15px; }
+    .tech-platform .media .media-left {
+      padding-right: 10px; }
+    .tech-platform .media img {
+      max-width: 40px;
+      height: auto; }
+
+  .premiere-support h1 {
+    font-size: 34px; }
+  .premiere-support h3 {
+    padding: 0 15px; }
+    .premiere-support h3:nth-child(3) {
+      margin-bottom: 0; }
+
+  .premiere-icons {
+    padding: 40px 0; }
+    .premiere-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .premiere-icons ul li {
+        width: 49.6%;
+        display: inline-block;
+        margin: 0 0 40px 0; }
+        .premiere-icons ul li:last-child {
+          margin-bottom: 0; }
+        .premiere-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .premiere-icons ul li h4 {
+          font-family: 'MontserratLight', sans-serif;
+          font-size: 20px; }
+        .premiere-icons ul li p {
+          font-size: 15px;
+          padding: 0 15px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 0;
@@ -5551,7 +5925,134 @@ footer {
     padding: 0 15px; }
     .config-left-content .media h4 {
       text-align: left;
-      padding: 0; } }
+      padding: 0; }
+
+  .b-enterprise .link-more {
+    font-size: 17px; }
+  .b-enterprise h1 {
+    font-size: 34px; }
+  .b-enterprise h2 {
+    font-size: 20px; }
+
+  .enterprise-delivers {
+    padding: 40px 0 0; }
+    .enterprise-delivers .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #1F1F1F;
+      margin-top: -41px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .enterprise-delivers h3 {
+      padding: 0 17px;
+      font-size: 17px;
+      text-align: center; }
+
+  .enterprise-icons {
+    margin-top: 40px;
+    padding: 40px 0; }
+    .enterprise-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .enterprise-icons ul li {
+        width: 24.4%;
+        display: inline-block;
+        margin: 0; }
+        .enterprise-icons ul li:last-child {
+          margin-bottom: 0; }
+        .enterprise-icons ul li img {
+          max-width: 90px;
+          height: auto;
+          margin-bottom: 15px; }
+        .enterprise-icons ul li h4 {
+          font-size: 20px;
+          margin-bottom: 0; }
+
+  .enterprise-summary {
+    background: #F6F6F6; }
+    .enterprise-summary h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    .enterprise-summary h3 {
+      font-size: 20px;
+      padding: 0 15px; }
+    .enterprise-summary .img-responsive {
+      max-width: 60%;
+      margin-bottom: 20px; }
+    .enterprise-summary .media {
+      margin-top: 20px; }
+
+  .automated-actions h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .automated-actions h3 {
+    font-size: 20px;
+    padding: 0 15px; }
+  .automated-actions .img-responsive {
+    margin-bottom: 20px; }
+  .automated-actions .media {
+    margin-top: 20px; }
+    .automated-actions .media .media-body p {
+      padding-right: 0px; }
+      .automated-actions .media .media-body p.note {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 13px; }
+
+  .tech-platform h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .tech-platform h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 15px; }
+  .tech-platform .p-random {
+    width: 100%;
+    height: 100%; }
+    .tech-platform .p-random:nth-child(even) {
+      float: left; }
+    .tech-platform .p-random:nth-child(odd) {
+      float: right; }
+  .tech-platform .media {
+    margin-top: 40px;
+    padding: 0 15px; }
+    .tech-platform .media .media-left {
+      padding-right: 10px; }
+    .tech-platform .media img {
+      max-width: 40px;
+      height: auto; }
+
+  .premiere-support h1 {
+    font-size: 34px; }
+  .premiere-support h3 {
+    padding: 0 15px; }
+    .premiere-support h3:nth-child(3) {
+      margin-bottom: 0; }
+
+  .premiere-icons {
+    padding: 40px 0; }
+    .premiere-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .premiere-icons ul li {
+        width: 49.6%;
+        display: inline-block;
+        margin: 0 0 40px 0; }
+        .premiere-icons ul li:last-child {
+          margin-bottom: 0; }
+        .premiere-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .premiere-icons ul li h4 {
+          font-family: 'MontserratLight', sans-serif;
+          font-size: 20px; }
+        .premiere-icons ul li p {
+          font-size: 15px;
+          padding: 0 15px; } }
 @media (min-width: 992px) and (max-width: 1499px) {
   .tab-content {
     max-width: 100%;
@@ -5816,7 +6317,127 @@ footer {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
       /* IE6-9 */
       background-size: cover, 60%;
-      background-position: 0% 0%; } }
+      background-position: 0% 0%; }
+
+  .enterprise-delivers {
+    padding: 40px 0 0; }
+    .enterprise-delivers .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #1F1F1F;
+      margin-top: -41px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .enterprise-delivers h3 {
+      padding: 0 17px;
+      font-size: 17px;
+      text-align: center; }
+
+  .enterprise-icons {
+    margin-top: 40px;
+    padding: 40px 0; }
+    .enterprise-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .enterprise-icons ul li {
+        width: 24.4%;
+        display: inline-block;
+        margin: 0; }
+        .enterprise-icons ul li:last-child {
+          margin-bottom: 0; }
+        .enterprise-icons ul li img {
+          max-width: 90px;
+          height: auto;
+          margin-bottom: 15px; }
+        .enterprise-icons ul li h4 {
+          font-size: 20px;
+          margin-bottom: 0; }
+
+  .enterprise-summary {
+    background: #F6F6F6; }
+    .enterprise-summary h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    .enterprise-summary h3 {
+      font-size: 20px;
+      padding: 0 15px; }
+    .enterprise-summary .img-responsive {
+      max-width: 60%;
+      margin-bottom: 20px; }
+    .enterprise-summary .media {
+      margin-top: 20px; }
+
+  .automated-actions h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .automated-actions h3 {
+    font-size: 20px;
+    padding: 0 15px; }
+  .automated-actions .img-responsive {
+    margin-bottom: 20px; }
+  .automated-actions .media {
+    margin-top: 20px; }
+    .automated-actions .media .media-body p {
+      padding-right: 0px; }
+      .automated-actions .media .media-body p.note {
+        font-family: 'MontserratRegular', sans-serif;
+        font-size: 13px; }
+
+  .tech-platform h1 {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 15px; }
+  .tech-platform h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 15px; }
+  .tech-platform .p-random {
+    width: 100%;
+    height: 100%; }
+    .tech-platform .p-random:nth-child(even) {
+      float: left; }
+    .tech-platform .p-random:nth-child(odd) {
+      float: right; }
+  .tech-platform .media {
+    margin-top: 40px;
+    padding: 0 15px; }
+    .tech-platform .media .media-left {
+      padding-right: 10px; }
+    .tech-platform .media img {
+      max-width: 40px;
+      height: auto; }
+
+  .premiere-support h1 {
+    font-size: 34px; }
+  .premiere-support h3 {
+    padding: 0 15px; }
+    .premiere-support h3:nth-child(3) {
+      margin-bottom: 0; }
+
+  .premiere-icons {
+    padding: 40px 0; }
+    .premiere-icons ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+      .premiere-icons ul li {
+        width: 49.6%;
+        display: inline-block;
+        margin: 0 0 40px 0; }
+        .premiere-icons ul li:last-child {
+          margin-bottom: 0; }
+        .premiere-icons ul li img {
+          max-width: 117px;
+          height: auto;
+          margin-bottom: 15px; }
+        .premiere-icons ul li h4 {
+          font-family: 'MontserratLight', sans-serif;
+          font-size: 20px; }
+        .premiere-icons ul li p {
+          font-size: 15px;
+          padding: 0 15px; } }
 .lato {
   font-family: 'Lato',sans-serif; }
 
