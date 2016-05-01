@@ -45,7 +45,7 @@ header{
 // 	border-bottom: 1px solid #eee;
 // 	padding: 3.6px 16px;
 	background-color: #fff;
-	z-index: 2;
+	z-index: 10;
 	padding: 4px 36px;
 	
 	&.nav-back2 {
@@ -2352,10 +2352,20 @@ footer{
 
 // F4.- START ADD-ON STORE PAGE
 .secondary-header {
+	position: fixed;
+	width: 100%;
+	background-color: $b-orange;
 	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	background-color: #E6731F;
-	padding: 10px 41px;
+	top: 59px;
+	padding: 4px 36px;
+	z-index: 2;
+	
+	img {
+		float: left;
+		max-width: 50px;
+		height: auto;
+		margin-right: 15px;
+	}
 	
 	ul {
 		float: left;
@@ -2367,22 +2377,10 @@ footer{
 		li {
 			display: inline-block;
 			vertical-align: middle;
-			
-			&:first-child {
-				width: 224px;
-				
-				h4 {
-					margin-top: 6px;
-				}
-			}
+			padding-top: 7px;
 		}
 		
-		.divider-addon-1 {
-			color: #FFFFFF;
-			margin-right: 7px;
-		}
-		
-		.divider-addon-2 {
+		.nav-divider-addon {
 			color: #FFFFFF;
 			margin-left: 7px;
 			margin-right: 7px;
@@ -2397,37 +2395,43 @@ footer{
 		}
 	}
 	
-	img {
-		float: left;
-		max-width: 50px;
-		height: auto;
-		margin-right: 15px;
-	}
-	
 	h4 {
-		color: #FFFFFF;
-		font-size: 1.2rem;
-		font-weight: 700;
+		color: $f-white;
+		@include L-nav;
 		line-height: normal;
 		letter-spacing: -0.01em;
 		text-transform: uppercase;
 		margin: 0;
 	}
 	
-	.input-group {
-		.form-control {
-			border-radius: 0;
-		}
+	.search-add-on {
+		text-align: right;
+		display: table;
+		padding: 3px 0;
 		
-		.input-group-btn {
-			.btn-secondary {
-				background: none;
-				border: none;
-				padding: 6px 8px;
+		.input-group {
+			width: 271px;
+			display: inline-block;
+			vertical-align: middle;
+			
+			.form-control {
+				width: 237px;
+				height: 32px;
+				border-radius: 0;
+			}
+			
+			.input-group-btn {
+				width: 100%;
 				
-				.fa-search {
-					color: #FFFFFF;
-					font-size: 1.3rem;
+				.btn-secondary {
+					background: none;
+					border: none;
+					padding: 4px 8px;
+					
+					.fa-search {
+						color: #FFFFFF;
+						font-size: 1.3rem;
+					}
 				}
 			}
 		}
@@ -2435,12 +2439,11 @@ footer{
 }
 
 .header-addon {
-	font-family: 'Montserrat', sans-serif;
 	text-align: left;
 	background-color: #292929;
 	background-image: none;
-	margin-top: 113px;
-	padding: 0;
+	margin-top: 105px;
+	padding: 0 !important;
 	
 	.container-haddon {
 		display: table;
@@ -2456,27 +2459,43 @@ footer{
 			background-image: url("../images/bigbanner.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-position: center center;
 			padding: 100px 0;
 			
 			.haddon-left {
 				float: right;
-				width: 76%;
-				margin-right: 20px;
+				width: 58%;
+				margin-right: 60px;
+				
+				h1 {
+					@include U-h2;
+					text-transform: none;
+				}
 				
 				.btn-group {
 					.btn-orange {
-						width: 224px;
-						font-size: 16px;
-						font-weight: 700;
+						@include U-btn;
 						text-transform: uppercase;
 						letter-spacing: normal;
-						padding: 15px 30px;
+						padding: 7px 20px;
 						margin-top: 20px;
 					}
 					
+					.dropdown-toggle {
+						&:after {
+							margin-right: 0;
+						}
+					}
+					
 					.dropdown-menu {
+						width: 100%;
 						margin: -1px 0 0;
 						border-radius: 0rem 0rem 0.25rem 0.25rem;
+						
+						.dropdown-item {
+							@include L-nav;
+							padding: 3px 10px;
+						}
 					}
 				}
 			}
@@ -2486,6 +2505,7 @@ footer{
 			background-image: url("../images/back_messaging.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-position: center center;
 			padding: 100px 0;
 			
 			.haddon-right {
@@ -2493,18 +2513,23 @@ footer{
 				width: 76%;
 				padding-left: 60px;
 				
+				h1 {
+					@include U-h2;
+					text-transform: none;
+				}
+				
 				h2 {
+					@include U-h5;
 					padding-left: 5px;
 				}
 				
 				.box-sign {
 					text-align: left;
 					.btn-orange {
-						font-size: 16px;
-						font-weight: 700;
+						@include U-btn;
 						text-transform: uppercase;
 						letter-spacing: normal;
-						padding: 15px 30px;
+						padding: 7px 20px;
 						margin-top: 20px;
 					}
 				}
@@ -2514,9 +2539,8 @@ footer{
 }
 
 .connect-all {
-	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding: 100px 0;
+	padding: 62px 0 63px 0;
 	
 	img {
 		max-width: 100%;
@@ -2524,48 +2548,49 @@ footer{
 	}
 	
 	h1 {
-		font-size: 65px;
-		font-weight: 700;
-		text-transform: uppercase;
+		@include U-h2;
+	}
+	
+	h2 {
+		width: 70%;
+		@include U-h5;
+		margin: 0 auto;
 	}
 	
 	.box-sign {
 		text-align: center;
 		.btn-orange {
-			font-size: 20px;
-			font-weight: 700;
+			@include U-btn;
 			text-transform: uppercase;
 			letter-spacing: normal;
-			padding: 15px 50px;
+			padding: 12px 20px;
 			margin-top: 20px;
 		}
 	}
 }
 
 .browse-store {
-	font-family: 'Montserrat', sans-serif;
-	padding: 100px 0;
+	background-color: $b-lgray;
 	
 	h2 {
-		text-transform: none;
+		@include U-h4;
+	}
+	
+	h3 {
+		@include U-h5;
+		margin-bottom: 14px;
 	}
 	
 	.link-more {
 		color: #ff7e20;
+		@include L-btn;
 		display: block;
-		font-size: 20px;
-		font-weight: 600;
 		line-height: 0;
 		text-decoration: none;
 	}
 	
-	.pull-right {
-		margin-top: -70px;
-		
-		img {
-			max-width: 100%;
-			height: auto;
-		}
+	.img-responsive {
+		margin-bottom: 0;
 	}
 }
 // END ADD-ON STORE PAGE
