@@ -1246,6 +1246,85 @@
 	}
 	// F2.- END MESSAGING PAGE
 	
+	// F3.- START ACTIONS PAGE
+	.b-actions {
+	    .link-more {
+			font-size: 17px;
+		}
+		
+		h1 {
+			font-size: 40px;
+		}
+		
+		h2 {
+			width: 100%;
+			font-size: 20px;
+		}
+	}
+	
+	.save-time {
+		background-color: $f-white;
+		
+		.triangle_float {
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid #292929;
+			margin-top: -63px;
+			margin-left: -15px;
+			margin-bottom: 20px;
+		}
+		
+		h2 {
+			text-align: center;
+			font-size: 34px;
+			padding: 0 15px;
+		}
+		
+		h3 {
+			text-align: center;
+			padding: 0 15px;
+		}
+		
+		.img-responsive {
+			display: block;
+			margin: 0 auto 10px auto;
+		}
+		
+		.media {
+			margin: 30px 15px 0 15px;
+		}
+	}
+	
+	.actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
+		text-align: center;
+		
+		h1 {
+			font-size: 34px;
+			text-align: center;
+			padding: 0 15px;
+			margin-bottom: 30px;
+		}
+		
+		.left-h1 {
+			text-align: center;
+		}
+		
+		h2 {
+			font-size: 30px;
+			padding: 0 15px;
+		}
+		
+		p {
+			padding: 0 15px;
+		}
+	}
+	
+	.actions-step-2, .actions-step-4 {
+		color: $f-white;
+		background-color: #292929;
+	}
+	// F3.- END ACTIONS PAGE
+	
 	// F4.- START ADD-ON STORE PAGE
 	.secondary-header {
 		top: 39px;
@@ -1398,7 +1477,7 @@
 			margin-bottom: 0;
 		}
 	}
-	// END ADD-ON STORE PAGE
+	// F4.- END ADD-ON STORE PAGE
 	
 	// F5.- START ENTERPRISE PAGE
 	.b-enterprise {

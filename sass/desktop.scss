@@ -2163,27 +2163,32 @@ footer{
     
     .link-more {
 		color: #ff7e20;
-		font-family: 'Montserrat', sans-serif;
-		display: inline-block;
-		font-size: 20px;
-		font-weight: 600;
+		@include U-btn;
 		line-height: 0;
 		text-decoration: none;
+		display: inline-block;
 		margin-bottom: 20px;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	h1 {
+		@include U-h1;
+		text-transform: uppercase;
 	}
 	
 	h2 {
-		padding: 0 200px;
+		width: 70%;
+		@include U-h3;
+		margin: 0 auto;
 	}
 }
 
 .save-time {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/tommy_actions.jpg");
-	background-repeat: no-repeat;
-	background-size: 44%;
-    background-position: left top;
-	padding: 100px 0;
+	background-color: $f-white;
+	padding: 62px 0 63px 0;
 	
 	.triangle_float {
 		position: absolute;
@@ -2193,162 +2198,76 @@ footer{
 		border-right: 35px solid transparent;
 		border-top: 35px solid #292929;
 		left: 50%;
-		margin-top: -100px;	
+		margin-top: -63px;	
 		margin-left: -35px;
 	}
 	
+	h2 {
+		@include U-h4;
+	}
+	
+	h3 {
+		@include U-p;
+		line-height: normal;
+	}
+	
+	.img-responsive {
+		margin-bottom: 0;
+	}
+	
 	.media {
-		margin-top: 40px;
+		margin-top: 30px;
 		
 		.media-left {
-			padding-right: 20px;
+			padding-right: 15px;
 			
 			img {
-				max-width: 80px;
+				max-width: 50px;
 				height: auto;
 			}
 		}
 		
 		.media-body {
+			h4 {
+				@include L-btn;
+			}
+			
 			p {
+				@include U-p;
 				margin-bottom: 0;
 			}
 		}
 	}
 }
 
-.no-Tm {
-	margin-top: 0;
-}
-
-.actions-step-1 {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/hand-phone.svg");
-	background-repeat: no-repeat;
-	background-size: 34%;
-	background-position: right top;
-	padding-bottom: 100px;
-	
+.actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
 	h1 {
-		font-size: 65px;
-		font-weight: 700;
+		@include U-h4;
 		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 	
 	.left-h1 {
-		font-size: 40px;
+		@include B-h5;
 		text-align: left;
-	}
-}
-
-.actions-step-2 {
-	color: #FFFFFF;
-	font-family: 'Montserrat', sans-serif;
-	background: url("../images/hand-phone.svg"), #292929;
-	background-repeat: no-repeat;
-	background-size: 34%;
-	background-position: left top;
-	padding-bottom: 100px;
-	
-	h1 {
-		font-size: 65px;
-		font-weight: 700;
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-	
-	.left-h1 {
-		font-size: 40px;
-		text-align: left;
+		margin-bottom: 15px;
 	}
 	
 	h2 {
-		margin-bottom: 8px;
+		@include L-h5;
+		margin-bottom: .5rem;
+	}
+	
+	p {
+		@include U-p;
 	}
 }
 
-.actions-step-3 {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/hand-phone.svg");
-	background-repeat: no-repeat;
-	background-size: 34%;
-	background-position: right top;
-	padding-bottom: 100px;
-	
-	h1 {
-		font-size: 65px;
-		font-weight: 700;
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-	
-	.left-h1 {
-		font-size: 40px;
-		text-align: left;
-	}
-	
-	h2 {
-		margin-bottom: 8px;
-	}
+.actions-step-2, .actions-step-4 {
+	color: $f-white;
+	background-color: #292929;
 }
-
-.actions-step-4 {
-	color: #FFFFFF;
-	font-family: 'Montserrat', sans-serif;
-	background: url("../images/hand-phone.svg"), #292929;
-	background-repeat: no-repeat;
-	background-size: 34%;
-	background-position: left top;
-	padding-bottom: 100px;
-	
-	h1 {
-		font-size: 65px;
-		font-weight: 700;
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-	
-	.left-h1 {
-		font-size: 40px;
-		text-align: left;
-	}
-	
-	h2 {
-		margin-bottom: 8px;
-	}
-}
-
-.actions-step-5 {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/hand-phone.svg");
-	background-repeat: no-repeat;
-	background-size: 34%;
-	background-position: right top;
-	padding-bottom: 100px;
-	
-	h1 {
-		font-size: 65px;
-		font-weight: 700;
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-	
-	.left-h1 {
-		font-size: 40px;
-		text-align: left;
-	}
-	
-	h2 {
-		margin-bottom: 8px;
-	}
-}
-// END ACTIONS PAGE
+// F3.- END ACTIONS PAGE
 
 // F4.- START ADD-ON STORE PAGE
 .secondary-header {

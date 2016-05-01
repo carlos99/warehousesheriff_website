@@ -1669,23 +1669,27 @@ footer {
   background-position: center 50%; }
   .b-actions .link-more {
     color: #ff7e20;
-    font-family: 'Montserrat', sans-serif;
-    display: inline-block;
+    font-family: 'MontserratUltraLight', sans-serif;
     font-size: 20px;
-    font-weight: 600;
     line-height: 0;
     text-decoration: none;
+    display: inline-block;
     margin-bottom: 20px; }
+    .b-actions .link-more:hover {
+      text-decoration: underline; }
+  .b-actions h1 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 64px;
+    text-transform: uppercase; }
   .b-actions h2 {
-    padding: 0 200px; }
+    width: 70%;
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 30px;
+    margin: 0 auto; }
 
 .save-time {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../images/tommy_actions.jpg");
-  background-repeat: no-repeat;
-  background-size: 44%;
-  background-position: left top;
-  padding: 100px 0; }
+  background-color: #FFFFFF;
+  padding: 62px 0 63px 0; }
   .save-time .triangle_float {
     position: absolute;
     width: 0;
@@ -1694,115 +1698,53 @@ footer {
     border-right: 35px solid transparent;
     border-top: 35px solid #292929;
     left: 50%;
-    margin-top: -100px;
+    margin-top: -63px;
     margin-left: -35px; }
+  .save-time h2 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px; }
+  .save-time h3 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 17px;
+    line-height: normal; }
+  .save-time .img-responsive {
+    margin-bottom: 0; }
   .save-time .media {
-    margin-top: 40px; }
+    margin-top: 30px; }
     .save-time .media .media-left {
-      padding-right: 20px; }
+      padding-right: 15px; }
       .save-time .media .media-left img {
-        max-width: 80px;
+        max-width: 50px;
         height: auto; }
+    .save-time .media .media-body h4 {
+      font-family: 'MontserratLight', sans-serif;
+      font-size: 20px; }
     .save-time .media .media-body p {
+      font-family: 'MontserratUltraLight', sans-serif;
+      font-size: 17px;
       margin-bottom: 0; }
 
-.no-Tm {
-  margin-top: 0; }
+.actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
+  font-family: 'MontserratUltraLight', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px; }
+.actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
+  font-family: 'MontserratBold', sans-serif;
+  font-size: 23px;
+  text-align: left;
+  margin-bottom: 15px; }
+.actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
+  font-family: 'MontserratLight', sans-serif;
+  font-size: 23px;
+  margin-bottom: .5rem; }
+.actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
+  font-family: 'MontserratUltraLight', sans-serif;
+  font-size: 17px; }
 
-.actions-step-1 {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../images/hand-phone.svg");
-  background-repeat: no-repeat;
-  background-size: 34%;
-  background-position: right top;
-  padding-bottom: 100px; }
-  .actions-step-1 h1 {
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-  .actions-step-1 .left-h1 {
-    font-size: 40px;
-    text-align: left; }
-
-.actions-step-2 {
+.actions-step-2, .actions-step-4 {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-  background: url("../images/hand-phone.svg"), #292929;
-  background-repeat: no-repeat;
-  background-size: 34%;
-  background-position: left top;
-  padding-bottom: 100px; }
-  .actions-step-2 h1 {
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-  .actions-step-2 .left-h1 {
-    font-size: 40px;
-    text-align: left; }
-  .actions-step-2 h2 {
-    margin-bottom: 8px; }
-
-.actions-step-3 {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../images/hand-phone.svg");
-  background-repeat: no-repeat;
-  background-size: 34%;
-  background-position: right top;
-  padding-bottom: 100px; }
-  .actions-step-3 h1 {
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-  .actions-step-3 .left-h1 {
-    font-size: 40px;
-    text-align: left; }
-  .actions-step-3 h2 {
-    margin-bottom: 8px; }
-
-.actions-step-4 {
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-  background: url("../images/hand-phone.svg"), #292929;
-  background-repeat: no-repeat;
-  background-size: 34%;
-  background-position: left top;
-  padding-bottom: 100px; }
-  .actions-step-4 h1 {
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-  .actions-step-4 .left-h1 {
-    font-size: 40px;
-    text-align: left; }
-  .actions-step-4 h2 {
-    margin-bottom: 8px; }
-
-.actions-step-5 {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../images/hand-phone.svg");
-  background-repeat: no-repeat;
-  background-size: 34%;
-  background-position: right top;
-  padding-bottom: 100px; }
-  .actions-step-5 h1 {
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-  .actions-step-5 .left-h1 {
-    font-size: 40px;
-    text-align: left; }
-  .actions-step-5 h2 {
-    margin-bottom: 8px; }
+  background-color: #292929; }
 
 .secondary-header {
   position: fixed;
@@ -3256,6 +3198,55 @@ footer {
       text-align: left;
       padding: 0; }
 
+  .b-actions .link-more {
+    font-size: 17px; }
+  .b-actions h1 {
+    font-size: 40px; }
+  .b-actions h2 {
+    width: 100%;
+    font-size: 20px; }
+
+  .save-time {
+    background-color: #FFFFFF; }
+    .save-time .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -63px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .save-time h2 {
+      text-align: center;
+      font-size: 34px;
+      padding: 0 15px; }
+    .save-time h3 {
+      text-align: center;
+      padding: 0 15px; }
+    .save-time .img-responsive {
+      display: block;
+      margin: 0 auto 10px auto; }
+    .save-time .media {
+      margin: 30px 15px 0 15px; }
+
+  .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
+    text-align: center; }
+    .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
+      font-size: 34px;
+      text-align: center;
+      padding: 0 15px;
+      margin-bottom: 30px; }
+    .actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
+      text-align: center; }
+    .actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
+      font-size: 30px;
+      padding: 0 15px; }
+    .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
+      padding: 0 15px; }
+
+  .actions-step-2, .actions-step-4 {
+    color: #FFFFFF;
+    background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -4253,6 +4244,55 @@ footer {
       text-align: left;
       padding: 0; }
 
+  .b-actions .link-more {
+    font-size: 17px; }
+  .b-actions h1 {
+    font-size: 40px; }
+  .b-actions h2 {
+    width: 100%;
+    font-size: 20px; }
+
+  .save-time {
+    background-color: #FFFFFF; }
+    .save-time .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -63px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .save-time h2 {
+      text-align: center;
+      font-size: 34px;
+      padding: 0 15px; }
+    .save-time h3 {
+      text-align: center;
+      padding: 0 15px; }
+    .save-time .img-responsive {
+      display: block;
+      margin: 0 auto 10px auto; }
+    .save-time .media {
+      margin: 30px 15px 0 15px; }
+
+  .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
+    text-align: center; }
+    .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
+      font-size: 34px;
+      text-align: center;
+      padding: 0 15px;
+      margin-bottom: 30px; }
+    .actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
+      text-align: center; }
+    .actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
+      font-size: 30px;
+      padding: 0 15px; }
+    .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
+      padding: 0 15px; }
+
+  .actions-step-2, .actions-step-4 {
+    color: #FFFFFF;
+    background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -5237,6 +5277,55 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
+  .b-actions .link-more {
+    font-size: 17px; }
+  .b-actions h1 {
+    font-size: 40px; }
+  .b-actions h2 {
+    width: 100%;
+    font-size: 20px; }
+
+  .save-time {
+    background-color: #FFFFFF; }
+    .save-time .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -63px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .save-time h2 {
+      text-align: center;
+      font-size: 34px;
+      padding: 0 15px; }
+    .save-time h3 {
+      text-align: center;
+      padding: 0 15px; }
+    .save-time .img-responsive {
+      display: block;
+      margin: 0 auto 10px auto; }
+    .save-time .media {
+      margin: 30px 15px 0 15px; }
+
+  .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
+    text-align: center; }
+    .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
+      font-size: 34px;
+      text-align: center;
+      padding: 0 15px;
+      margin-bottom: 30px; }
+    .actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
+      text-align: center; }
+    .actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
+      font-size: 30px;
+      padding: 0 15px; }
+    .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
+      padding: 0 15px; }
+
+  .actions-step-2, .actions-step-4 {
+    color: #FFFFFF;
+    background-color: #292929; }
 
   .secondary-header {
     top: 39px;
@@ -6241,6 +6330,55 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
+  .b-actions .link-more {
+    font-size: 17px; }
+  .b-actions h1 {
+    font-size: 40px; }
+  .b-actions h2 {
+    width: 100%;
+    font-size: 20px; }
+
+  .save-time {
+    background-color: #FFFFFF; }
+    .save-time .triangle_float {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #292929;
+      margin-top: -63px;
+      margin-left: -15px;
+      margin-bottom: 20px; }
+    .save-time h2 {
+      text-align: center;
+      font-size: 34px;
+      padding: 0 15px; }
+    .save-time h3 {
+      text-align: center;
+      padding: 0 15px; }
+    .save-time .img-responsive {
+      display: block;
+      margin: 0 auto 10px auto; }
+    .save-time .media {
+      margin: 30px 15px 0 15px; }
+
+  .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
+    text-align: center; }
+    .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
+      font-size: 34px;
+      text-align: center;
+      padding: 0 15px;
+      margin-bottom: 30px; }
+    .actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
+      text-align: center; }
+    .actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
+      font-size: 30px;
+      padding: 0 15px; }
+    .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
+      padding: 0 15px; }
+
+  .actions-step-2, .actions-step-4 {
+    color: #FFFFFF;
+    background-color: #292929; }
 
   .secondary-header {
     top: 39px;
