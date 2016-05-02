@@ -1479,6 +1479,126 @@
 	}
 	// F4.- END ADD-ON STORE PAGE
 	
+	// F4-1.- START ADD-ON FILE MANAGEMENT PAGE
+	.b-filem {
+		text-align: center;
+		margin-top: 71px;
+		
+		.wrapper {
+			padding: 0 9px;
+			
+			h1 {
+				font-size: 40px;
+			}
+		}
+	}
+	
+	.b-layout__main {
+		display: flex;
+		
+		.section-container {
+			max-width: 100%;
+			padding: 15px 15px;
+			
+			.layout {
+				display: block;
+				padding: 0;
+				
+				.layout__main {
+					width: calc(100% - 310px);
+					
+					.layout__left {
+						width: 100%;
+						padding-bottom: 0;
+						
+						.layout__content_box {
+							padding: 15px;
+							
+							h4 {
+								font-size: 15px;
+								text-align: center;
+							}
+						}
+						
+						.title_subheading {
+							display: none;
+						}
+						
+						.categories-mobile {
+							display: none;
+						}
+					}
+				}
+				
+				.layout__middle {
+					width: 100% !important;
+					padding-left: 0 !important;
+					
+					.layout__content_middle {
+						ul {
+							.nav-item {
+								.nav-link {
+									font-size: 15px;
+								}
+							}
+						}
+						
+						.tab-content {
+							padding: 20px 15px;
+							
+							h2 {
+								font-size: 24px;
+								text-align: center;
+							}
+							
+							.jplist {
+								.list {
+									margin-top: 0;
+								}
+							}
+							
+							.media {
+								.media-left {
+									img {
+										width: 50px !important;
+										height: 50px !important;
+									}
+								}
+								
+								.media-body {
+									h4 {
+										font-size: 24px !important;
+									}
+								}
+							}
+						}
+						
+						&.special-config {
+							text-align: center;
+							padding: 20px 15px;
+							
+							h2 {
+								font-size: 24px;
+							}
+							
+							h3 {
+								font-size: 17px;
+							}
+							
+							.box-sign {
+								.btn-orange {
+									font-size: 20px;
+									padding: 7px 20px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	// F4-1.- END ADD-ON FILE MANAGEMENT PAGE
+	
 	// F5.- START ENTERPRISE PAGE
 	.b-enterprise {
 	    .link-more {

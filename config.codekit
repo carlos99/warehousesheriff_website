@@ -501,6 +501,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/users\/user_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18190,
+		"inputAbbreviatedPath": "\/images\/users\/user_1.jpg",
+		"outputAbbreviatedPath": "\/images\/users\/user_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/users\/user_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19734,
+		"inputAbbreviatedPath": "\/images\/users\/user_2.jpg",
+		"outputAbbreviatedPath": "\/images\/users\/user_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/users\/user_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20162,
+		"inputAbbreviatedPath": "\/images\/users\/user_3.jpg",
+		"outputAbbreviatedPath": "\/images\/users\/user_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/users\/user_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22422,
+		"inputAbbreviatedPath": "\/images\/users\/user_4.jpg",
+		"outputAbbreviatedPath": "\/images\/users\/user_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/xero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -62,6 +62,11 @@
 	font-family: 'MontserratUltraLight', sans-serif;
 	font-size: 13px;
 }
+
+@mixin U-nav-a-2 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 12px;
+}
 // End Montserrat UltraLight
 
 // Start Montserrat Light
@@ -130,6 +135,11 @@
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 13px;
 }
+
+@mixin L-nav-a-2 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 12px;
+}
 // End Montserrat Light
 
 // Start Montserrat Regular
@@ -191,6 +201,11 @@
 @mixin R-nav-a {
 	font-family: 'MontserratRegular', sans-serif;
 	font-size: 13px;
+}
+
+@mixin R-nav-a-2 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 12px;
 }
 // End Montserrat Regular
 
@@ -254,5 +269,10 @@
 @mixin B-nav-a {
 	font-family: 'MontserratBold', sans-serif;
 	font-size: 13px;
+}
+
+@mixin B-nav-a-2 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 12px;
 }
 // End Montserrat Bold
