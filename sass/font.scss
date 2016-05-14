@@ -44,8 +44,11 @@
 }
 
 @mixin U-p {
-	font-family: 'MontserratUltraLight', sans-serif;
-	font-size: 17px;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.625;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
 }
 
 @mixin U-nav {
@@ -103,6 +106,11 @@
 @mixin L-h5 {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 23px;
+}
+
+@mixin L-h5-footer {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 18px;
 }
 
 @mixin L-btn {

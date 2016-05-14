@@ -17,6 +17,9 @@ $f-gray: #CCCCCC;
 
 body {
 	background-color: #FFFFFF;
+
+	//black color should be:
+	color: #333;
 }
 
 input {
@@ -70,6 +73,9 @@ header{
 		
 		.btn {
 			@include L-nav-btn;
+
+			//extra styles
+			letter-spacing: -1px;
 		}
 	}
 }
@@ -79,15 +85,56 @@ header{
 	padding: 0;
 }
 
+.logo-link{
+	float: left;
+	margin-right: 10px;
+}
+
  .logo-text{
  	@include B-h5;
-    line-height: 2.1;
-    margin-left: 0px;
-    color: #f68b1f !important;
-    margin-right: 18px;
-    float: left;
-    padding: 0;
+
+    display: inline-block;
+
+    img {
+    	max-width: 90px;
+    	padding-top: 14%;
+    	margin-left: 5px;
+
+    	@media screen and (max-width: 479px) {
+    		padding-top: 7%;
+    	}
+    }
  }
+
+.logo-footer{
+	display: block;
+	text-align: left;
+	padding-bottom: 10px;
+	line-height: 50px;
+
+	@media screen and (max-width: 991px) {
+		text-align: center;
+	}
+
+	img {
+		display: inline-block;
+	}
+
+	.logo,
+	.logo-text img{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0px;
+	}
+
+	.logo-text{
+		display: inline-block;
+		vertical-align: middle;
+		padding-left: 5px;
+	}
+}
+
+
  .Jnav{
  	@media (max-width: 991px ){
  		display: none;
@@ -500,11 +547,11 @@ nav{
 .first-banner{
 	margin-top: 59px;
 	@media (max-width: 1024px){
-		margin-top:50px;
-	}
-	@media (max-width: 900px){
 		margin-top:40px;
 	}
+	// @media (max-width: 900px){
+	// 	margin-top:40px;
+	// }
 }
 .add-bottomM-10{
 	margin-bottom: 10px;
@@ -813,12 +860,39 @@ footer {
 
 footer{
 	background-color: #333;
-    color: #eee;
-    text-align: center;
-    padding: 51px 0 20px 0;
+  color: #eee;
+  text-align: center;
+  padding: 51px 0 20px 0;
     
     &.global-f {
 	    @include U-footer-global;
+
+			position: relative;
+	    background: -moz-linear-gradient(top, #565253 0%, #3e3a3a 100%);
+			background: -webkit-linear-gradient(top, #565253 0%,#3e3a3a 100%);
+			background: linear-gradient(to bottom, #565253 0%,#3e3a3a 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565253', endColorstr='#3e3a3a',GradientType=0 );
+			
+
+			.bg-texture{
+				position: absolute;
+				z-index: 0;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-image: url(../images/footer-texture.png);
+				background-position: top center;
+				background-repeat: no-repeat;
+
+
+				opacity: 0.2;
+			}
+
+			.wrapper{
+				position: relative;
+				z-index: 1;
+			}
     }
     
     @media (max-width: 991px){
@@ -832,13 +906,21 @@ footer{
     	}
     }
     h5{
-    	text-align: left;
 	    padding-left: 15px;
-	    color: #ccc;
-	    @include R-btn;
-	    @media (max-width: 991px){
-			text-align: center;
-		}
+
+    	&, a{
+    		text-align: left;
+		    @include L-h5-footer;
+		    @media (max-width: 991px){
+					text-align: center;
+				}
+    	}
+
+    	a{
+    		&, &:hover, &:focus {
+    			color: #fff;
+    		}
+    	}
     }
     .cols{
     	section{
@@ -884,6 +966,12 @@ footer{
 	    li{
 	    	a{
 	    		color: #eee;
+					font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 1.625;
+					-webkit-font-smoothing: antialiased;
+
 	    		&:hover{
 	    			color: #eee;
 	    		}
@@ -1984,19 +2072,6 @@ footer{
 .config-right-content {
 	padding: 62px 0 63px 0;
 	
-	&.b-o-chat {
-		color: $f-white;
-		text-shadow: 1px 1px 1px #000;
-		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to right, rgba(0,22,41,1) 46%,rgba(1,40,74,0) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		            url('../images/open-chats.jpg'), #001629;
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-		background-repeat: no-repeat;
-		background-size: cover, 60%;
-		background-position: 100% center;
-	}
-	
 	h2 {
 		@include U-h2;
 		margin-bottom: 25px;
@@ -2030,6 +2105,25 @@ footer{
 	
 	.img-responsive {
 		margin-bottom: 0;
+	}
+
+	&.b-o-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(0,22,41,1) 46%,rgba(1,40,74,0) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/open-chats.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 60%;
+		background-position: 100% center;
+
+		.media {
+			p{
+				color: #fff;
+			}
+		}
 	}
 }
 
@@ -2091,31 +2185,6 @@ footer{
 .config-left-content {
 	padding: 62px 0 63px 0;
 	
-	&.b-c-chat {
-		color: $f-white;
-		text-shadow: 1px 1px 1px #000;
-		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		            url('../images/team-chat.jpg'), #001629;
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-		background-repeat: no-repeat;
-		background-size: cover, 56%;
-		background-position: 0% bottom;
-	}
-	
-	&.b-p-chat {
-		color: $f-white;
-		text-shadow: 1px 1px 1px #000;
-		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		            url('../images/privacy-chat.jpg'), #001629;
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-		background-repeat: no-repeat;
-		background-size: cover, 56%;
-		background-position: 0% 40%;
-	}
 	
 	h2 {
 		@include U-h2;
@@ -2151,6 +2220,42 @@ footer{
 		display: block;
 		text-align: center;
 		margin-bottom: 0;
+	}
+
+
+	&.b-c-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/team-chat.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 56%;
+		background-position: 0% bottom;
+	}
+	
+	&.b-p-chat {
+		color: $f-white;
+		text-shadow: 1px 1px 1px #000;
+		background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.3) 110%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.3) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		            url('../images/privacy-chat.jpg'), #001629;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+		background-repeat: no-repeat;
+		background-size: cover, 56%;
+		background-position: 0% 40%;
+	}
+
+	&.b-p-chat,
+	&.b-c-chat {
+		.media {
+			p{
+				color: #fff;
+			}
+		}
 	}
 }
 // END MESSAGING PAGE

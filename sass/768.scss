@@ -95,13 +95,14 @@
 		}
 		
 		.logo {
-			max-width: 33px;
+			max-width: 32px;
 			margin-top: 3px;
 		}
 		
 		.logo-text {
-			font-size: 23px;
-			line-height: 1.7;
+			img {
+				padding-top: 7%;
+			}
 		}
 		
 		.fa-bars {
