@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="162.86908mm"
+   height="81.521339mm"
+   viewBox="0 0 577.09516 288.85514"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="actions-step1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="348.67275"
+     inkscape:cy="64.734319"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-top="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-102.881,-282.22035)">
+    <g
+       id="g3541"
+       transform="translate(82.983071,297.47642)">
+      <g
+         id="step1">
+        <g
+           id="checklist">
+          <path
+             id="path3340"
+             d="m 401.421,60.201 c 1.913,-1.662 9.984,-1.76 9.984,-1.76 l 136.214,0 c 0,0 7.283,0.114 9.305,2.136 2.013,2.013 2.136,9.25 2.136,9.25 l 0,114.285 c 0,0 -0.69,5.783 -2.028,7.032 -1.76,1.643 -9.415,2.028 -9.415,2.028 l -136.212,0 c 0,0 -7.489,-0.103 -9.566,-2.179 -1.639,-1.639 -2.179,-7.092 -2.179,-7.092 l 0,-114.074 0,-4.217 c 0,0 0.687,-4.476 1.761,-5.409 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3342"
+             font-size="22.7727"
+             transform="translate(422.7452,173.0388)"
+             style="font-size:22.77269936px;font-family:Montserrat-Bold">Checklist</text>
+          <polyline
+             id="polyline3344"
+             points="422.745,85.505 427.146,96.172     446.479,77.505   "
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3346"
+             y2="86.838997"
+             x2="537.81299"
+             y1="86.838997"
+             x1="446.479"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <polyline
+             id="polyline3348"
+             points="421.827,108.516 426.228,119.182     445.561,100.516   "
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3350"
+             y2="109.849"
+             x2="536.89502"
+             y1="109.849"
+             x1="445.561"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <polyline
+             id="polyline3352"
+             points="421.827,130.839 426.228,141.505     445.561,122.839   "
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3354"
+             y2="132.172"
+             x2="536.89502"
+             y1="132.172"
+             x1="445.561"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+        </g>
+        <g
+           id="message">
+          <path
+             id="path3357"
+             d="m 204.874,60.201 c 1.913,-1.662 9.984,-1.76 9.984,-1.76 l 136.214,0 c 0,0 7.283,0.114 9.305,2.136 2.013,2.013 2.136,9.25 2.136,9.25 l 0,114.285 c 0,0 -0.69,5.783 -2.028,7.032 -1.76,1.643 -9.415,2.028 -9.415,2.028 l -136.212,0 c 0,0 -7.489,-0.103 -9.566,-2.179 -1.639,-1.639 -2.179,-7.092 -2.179,-7.092 l 0,-114.074 0,-4.217 c 0.001,0 0.688,-4.476 1.761,-5.409 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3359"
+             font-size="22.7727"
+             transform="translate(231.3574,173.0388)"
+             style="font-size:22.77269936px;font-family:Montserrat-Bold">Message</text>
+          <path
+             id="path3361"
+             d="m 339.43,107.914 c 0,9.873 -5.352,18.887 -14.171,25.746 -2.128,1.655 4.34,17.028 4.34,17.028 0,0 -16.744,-9.71 -19.723,-8.594 -8.04,3.012 -17.26,4.724 -27.061,4.724 -31.268,0 -56.615,-17.418 -56.615,-38.903 0,-21.485 25.348,-38.903 56.615,-38.903 31.267,0 56.615,17.416 56.615,38.902 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+        </g>
+        <g
+           id="send-email">
+          <path
+             id="path3364"
+             d="m 60.614,25.46 c 3.025,-2.628 15.783,-2.783 15.783,-2.783 l 215.334,0 c 0,0 11.513,0.18 14.711,3.377 3.182,3.182 3.377,14.623 3.377,14.623 l 0,180.667 c 0,0 -1.091,9.143 -3.205,11.117 -2.782,2.597 -14.883,3.205 -14.883,3.205 l -215.334,0 c 0,0 -11.84,-0.162 -15.122,-3.444 -2.591,-2.591 -3.444,-11.212 -3.444,-11.212 l 0,-180.333 0,-6.666 c 0,0 1.086,-7.076 2.783,-8.551 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <path
+             id="path3366"
+             d="m 158.65,98.339 101.5,-42.5 c 0,0 1,0 4,5 3,5 24.5,41 24.5,41 0,0 1.5,4.5 -2.5,6 -4,1.5 -99,47.5 -99,47.5 0,0 -4.5,-2.5 -6,-4.5 -1.5,-2 -25,-48 -25,-48 l 2.5,-4.5 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <path
+             id="path3368"
+             d="m 258.033,56.725 c 0,0 -13.216,35.28 -14.716,36.78 -1.5,1.5 -4.333,2.333 -6.667,2.667 -2.333,0.333 -76.829,1.676 -76.829,1.676"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3370"
+             y2="133.839"
+             x2="97.813004"
+             y1="115.172"
+             x1="142.813"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3372"
+             y2="133.839"
+             x2="126.479"
+             y1="124.505"
+             x1="148.146"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <line
+             id="line3374"
+             y2="141.839"
+             x2="142.813"
+             y1="136.172"
+             x1="156.14999"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3376"
+             font-size="36"
+             transform="translate(88.4795,203.8387)"
+             style="font-size:36px;font-family:Montserrat-Bold">Send Email</text>
+        </g>
+      </g>
+      <g
+         display="none"
+         id="setp2"
+         style="display:none">
+        <g
+           display="inline"
+           id="finance"
+           style="display:inline">
+          <path
+             id="path3380"
+             d="m 70.206,340.895 c 1.913,-1.662 9.984,-1.76 9.984,-1.76 l 136.214,0 c 0,0 7.283,0.114 9.305,2.136 2.013,2.013 2.136,9.25 2.136,9.25 l 0,114.285 c 0,0 -0.69,5.783 -2.028,7.032 -1.76,1.643 -9.415,2.028 -9.415,2.028 l -136.212,0 c 0,0 -7.489,-0.103 -9.566,-2.179 -1.639,-1.639 -2.179,-7.092 -2.179,-7.092 l 0,-114.075 0,-4.217 c 0.001,0 0.688,-4.476 1.761,-5.408 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3382"
+             font-size="22.7727"
+             transform="translate(104.6894,453.7328)"
+             style="font-size:22.77269936px;font-family:Montserrat-Bold">Finance</text>
+          <g
+             id="g3384">
+            <g
+               id="g3386">
+              <polyline
+                 id="polyline3388"
+                 points="104.896,412.293 136.625,380.564       158.125,402.064 182.516,377.673     "
+                 stroke-miterlimit="10"
+                 style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+              <g
+                 id="g3390">
+                <polygon
+                   id="polygon3392"
+                   points="174.54,373.308 186.881,385.648 191.396,368.793 " />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           display="inline"
+           id="message_1_"
+           style="display:inline">
+          <path
+             id="path3395"
+             d="m 249.641,340.895 c 1.913,-1.662 9.984,-1.76 9.984,-1.76 l 136.214,0 c 0,0 7.283,0.114 9.305,2.136 2.013,2.013 2.136,9.25 2.136,9.25 l 0,114.285 c 0,0 -0.69,5.783 -2.028,7.032 -1.76,1.643 -9.415,2.028 -9.415,2.028 l -136.212,0 c 0,0 -7.489,-0.103 -9.566,-2.179 -1.639,-1.639 -2.179,-7.092 -2.179,-7.092 l 0,-114.075 0,-4.217 c 0,0 0.687,-4.476 1.761,-5.408 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3397"
+             font-size="22.7727"
+             transform="translate(276.1238,453.7326)"
+             style="font-size:22.77269936px;font-family:Montserrat-Bold">Message</text>
+          <path
+             id="path3399"
+             d="m 384.196,388.607 c 0,9.873 -5.352,18.887 -14.171,25.746 -2.128,1.655 4.34,17.028 4.34,17.028 0,0 -16.744,-9.71 -19.723,-8.594 -8.04,3.012 -17.26,4.724 -27.061,4.724 -31.268,0 -56.615,-17.418 -56.615,-38.903 0,-21.486 25.348,-38.903 56.615,-38.903 31.267,0 56.615,17.417 56.615,38.902 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+        </g>
+        <g
+           display="inline"
+           id="send-email_1_"
+           style="display:inline">
+          <path
+             id="path3402"
+             d="m 286.678,296.955 c 3.025,-2.628 15.783,-2.783 15.783,-2.783 l 215.333,0 c 0,0 11.513,0.18 14.711,3.377 3.182,3.182 3.377,14.623 3.377,14.623 l 0,180.667 c 0,0 -1.091,9.143 -3.205,11.117 -2.782,2.597 -14.883,3.205 -14.883,3.205 l -215.333,0 c 0,0 -11.84,-0.162 -15.122,-3.444 -2.591,-2.591 -3.444,-11.212 -3.444,-11.212 l 0,-180.333 0,-6.666 c 0,-10e-4 1.086,-7.077 2.783,-8.551 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-miterlimit:10" />
+          <text
+             id="text3404"
+             font-size="36"
+             transform="translate(335.5431,475.3333)"
+             style="font-size:36px;font-family:Montserrat-Bold">Weather</text>
+          <path
+             id="path3406"
+             d="m 420,365.5 c 0,0 -32.5,-45 -46,11.5 0,0 -28,-13.5 -38,21.5 0,0 -10,-5.5 -19,7 0,0 -15,33 21,26 0,0 10,6 20,-2.5 0,0 38.5,11.5 65.5,-2.5 0,0 25,6 42,-2.5 0,0 27.5,7.5 41.5,-13 0,0 3.5,-31.5 -42.5,-25.5 0,0 -7.5,-22.5 -44.5,-20 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <circle
+             id="circle3408"
+             r="23.25"
+             cy="379.75"
+             cx="437.25"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3410"
+             y2="324.5"
+             x2="419"
+             y1="352.5"
+             x1="426"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3412"
+             y2="324.5"
+             x2="445.66699"
+             y1="351"
+             x1="441.66699"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3414"
+             y2="333.66699"
+             x2="469.16699"
+             y1="355.5"
+             x1="453"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3416"
+             y2="346.66699"
+             x2="488.83301"
+             y1="363.16699"
+             x1="461.08301"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3418"
+             y2="375.33301"
+             x2="494.5"
+             y1="376.16699"
+             x1="466.66699"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+        </g>
+      </g>
+      <g
+         display="none"
+         id="step3"
+         style="display:none">
+        <g
+           display="inline"
+           id="weather_icon"
+           style="display:inline">
+          <path
+             id="path3422"
+             d="m 574,616.365 c 0,6.627 -5.373,12 -12,12 l -470.5,0 C 76,629.865 73,617.659 73,611.032 L 73,577 c 0,-15 7,-22 22,-22 l 467,0 c 6.627,0 12,5.373 12,12 l 0,49.365 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <path
+             id="path3424"
+             d="m 139.057,583.441 c 0,0 -15.672,-21.7 -22.182,5.545 0,0 -13.502,-6.51 -18.324,10.368 0,0 -4.822,-2.652 -9.162,3.375 0,0 -7.233,15.913 10.126,12.537 0,0 4.822,2.893 9.644,-1.206 0,0 18.565,5.545 31.585,-1.206 0,0 12.055,2.893 20.253,-1.206 0,0 13.261,3.617 20.012,-6.269 0,0 1.688,-15.19 -20.494,-12.296 0,0.002 -3.617,-10.848 -21.458,-9.642 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <circle
+             id="circle3426"
+             r="11.211"
+             cy="590.31299"
+             cx="147.375"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3428"
+             y2="563.66998"
+             x2="138.57401"
+             y1="577.172"
+             x1="141.95"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3430"
+             y2="563.66998"
+             x2="151.433"
+             y1="576.44897"
+             x1="149.504"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3432"
+             y2="568.091"
+             x2="162.765"
+             y1="578.61902"
+             x1="154.97"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3434"
+             y2="574.35901"
+             x2="172.24899"
+             y1="582.31598"
+             x1="158.867"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <line
+             id="line3436"
+             y2="588.18298"
+             x2="174.981"
+             y1="588.58502"
+             x1="161.56"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <text
+             id="text3438"
+             font-size="32"
+             transform="translate(201.2222,601.8491)"
+             style="font-size:32px;font-family:Montserrat-Bold">Tomorrow about 30C</text>
+          <path
+             id="path3440"
+             d="m 574,836.546 c 0,6.627 -5.373,12 -12,12 l -477,0 c -6.627,0 -12,-5.373 -12,-12 l 0,-174.879 c 0,-6.627 5.373,-12 12,-12 l 477,0 c 6.627,0 12,5.373 12,12 l 0,174.879 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <text
+             id="text3442"
+             transform="translate(94.3332,690.3333)">
+            <tspan
+               id="tspan3444"
+               font-size="28"
+               y="0"
+               x="0"
+               style="font-size:28px;font-family:Montserrat-Bold">Monday about 29C</tspan>
+            <tspan
+               id="tspan3446"
+               font-size="28"
+               y="33.599998"
+               x="0"
+               style="font-size:28px;font-family:Montserrat-Bold">Tuesday about 30C</tspan>
+            <tspan
+               id="tspan3448"
+               font-size="28"
+               y="67.199997"
+               x="0"
+               style="font-size:28px;font-family:Montserrat-Bold">Wednesday about 30C</tspan>
+            <tspan
+               id="tspan3450"
+               font-size="28"
+               y="100.8"
+               x="0"
+               style="font-size:28px;font-family:Montserrat-Bold">Thursday about 30C</tspan>
+            <tspan
+               id="tspan3452"
+               font-size="28"
+               y="134.39999"
+               x="0"
+               style="font-size:28px;font-family:Montserrat-Bold">Friday about 30C</tspan>
+          </text>
+          <polyline
+             id="polyline3454"
+             points="174.981,651.667 189.741,635.5     204.5,651.667   "
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+        </g>
+      </g>
+      <g
+         display="none"
+         id="step4"
+         style="display:none">
+        <g
+           id="g3457"
+           display="inline"
+           style="display:inline">
+          <path
+             id="path3459"
+             d="m 544.333,740.333 c 0,6.627 -5.373,12 -12,12 l -470,0 c -6.627,0 -12,-5.373 -12,-12 l 0,-51.333 c 0,-6.627 5.373,-12 12,-12 l 470,0 c 6.627,0 12,5.373 12,12 l 0,51.333 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <path
+             id="path3461"
+             d="m 544.333,637 c 0,6.627 -5.373,12 -12,12 l -470,0 c -6.627,0 -12,-5.373 -12,-12 l 0,-51.333 c 0,-6.627 5.373,-12 12,-12 l 470,0 c 6.627,0 12,5.373 12,12 l 0,51.333 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <path
+             id="path3463"
+             d="m 453.667,637 c 0,6.627 -4.387,12 -9.798,12 l -383.738,0 c -5.411,0 -9.798,-5.373 -9.798,-12 l 0,-51.333 c 0,-6.627 4.387,-12 9.798,-12 l 383.738,0 c 5.411,0 9.798,5.373 9.798,12 l 0,51.333 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+          <text
+             id="text3465"
+             font-size="28"
+             transform="translate(54.3335,562.3337)"
+             style="font-size:28px;font-family:Montserrat-Bold">WHO TO EMAIL?</text>
+          <text
+             id="text3467"
+             font-size="28"
+             transform="translate(465.667,619.333)"
+             style="font-size:28px;font-family:Montserrat-Bold">ADD</text>
+          <text
+             id="text3469"
+             font-size="28"
+             transform="translate(70.6668,723.0003)"
+             style="font-size:28px;font-family:Montserrat-Bold">ROLE: Manager</text>
+          <text
+             id="text3471"
+             font-size="45"
+             transform="matrix(0.7071,-0.7071,0.7071,0.7071,517.6152,733.7534)"
+             style="font-size:45px;font-family:Montserrat-Regular">+</text>
+        </g>
+      </g>
+      <g
+         display="none"
+         id="clock"
+         style="display:none">
+        <circle
+           id="circle3474"
+           r="56"
+           cy="640.59998"
+           cx="423.66199"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <g
+           display="inline"
+           id="clock_1_"
+           style="display:inline">
+          <polygon
+             id="polygon3477"
+             points="405.725,622.5 404.296,623.261 408.18,628.672 410.25,626.723 "
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <polygon
+             id="polygon3479"
+             points="442.194,622.5 443.623,623.261 439.739,628.672 437.669,626.723 "
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3481"
+             d="m 403.585,659.2 c 0,0 -2.897,4.751 -2.324,6.501 0,0 4.814,-0.2 7.36,-1.473 l -5.036,-5.028 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3483"
+             d="m 442.965,659.2 c 0,0 2.897,4.751 2.324,6.501 0,0 -4.814,-0.2 -7.36,-1.473 l 5.036,-5.028 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <circle
+             id="circle3485"
+             r="24.395"
+             cy="644.63501"
+             cx="423.15601"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <circle
+             id="circle3487"
+             r="21.895"
+             cy="644.63501"
+             cx="423.15601"
+             stroke-miterlimit="10"
+             style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+          <g
+             id="g3489">
+            <line
+               id="line3491"
+               y2="628.073"
+               x2="423.15601"
+               y1="644.63501"
+               x1="423.15601"
+               style="fill:#ffffff" />
+            <g
+               id="g3493">
+              <line
+                 id="line3495"
+                 y2="633.02502"
+                 x2="423.15601"
+                 y1="644.63501"
+                 x1="423.15601"
+                 stroke-miterlimit="10"
+                 style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10" />
+              <g
+                 id="g3497">
+                <polygon
+                   id="polygon3499"
+                   points="419.716,634.032 426.597,634.032 423.156,628.073 " />
+              </g>
+            </g>
+          </g>
+          <circle
+             id="circle3501"
+             r="2.9860001"
+             cy="644.63501"
+             cx="423.15601"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3503"
+             d="m 396.469,627.911 c 0,0 -4.95,-5.303 1.061,-12.021 0,0 5.48,-5.48 11.844,-0.884 0,0 2.901,1.841 -3.411,9.494 0,0 -4.898,4.471 -9.494,3.411 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3505"
+             d="m 395.231,626.911 c 0,0 -4.95,-5.303 1.061,-12.021 0,0 5.48,-5.48 11.844,-0.884 0,0 2.901,1.841 -3.411,9.494 0,0 -4.897,4.471 -9.494,3.411 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3507"
+             d="m 450.854,627.911 c 0,0 4.95,-5.303 -1.061,-12.021 0,0 -5.48,-5.48 -11.844,-0.884 0,0 -2.901,1.841 3.411,9.494 0,0 4.898,4.471 9.494,3.411 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <path
+             id="path3509"
+             d="m 452.092,626.911 c 0,0 4.95,-5.303 -1.061,-12.021 0,0 -5.48,-5.48 -11.844,-0.884 0,0 -2.901,1.841 3.411,9.494 0,0 4.898,4.471 9.494,3.411 z"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3511"
+             y2="633.70099"
+             x2="438.522"
+             y1="636.354"
+             x1="435.08401"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3513"
+             y2="644.63501"
+             x2="441.646"
+             y1="644.63501"
+             x1="436.80301"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3515"
+             y2="655.70099"
+             x2="439.224"
+             y1="652.70099"
+             x1="435.08401"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3517"
+             y2="633.63501"
+             x2="407.883"
+             y1="636.28802"
+             x1="411.32001"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3519"
+             y2="644.56897"
+             x2="404.758"
+             y1="644.56897"
+             x1="409.60199"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+          <line
+             id="line3521"
+             y2="655.63501"
+             x2="407.17999"
+             y1="652.63501"
+             x1="411.32001"
+             stroke-miterlimit="10"
+             style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+        </g>
+        <line
+           id="line3523"
+           y2="640.59998"
+           x2="548.5"
+           y1="640.59998"
+           x1="489.5"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <line
+           id="line3525"
+           y2="551.54999"
+           x2="496.18701"
+           y1="584.59998"
+           x1="463.13699"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <line
+           id="line3527"
+           y2="696.59998"
+           x2="472.97501"
+           y1="729.65002"
+           x1="506.02499"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <line
+           id="line3529"
+           y2="638"
+           x2="297.89499"
+           y1="638"
+           x1="356.89499"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <line
+           id="line3531"
+           y2="548.95001"
+           x2="350.20801"
+           y1="582"
+           x1="383.258"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+        <line
+           id="line3533"
+           y2="694"
+           x2="373.42001"
+           y1="727.04999"
+           x1="340.37"
+           stroke-miterlimit="10"
+           display="inline"
+           style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" />
+      </g>
+    </g>
+  </g>
+</svg>

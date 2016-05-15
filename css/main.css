@@ -230,7 +230,7 @@ nav {
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 205px 0; }
+  padding: 130px 0 170px; }
   @media (max-width: 900px) {
     .banner {
       padding: 150px 0; } }
@@ -313,9 +313,10 @@ nav {
   padding: 40px 0px 8px;
   text-align: center; }
   .logos-section h5 {
-    color: #fff;
+    color: #969696;
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+    font-size: 18px; }
 
 .img-special {
   position: relative;
@@ -554,6 +555,8 @@ footer .tabs-menu {
   background-color: #0275D8;
   text-align: center;
   color: #fff; }
+  .blue-frange.rebranded-frange {
+    padding-bottom: 50px; }
   .blue-frange h1 {
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 64px;
@@ -587,7 +590,16 @@ footer .tabs-menu {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 35px; }
-  .started_form input {
+  .started_form.rebranded-form {
+    top: 0;
+    margin-top: 40px; }
+    .started_form.rebranded-form label {
+      color: #333;
+      font-size: 18px; }
+  .started_form .text-left {
+    text-align: left; }
+  .started_form input,
+  .started_form textarea {
     background-color: #f5f4f0;
     border: 1px solid transparent;
     border-radius: 0;
@@ -734,7 +746,8 @@ footer {
     background: -moz-linear-gradient(top, #565253 0%, #3e3a3a 100%);
     background: -webkit-linear-gradient(top, #565253 0%, #3e3a3a 100%);
     background: linear-gradient(to bottom, #565253 0%, #3e3a3a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565253', endColorstr='#3e3a3a',GradientType=0 ); }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565253', endColorstr='#3e3a3a',GradientType=0 );
+    z-index: 0; }
     footer.global-f .bg-texture {
       position: absolute;
       z-index: 0;
@@ -749,6 +762,12 @@ footer {
     footer.global-f .wrapper {
       position: relative;
       z-index: 1; }
+    footer.global-f .btn.btn-outline-gray {
+      border: 2px solid #7c7c7c;
+      color: #bbb; }
+      footer.global-f .btn.btn-outline-gray:hover, footer.global-f .btn.btn-outline-gray:focus {
+        background-color: #7c7c7c;
+        color: #fff; }
   @media (max-width: 991px) {
     footer .logo-text {
       float: none;
@@ -1400,11 +1419,14 @@ footer {
     color: #FFFFFF;
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 64px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-bottom: 32px; }
   .platform_personal h3 {
     color: #FFFFFF;
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 30px; }
+    font-size: 30px;
+    font-size: 18px; }
   .platform_personal img {
     max-width: 100%;
     margin: 0 auto;
@@ -1668,13 +1690,20 @@ footer {
   text-align: center;
   background-color: #ff7e20;
   padding: 40px 0; }
+  .steam-free-orange h2, .steam-free-orange div {
+    position: relative; }
   .steam-free-orange .b-video-container {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 0;
     top: 0;
     left: 0;
-    overflow: hidden; }
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../images/footer-texture.png);
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    opacity: 0.2; }
     .steam-free-orange .b-video-container video {
       position: absolute;
       top: -200px;
@@ -1768,29 +1797,43 @@ footer {
   .config-left-content.b-p-chat .media p, .config-left-content.b-c-chat .media p {
     color: #fff; }
 
+.header-breadcrumb {
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  .header-breadcrumb a.link-more, .header-breadcrumb span.link-more {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 20px;
+    font-size: 14px;
+    line-height: 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-bottom: 2em; }
+  .header-breadcrumb a.link-more {
+    color: #ff7e20; }
+    .header-breadcrumb a.link-more:hover, .header-breadcrumb a.link-more:focus {
+      text-decoration: underline; }
+  .header-breadcrumb span.link-more {
+    color: #fff; }
+
 .b-actions {
   background-image: url("../images/back_enterprise.jpg");
   background-repeat: no-repeat;
   background-position: center 50%; }
-  .b-actions .link-more {
-    color: #ff7e20;
-    font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 20px;
-    line-height: 0;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 20px; }
-    .b-actions .link-more:hover {
-      text-decoration: underline; }
   .b-actions h1 {
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 64px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-bottom: 32px; }
   .b-actions h2 {
     width: 70%;
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 30px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-size: 18px; }
 
 .save-time {
   background-color: #FFFFFF;

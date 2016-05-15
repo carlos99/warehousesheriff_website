@@ -304,7 +304,8 @@ nav{
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 205px 0;
+    padding: 130px 0 170px;
+
     @media (max-width: 900px){
     	padding: 150px 0;
     }
@@ -402,8 +403,10 @@ nav{
 	text-align: center;
 	
 	h5{
-		color: #fff;
+		color: #969696;
 		@include U-btn;
+
+		font-size: 18px;
 	}
 }
 .img-special{
@@ -705,6 +708,11 @@ footer {
 	background-color: $b-lblue;
 	text-align: center;
 	color: #fff;
+
+	&.rebranded-frange{
+		padding-bottom: 50px;
+	}
+
 	h1{
 	    @include U-h1;
 	    margin-bottom: 0;
@@ -742,15 +750,30 @@ footer {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 35px;
+
+    &.rebranded-form{
+    	top: 0;
+    	margin-top: 40px;
+
+    	label{
+    		color: #333;
+    		font-size: 18px;
+    	}
+    }
+
+    .text-left{
+    	text-align: left;
+    }
 	
-	input{
+	input,
+	textarea{
 		background-color: #f5f4f0;
-	    border: 1px solid transparent;
-	    border-radius: 0;
-	    color: #a7a9ac;
-	    padding: 10px 15px;
-	    width: 100%;
-	    margin-bottom: 16px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #a7a9ac;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 16px;
 	}
 	
 	span{
@@ -872,6 +895,8 @@ footer{
 			background: -webkit-linear-gradient(top, #565253 0%,#3e3a3a 100%);
 			background: linear-gradient(to bottom, #565253 0%,#3e3a3a 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565253', endColorstr='#3e3a3a',GradientType=0 );
+
+			z-index: 0;
 			
 
 			.bg-texture{
@@ -884,14 +909,26 @@ footer{
 				background-image: url(../images/footer-texture.png);
 				background-position: top center;
 				background-repeat: no-repeat;
-
-
 				opacity: 0.2;
 			}
 
 			.wrapper{
 				position: relative;
 				z-index: 1;
+			}
+
+
+			.btn{
+				&.btn-outline-gray{
+			    border: 2px solid #7c7c7c;
+    			color: #bbb;
+
+    			&:hover,
+    			&:focus{
+    				background-color: #7c7c7c;
+    				color: #fff;
+    			}
+				}
 			}
     }
     
@@ -1782,11 +1819,14 @@ footer{
 		color: $f-white;
 		@include U-h1;
 		text-transform: uppercase;
+		font-size: 48px;
+		margin-bottom: 32px;
 	}
 	
 	h3 {
 		color: $f-white;
 		@include U-h3;
+		font-size: 18px;
 	}
 	
 	img  {
@@ -2132,14 +2172,23 @@ footer{
 	text-align: center;
 	background-color: $b-orange;
 	padding: 40px 0;
+
+	h2, div {
+		position: relative;
+	}
 	
 	.b-video-container {
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		z-index: 0;
 		top: 0;
 		left: 0;
+		width: 100%;
+		height: 100%;
 		overflow: hidden;
+		background-image: url(../images/footer-texture.png);
+		background-position: 50% 20%;
+		background-repeat: no-repeat;
+		opacity: 0.2;
 		
 		video {
 			position: absolute;
@@ -2260,34 +2309,64 @@ footer{
 }
 // END MESSAGING PAGE
 
+
+
+.header-breadcrumb{
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
+
+	a, span {
+		&.link-more {
+			@include U-btn;
+			font-size: 14px;
+			line-height: 0;
+			text-decoration: none;
+			display: inline-block;
+			margin-bottom: 20px;
+			margin-bottom: 2em;
+		}
+	}
+
+	a{
+		&.link-more{
+			color: #ff7e20;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	span{
+		&.link-more{
+			color: #fff;
+		}
+	}
+}
+
+
 // F3.- START ACTIONS PAGE
 .b-actions {
 	background-image: url("../images/back_enterprise.jpg");
 	background-repeat: no-repeat;
-    background-position: center 50%;
-    
-    .link-more {
-		color: #ff7e20;
-		@include U-btn;
-		line-height: 0;
-		text-decoration: none;
-		display: inline-block;
-		margin-bottom: 20px;
-		
-		&:hover {
-			text-decoration: underline;
-		}
-	}
+  background-position: center 50%;
+
 	
 	h1 {
 		@include U-h1;
 		text-transform: uppercase;
+		font-size: 48px;
+		margin-bottom: 32px;
 	}
 	
 	h2 {
 		width: 70%;
 		@include U-h3;
 		margin: 0 auto;
+		font-size: 18px;
 	}
 }
 
