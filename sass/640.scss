@@ -1809,10 +1809,10 @@
 		background: #F6F6F6;
 		
 		h1 {
-			text-align: center;
-			font-size: 34px;
-			margin-bottom: 20px;
-			padding: 0 15px;
+			// text-align: center;
+			// font-size: 34px;
+			// margin-bottom: 20px;
+			// padding: 0 15px;
 		}
 		
 		h3 {
@@ -1832,9 +1832,9 @@
 	
 	.automated-actions {
 		h1 {
-			text-align: center;
-			font-size: 34px;
-			padding: 0 15px;
+			// text-align: center;
+			// font-size: 34px;
+			// padding: 0 15px;
 		}
 		
 		h3 {
@@ -1863,9 +1863,9 @@
 	
 	.tech-platform {
 		h1 {
-			text-align: center;
-			font-size: 34px;
-			padding: 0 15px;
+			// text-align: center;
+			// font-size: 34px;
+			// padding: 0 15px;
 		}
 		
 		h3 {
@@ -1875,8 +1875,8 @@
 		}
 		
 		.p-random {
-			width: 100%;
-			height: 100%;
+			// width: 100%;
+			// height: 100%;
 			
 			&:nth-child(even) {
 				float: left;
@@ -1924,18 +1924,19 @@
 			margin-bottom: 0;
 			
 			li {
-				width: 49.6%;
-				display: inline-block;
-				margin: 0 0 40px 0;
+				// width: 49.6%;
+				// display: inline-block;
+				// margin: 0 0 40px 0;
+				width: 50%;
 				
 				&:last-child {
 					margin-bottom: 0;
 				}
 				
 				img {
-					max-width: 117px;
-					height: auto;
-					margin-bottom: 15px;
+					// max-width: 117px;
+					// height: auto;
+					// margin-bottom: 15px;
 				}
 				
 				h4 {

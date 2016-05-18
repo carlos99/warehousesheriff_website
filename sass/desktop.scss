@@ -1857,10 +1857,11 @@ footer{
 }
 
 .own_personal {
-	background-image: url('../images/b-blur.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-color: #0275D8;
+	// background-image: url('../images/b-blur.jpg');
+	// background-repeat: no-repeat;
+	// background-position: center center;
+	// background-size: cover;
 	padding: 60px 0px;
 	
 	.icons-side-personal {
@@ -1873,16 +1874,19 @@ footer{
 	h1 {
 		color: $f-white;
 		@include U-h4;
+		font-size: 30px;
 	}
 	
 	h3 {
 		color: $f-white;
 		@include U-h5;
+		font-size: 20px;
+		line-height: 30px;
 	}
 	
 	.op-apps {
 		text-align: center;
-		margin-top: 30px;
+		margin-top: 40px;
 		
 		ul {
 			list-style: none;
@@ -1890,11 +1894,11 @@ footer{
 			margin-bottom: 0;
 			
 			li {
-				display: inline;
-				
-				&:nth-child(2) {
-					margin-left: 30px;
-					margin-right: 30px;
+				display: inline-block;
+				margin-right: 15px;
+
+				&:last-child{
+					margin-right: 0;
 				}
 				
 				img {
@@ -2242,6 +2246,7 @@ footer{
 
 .config-left-content {
 	padding: 62px 0 63px 0;
+	background-color: #fff;
 	
 	
 	h2 {
@@ -2640,7 +2645,7 @@ footer{
         }
         
 		.back-left {
-			background-image: url("../images/bigbanner.jpg");
+			background-image: url("../images/bannerbg.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;
@@ -3340,8 +3345,8 @@ footer{
 			}
 			
 			img {
-				max-width: 117px;
-				height: auto;
+				max-width: 80px;
+				max-height: 70px;
 				margin-bottom: 15px;
 			}
 			
@@ -3357,6 +3362,14 @@ footer{
 	
 	h1 {
 		@include U-h4;
+		margin-bottom: 50px;
+		margin-top: 0;
+		padding: 0;
+		text-align: center;
+
+		@media screen and (max-width: 480px) {
+			font-size: 30px;
+		}
 	}
 	
 	h3 {
@@ -3383,6 +3396,8 @@ footer{
 .automated-actions {
 	h1 {
 		@include U-h4;
+		margin-bottom: 40px;
+		text-align: center;
 	}
 	
 	h3 {
@@ -3416,12 +3431,20 @@ footer{
 	
 	h1 {
 		@include U-h4;
+		margin-bottom: 30px;
+		text-align: center;
 	}
 	
 	h3 {
 		@include U-p;
 		line-height: normal;
-		margin-bottom: 10px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		max-width: 80%;
+
+		@media screen and (max-width: 992px) {
+			max-width: 100%;
+		}
 		
 		&:nth-child(3) {
 			margin-bottom: 0;
@@ -3429,8 +3452,8 @@ footer{
 	}
 	
 	.p-random {
-		width: calc(50% - 15px);
-		height: 291px;
+		// width: calc(50% - 15px);
+		// height: 291px;
 		
 		&:nth-child(even) {
 			float: left;
@@ -3500,15 +3523,46 @@ footer{
 	text-align: center;
 	list-style: none;
 	padding: 40px 0;
+
+	h1{
+		@include U-h4;
+		margin-bottom: 25px;
+	}
+
+	h5 {
+		@include U-p;
+		line-height: normal;
+		
+		max-width: 75%;
+		margin: 0 auto;
+		font-weight: 300;
+		font-size: 18px;
+		margin-bottom: 10px;
+
+		@media screen and (max-width: 992px) {
+			max-width: 100%;
+		}
+
+		padding-bottom: 40px;
+	}
 	
 	ul {
 		padding-left: 0;
 		margin-bottom: 0;
 		
 		li {
-			width: 30%;
-			display: inline-block;
-			margin: 0 15px;
+			width: 33.33%;
+			display: block;
+			float: left;
+			margin: 0;
+
+			@media screen and (max-width: 992px) {
+				margin-bottom: 20px;
+			}
+
+			> div {
+				padding: 0 15px;
+			}
 			
 			&:first-child {
 				margin-left: 0;
@@ -3519,9 +3573,10 @@ footer{
 			}
 			
 			img {
-				max-width: 117px;
-				height: auto;
-				margin-bottom: 15px;
+				max-width: 90px;
+		    max-height: 75px;
+		    margin-bottom: 15px;
+		    padding: 10px 0px;
 			}
 			
 			h4 {

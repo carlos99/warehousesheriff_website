@@ -1447,10 +1447,7 @@ footer {
       margin-top: 20px; }
 
 .own_personal {
-  background-image: url("../images/b-blur.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: #0275D8;
   padding: 60px 0px; }
   .own_personal .icons-side-personal {
     display: block;
@@ -1460,23 +1457,26 @@ footer {
   .own_personal h1 {
     color: #FFFFFF;
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 40px; }
+    font-size: 40px;
+    font-size: 30px; }
   .own_personal h3 {
     color: #FFFFFF;
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 23px; }
+    font-size: 23px;
+    font-size: 20px;
+    line-height: 30px; }
   .own_personal .op-apps {
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 40px; }
     .own_personal .op-apps ul {
       list-style: none;
       padding: 0;
       margin-bottom: 0; }
       .own_personal .op-apps ul li {
-        display: inline; }
-        .own_personal .op-apps ul li:nth-child(2) {
-          margin-left: 30px;
-          margin-right: 30px; }
+        display: inline-block;
+        margin-right: 15px; }
+        .own_personal .op-apps ul li:last-child {
+          margin-right: 0; }
         .own_personal .op-apps ul li img {
           height: 50px; }
 
@@ -1743,7 +1743,8 @@ footer {
       transition: all 250ms ease-in-out; }
 
 .config-left-content {
-  padding: 62px 0 63px 0; }
+  padding: 62px 0 63px 0;
+  background-color: #fff; }
   .config-left-content h2 {
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 36px; }
@@ -2033,7 +2034,7 @@ footer {
       float: none;
       vertical-align: top; }
     .header-addon .container-haddon .back-left {
-      background-image: url("../images/bigbanner.jpg");
+      background-image: url("../images/bannerbg.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -2526,8 +2527,8 @@ footer {
       .enterprise-icons ul li:last-child {
         margin-right: 0; }
       .enterprise-icons ul li img {
-        max-width: 117px;
-        height: auto;
+        max-width: 80px;
+        max-height: 70px;
         margin-bottom: 15px; }
       .enterprise-icons ul li h4 {
         font-family: 'MontserratLight', sans-serif;
@@ -2537,7 +2538,14 @@ footer {
   background: #F6F6F6; }
   .enterprise-summary h1 {
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 40px; }
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center; }
+    @media screen and (max-width: 480px) {
+      .enterprise-summary h1 {
+        font-size: 30px; } }
   .enterprise-summary h3 {
     font-family: 'MontserratUltraLight', sans-serif;
     font-size: 23px; }
@@ -2552,7 +2560,9 @@ footer {
 
 .automated-actions h1 {
   font-family: 'MontserratUltraLight', sans-serif;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center; }
 
 .automated-actions h3 {
   font-family: 'MontserratUltraLight', sans-serif;
@@ -2576,7 +2586,9 @@ footer {
   padding: 64px 0 63px 0; }
   .tech-platform h1 {
     font-family: 'MontserratUltraLight', sans-serif;
-    font-size: 40px; }
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center; }
   .tech-platform h3 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -2584,16 +2596,18 @@ footer {
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     line-height: normal;
-    margin-bottom: 10px; }
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 80%; }
+    @media screen and (max-width: 992px) {
+      .tech-platform h3 {
+        max-width: 100%; } }
     .tech-platform h3:nth-child(3) {
       margin-bottom: 0; }
-  .tech-platform .p-random {
-    width: calc(50% - 15px);
-    height: 291px; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 60px; }
     .tech-platform .media .media-left {
@@ -2643,21 +2657,48 @@ footer {
   text-align: center;
   list-style: none;
   padding: 40px 0; }
+  .premiere-icons h1 {
+    font-family: 'MontserratUltraLight', sans-serif;
+    font-size: 40px;
+    margin-bottom: 25px; }
+  .premiere-icons h5 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.625;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    max-width: 75%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 40px; }
+    @media screen and (max-width: 992px) {
+      .premiere-icons h5 {
+        max-width: 100%; } }
   .premiere-icons ul {
     padding-left: 0;
     margin-bottom: 0; }
     .premiere-icons ul li {
-      width: 30%;
-      display: inline-block;
-      margin: 0 15px; }
+      width: 33.33%;
+      display: block;
+      float: left;
+      margin: 0; }
+      @media screen and (max-width: 992px) {
+        .premiere-icons ul li {
+          margin-bottom: 20px; } }
+      .premiere-icons ul li > div {
+        padding: 0 15px; }
       .premiere-icons ul li:first-child {
         margin-left: 0; }
       .premiere-icons ul li:last-child {
         margin-right: 0; }
       .premiere-icons ul li img {
-        max-width: 117px;
-        height: auto;
-        margin-bottom: 15px; }
+        max-width: 90px;
+        max-height: 75px;
+        margin-bottom: 15px;
+        padding: 10px 0px; }
       .premiere-icons ul li h4 {
         font-family: 'MontserratLight', sans-serif;
         font-size: 20px; }
@@ -3766,18 +3807,11 @@ footer {
         .enterprise-icons ul li:last-child {
           margin-bottom: 0; }
         .enterprise-icons ul li img {
-          max-width: 117px;
-          height: auto;
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px; }
   .enterprise-summary {
     background: #F6F6F6; }
-    .enterprise-summary h1 {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 20px;
-      padding: 0 15px; }
     .enterprise-summary h3 {
       font-size: 20px;
       padding: 0 15px; }
@@ -3786,10 +3820,6 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
-  .automated-actions h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -3802,21 +3832,14 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
-  .tech-platform h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
     padding: 0 15px; }
-  .tech-platform .p-random {
-    width: 100%;
-    height: 100%; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 40px;
     padding: 0 15px; }
@@ -3838,14 +3861,9 @@ footer {
       margin-bottom: 0; }
       .premiere-icons ul li {
         width: 100%;
-        display: inline-block;
-        margin: 0 0 40px 0; }
+        float: none; }
         .premiere-icons ul li:last-child {
           margin-bottom: 0; }
-        .premiere-icons ul li img {
-          max-width: 117px;
-          height: auto;
-          margin-bottom: 15px; }
         .premiere-icons ul li h4 {
           font-family: 'MontserratLight', sans-serif;
           font-size: 20px; }
@@ -4951,18 +4969,11 @@ footer {
         .enterprise-icons ul li:last-child {
           margin-bottom: 0; }
         .enterprise-icons ul li img {
-          max-width: 117px;
-          height: auto;
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px; }
   .enterprise-summary {
     background: #F6F6F6; }
-    .enterprise-summary h1 {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 20px;
-      padding: 0 15px; }
     .enterprise-summary h3 {
       font-size: 20px;
       padding: 0 15px; }
@@ -4971,10 +4982,6 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
-  .automated-actions h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -4987,21 +4994,14 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
-  .tech-platform h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
     padding: 0 15px; }
-  .tech-platform .p-random {
-    width: 100%;
-    height: 100%; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 40px;
     padding: 0 15px; }
@@ -5023,14 +5023,9 @@ footer {
       margin-bottom: 0; }
       .premiere-icons ul li {
         width: 100%;
-        display: inline-block;
-        margin: 0 0 40px 0; }
+        float: none; }
         .premiere-icons ul li:last-child {
           margin-bottom: 0; }
-        .premiere-icons ul li img {
-          max-width: 117px;
-          height: auto;
-          margin-bottom: 15px; }
         .premiere-icons ul li h4 {
           font-family: 'MontserratLight', sans-serif;
           font-size: 20px; }
@@ -6126,11 +6121,6 @@ footer {
           margin-bottom: 0; }
   .enterprise-summary {
     background: #F6F6F6; }
-    .enterprise-summary h1 {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 20px;
-      padding: 0 15px; }
     .enterprise-summary h3 {
       font-size: 20px;
       padding: 0 15px; }
@@ -6139,10 +6129,6 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
-  .automated-actions h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -6155,21 +6141,14 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
-  .tech-platform h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
     padding: 0 15px; }
-  .tech-platform .p-random {
-    width: 100%;
-    height: 100%; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 40px;
     padding: 0 15px; }
@@ -6190,15 +6169,9 @@ footer {
       padding-left: 0;
       margin-bottom: 0; }
       .premiere-icons ul li {
-        width: 49.6%;
-        display: inline-block;
-        margin: 0 0 40px 0; }
+        width: 50%; }
         .premiere-icons ul li:last-child {
           margin-bottom: 0; }
-        .premiere-icons ul li img {
-          max-width: 117px;
-          height: auto;
-          margin-bottom: 15px; }
         .premiere-icons ul li h4 {
           font-family: 'MontserratLight', sans-serif;
           font-size: 20px; }
@@ -7196,19 +7169,12 @@ footer {
         .enterprise-icons ul li:last-child {
           margin-bottom: 0; }
         .enterprise-icons ul li img {
-          max-width: 90px;
-          height: auto;
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px;
           margin-bottom: 0; }
   .enterprise-summary {
     background: #F6F6F6; }
-    .enterprise-summary h1 {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 20px;
-      padding: 0 15px; }
     .enterprise-summary h3 {
       font-size: 20px;
       padding: 0 15px; }
@@ -7217,10 +7183,6 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
-  .automated-actions h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -7233,21 +7195,14 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
-  .tech-platform h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
     padding: 0 15px; }
-  .tech-platform .p-random {
-    width: 100%;
-    height: 100%; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 40px;
     padding: 0 15px; }
@@ -7268,15 +7223,9 @@ footer {
       padding-left: 0;
       margin-bottom: 0; }
       .premiere-icons ul li {
-        width: 49.6%;
-        display: inline-block;
-        margin: 0 0 40px 0; }
+        width: 50%; }
         .premiere-icons ul li:last-child {
           margin-bottom: 0; }
-        .premiere-icons ul li img {
-          max-width: 117px;
-          height: auto;
-          margin-bottom: 15px; }
         .premiere-icons ul li h4 {
           font-family: 'MontserratLight', sans-serif;
           font-size: 20px; }
@@ -7561,19 +7510,12 @@ footer {
         .enterprise-icons ul li:last-child {
           margin-bottom: 0; }
         .enterprise-icons ul li img {
-          max-width: 90px;
-          height: auto;
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px;
           margin-bottom: 0; }
   .enterprise-summary {
     background: #F6F6F6; }
-    .enterprise-summary h1 {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 20px;
-      padding: 0 15px; }
     .enterprise-summary h3 {
       font-size: 20px;
       padding: 0 15px; }
@@ -7582,10 +7524,6 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
-  .automated-actions h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -7598,21 +7536,14 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
-  .tech-platform h1 {
-    text-align: center;
-    font-size: 34px;
-    padding: 0 15px; }
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
     padding: 0 15px; }
-  .tech-platform .p-random {
-    width: 100%;
-    height: 100%; }
-    .tech-platform .p-random:nth-child(even) {
-      float: left; }
-    .tech-platform .p-random:nth-child(odd) {
-      float: right; }
+  .tech-platform .p-random:nth-child(even) {
+    float: left; }
+  .tech-platform .p-random:nth-child(odd) {
+    float: right; }
   .tech-platform .media {
     margin-top: 40px;
     padding: 0 15px; }
@@ -7632,22 +7563,14 @@ footer {
     .premiere-icons ul {
       padding-left: 0;
       margin-bottom: 0; }
-      .premiere-icons ul li {
-        width: 49.6%;
-        display: inline-block;
-        margin: 0 0 40px 0; }
-        .premiere-icons ul li:last-child {
-          margin-bottom: 0; }
-        .premiere-icons ul li img {
-          max-width: 117px;
-          height: auto;
-          margin-bottom: 15px; }
-        .premiere-icons ul li h4 {
-          font-family: 'MontserratLight', sans-serif;
-          font-size: 20px; }
-        .premiere-icons ul li p {
-          font-size: 15px;
-          padding: 0 15px; } }
+      .premiere-icons ul li:last-child {
+        margin-bottom: 0; }
+      .premiere-icons ul li h4 {
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 20px; }
+      .premiere-icons ul li p {
+        font-size: 15px;
+        padding: 0 15px; } }
 
 .lato {
   font-family: 'Lato',sans-serif; }
