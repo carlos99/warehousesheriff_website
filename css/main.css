@@ -2,22 +2,18 @@
   font-family: 'MontserratUltraLight';
   src: url("../fonts/montserrat/ultra-light/MontserratUltraLight.eot");
   src: url("../fonts/montserrat/ultra-light/MontserratUltraLight.eot") format("embedded-opentype"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.woff2") format("woff2"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.woff") format("woff"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.ttf") format("truetype"), url("../fonts/montserrat/ultra-light/MontserratUltraLight.svg#MontserratUltraLight") format("svg"); }
-
 @font-face {
   font-family: 'MontserratLight';
   src: url("../fonts/montserrat/light/MontserratLight.eot");
   src: url("../fonts/montserrat/light/MontserratLight.eot") format("embedded-opentype"), url("../fonts/montserrat/light/MontserratLight.woff2") format("woff2"), url("../fonts/montserrat/light/MontserratLight.woff") format("woff"), url("../fonts/montserrat/light/MontserratLight.ttf") format("truetype"), url("../fonts/montserrat/light/MontserratLight.svg#MontserratLight") format("svg"); }
-
 @font-face {
   font-family: 'MontserratRegular';
   src: url("../fonts/montserrat/regular/MontserratRegular.eot");
   src: url("../fonts/montserrat/regular/MontserratRegular.eot") format("embedded-opentype"), url("../fonts/montserrat/regular/MontserratRegular.woff2") format("woff2"), url("../fonts/montserrat/regular/MontserratRegular.woff") format("woff"), url("../fonts/montserrat/regular/MontserratRegular.ttf") format("truetype"), url("../fonts/montserrat/regular/MontserratRegular.svg#MontserratRegular") format("svg"); }
-
 @font-face {
   font-family: 'MontserratBold';
   src: url("../fonts/montserrat/bold/MontserratBold.eot");
   src: url("../fonts/montserrat/bold/MontserratBold.eot") format("embedded-opentype"), url("../fonts/montserrat/bold/MontserratBold.woff2") format("woff2"), url("../fonts/montserrat/bold/MontserratBold.woff") format("woff"), url("../fonts/montserrat/bold/MontserratBold.ttf") format("truetype"), url("../fonts/montserrat/bold/MontserratBold.svg#MontserratBold") format("svg"); }
-
 body {
   background-color: #f4f4f4;
   color: #333; }
@@ -460,7 +456,6 @@ footer.gray {
   background-color: #292929;
   padding-top: 24px;
   padding-bottom: 0px; }
-
 footer.to-be-scrolled {
   width: 100% !important;
   overflow: hidden;
@@ -468,7 +463,6 @@ footer.to-be-scrolled {
   -moz-transition: 0.3s all;
   -o-transition: 0.3s all;
   transition: 0.3s all; }
-
 footer.show {
   width: 100%;
   max-height: 20px;
@@ -493,12 +487,10 @@ footer.show {
     footer.show .tabs-menu a {
       font-family: 'MontserratLight', sans-serif;
       font-size: 15px; }
-
 footer h1 {
   color: #CCCCCC;
   font-family: 'MontserratUltraLight', sans-serif;
   font-size: 40px; }
-
 footer .tabs-menu {
   text-align: center;
   list-style: none;
@@ -1888,18 +1880,15 @@ footer {
   font-size: 40px;
   text-align: center;
   margin-bottom: 30px; }
-
 .actions-step-1 .left-h1, .actions-step-2 .left-h1, .actions-step-3 .left-h1, .actions-step-4 .left-h1, .actions-step-5 .left-h1 {
   font-family: 'MontserratBold', sans-serif;
   font-size: 23px;
   text-align: left;
   margin-bottom: 15px; }
-
 .actions-step-1 h2, .actions-step-2 h2, .actions-step-3 h2, .actions-step-4 h2, .actions-step-5 h2 {
   font-family: 'MontserratLight', sans-serif;
   font-size: 23px;
   margin-bottom: .5rem; }
-
 .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -2563,16 +2552,13 @@ footer {
   font-size: 40px;
   margin-bottom: 40px;
   text-align: center; }
-
 .automated-actions h3 {
   font-family: 'MontserratUltraLight', sans-serif;
   font-size: 23px; }
-
 .automated-actions .img-responsive {
   max-width: 100%;
   display: inline-block;
   margin-bottom: 0; }
-
 .automated-actions .media {
   margin-top: 20px; }
   .automated-actions .media .media-body p {
@@ -2783,6 +2769,7 @@ footer {
         header .Jnav nav ul li {
           text-align: left;
           border-bottom: 0; }
+
   .banner {
     padding: 40px 0; }
     .banner .row {
@@ -2798,6 +2785,7 @@ footer {
       font-size: 14px;
       margin-top: 10px;
       padding: 0 10px; }
+
   .logos-section {
     padding: 26px 0px 14px; }
     .logos-section .wrapper {
@@ -2818,6 +2806,7 @@ footer {
       display: inline-block; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
+
   .white-frange {
     padding: 26px 0 26px 0; }
     .white-frange .triangle_float {
@@ -2834,6 +2823,7 @@ footer {
       font-size: 30px;
       letter-spacing: normal;
       padding: 0; }
+
   footer.gray h1 {
     font-size: 24px; }
   footer.gray .tabs-menu li a {
@@ -2848,11 +2838,13 @@ footer {
       display: none; }
     footer.show ul {
       width: 100% !important; }
+
   .blue-frange h1 {
     font-size: 1.9rem;
     padding-bottom: 10px; }
   .blue-frange h5 {
     font-size: 1.2rem; }
+
   .white-frange .started_form {
     padding: 18px; }
     .white-frange .started_form button.btn {
@@ -2861,11 +2853,13 @@ footer {
       padding: 12px 28px; }
     .white-frange .started_form button.btn-orange {
       padding: 12px 20px; }
+
   .tab-content {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
       padding: 0; }
+
   .myself-main {
     text-align: left; }
     .myself-main h2 {
@@ -2972,9 +2966,11 @@ footer {
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .steam-main {
     text-align: center;
     padding: 0; }
@@ -3122,9 +3118,11 @@ footer {
         text-align: center;
         padding-left: 18px;
         padding-right: 18px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .bteam-main {
     text-align: center;
     padding: 0 0 0 0; }
@@ -3214,9 +3212,11 @@ footer {
         font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 10px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .developers-main {
     text-align: center;
     background-color: #FFFFFF;
@@ -3248,6 +3248,7 @@ footer {
         font-size: 1rem;
         padding: 15px 45px;
         margin-top: 20px; }
+
   .platform_personal {
     text-align: center;
     margin-top: 39px;
@@ -3258,6 +3259,7 @@ footer {
       font-size: 20px; }
     .platform_personal .btn-orange {
       padding: 15px 30px !important; }
+
   .own_personal {
     text-align: center;
     padding: 60px 0; }
@@ -3277,6 +3279,7 @@ footer {
           margin-right: 4px; }
         .own_personal .op-apps ul li img {
           height: 28px; }
+
   .communicate-teams {
     text-align: center; }
     .communicate-teams .icons-side-personal {
@@ -3289,6 +3292,7 @@ footer {
         margin-bottom: 20px; }
     .communicate-teams h3 {
       font-size: 20px; }
+
   .schedule-simple {
     text-align: center; }
     .schedule-simple h2 {
@@ -3298,6 +3302,7 @@ footer {
       margin-bottom: 30px; }
     .schedule-simple h3 {
       font-size: 20px; }
+
   .my-action-personal {
     padding: 40px 15px; }
     .my-action-personal h1 {
@@ -3319,6 +3324,7 @@ footer {
       .my-action-personal .container-actions p {
         font-size: 15px;
         margin-bottom: 26px; }
+
   .icons-panel-personal {
     padding: 60px 0px; }
     .icons-panel-personal .box-icons {
@@ -3339,6 +3345,7 @@ footer {
         padding-left: 18px;
         padding-right: 18px;
         margin: 0; }
+
   .b-messaging {
     background-size: cover;
     background-position: center center;
@@ -3354,6 +3361,7 @@ footer {
       margin-bottom: 0; }
       .b-messaging .form-group:last-child {
         margin-top: 20px; }
+
   .real-time .triangle_float {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -3373,6 +3381,7 @@ footer {
     margin-right: auto; }
     .real-time .media .media-left img {
       width: 30px; }
+
   .config-right-content.b-o-chat {
     background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
     /* FF3.6-15 */
@@ -3406,12 +3415,14 @@ footer {
     margin-bottom: 0; }
   .config-right-content .media h4 {
     text-align: left; }
+
   .steam-free-orange h2 {
     font-size: 30px;
     padding: 0 20px; }
   .steam-free-orange .btn-orange {
     margin-top: 10px;
     padding: 10px 15px; }
+
   .config-left-content.b-c-chat {
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000;
@@ -3465,6 +3476,7 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
   .b-actions .link-more {
     font-size: 17px; }
   .b-actions h1 {
@@ -3472,6 +3484,7 @@ footer {
   .b-actions h2 {
     width: 100%;
     font-size: 20px; }
+
   .save-time {
     background-color: #FFFFFF; }
     .save-time .triangle_float {
@@ -3493,6 +3506,7 @@ footer {
       margin: 0 auto 10px auto; }
     .save-time .media {
       margin: 30px 15px 0 15px; }
+
   .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
     text-align: center; }
     .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
@@ -3507,9 +3521,11 @@ footer {
       padding: 0 15px; }
     .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
       padding: 0 15px; }
+
   .actions-step-2, .actions-step-4 {
     color: #FFFFFF;
     background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -3534,6 +3550,7 @@ footer {
       text-transform: capitalize; }
     .secondary-header .search-add-on {
       display: none; }
+
   .header-addon {
     text-align: left;
     margin-top: 71px; }
@@ -3573,6 +3590,7 @@ footer {
             margin-bottom: 0; }
           .header-addon .container-haddon .back-right .haddon-right .box-sign {
             text-align: center; }
+
   .connect-all {
     text-align: center;
     padding: 62px 0 63px 0; }
@@ -3590,6 +3608,7 @@ footer {
       text-align: center; }
       .connect-all .box-sign .btn-orange {
         font-size: 17px; }
+
   .browse-store {
     text-align: center;
     background-color: #F0F0F0; }
@@ -3601,6 +3620,7 @@ footer {
       padding: 0 15px; }
     .browse-store .img-responsive {
       margin-bottom: 0; }
+
   .b-filem {
     text-align: center;
     margin-top: 71px; }
@@ -3608,6 +3628,7 @@ footer {
       padding: 0 9px; }
       .b-filem .wrapper h1 {
         font-size: 40px; }
+
   .mobile-special-content {
     margin-top: 2px; }
     .mobile-special-content .btn-special-content {
@@ -3724,6 +3745,7 @@ footer {
               line-height: 1;
               margin-top: -4px;
               margin-bottom: 0; }
+
   .b-layout__main {
     display: flex; }
     .b-layout__main .section-container {
@@ -3776,12 +3798,14 @@ footer {
       .b-layout__main .section-container .layout__right {
         width: 100% !important;
         padding-left: 0 !important; }
+
   .b-enterprise .link-more {
     font-size: 17px; }
   .b-enterprise h1 {
     font-size: 34px; }
   .b-enterprise h2 {
     font-size: 20px; }
+
   .enterprise-delivers {
     padding: 40px 0 0; }
     .enterprise-delivers .triangle_float {
@@ -3794,6 +3818,7 @@ footer {
       padding: 0 17px;
       font-size: 17px;
       text-align: center; }
+
   .enterprise-icons {
     margin-top: 40px;
     padding: 40px 0; }
@@ -3810,6 +3835,7 @@ footer {
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px; }
+
   .enterprise-summary {
     background: #F6F6F6; }
     .enterprise-summary h3 {
@@ -3820,6 +3846,7 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
+
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -3832,6 +3859,7 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
+
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
@@ -3848,12 +3876,14 @@ footer {
     .tech-platform .media img {
       max-width: 40px;
       height: auto; }
+
   .premiere-support h1 {
     font-size: 34px; }
   .premiere-support h3 {
     padding: 0 15px; }
     .premiere-support h3:nth-child(3) {
       margin-bottom: 0; }
+
   .premiere-icons {
     padding: 40px 0; }
     .premiere-icons ul {
@@ -3870,7 +3900,6 @@ footer {
         .premiere-icons ul li p {
           font-size: 15px;
           padding: 0 15px; } }
-
 @media (min-width: 480px) and (max-width: 639px) {
   header {
     padding: 0;
@@ -3946,6 +3975,7 @@ footer {
         header .Jnav nav ul li {
           text-align: left;
           border-bottom: 0; }
+
   .banner {
     padding: 40px 0; }
     .banner .row {
@@ -3961,6 +3991,7 @@ footer {
       font-size: 14px;
       margin-top: 10px;
       padding: 0 10px; }
+
   .logos-section {
     padding: 26px 0px 14px; }
     .logos-section .wrapper {
@@ -3981,6 +4012,7 @@ footer {
       display: inline-block; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
+
   .white-frange {
     padding: 26px 0 26px 0; }
     .white-frange .triangle_float {
@@ -3997,6 +4029,7 @@ footer {
       font-size: 30px;
       letter-spacing: normal;
       padding: 0; }
+
   footer.gray h1 {
     font-size: 24px; }
   footer.gray .tabs-menu li a {
@@ -4011,11 +4044,13 @@ footer {
       display: none; }
     footer.show ul {
       width: 100% !important; }
+
   .blue-frange h1 {
     font-size: 1.9rem;
     padding-bottom: 10px; }
   .blue-frange h5 {
     font-size: 1.2rem; }
+
   .white-frange .started_form {
     padding: 18px; }
     .white-frange .started_form button.btn {
@@ -4024,11 +4059,13 @@ footer {
       padding: 12px 28px; }
     .white-frange .started_form button.btn-orange {
       padding: 12px 20px; }
+
   .tab-content {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
       padding: 0; }
+
   .myself-main {
     text-align: center; }
     .myself-main h2 {
@@ -4145,9 +4182,11 @@ footer {
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .steam-main {
     text-align: center;
     padding: 0; }
@@ -4293,9 +4332,11 @@ footer {
         text-align: center;
         padding-left: 18px;
         padding-right: 18px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .bteam-main {
     text-align: center;
     padding: 0; }
@@ -4380,9 +4421,11 @@ footer {
         font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 10px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .developers-main {
     text-align: center;
     background-color: #FFFFFF;
@@ -4410,6 +4453,7 @@ footer {
       font-size: 1rem;
       padding: 15px 45px;
       margin-top: 20px; }
+
   .platform_personal {
     text-align: center;
     margin-top: 39px;
@@ -4422,6 +4466,7 @@ footer {
       max-width: 380px; }
     .platform_personal .btn-orange {
       padding: 15px 30px !important; }
+
   .own_personal {
     text-align: center;
     padding: 60px 0; }
@@ -4441,6 +4486,7 @@ footer {
           margin-right: 10px; }
         .own_personal .op-apps ul li img {
           height: 38px; }
+
   .communicate-teams {
     text-align: center; }
     .communicate-teams .icons-side-personal {
@@ -4453,6 +4499,7 @@ footer {
         margin-bottom: 20px; }
     .communicate-teams h3 {
       font-size: 20px; }
+
   .schedule-simple {
     text-align: center; }
     .schedule-simple h2 {
@@ -4462,6 +4509,7 @@ footer {
       margin-bottom: 30px; }
     .schedule-simple h3 {
       font-size: 20px; }
+
   .my-action-personal {
     padding: 40px 15px; }
     .my-action-personal h1 {
@@ -4481,6 +4529,7 @@ footer {
       .my-action-personal .container-actions p {
         font-size: 15px;
         margin-bottom: 26px; }
+
   .icons-panel-personal {
     padding: 60px 0px; }
     .icons-panel-personal .box-icons {
@@ -4501,6 +4550,7 @@ footer {
         padding-left: 18px;
         padding-right: 18px;
         margin: 0; }
+
   .b-messaging {
     background-size: cover;
     background-position: center center;
@@ -4516,6 +4566,7 @@ footer {
       margin-bottom: 0; }
       .b-messaging .form-group:last-child {
         margin-top: 20px; }
+
   .real-time .triangle_float {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -4535,6 +4586,7 @@ footer {
     margin-right: auto; }
     .real-time .media .media-left img {
       width: 30px; }
+
   .config-right-content.b-o-chat {
     background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
     /* FF3.6-15 */
@@ -4568,12 +4620,14 @@ footer {
     margin-bottom: 0; }
   .config-right-content .media h4 {
     text-align: left; }
+
   .steam-free-orange h2 {
     font-size: 30px;
     padding: 0 20px; }
   .steam-free-orange .btn-orange {
     margin-top: 10px;
     padding: 10px 15px; }
+
   .config-left-content.b-c-chat {
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000;
@@ -4627,6 +4681,7 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
   .b-actions .link-more {
     font-size: 17px; }
   .b-actions h1 {
@@ -4634,6 +4689,7 @@ footer {
   .b-actions h2 {
     width: 100%;
     font-size: 20px; }
+
   .save-time {
     background-color: #FFFFFF; }
     .save-time .triangle_float {
@@ -4655,6 +4711,7 @@ footer {
       margin: 0 auto 10px auto; }
     .save-time .media {
       margin: 30px 15px 0 15px; }
+
   .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
     text-align: center; }
     .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
@@ -4669,9 +4726,11 @@ footer {
       padding: 0 15px; }
     .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
       padding: 0 15px; }
+
   .actions-step-2, .actions-step-4 {
     color: #FFFFFF;
     background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -4696,6 +4755,7 @@ footer {
       text-transform: capitalize; }
     .secondary-header .search-add-on {
       display: none; }
+
   .header-addon {
     text-align: left;
     margin-top: 71px; }
@@ -4735,6 +4795,7 @@ footer {
             margin-bottom: 0; }
           .header-addon .container-haddon .back-right .haddon-right .box-sign {
             text-align: center; }
+
   .connect-all {
     text-align: center;
     padding: 62px 0 63px 0; }
@@ -4752,6 +4813,7 @@ footer {
       text-align: center; }
       .connect-all .box-sign .btn-orange {
         font-size: 17px; }
+
   .browse-store {
     text-align: center;
     background-color: #F0F0F0; }
@@ -4763,6 +4825,7 @@ footer {
       padding: 0 15px; }
     .browse-store .img-responsive {
       margin-bottom: 0; }
+
   .b-filem {
     text-align: center;
     margin-top: 71px; }
@@ -4770,6 +4833,7 @@ footer {
       padding: 0 9px; }
       .b-filem .wrapper h1 {
         font-size: 40px; }
+
   .mobile-special-content {
     margin-top: 2px; }
     .mobile-special-content .btn-special-content {
@@ -4886,6 +4950,7 @@ footer {
               line-height: 1;
               margin-top: -4px;
               margin-bottom: 0; }
+
   .b-layout__main {
     display: flex; }
     .b-layout__main .section-container {
@@ -4938,12 +5003,14 @@ footer {
       .b-layout__main .section-container .layout__right {
         width: 100% !important;
         padding-left: 0 !important; }
+
   .b-enterprise .link-more {
     font-size: 17px; }
   .b-enterprise h1 {
     font-size: 34px; }
   .b-enterprise h2 {
     font-size: 20px; }
+
   .enterprise-delivers {
     padding: 40px 0 0; }
     .enterprise-delivers .triangle_float {
@@ -4956,6 +5023,7 @@ footer {
       padding: 0 17px;
       font-size: 17px;
       text-align: center; }
+
   .enterprise-icons {
     margin-top: 40px;
     padding: 40px 0; }
@@ -4972,6 +5040,7 @@ footer {
           margin-bottom: 15px; }
         .enterprise-icons ul li h4 {
           font-size: 20px; }
+
   .enterprise-summary {
     background: #F6F6F6; }
     .enterprise-summary h3 {
@@ -4982,6 +5051,7 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
+
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -4994,6 +5064,7 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
+
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
@@ -5010,12 +5081,14 @@ footer {
     .tech-platform .media img {
       max-width: 40px;
       height: auto; }
+
   .premiere-support h1 {
     font-size: 34px; }
   .premiere-support h3 {
     padding: 0 15px; }
     .premiere-support h3:nth-child(3) {
       margin-bottom: 0; }
+
   .premiere-icons {
     padding: 40px 0; }
     .premiere-icons ul {
@@ -5032,7 +5105,6 @@ footer {
         .premiere-icons ul li p {
           font-size: 15px;
           padding: 0 15px; } }
-
 @media (min-width: 640px) and (max-width: 767px) {
   header {
     padding: 0;
@@ -5108,6 +5180,7 @@ footer {
         header .Jnav nav ul li {
           text-align: left;
           border-bottom: 0; }
+
   .banner {
     padding: 40px 0; }
     .banner .row {
@@ -5123,6 +5196,7 @@ footer {
       font-size: 14px;
       margin-top: 10px;
       padding: 0 10px; }
+
   .logos-section {
     padding: 26px 0px 14px; }
     .logos-section .wrapper {
@@ -5143,6 +5217,7 @@ footer {
       display: inline-block; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
+
   .white-frange {
     padding: 26px 0 26px 0; }
     .white-frange .triangle_float {
@@ -5159,6 +5234,7 @@ footer {
       font-size: 30px;
       letter-spacing: normal;
       padding: 0; }
+
   footer.gray h1 {
     font-size: 24px; }
   footer.gray .tabs-menu li a {
@@ -5173,11 +5249,13 @@ footer {
       display: none; }
     footer.show ul {
       width: 100% !important; }
+
   .blue-frange h1 {
     font-size: 1.9rem;
     padding-bottom: 10px; }
   .blue-frange h5 {
     font-size: 1.2rem; }
+
   .white-frange .started_form {
     padding: 18px; }
     .white-frange .started_form button.btn {
@@ -5186,11 +5264,13 @@ footer {
       padding: 12px 28px; }
     .white-frange .started_form button.btn-orange {
       padding: 12px 20px; }
+
   .tab-content {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
       padding: 0; }
+
   .myself-main {
     text-align: center; }
     .myself-main .img-responsive {
@@ -5303,9 +5383,11 @@ footer {
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .steam-main {
     text-align: center;
     padding: 0; }
@@ -5442,9 +5524,11 @@ footer {
         text-align: center;
         padding-left: 18px;
         padding-right: 18px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .bteam-main {
     text-align: center;
     padding: 0; }
@@ -5532,9 +5616,11 @@ footer {
         font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 10px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .developers-main {
     text-align: center;
     background-color: #FFFFFF;
@@ -5562,6 +5648,7 @@ footer {
       font-size: 1rem;
       padding: 15px 45px;
       margin-top: 20px; }
+
   .platform_personal {
     text-align: center;
     margin-top: 39px;
@@ -5574,6 +5661,7 @@ footer {
       max-width: 380px; }
     .platform_personal .btn-orange {
       padding: 15px 30px !important; }
+
   .own_personal {
     text-align: center;
     padding: 60px 0; }
@@ -5591,6 +5679,7 @@ footer {
         .own_personal .op-apps ul li:nth-child(2) {
           margin-left: 10px;
           margin-right: 10px; }
+
   .communicate-teams {
     text-align: center; }
     .communicate-teams .icons-side-personal {
@@ -5603,6 +5692,7 @@ footer {
         margin-bottom: 20px; }
     .communicate-teams h3 {
       font-size: 20px; }
+
   .schedule-simple {
     text-align: center; }
     .schedule-simple h2 {
@@ -5612,6 +5702,7 @@ footer {
       margin-bottom: 30px; }
     .schedule-simple h3 {
       font-size: 20px; }
+
   .my-action-personal {
     padding: 40px 15px; }
     .my-action-personal h1 {
@@ -5631,6 +5722,7 @@ footer {
       .my-action-personal .container-actions p {
         font-size: 15px;
         margin-bottom: 26px; }
+
   .icons-panel-personal {
     padding: 60px 0px; }
     .icons-panel-personal .box-icons {
@@ -5651,6 +5743,7 @@ footer {
         padding-left: 18px;
         padding-right: 18px;
         margin: 0; }
+
   .b-messaging {
     background-size: cover;
     background-position: center center;
@@ -5666,6 +5759,7 @@ footer {
       margin-bottom: 0; }
       .b-messaging .form-group:last-child {
         margin-top: 20px; }
+
   .real-time .triangle_float {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -5685,6 +5779,7 @@ footer {
     margin-right: auto; }
     .real-time .media .media-left img {
       width: 30px; }
+
   .config-right-content.b-o-chat {
     background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
     /* FF3.6-15 */
@@ -5718,12 +5813,14 @@ footer {
     margin-bottom: 0; }
   .config-right-content .media h4 {
     text-align: left; }
+
   .steam-free-orange h2 {
     font-size: 30px;
     padding: 0 20px; }
   .steam-free-orange .btn-orange {
     margin-top: 10px;
     padding: 10px 15px; }
+
   .config-left-content.b-c-chat {
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000;
@@ -5777,6 +5874,7 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
   .b-actions .link-more {
     font-size: 17px; }
   .b-actions h1 {
@@ -5784,6 +5882,7 @@ footer {
   .b-actions h2 {
     width: 100%;
     font-size: 20px; }
+
   .save-time {
     background-color: #FFFFFF; }
     .save-time .triangle_float {
@@ -5805,6 +5904,7 @@ footer {
       margin: 0 auto 10px auto; }
     .save-time .media {
       margin: 30px 15px 0 15px; }
+
   .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
     text-align: center; }
     .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
@@ -5819,9 +5919,11 @@ footer {
       padding: 0 15px; }
     .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
       padding: 0 15px; }
+
   .actions-step-2, .actions-step-4 {
     color: #FFFFFF;
     background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -5846,6 +5948,7 @@ footer {
       text-transform: capitalize; }
     .secondary-header .search-add-on {
       display: none; }
+
   .header-addon {
     text-align: left;
     margin-top: 71px; }
@@ -5885,6 +5988,7 @@ footer {
             margin-bottom: 0; }
           .header-addon .container-haddon .back-right .haddon-right .box-sign {
             text-align: center; }
+
   .connect-all {
     text-align: center;
     padding: 62px 0 63px 0; }
@@ -5902,6 +6006,7 @@ footer {
       text-align: center; }
       .connect-all .box-sign .btn-orange {
         font-size: 17px; }
+
   .browse-store {
     text-align: center;
     background-color: #F0F0F0; }
@@ -5913,6 +6018,7 @@ footer {
       padding: 0 15px; }
     .browse-store .img-responsive {
       margin-bottom: 0; }
+
   .b-filem {
     text-align: center;
     margin-top: 71px; }
@@ -5920,6 +6026,7 @@ footer {
       padding: 0 9px; }
       .b-filem .wrapper h1 {
         font-size: 40px; }
+
   .mobile-special-content {
     margin-top: 0px; }
     .mobile-special-content .btn-special-content {
@@ -6036,6 +6143,7 @@ footer {
               line-height: 1;
               margin-top: -4px;
               margin-bottom: 0; }
+
   .b-layout__main {
     display: flex; }
     .b-layout__main .section-container {
@@ -6088,18 +6196,21 @@ footer {
       .b-layout__main .section-container .layout__right {
         width: 100% !important;
         padding-left: 0 !important; }
+
   .b-enterprise .link-more {
     font-size: 17px; }
   .b-enterprise h1 {
     font-size: 34px; }
   .b-enterprise h2 {
     font-size: 20px; }
+
   .enterprise-delivers {
     padding: 40px 0 0; }
     .enterprise-delivers h3 {
       padding: 0 17px;
       font-size: 17px;
       text-align: center; }
+
   .enterprise-icons {
     margin-top: 40px;
     padding: 40px 0; }
@@ -6119,6 +6230,7 @@ footer {
         .enterprise-icons ul li h4 {
           font-size: 20px;
           margin-bottom: 0; }
+
   .enterprise-summary {
     background: #F6F6F6; }
     .enterprise-summary h3 {
@@ -6129,6 +6241,7 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
+
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -6141,6 +6254,7 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
+
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
@@ -6157,12 +6271,14 @@ footer {
     .tech-platform .media img {
       max-width: 40px;
       height: auto; }
+
   .premiere-support h1 {
     font-size: 34px; }
   .premiere-support h3 {
     padding: 0 15px; }
     .premiere-support h3:nth-child(3) {
       margin-bottom: 0; }
+
   .premiere-icons {
     padding: 40px 0; }
     .premiere-icons ul {
@@ -6178,7 +6294,6 @@ footer {
         .premiere-icons ul li p {
           font-size: 15px;
           padding: 0 15px; } }
-
 @media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 0;
@@ -6255,6 +6370,7 @@ footer {
         header .Jnav nav ul li {
           text-align: left;
           border-bottom: 0; }
+
   .banner {
     padding: 40px 0; }
     .banner .row {
@@ -6270,6 +6386,7 @@ footer {
       font-size: 14px;
       margin-top: 10px;
       padding: 0 10px; }
+
   .logos-section {
     padding: 26px 0px 14px; }
     .logos-section .wrapper {
@@ -6288,6 +6405,7 @@ footer {
       max-width: 50%; }
     .logos-section .row-logo a {
       padding: 25px 5px; }
+
   .white-frange {
     padding: 26px 0 26px 0; }
     .white-frange .triangle_float {
@@ -6304,6 +6422,7 @@ footer {
       font-size: 30px;
       letter-spacing: normal;
       padding: 0; }
+
   footer.gray h1 {
     font-size: 24px; }
   footer.gray .tabs-menu li a {
@@ -6318,11 +6437,13 @@ footer {
       display: none; }
     footer.show ul {
       width: 100% !important; }
+
   .blue-frange h1 {
     font-size: 1.9rem;
     padding-bottom: 10px; }
   .blue-frange h5 {
     font-size: 1.2rem; }
+
   .white-frange .started_form {
     padding: 18px; }
     .white-frange .started_form button.btn {
@@ -6331,11 +6452,13 @@ footer {
       padding: 12px 28px; }
     .white-frange .started_form button.btn-orange {
       padding: 12px 20px; }
+
   .tab-content {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
       padding: 0; }
+
   .myself-main {
     text-align: center; }
     .myself-main .img-responsive {
@@ -6445,9 +6568,11 @@ footer {
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .steam-main {
     text-align: center;
     padding: 0; }
@@ -6595,9 +6720,11 @@ footer {
         text-align: center;
         padding-left: 18px;
         padding-right: 18px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .bteam-main {
     text-align: center;
     padding: 0; }
@@ -6688,9 +6815,11 @@ footer {
         font-size: 17px; }
       .bteam-main .bteam-recover .link-more {
         margin-top: 10px; }
+
   .tab-pane {
     max-width: 100%;
     padding: 0; }
+
   .developers-main {
     text-align: center;
     background-color: #FFFFFF;
@@ -6721,6 +6850,7 @@ footer {
         font-size: 1rem;
         padding: 15px 45px;
         margin-top: 20px; }
+
   .platform_personal {
     text-align: center;
     margin-top: 39px;
@@ -6733,6 +6863,7 @@ footer {
       max-width: 380px; }
     .platform_personal .btn-orange {
       padding: 15px 30px !important; }
+
   .own_personal {
     text-align: center;
     padding: 60px 0; }
@@ -6750,6 +6881,7 @@ footer {
         .own_personal .op-apps ul li:nth-child(2) {
           margin-left: 10px;
           margin-right: 10px; }
+
   .communicate-teams {
     text-align: center; }
     .communicate-teams .icons-side-personal {
@@ -6762,6 +6894,7 @@ footer {
         margin-bottom: 20px; }
     .communicate-teams h3 {
       font-size: 20px; }
+
   .schedule-simple {
     text-align: center; }
     .schedule-simple h2 {
@@ -6771,6 +6904,7 @@ footer {
       margin-bottom: 30px; }
     .schedule-simple h3 {
       font-size: 20px; }
+
   .my-action-personal {
     padding: 40px 15px; }
     .my-action-personal h1 {
@@ -6790,6 +6924,7 @@ footer {
       .my-action-personal .container-actions p {
         font-size: 15px;
         margin-bottom: 26px; }
+
   .icons-panel-personal {
     padding: 60px 0px; }
     .icons-panel-personal .row {
@@ -6820,6 +6955,7 @@ footer {
         padding-left: 18px;
         padding-right: 18px;
         margin: 0; }
+
   .b-messaging {
     background-size: cover;
     background-position: center center;
@@ -6835,6 +6971,7 @@ footer {
       margin-bottom: 0; }
       .b-messaging .form-group:last-child {
         margin-top: 20px; }
+
   .real-time .triangle_float {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -6854,6 +6991,7 @@ footer {
     margin-right: auto; }
     .real-time .media .media-left img {
       width: 30px; }
+
   .config-right-content.b-o-chat {
     background: -moz-linear-gradient(right, rgba(0, 29, 54, 0.8) 50%, rgba(0, 29, 54, 0.8) 50%);
     /* FF3.6-15 */
@@ -6887,12 +7025,14 @@ footer {
     margin-bottom: 0; }
   .config-right-content .media h4 {
     text-align: left; }
+
   .steam-free-orange h2 {
     font-size: 30px;
     padding: 0 20px; }
   .steam-free-orange .btn-orange {
     margin-top: 10px;
     padding: 10px 15px; }
+
   .config-left-content.b-c-chat {
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000;
@@ -6946,6 +7086,7 @@ footer {
     .config-left-content .media h4 {
       text-align: left;
       padding: 0; }
+
   .b-actions .link-more {
     font-size: 17px; }
   .b-actions h1 {
@@ -6953,6 +7094,7 @@ footer {
   .b-actions h2 {
     width: 100%;
     font-size: 20px; }
+
   .save-time {
     background-color: #FFFFFF; }
     .save-time .triangle_float {
@@ -6974,6 +7116,7 @@ footer {
       margin: 0 auto 10px auto; }
     .save-time .media {
       margin: 30px 15px 0 15px; }
+
   .actions-step-1, .actions-step-2, .actions-step-3, .actions-step-4, .actions-step-5 {
     text-align: center; }
     .actions-step-1 h1, .actions-step-2 h1, .actions-step-3 h1, .actions-step-4 h1, .actions-step-5 h1 {
@@ -6988,9 +7131,11 @@ footer {
       padding: 0 15px; }
     .actions-step-1 p, .actions-step-2 p, .actions-step-3 p, .actions-step-4 p, .actions-step-5 p {
       padding: 0 15px; }
+
   .actions-step-2, .actions-step-4 {
     color: #FFFFFF;
     background-color: #292929; }
+
   .secondary-header {
     top: 39px;
     padding: 4px 20px; }
@@ -7015,6 +7160,7 @@ footer {
       text-transform: capitalize; }
     .secondary-header .search-add-on {
       display: none; }
+
   .header-addon {
     text-align: left;
     margin-top: 71px; }
@@ -7054,6 +7200,7 @@ footer {
             margin-bottom: 0; }
           .header-addon .container-haddon .back-right .haddon-right .box-sign {
             text-align: center; }
+
   .connect-all {
     text-align: center;
     padding: 62px 0 63px 0; }
@@ -7071,6 +7218,7 @@ footer {
       text-align: center; }
       .connect-all .box-sign .btn-orange {
         font-size: 17px; }
+
   .browse-store {
     text-align: center;
     background-color: #F0F0F0; }
@@ -7082,6 +7230,7 @@ footer {
       padding: 0 15px; }
     .browse-store .img-responsive {
       margin-bottom: 0; }
+
   .b-filem {
     text-align: center;
     margin-top: 71px; }
@@ -7089,6 +7238,7 @@ footer {
       padding: 0 9px; }
       .b-filem .wrapper h1 {
         font-size: 40px; }
+
   .b-layout__main {
     display: flex; }
     .b-layout__main .section-container {
@@ -7138,12 +7288,14 @@ footer {
             .b-layout__main .section-container .layout .layout__middle .layout__content_middle.special-config .box-sign .btn-orange {
               font-size: 20px;
               padding: 7px 20px; }
+
   .b-enterprise .link-more {
     font-size: 17px; }
   .b-enterprise h1 {
     font-size: 34px; }
   .b-enterprise h2 {
     font-size: 20px; }
+
   .enterprise-delivers {
     padding: 60px 0 20px; }
     .enterprise-delivers .triangle_float {
@@ -7156,6 +7308,7 @@ footer {
       padding: 0 17px;
       font-size: 17px;
       text-align: center; }
+
   .enterprise-icons {
     margin-top: 40px;
     padding: 40px 0; }
@@ -7173,6 +7326,7 @@ footer {
         .enterprise-icons ul li h4 {
           font-size: 20px;
           margin-bottom: 0; }
+
   .enterprise-summary {
     background: #F6F6F6; }
     .enterprise-summary h3 {
@@ -7183,6 +7337,7 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
+
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -7195,6 +7350,7 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
+
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
@@ -7211,12 +7367,14 @@ footer {
     .tech-platform .media img {
       max-width: 40px;
       height: auto; }
+
   .premiere-support h1 {
     font-size: 34px; }
   .premiere-support h3 {
     padding: 0 15px; }
     .premiere-support h3:nth-child(3) {
       margin-bottom: 0; }
+
   .premiere-icons {
     padding: 40px 0; }
     .premiere-icons ul {
@@ -7232,13 +7390,13 @@ footer {
         .premiere-icons ul li p {
           font-size: 15px;
           padding: 0 15px; } }
-
 @media (min-width: 992px) and (max-width: 1499px) {
   .tab-content {
     max-width: 100%;
     padding: 0; }
     .tab-content.banner-myself {
       padding-top: 40px; }
+
   .myself-main {
     text-align: left; }
     .myself-main h2 {
@@ -7345,6 +7503,7 @@ footer {
         letter-spacing: normal;
         padding: 15px 50px;
         margin-top: 20px; }
+
   .steam-main {
     padding-top: 50px; }
     .steam-main .full-wth .row {
@@ -7354,8 +7513,10 @@ footer {
       font-size: 34px; }
     .steam-main .full-wth h5 {
       font-size: 23px; }
+
   .steam-free {
     margin-top: 60px !important; }
+
   .bteam-main {
     padding: 48px 0 0 0; }
     .bteam-main h2 {
@@ -7363,12 +7524,14 @@ footer {
     .bteam-main .bteam-recover img {
       display: block;
       text-align: center; }
+
   .developers-main {
     padding: 48px 0 0 0; }
     .developers-main h1 {
       font-size: 34px; }
     .developers-main .developers-join {
       margin-top: 60px; }
+
   .my-action-personal {
     padding: 60px 18px 0 18px; }
     .my-action-personal h1 {
@@ -7390,6 +7553,7 @@ footer {
         font-size: 15px;
         margin-bottom: 0;
         padding: 0 15px; }
+
   .icons-panel-personal {
     padding: 60px 0px; }
     .icons-panel-personal .row {
@@ -7420,6 +7584,7 @@ footer {
         padding-left: 18px;
         padding-right: 18px;
         margin: 0; }
+
   .b-messaging {
     background-image: url("../images/back_messaging.jpg");
     background-position: center center; }
@@ -7427,6 +7592,7 @@ footer {
       padding: 0; }
     .b-messaging .form-group {
       margin-top: 30px; }
+
   .real-time {
     padding: 60px 0; }
     .real-time .triangle_float {
@@ -7461,12 +7627,14 @@ footer {
         font-weight: 300;
         -webkit-font-smoothing: antialiased;
         margin-bottom: 0; }
+
   .config-right-content {
     padding: 62px 0 63px 0; }
     .config-right-content.b-o-chat {
       color: #FFFFFF;
       background-size: cover;
       background-position: -80% center; }
+
   .config-left-content {
     padding: 62px 0 63px 0; }
     .config-left-content.b-c-chat {
@@ -7489,6 +7657,7 @@ footer {
       /* IE6-9 */
       background-size: cover, 60%;
       background-position: 0% 0%; }
+
   .enterprise-delivers .triangle_float {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -7497,6 +7666,7 @@ footer {
     margin-bottom: 20px; }
   .enterprise-delivers h3 {
     padding: 0 17px; }
+
   .enterprise-icons {
     margin-top: 40px;
     padding: 40px 0; }
@@ -7514,6 +7684,7 @@ footer {
         .enterprise-icons ul li h4 {
           font-size: 20px;
           margin-bottom: 0; }
+
   .enterprise-summary {
     background: #F6F6F6; }
     .enterprise-summary h3 {
@@ -7524,6 +7695,7 @@ footer {
       margin-bottom: 20px; }
     .enterprise-summary .media {
       margin-top: 20px; }
+
   .automated-actions h3 {
     font-size: 20px;
     padding: 0 15px; }
@@ -7536,6 +7708,7 @@ footer {
       .automated-actions .media .media-body p.note {
         font-family: 'MontserratRegular', sans-serif;
         font-size: 13px; }
+
   .tech-platform h3 {
     text-align: center;
     font-size: 17px;
@@ -7552,12 +7725,14 @@ footer {
     .tech-platform .media img {
       max-width: 40px;
       height: auto; }
+
   .premiere-support h1 {
     font-size: 34px; }
   .premiere-support h3 {
     padding: 0 15px; }
     .premiere-support h3:nth-child(3) {
       margin-bottom: 0; }
+
   .premiere-icons {
     padding: 40px 0; }
     .premiere-icons ul {
@@ -7571,7 +7746,6 @@ footer {
       .premiere-icons ul li p {
         font-size: 15px;
         padding: 0 15px; } }
-
 .lato {
   font-family: 'Lato',sans-serif; }
 
@@ -7739,7 +7913,6 @@ footer {
 @media only screen and (max-width: 600px) {
   .jplist-panel {
     display: none; } }
-
 .jplist-drop-down {
   float: left;
   height: 30px;
@@ -7866,6 +8039,7 @@ footer {
     background: -o-linear-gradient(top, #fff 0, #efefef 100%);
     background: -ms-linear-gradient(top, #fff 0, #efefef 100%);
     background: linear-gradient(to bottom, #fff 0, #efefef 100%); }
+
   .jplist-ios-button:hover {
     background: #f2f2f2;
     background: -moz-linear-gradient(top, #fafafa 0, #ededed 100%);
@@ -7874,5 +8048,6 @@ footer {
     background: -o-linear-gradient(top, #fafafa 0, #ededed 100%);
     background: -ms-linear-gradient(top, #fafafa 0, #ededed 100%);
     background: linear-gradient(to bottom, #fafafa 0, #ededed 100%); }
+
   .jplist-ios-show {
     display: block; } }
