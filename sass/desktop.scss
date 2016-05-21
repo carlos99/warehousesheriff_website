@@ -3255,7 +3255,6 @@ footer{
 
 // F5.- START ENTERPRISE PAGE
 .b-enterprise {
-	background-image: url("../images/back_enterprise.jpg");
     background-position: center 50%;
     
     .link-more {
@@ -3324,9 +3323,8 @@ footer{
 	background-color: #fff;
 	text-align: center;
 	list-style: none;
-	// margin-top: 60px;
 	padding: 40px 0;
-	
+	border-bottom: 1px solid #e0e0e0;
 	ul {
 		padding-left: 0;
 		margin-bottom: 0;
