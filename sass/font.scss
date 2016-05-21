@@ -134,6 +134,13 @@
 	font-size: 15px;
 }
 
+@mixin L-navOpenSans {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size: 15px;
+}
+
 @mixin L-nav-btn {
 	font-family: 'MontserratLight', sans-serif;
 	font-size: 14px;
