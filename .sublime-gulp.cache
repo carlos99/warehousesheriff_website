@@ -1,0 +1,1 @@
+{"E:\\public_html\\tommy\\gulpfile.js":{"sha1":"afcd24222a14ed690da5fdf4bec65865ed2df62a","tasks":{"sass":{"name":"sass","dependencies":""},"default":{"name":"default","dependencies":"sass"}}}}

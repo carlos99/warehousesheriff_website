@@ -1,0 +1,293 @@
+// Start Montserrat UltraLight
+@font-face {
+    font-family: 'MontserratUltraLight';
+    src: url('../fonts/montserrat/ultra-light/MontserratUltraLight.eot');
+    src: url('../fonts/montserrat/ultra-light/MontserratUltraLight.eot') format('embedded-opentype'),
+         url('../fonts/montserrat/ultra-light/MontserratUltraLight.woff2') format('woff2'),
+         url('../fonts/montserrat/ultra-light/MontserratUltraLight.woff') format('woff'),
+         url('../fonts/montserrat/ultra-light/MontserratUltraLight.ttf') format('truetype'),
+         url('../fonts/montserrat/ultra-light/MontserratUltraLight.svg#MontserratUltraLight') format('svg');
+}
+
+@mixin U-footer-global {
+	font-family: 'MontserratUltraLight', sans-serif;
+}
+
+@mixin U-h1 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 64px;
+}
+
+@mixin U-h2 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 36px;
+}
+
+@mixin U-h3 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 30px;
+}
+
+@mixin U-h4 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 40px;
+}
+
+@mixin U-h5 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 23px;
+}
+
+@mixin U-btn {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 20px;
+}
+
+@mixin U-p {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.625;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin U-nav {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 15px;
+}
+
+@mixin U-nav-btn {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 14px;
+}
+
+@mixin U-nav-a {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 13px;
+}
+
+@mixin U-nav-a-2 {
+	font-family: 'MontserratUltraLight', sans-serif;
+	font-size: 12px;
+}
+// End Montserrat UltraLight
+
+// Start Montserrat Light
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/montserrat/light/MontserratLight.eot');
+    src: url('../fonts/montserrat/light/MontserratLight.eot') format('embedded-opentype'),
+         url('../fonts/montserrat/light/MontserratLight.woff2') format('woff2'),
+         url('../fonts/montserrat/light/MontserratLight.woff') format('woff'),
+         url('../fonts/montserrat/light/MontserratLight.ttf') format('truetype'),
+         url('../fonts/montserrat/light/MontserratLight.svg#MontserratLight') format('svg');
+}
+
+@mixin L-h1 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 64px;
+}
+
+@mixin L-h2 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 48px;
+}
+
+@mixin L-h3 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 30px;
+}
+
+@mixin L-h4 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 40px;
+}
+
+@mixin L-h5 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 23px;
+}
+
+@mixin L-h5-footer {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 18px;
+}
+
+@mixin L-btn {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 20px;
+}
+
+@mixin L-btn-17 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 17px;
+}
+
+@mixin L-p {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 17px;
+	
+}
+
+@mixin L-nav {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 15px;
+}
+
+@mixin L-navOpenSans {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size: 15px;
+}
+
+@mixin L-nav-btn {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 14px;
+}
+
+@mixin L-nav-a {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 13px;
+}
+
+@mixin L-nav-a-2 {
+	font-family: 'MontserratLight', sans-serif;
+	font-size: 12px;
+}
+// End Montserrat Light
+
+// Start Montserrat Regular
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/montserrat/regular/MontserratRegular.eot');
+    src: url('../fonts/montserrat/regular/MontserratRegular.eot') format('embedded-opentype'),
+         url('../fonts/montserrat/regular/MontserratRegular.woff2') format('woff2'),
+         url('../fonts/montserrat/regular/MontserratRegular.woff') format('woff'),
+         url('../fonts/montserrat/regular/MontserratRegular.ttf') format('truetype'),
+         url('../fonts/montserrat/regular/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+
+@mixin R-h1 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 64px;
+}
+
+@mixin R-h2 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 48px;
+}
+
+@mixin R-h3 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 30px;
+}
+
+@mixin R-h4 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 40px;
+}
+
+@mixin R-h5 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 23px;
+}
+
+@mixin R-btn {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 20px;
+}
+
+@mixin R-p {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 17px;
+}
+
+@mixin R-nav {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 15px;
+}
+
+@mixin R-nav-btn {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 14px;
+}
+
+@mixin R-nav-a {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 13px;
+}
+
+@mixin R-nav-a-2 {
+	font-family: 'MontserratRegular', sans-serif;
+	font-size: 12px;
+}
+// End Montserrat Regular
+
+// Start Montserrat Bold
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/montserrat/bold/MontserratBold.eot');
+    src: url('../fonts/montserrat/bold/MontserratBold.eot') format('embedded-opentype'),
+         url('../fonts/montserrat/bold/MontserratBold.woff2') format('woff2'),
+         url('../fonts/montserrat/bold/MontserratBold.woff') format('woff'),
+         url('../fonts/montserrat/bold/MontserratBold.ttf') format('truetype'),
+         url('../fonts/montserrat/bold/MontserratBold.svg#MontserratBold') format('svg');
+}
+
+@mixin B-h1 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 64px;
+}
+
+@mixin B-h2 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 48px;
+}
+
+@mixin B-h3 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 30px;
+}
+
+@mixin B-h4 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 40px;
+}
+
+@mixin B-h5 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 23px;
+}
+
+@mixin B-btn {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 20px;
+}
+
+@mixin B-p {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 17px;
+	
+}
+
+@mixin B-nav {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 15px;
+}
+
+@mixin B-nav-btn {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 14px;
+}
+
+@mixin B-nav-a {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 13px;
+}
+
+@mixin B-nav-a-2 {
+	font-family: 'MontserratBold', sans-serif;
+	font-size: 12px;
+}
+// End Montserrat Bold

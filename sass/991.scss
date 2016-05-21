@@ -1,0 +1,610 @@
+@media (min-width: 992px) and (max-width: 1499px) {
+	// Start Tab MySelf
+	.tab-content {
+		max-width: 100%;
+		padding: 0;
+		
+		&.banner-myself {
+			padding-top: 40px;
+		}
+	}
+	
+	.myself-main {
+		text-align: left;
+		
+		h2 {
+			font-size: 34px;
+			padding: 0 30px;
+		}
+		
+		p {
+			font-size: 15px;
+			padding: 0 30px;
+		}
+		
+		.media {
+			width: 430px;
+			margin-top: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 9px;
+			padding-right: 18px;
+			
+			.media-left {
+				padding-right: 15px;
+			}
+			
+			.media-body {
+				text-align: left;
+				
+				p {
+					font-size: 15px;
+					margin-top: 0;
+					padding: 0;
+				}
+				
+				.link-more {
+					color: #ff7e20;
+					display: block;
+					font-size: 15px;
+					line-height: 0;
+					text-decoration: none;
+				}
+			}	
+		}
+		
+		.my-sign {
+			margin-top: 60px;
+			padding: 40px 18px;
+			
+			h2 {
+				margin-top: 0;
+			}
+			
+			.btn-orange {
+				font-size: 20px;
+				text-transform: uppercase;
+				letter-spacing: normal;
+				padding: 15px 50px;
+				margin-top: 20px;
+			}
+		}
+		
+		.my-action {
+			padding: 60px 18px 0 18px;
+			
+			h1 {
+				font-size: 34px;
+				margin-bottom: 20px;
+			}
+			
+			.container-actions {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 60px;
+				padding: 0;
+				
+				img {
+					max-width: 70%;
+					height: auto;
+					margin-bottom: 16px;
+				}
+				
+				h4 {
+					font-weight: 700;
+				}
+				
+				p {
+					font-size: 15px;
+					margin-bottom: 0;
+					padding: 0 15px;
+				}
+			}
+		}
+		
+		.icons-panel {
+			padding: 60px 0px;
+			
+			.row {
+				width: 720px;
+				margin: 0 auto;
+			}
+			
+			.box-icons {
+				float: left;
+				max-width: 360px;
+				width: 360px;
+				height: 186px !important;
+				margin: 0 auto 70px auto;
+				padding: 0 18px;
+				
+				&:last-child {
+					float: left;
+					max-width: 100%;
+					width: 100%;
+					margin-bottom: 0;
+					
+					img {
+						width: 97px;
+						height: 97px;
+					}
+				}
+				
+				img {
+					max-width: 130px;
+					height: auto;
+					text-align: center;
+					margin-bottom: 20px;
+				}
+				
+				p {
+					font-size: 15px;
+					padding-left: 18px;
+					padding-right: 18px;
+					margin: 0;
+				}
+			}
+		}
+		
+		.my-tour {
+			text-align: center;
+			background-color: #1999d6;
+			padding: 40px 20px;
+			
+			h2 {
+				color: #FFFFFF;
+				font-size: 1.9rem;
+				text-transform: uppercase;
+			}
+			
+			.btn-orange {
+				font-size: 20px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: normal;
+				padding: 15px 50px;
+				margin-top: 20px;
+			}
+		}
+	}
+	// End Tab MySelf
+	
+	// Start Tab SmallTeams
+	.steam-main {
+		padding-top: 50px;
+		
+		.full-wth {
+			.row {
+				padding-left: 13px;
+				padding-right: 13px;
+			}
+			
+			h2 {
+				font-size: 34px;
+			}
+			
+			h5 {
+				font-size: 23px;
+			}
+		}
+	}
+	
+	.steam-free {
+		margin-top: 60px !important;
+	}
+	// End Tab SmallTeams
+	
+	// Start Tab BigTeams
+	.bteam-main {
+		padding: 48px 0 0 0;
+		
+		h2 {
+			font-size: 34px;
+		}
+		
+		.bteam-recover {
+			img {
+				display: block;
+				text-align: center;
+			}
+		}
+	}
+	// End Tab BigTeams
+	
+	// Start Tab Developers
+	.developers-main {
+		padding: 48px 0 0 0;
+		
+		h1 {
+			font-size: 34px;
+		}
+		
+		.developers-join {
+			margin-top: 60px;
+		}
+	}
+	// End Tab Developers
+	
+	// ============================================ //
+	//		FEATURES SECTION 						//
+	//		F1.- PERSONAL PAGE 						//
+	//		F2.- MESSAGING PAGE 					//
+	//		F3.- ACTIONS PAGE 						//
+	//		F4.- ADD-ON STORE PAGE 					//
+	//		  F4-1.- ADD-ON FILE MANAGEMENT PAGE 	//
+	//		F5.- ENTERPRISE PAGE 					//
+	// ============================================ //
+	
+	// F1.- START PERSONAL PAGE
+	.my-action-personal {
+		padding: 60px 18px 0 18px;
+		
+		h1 {
+			font-size: 34px;
+			margin-bottom: 20px;
+		}
+		
+		.container-actions {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 60px;
+			padding: 0;
+			
+			img {
+				max-width: 70%;
+				height: auto;
+				margin-bottom: 16px;
+			}
+			
+			h4 {
+				font-weight: 700;
+			}
+			
+			p {
+				font-size: 15px;
+				margin-bottom: 0;
+				padding: 0 15px;
+			}
+		}
+	}
+	
+	.icons-panel-personal {
+		padding: 60px 0px;
+		
+		.row {
+			width: 720px;
+			margin: 0 auto;
+		}
+		
+		.box-icons {
+			float: left;
+			max-width: 360px;
+			width: 360px;
+			height: 186px !important;
+			margin: 0 auto 70px auto;
+			padding: 0 18px;
+			
+			&:last-child {
+				float: left;
+				max-width: 100%;
+				width: 100%;
+				margin-bottom: 0;
+				
+				img {
+					width: 97px;
+					height: 97px;
+				}
+			}
+			
+			img {
+				max-width: 130px;
+				height: auto;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			
+			p {
+				font-size: 15px;
+				padding-left: 18px;
+				padding-right: 18px;
+				margin: 0;
+			}
+		}
+	}
+	
+	// F2.- START MESSAGING PAGE
+	.b-messaging {
+		background-image: url("../images/back_messaging.jpg");
+	    background-position: center center;
+	    // padding: 105px 0 102px 0;
+	    
+	    h2 {
+		    padding: 0;
+	    }
+	    
+	    .form-group {
+		    margin-top: 30px;
+	    }
+	}
+	
+	.real-time {
+		padding: 60px 0;
+		
+		.triangle_float {
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 35px solid transparent;
+			border-right: 35px solid transparent;
+			border-top: 35px solid #1F1F1F;
+			left: 50%;
+			margin-top: -61px;	
+			margin-left: -35px;
+		}
+		
+		h1 {
+			font-size: 34px;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+		
+		.media {
+			width: 100%;
+			margin-top: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			.media-left {
+				img {
+					width: 40px;
+				}
+			}
+			
+			.media-body {
+				h4 {
+					color: $b-orange;
+					@include L-btn;
+				}
+				
+				p {
+					@include U-p;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	
+	.config-right-content {
+		padding: 62px 0 63px 0;
+		
+		&.b-o-chat {
+			color: $f-white;
+			background-size: cover;
+			background-position: -80% center;
+		}
+	}
+	
+	.config-left-content {
+		padding: 62px 0 63px 0;
+		
+		&.b-c-chat {
+			background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.6) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/team-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover;
+			background-position: 0% bottom;
+		}
+		
+		&.b-p-chat {
+			background: -moz-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(right, rgba(0,29,54,1) 46%, rgba(1,40,74,0.6) 110%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to left, rgba(0,22,41,1) 46%,rgba(1,40,74,0.6) 110%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			            url('../images/privacy-chat.jpg'), #001629;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+			background-size: cover, 60%;
+			background-position: 0% 0%;
+		}
+	}
+	// END MESSAGING PAGE
+	
+	// F5.- START ENTERPRISE PAGE
+	.enterprise-delivers {
+		// padding: 40px 0 0;
+		
+		.triangle_float {
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid #1F1F1F;
+			// margin-top: -41px;
+			margin-left: -15px;
+			margin-bottom: 20px;
+		}
+		
+		h3 {
+			padding: 0 17px;
+			// font-size: 17px;
+			// text-align: center;
+		}
+	}
+	
+	.enterprise-icons {
+		// margin-top: 40px;
+		padding: 40px 0;
+		
+		ul {
+			padding-left: 0;
+			margin-bottom: 0;
+			
+			li {
+				width: 24.4%;
+				display: inline-block;
+				margin: 0;
+				
+				&:last-child {
+					margin-bottom: 0;
+				}
+				
+				img {
+					// max-width: 90px;
+					// height: auto;
+					margin-bottom: 15px;
+				}
+				
+				h4 {
+					font-size: 20px;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	
+	.enterprise-summary {
+		background: #F6F6F6;
+		
+		h1 {
+			// text-align: center;
+			// font-size: 34px;
+			// margin-bottom: 20px;
+			// padding: 0 15px;
+		}
+		
+		h3 {
+			font-size: 20px;
+			padding: 0 15px;
+		}
+		
+		.img-responsive {
+			max-width: 60%;
+			margin-bottom: 20px;
+		}
+		
+		.media {
+			margin-top: 20px;
+		}
+	}
+	
+	.automated-actions {
+		h1 {
+			// text-align: center;
+			// font-size: 34px;
+			// padding: 0 15px;
+		}
+		
+		h3 {
+			font-size: 20px;
+			padding: 0 15px;
+		}
+		
+		.img-responsive {
+			margin-bottom: 20px;
+		}
+		
+		.media {
+			margin-top: 20px;
+			
+			.media-body {
+				p {
+					padding-right: 0px;
+					
+					&.note {
+						@include R-nav-a;
+					}
+				}
+			}
+		}
+	}
+	
+	.tech-platform {
+		h1 {
+			// text-align: center;
+			// font-size: 34px;
+			// padding: 0 15px;
+		}
+		
+		h3 {
+			text-align: center;
+			font-size: 17px;
+			padding: 0 15px;
+		}
+		
+		.p-random {
+			// width: 100%;
+			// height: 100%;
+			
+			&:nth-child(even) {
+				float: left;
+			}
+			
+			&:nth-child(odd) {
+				float: right;
+			}
+		}
+		
+		.media {
+			margin-top: 40px;
+			padding: 0 15px;
+			
+			.media-left {
+				padding-right: 10px;
+			}
+			
+			img {
+				max-width: 40px;
+				height: auto;
+			}
+		}
+	}
+	
+	.premiere-support {
+		h1 {
+			font-size: 34px;
+		}
+		
+		h3 {
+			padding: 0 15px;
+			
+			&:nth-child(3) {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+	.premiere-icons {
+		padding: 40px 0;
+		
+		ul {
+			padding-left: 0;
+			margin-bottom: 0;
+			
+			li {
+				// width: 49.6%;
+				// display: inline-block;
+				// margin: 0 0 40px 0;
+				
+				&:last-child {
+					margin-bottom: 0;
+				}
+				
+				img {
+					// max-width: 117px;
+					// height: auto;
+					// margin-bottom: 15px;
+				}
+				
+				h4 {
+					@include L-btn;
+				}
+				
+				p {
+					font-size: 15px;
+					padding: 0 15px;
+				}
+			}
+		}
+	}
+	// F5.- END ENTERPRISE PAGE
+}
